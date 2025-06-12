@@ -1,0 +1,147 @@
+{
+    "files.associations": {
+      "*.py": "python",
+      "iostream": "cpp",
+      "*.tcc": "cpp",
+      "string": "cpp",
+      "unordered_map": "cpp",
+      "vector": "cpp",
+      "ostream": "cpp",
+      "new": "cpp",
+      "typeinfo": "cpp",
+      "deque": "cpp",
+      "initializer_list": "cpp",
+      "iosfwd": "cpp",
+      "fstream": "cpp",
+      "sstream": "cpp",
+      "map": "c",
+      "stdio.h": "c",
+      "algorithm": "cpp",
+      "atomic": "cpp",
+      "bit": "cpp",
+      "cctype": "cpp",
+      "clocale": "cpp",
+      "cmath": "cpp",
+      "compare": "cpp",
+      "concepts": "cpp",
+      "cstddef": "cpp",
+      "cstdint": "cpp",
+      "cstdio": "cpp",
+      "cstdlib": "cpp",
+      "cstring": "cpp",
+      "ctime": "cpp",
+      "cwchar": "cpp",
+      "exception": "cpp",
+      "ios": "cpp",
+      "istream": "cpp",
+      "iterator": "cpp",
+      "limits": "cpp",
+      "memory": "cpp",
+      "random": "cpp",
+      "set": "cpp",
+      "stack": "cpp",
+      "stdexcept": "cpp",
+      "streambuf": "cpp",
+      "system_error": "cpp",
+      "tuple": "cpp",
+      "type_traits": "cpp",
+      "utility": "cpp",
+      "xfacet": "cpp",
+      "xiosbase": "cpp",
+      "xlocale": "cpp",
+      "xlocinfo": "cpp",
+      "xlocnum": "cpp",
+      "xmemory": "cpp",
+      "xstddef": "cpp",
+      "xstring": "cpp",
+      "xtr1common": "cpp",
+      "xtree": "cpp",
+      "xutility": "cpp",
+      "stdlib.h": "c",
+      "string.h": "c",
+      "utilities": "c",
+      "array": "c",
+      "string_view": "c",
+      "seqlist_5_12_1.h": "c",
+      "sequencelist.h": "c",
+      "stdbool.h": "c",
+      "doublelooplinklist.h": "c",
+      "singlelooplinkedlist.h": "c",
+      "list.h": "c",
+      "choosequestions.h": "c",
+      "fillinblankquestions.h": "c",
+      "programquestions.h": "c",
+      "judgmentquestions.h": "c",
+      "browserui.h": "c",
+      "mman.h": "c",
+      "bmp.h": "c",
+      "lcddevice.h": "c",
+      "stat.h": "c",
+      "tsevent.h": "c",
+      "lv_demos.h": "c",
+      "evdev.h": "c"
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "aiXcoder.showTrayIcon": true,
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "c": false
+    },
+    // Doxygen documentation generator set  针对全局C语言文件
+    "doxdocgen.c.triggerSequence": "/* ",             // 触发注释模板的输入命令， *后面使用了一个空格，不要再次输入*， VSCode 对 C/C++ 注释的 自动格式化 行为，避免与自动闭合冲突
+    "doxdocgen.c.firstLine": "/*********************",     // 起始行样式
+    "doxdocgen.c.commentPrefix": " * ",
+    "doxdocgen.c.lastLine": " *************************************************/",
+    "doxdocgen.generic.linesToGet": 150, //如果有很多超级大函数要把这个值设置很大
+    // 文件注释：版权信息模板
+    "doxdocgen.file.copyrightTag": [
+        "@copyright Copyright (c) {year}  LFG"
+    ],
+
+    // // 文件注释：自定义模块，这里我添加一个修改日志
+    // "doxdocgen.file.customTag": [
+    //     "@par 修改日志:",
+    //     "<table>",
+    //     "<tr><th>Date       <th>Version <th>Author  <th>Description",
+    //     "<tr><td>{date} <td>1.0     <td>wangh     <td>内容",
+    //     "</table>",
+    // ],
+    // 文件注释的组成及其排序
+    "doxdocgen.file.fileOrder": [
+        "file",		// @file
+        "brief",	// @brief 简介
+        "author",	// 作者
+        "version",	// 版本
+        "date",		// 日期
+        "empty",	// 空行
+        "copyright",// 版权
+        "empty",
+        // "custom"	// 自定义
+    ],
+
+    // 下面时设置上面标签tag的具体信息
+    "doxdocgen.file.fileTemplate": "@file {name}",
+    "doxdocgen.file.versionTag": "@version 1.0",
+    "doxdocgen.generic.authorEmail": "lfg@.com",
+    "doxdocgen.generic.authorName": "LFG",
+    "doxdocgen.generic.authorTag": "@author {author} ({email})",
+    // 日期格式与模板
+    "doxdocgen.generic.dateFormat": "YYYY-MM-DD",
+    "doxdocgen.generic.dateTemplate": "@date {date}",
+	
+    // 根据自动生成的注释模板（目前主要体现在函数注释上）
+    "doxdocgen.generic.order": [
+        "brief",
+        "tparam",
+        "param",
+        "return",
+        "retval",
+        "custom"
+    ],
+    "doxdocgen.generic.paramTemplate": "@param{indent:8}{param}{indent:8} ",    // Param doc
+    "doxdocgen.generic.returnTemplate": "@return {type} ",
+    "doxdocgen.generic.splitCasingSmartText": true
+  }

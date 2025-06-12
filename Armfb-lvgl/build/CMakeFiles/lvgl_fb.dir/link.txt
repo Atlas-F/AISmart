@@ -1,0 +1,1 @@
+/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc   -rdynamic CMakeFiles/lvgl_fb.dir/main.c.o  -o lvgl_fb  lib/liblvgl.a lvgl/liblvgl_examples.a lvgl/liblvgl_demos.a lib/liblv_drivers.a AiSmart/libui.a lib/liblvgl.a 

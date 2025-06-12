@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/lvgl_sdl.dir/main.c.o  -o lvgl_sdl  lib/liblvgl.a lvgl/liblvgl_examples.a lvgl/liblvgl_demos.a lib/liblv_drivers.a -lSDL2 AiSmart/libui.a lib/liblvgl.a 
