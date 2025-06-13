@@ -9,6 +9,10 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+static void emoji_change_timer_cb(lv_timer_t *timer);
+void InitEmojiAutoChange(lv_event_t *e);
+void InitScreenAutoChangeEmoji(lv_event_t * e);
+void InitUnLoad(lv_event_t * e);
 
 #ifdef __cplusplus
 } /*extern "C"*/

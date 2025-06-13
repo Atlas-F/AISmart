@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ui.dir/components/ui_comp_hook.c.o"
+  "CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o"
   "CMakeFiles/ui.dir/images/ui_img_1056724100.c.o"
   "CMakeFiles/ui.dir/images/ui_img_1112926375.c.o"
   "CMakeFiles/ui.dir/images/ui_img_1348765827.c.o"
@@ -22,7 +23,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/ui.dir/images/ui_img_658976223.c.o"
   "CMakeFiles/ui.dir/images/ui_img_794820540.c.o"
   "CMakeFiles/ui.dir/screens/ui_Screen1.c.o"
+  "CMakeFiles/ui.dir/screens/ui_Screen2.c.o"
+  "CMakeFiles/ui.dir/screens/ui_Screen3.c.o"
   "CMakeFiles/ui.dir/ui.c.o"
+  "CMakeFiles/ui.dir/ui_events.c.o"
   "CMakeFiles/ui.dir/ui_helpers.c.o"
   "libui.a"
   "libui.pdb"

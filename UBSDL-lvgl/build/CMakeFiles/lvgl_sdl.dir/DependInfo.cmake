@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/main.c" "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/CMakeFiles/lvgl_sdl.dir/main.c.o"
+  "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/main.c" "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles/lvgl_sdl.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -26,11 +26,11 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
-  "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/lvgl/CMakeFiles/lvgl_examples.dir/DependInfo.cmake"
-  "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/lvgl/CMakeFiles/lvgl_demos.dir/DependInfo.cmake"
-  "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/lv_drivers/CMakeFiles/lv_drivers.dir/DependInfo.cmake"
-  "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/AiSmart/CMakeFiles/ui.dir/DependInfo.cmake"
+  "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
+  "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lvgl/CMakeFiles/lvgl_examples.dir/DependInfo.cmake"
+  "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lvgl/CMakeFiles/lvgl_demos.dir/DependInfo.cmake"
+  "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lv_drivers/CMakeFiles/lv_drivers.dir/DependInfo.cmake"
+  "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/AiSmart/CMakeFiles/ui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

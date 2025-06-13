@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/lv_drivers
+# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lv_drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,14 +46,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/lvgl/lv_drivers/" TYPE DIRECTORY FILES "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.git[^/]*$" EXCLUDE REGEX "/CMakeFiles$" EXCLUDE REGEX "/docs$" EXCLUDE REGEX "/lib$" EXCLUDE)
+file(INSTALL DESTINATION "/usr/local/include/lvgl/lv_drivers/" TYPE DIRECTORY FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.git[^/]*$" EXCLUDE REGEX "/CMakeFiles$" EXCLUDE REGEX "/docs$" EXCLUDE REGEX "/lib$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/lib/liblv_drivers.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lib/liblv_drivers.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl/lv_drivers" TYPE FILE FILES "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/lv_drv_conf.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl/lv_drivers" TYPE FILE FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lv_drv_conf.h")
 endif()
 

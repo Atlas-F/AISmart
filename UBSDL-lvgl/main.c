@@ -20,7 +20,9 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include "AiSmart/ui.h"
+#include "AiSmart/ui_events.h"
 #include <time.h>
+// #include "AISmart.h"
 
 
 #define  DISP_BUF_SIZE  800*480*4

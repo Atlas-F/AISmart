@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/lvgl
+# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lvgl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/lvgl/" TYPE DIRECTORY FILES "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+file(INSTALL DESTINATION "/usr/local/include/lvgl/" TYPE DIRECTORY FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,21 +58,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/lvgl/.." TYPE FILE OPTIONAL RENAME "lv_conf.h" FILES "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/lvgl/OFF")
+file(INSTALL DESTINATION "/usr/local/include/lvgl/.." TYPE FILE OPTIONAL RENAME "lv_conf.h" FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lvgl/OFF")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/lvgl.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lvgl.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/build/lib/liblvgl.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lib/liblvgl.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE FILE FILES
-    "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/lv_conf.h"
-    "/mnt/hgfs/ub2004sf/AISmart/AISmart/UBSDL-lvgl/lvgl.h"
+    "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lv_conf.h"
+    "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lvgl.h"
     )
 endif()
 
