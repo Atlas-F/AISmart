@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl
+# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build/lvgl/cmake_install.cmake")
-  include("/mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build/lv_drivers/cmake_install.cmake")
-  include("/mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build/AiSmart/cmake_install.cmake")
+  include("/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/lvgl/cmake_install.cmake")
+  include("/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/lv_drivers/cmake_install.cmake")
+  include("/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -10,6 +10,22 @@
 extern "C" {
 #endif
 
+/* [USER CODE BEGIN ui_event_h] */
+
+static void emoji_change_timer_cb(lv_timer_t *timer);
+void InitEmojiAutoChange(lv_event_t *e);
+void TimeDateTimercb(lv_timer_t *timer);
+void InitSowTimeDate(lv_event_t *e);
+void InitScreenAutoChangeEmoji(lv_event_t * e);
+void UnloadScreenAutoEmojiChange(lv_event_t * e);
+void InitUnLoad(lv_event_t * e);
+void GetOutNowTime();
+void GetOutNowDate();
+void ChangeHumanLabelTextClick(lv_event_t * e);
+void SetLabel(lv_event_t * e);
+
+/* [USER CODE END ui_event_h] */
+
 #ifdef __cplusplus
 } /*extern "C"*/
 #endif

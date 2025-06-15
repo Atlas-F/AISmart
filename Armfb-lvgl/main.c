@@ -20,6 +20,9 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include "AiSmart/ui.h"
+
+#include "AiSmart/ui_events.h"
+
 #include <time.h>
 
 #define  DISP_BUF_SIZE  800*480*4
@@ -39,6 +42,36 @@ static void ta_event_cb(lv_event_t * e)
     }
 }
 
+void InitTimeDate(void)
+{
+    // 设置时区为东八区
+    setenv("TZ", "CST-8", 1);
+    tzset();
+    
+    // 初始化时间显示
+    time_t now;
+    struct tm *timeinfo;
+    
+    time(&now);
+    timeinfo = localtime(&now);
+    
+    // 验证时间是否正确
+    printf("系统时间: %s", asctime(timeinfo));
+}
+
+void syncSystemTime(void)
+{
+    if (!checkSystemTime()) {
+        // 尝试从RTC更新时间
+        system("hwclock -s");
+        
+        // 如果还是不正确，可以设置一个默认时间
+        if (!checkSystemTime()) {
+            system("date -s \"2025-06-15 14:42:13\"");
+            system("hwclock -w");
+        }
+    }
+}
 
 
 
@@ -47,7 +80,8 @@ int main(void)
 {
 
     lvgl_init_framebuffer_ts();
-
+    InitTimeDate();
+    syncSystemTime();
 
     ui_init();
 

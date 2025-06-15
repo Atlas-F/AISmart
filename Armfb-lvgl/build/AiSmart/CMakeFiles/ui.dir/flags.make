@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/. -I/mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/./AiSmart 
+C_INCLUDES = -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/. -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/./AiSmart 
 

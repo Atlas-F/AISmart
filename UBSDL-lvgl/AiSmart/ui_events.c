@@ -5,7 +5,7 @@
 
 /*********************
  * @file ui_events.c
- * @brief Squareline导出ui_event事件回调函数文件
+ * @brief Squareline导出ui_event事件回调函数与自定义函数文件
  * @author LFG (lfg@.com)
  * @version 1.0
  * @date 2025-06-13
@@ -30,6 +30,20 @@
 #include "ui_events.h"
 #include <stdio.h>
 
+#include <errno.h>
+
+// 下面语句与上面两条预处理在从欧冠SquareLine中将ui导出后要添加到ui.c中
+# if 0
+extern  lv_timer_t *emoji_timer;
+extern FILE * ftex;
+_ui_label_set_property(ui_AILabel, _UI_LABEL_PROPERTY_TEXT, "设置AIlabel");
+
+#endif
+
+
+
+
+
 
 /*********************
  * @brief 初始化全局emoji定时器和上一个显示索引
@@ -37,9 +51,10 @@
 lv_timer_t *emoji_timer = NULL;
 static uint8_t last_idx = 0;  // 初始化为无效索引
 
+// 时间日期定时器 
 lv_timer_t * timeDateTimer = NULL;
 
-// extern  lv_timer_t *emoji_timer;
+FILE * ftex = NULL;
 
 /*********************
  * @brief 定时器回调函数
@@ -112,7 +127,7 @@ void InitSowTimeDate(lv_event_t *e)
     if(code != LV_EVENT_SCREEN_LOADED) return;  // 确保只在屏幕加载时执行一次
     if( code == LV_EVENT_SCREEN_LOADED )
     {
-        timeDateTimer = lv_timer_create(TimeDateTimercb, 500, NULL);
+        timeDateTimer = lv_timer_create(TimeDateTimercb, 1000, NULL);
     }
 }
 
@@ -161,10 +176,10 @@ void GetOutNowTime()
         int hour = local_time->tm_hour;
         int min = local_time->tm_min;
         int sec = local_time->tm_sec;
-        printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
+        // printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
         
         lv_label_set_text_fmt(ui_time2, "%d:%d:%d", hour, min, sec);
-        return 0;
+        
 }
 
 void GetOutNowDate()
@@ -184,7 +199,7 @@ void GetOutNowDate()
         printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
         
         lv_label_set_text_fmt(ui_date2, "%d-%d", month, day);
-        return 0;
+        
 }
 
 /*********************
@@ -194,29 +209,74 @@ void GetOutNowDate()
  *************************************************/
 void ChangeHumanLabelTextClick(lv_event_t * e)
 {
+
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
 
-    FILE * ftex = fopen("../UBSDL-lvgl",O_RDONLY);
-    if(ftex == NULL) {
+    const char* base_dir = __FILE__;
+    printf("%s\n", base_dir);
+    ///mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/
+    if(ftex == NULL) 
+    {
         printf("文件打开失败！\n");
+        // printf("完整路径: %s\n", filepath);
+        printf("错误信息: %s (errno: %d)\n", strerror(errno), errno);
+        perror("fopen");        
         return;
     }
-    char * textBuffer[1024] = {0};
-    
+    printf("文件打开成功！\n");
     /*********************
      * @details 使用系统IO进入文件并读取，然后对文件内容进行判断。
-     * 如果行首的前两个字符是AI则设置到AILabel，如果是人类，则设置到humanLabel。
+     * 按行读取，
+     * 将行首冒号清的字符进行判断，如果行首的前两个字符是AI则设置到AILabel，如果是人类，则设置到humanLabel。
+     * 使用fgets按行读取，匹配后移动指针，然后自复制
      * 将每一段内容都放在一行中，以句号或者问号结尾。
+     * 将文件流设置为全局变量
+     * 对于长内容的滚动显示一遍后定格，或者显示滑动条
      *********************/
+    char  lineBuffer[1024] = {0};
+    char  AIText[1024] = {0};
+    char  humanText[1024] = {0};
+    char  TempBuf[32] = {0};
 
-    while( fgets(textBuffer, sizeof(textBuffer), ftex) )
+    // %n 读取偏移量
+    int offset;
+
+    while( fgets(lineBuffer, sizeof(lineBuffer), ftex) )
     {
-        sscanf(textBuffer, "%[]")
+        sscanf(lineBuffer, "%[^:]%n", TempBuf, &offset);
+        printf("%s\n", TempBuf);
+        if( strcmp("AI", TempBuf) == 0 )
+        {
+            printf("匹配AIText\n");
+            strcpy(lineBuffer, lineBuffer+offset);
+            printf("%s\n", lineBuffer);
+            lv_label_set_text(ui_AILabel, lineBuffer);
+            break;
+        }
+        if( strcmp("human", TempBuf) == 0)
+        {
+            printf("%s\n", lineBuffer);
+            printf("匹配HumanText\n");
+            strcpy(lineBuffer, lineBuffer+offset);
+            lv_label_set_text(ui_humanLabel, lineBuffer);
+            break;
+        }
+        if( strcmp("attention", TempBuf) == 0)
+        {
+            printf("退出Text\n");
+            fclose(ftex);
+            break;
+        }
     }
+}
 
 
 
+void SetLabel(lv_event_t * e)
+{
+	// Your code here
+    ChangeHumanLabelTextClick(e);
 
 }
 
@@ -226,6 +286,7 @@ void ui_event_Screen1(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
+    ftex = fopen("/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/SimuTalk-copy.txt", "r");
 
     InitEmojiAutoChange(e);
     InitSowTimeDate(e);
@@ -262,3 +323,8 @@ void ui_event_Screen1(lv_event_t * e)
 #endif 
 
 /* [USER CODE END ui_event] */
+
+void EatWhatRand(lv_event_t * e)
+{
+	// Your code here
+}

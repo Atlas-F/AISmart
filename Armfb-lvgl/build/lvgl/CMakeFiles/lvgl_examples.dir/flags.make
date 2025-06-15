@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-C_INCLUDES = -I/mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/. -I/mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/./AiSmart -isystem /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/lvgl/examples -isystem /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/lvgl 
+C_INCLUDES = -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/. -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/./AiSmart -isystem /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/lvgl/examples -isystem /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/lvgl 
 

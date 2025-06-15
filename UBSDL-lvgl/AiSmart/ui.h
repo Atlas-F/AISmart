@@ -15,7 +15,9 @@ extern "C" {
 // #include "lv_i18n.h"
 #include "ui_helpers.h"
 #include "ui_events.h"
-
+#include <stdio.h>
+extern  lv_timer_t *emoji_timer;
+extern FILE * ftex;
 void floatout_Animation(lv_obj_t * TargetObject, int delay);
 void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
 // SCREEN: ui_Screen1
@@ -63,14 +65,13 @@ extern lv_obj_t * ui_Label11;
 void ui_event_fourTo3(lv_event_t * e);
 extern lv_obj_t * ui_fourTo3;
 extern lv_obj_t * ui_Label12;
+extern lv_obj_t * ui_Image15;
+extern lv_obj_t * ui_Image16;
+extern lv_obj_t * ui_Image17;
 // SCREEN: ui_Screen2
 void ui_Screen2_screen_init(void);
 void ui_event_Screen2(lv_event_t * e);
 extern lv_obj_t * ui_Screen2;
-void ui_event_AIPanel(lv_event_t * e);
-extern lv_obj_t * ui_AIPanel;
-void ui_event_AILabel(lv_event_t * e);
-extern lv_obj_t * ui_AILabel;
 extern lv_obj_t * ui_Label13;
 extern lv_obj_t * ui_circle2;
 void ui_event_to1(lv_event_t * e);
@@ -80,9 +81,14 @@ void ui_event_to3(lv_event_t * e);
 extern lv_obj_t * ui_to3;
 void ui_event_Label7(lv_event_t * e);
 extern lv_obj_t * ui_Label7;
+extern lv_obj_t * ui_Container2;
+extern lv_obj_t * ui_AIPanel;
+extern lv_obj_t * ui_AILabel;
+void ui_event_humanPanel(lv_event_t * e);
 extern lv_obj_t * ui_humanPanel;
-void ui_event_humanLabel(lv_event_t * e);
 extern lv_obj_t * ui_humanLabel;
+extern lv_obj_t * ui_Image51;
+extern lv_obj_t * ui_Image52;
 // SCREEN: ui_Screen3
 void ui_Screen3_screen_init(void);
 void ui_event_Screen3(lv_event_t * e);
@@ -97,33 +103,184 @@ void ui_event_Button7(lv_event_t * e);
 extern lv_obj_t * ui_Button7;
 void ui_event_Label9(lv_event_t * e);
 extern lv_obj_t * ui_Label9;
+extern lv_obj_t * ui_Container3;
+extern lv_obj_t * ui_Image18;
+extern lv_obj_t * ui_Image19;
+extern lv_obj_t * ui_Image20;
+extern lv_obj_t * ui_Image21;
+extern lv_obj_t * ui_Image22;
+extern lv_obj_t * ui_Image23;
+extern lv_obj_t * ui_Image24;
+extern lv_obj_t * ui_Image25;
+extern lv_obj_t * ui_Image26;
+extern lv_obj_t * ui_Image27;
+extern lv_obj_t * ui_Image28;
+extern lv_obj_t * ui_Image29;
+extern lv_obj_t * ui_Image30;
+extern lv_obj_t * ui_Image31;
+extern lv_obj_t * ui_Image32;
+extern lv_obj_t * ui_Image33;
+extern lv_obj_t * ui_Image34;
+// SCREEN: ui_Screen5
+void ui_Screen5_screen_init(void);
+void ui_event_Screen5(lv_event_t * e);
+extern lv_obj_t * ui_Screen5;
+extern lv_obj_t * ui_Label1;
+extern lv_obj_t * ui_circle3;
+void ui_event_Button1(lv_event_t * e);
+extern lv_obj_t * ui_Button1;
+void ui_event_Label8(lv_event_t * e);
+extern lv_obj_t * ui_Label8;
+void ui_event_Button2(lv_event_t * e);
+extern lv_obj_t * ui_Button2;
+void ui_event_Label10(lv_event_t * e);
+extern lv_obj_t * ui_Label10;
+extern lv_obj_t * ui_Container4;
+extern lv_obj_t * ui_Image35;
+extern lv_obj_t * ui_Image36;
+extern lv_obj_t * ui_Image37;
+extern lv_obj_t * ui_Image38;
+extern lv_obj_t * ui_Image39;
+extern lv_obj_t * ui_Image40;
+extern lv_obj_t * ui_Image41;
+extern lv_obj_t * ui_Image42;
+extern lv_obj_t * ui_Image43;
+extern lv_obj_t * ui_Image44;
+extern lv_obj_t * ui_Image45;
+extern lv_obj_t * ui_Image46;
+extern lv_obj_t * ui_Image47;
+extern lv_obj_t * ui_Image49;
+extern lv_obj_t * ui_Image48;
+extern lv_obj_t * ui_Image50;
 extern lv_obj_t * ui____initial_actions0;
 
 
 LV_IMG_DECLARE(ui_img_1758698815);    // assets/圆形_1749870100.png
-LV_IMG_DECLARE(ui_img_1861617944);    // assets/眨眼吐舌表情_1749726432.png
-LV_IMG_DECLARE(ui_img_1348765827);    // assets/头晕表情_1749726418.png
-LV_IMG_DECLARE(ui_img_374812091);    // assets/思考表情符号_1749443384.png
-LV_IMG_DECLARE(ui_img_1112926375);    // assets/放松的表情_1749443347.png
-LV_IMG_DECLARE(ui_img_1666228798);    // assets/爱心眼微笑_1749443366.png
-LV_IMG_DECLARE(ui_img_658976223);    // assets/派对表情_1749443393.png
-LV_IMG_DECLARE(ui_img_1056724100);    // assets/调皮的表情_1749726538.png
-LV_IMG_DECLARE(ui_img_391371230);    // assets/流下喜悦泪水的猫咪_1749726487.png
-LV_IMG_DECLARE(ui_img_345343629);    // assets/骷髅与交叉骨头_1749726527.png
-LV_IMG_DECLARE(ui_img_395471506);    // assets/汗珠_1749726513.png
-LV_IMG_DECLARE(ui_img_63016642);    // assets/不说话的猴子表情符号_1749726464.png
-LV_IMG_DECLARE(ui_img_1468085881);    // assets/感受寒冷的脸_1749726499.png
-LV_IMG_DECLARE(ui_img_2119297200);    // assets/小丑的脸_1749726493.png
-LV_IMG_DECLARE(ui_img_1782681216);    // assets/不满的猫咪_1749726476.png
-LV_IMG_DECLARE(ui_img_1363077134);    // assets/保持安静的表情_1749443360.png
-LV_IMG_DECLARE(ui_img_1610904046);    // assets/倒立的脸_1749726456.png
-LV_IMG_DECLARE(ui_img_473278995);    // assets/在地上打滚大笑的表情符号_1749443352.png
-LV_IMG_DECLARE(ui_img_1799674937);    // assets/天使的微笑_1749726446.png
-LV_IMG_DECLARE(ui_img_2018771700);    // assets/爱心眼微笑_1749726441.png
-LV_IMG_DECLARE(ui_img_459325315);    // assets/眯眼微笑的脸_1749443287.png
-LV_IMG_DECLARE(ui_img_794820540);    // assets/脸红的表情符号_1749443374.png
+LV_IMG_DECLARE(ui_img_1273346190);    // assets/表情/爱心眼微笑_1749443366.png
+LV_IMG_DECLARE(ui_img_1946132634);    // assets/表情/保持安静的表情_1749443360.png
+LV_IMG_DECLARE(ui_img_721922142);    // assets/杂项/摩天轮_1749985980.png
+LV_IMG_DECLARE(ui_img_201494986);    // assets/表情/流下喜悦泪水的猫咪_1749726487.png
+LV_IMG_DECLARE(ui_img_1579771612);    // assets/表情/眨眼吐舌表情_1749726432.png
+LV_IMG_DECLARE(ui_img_748560880);    // assets/表情/小丑的脸_1749726493.png
+LV_IMG_DECLARE(ui_img_2084888120);    // assets/动物/龙的面孔_1749986766.png
+LV_IMG_DECLARE(ui_img_1779534644);    // assets/表情/调皮的表情_1749726538.png
+LV_IMG_DECLARE(ui_img_449276547);    // assets/表情/眯眼微笑的脸_1749443287.png
+LV_IMG_DECLARE(ui_img_873017022);    // assets/动物/小猪脸_1749986672.png
+LV_IMG_DECLARE(ui_img_986324200);    // assets/动物/猩猩表情符号_1749986697.png
+LV_IMG_DECLARE(ui_img_1395808306);    // assets/杂项/UFO_1749985975.png
+LV_IMG_DECLARE(ui_img_520820240);    // assets/杂项/直升机_1749985958.png
+LV_IMG_DECLARE(ui_img_1673239870);    // assets/表情/倒立的脸_1749726456.png
+LV_IMG_DECLARE(ui_img_1720058713);    // assets/杂项/wifi-20_1749984511.png
+LV_IMG_DECLARE(ui_img_1932583977);    // assets/杂项/多云天气_1749984566.png
+LV_IMG_DECLARE(ui_img_1630928100);    // assets/电池.png
+LV_IMG_DECLARE(ui_img_1445365126);    // assets/AI头像.png
+LV_IMG_DECLARE(ui_img_1761902563);    // assets/男头像.png
+LV_IMG_DECLARE(ui_img_520288613);    // assets/食物/三明治_1749986549.png
+LV_IMG_DECLARE(ui_img_2130913025);    // assets/食物/中秋月饼_1749986266.png
+LV_IMG_DECLARE(ui_img_1810507611);    // assets/食物/便当盒_1749986578.png
+LV_IMG_DECLARE(ui_img_1042948001);    // assets/食物/关东煮_1749986272.png
+LV_IMG_DECLARE(ui_img_457596404);    // assets/食物/寿司表情符号_1749986525.png
+LV_IMG_DECLARE(ui_img_410336698);    // assets/食物/披萨片_1749986540.png
+LV_IMG_DECLARE(ui_img_1887742475);    // assets/食物/墨西哥卷饼_1749986434.png
+LV_IMG_DECLARE(ui_img_1646327931);    // assets/食物/猕猴桃_1749986367.png
+LV_IMG_DECLARE(ui_img_1179136265);    // assets/食物/羊角面包_1749986308.png
+LV_IMG_DECLARE(ui_img_1274767758);    // assets/食物/葡萄表情符号_1749986257.png
+LV_IMG_DECLARE(ui_img_270677314);    // assets/食物/软冰淇淋_1749986374.png
+LV_IMG_DECLARE(ui_img_657341686);    // assets/食物/鸡蛋图标_1749986347.png
+LV_IMG_DECLARE(ui_img_1152444760);    // assets/食物/草莓_1749986427.png
+LV_IMG_DECLARE(ui_img_1804492491);    // assets/食物/玉米棒_1749986338.png
+LV_IMG_DECLARE(ui_img_774798805);    // assets/食物/贝果_1749986359.png
+LV_IMG_DECLARE(ui_img_1409127908);    // assets/食物/炸鹰嘴豆丸_1749986225.png
+LV_IMG_DECLARE(ui_img_590844277);    // assets/食物/牛奶杯_1749986253.png
+LV_IMG_DECLARE(ui_img_1106867240);    // assets/活动/8号黑球_1749986140.png
+LV_IMG_DECLARE(ui_img_253109117);    // assets/活动/乒乓球_1749986135.png
+LV_IMG_DECLARE(ui_img_758318489);    // assets/活动/保龄球_1749986162.png
+LV_IMG_DECLARE(ui_img_154984886);    // assets/活动/冰鞋_1749986050.png
+LV_IMG_DECLARE(ui_img_1951583080);    // assets/活动/国际象棋兵_1749986144.png
+LV_IMG_DECLARE(ui_img_1186072952);    // assets/活动/拳击手套_1749986167.png
+LV_IMG_DECLARE(ui_img_1433976870);    // assets/活动/篮球_1749986157.png
+LV_IMG_DECLARE(ui_img_105594312);    // assets/活动/网球_1749986127.png
+LV_IMG_DECLARE(ui_img_1250489853);    // assets/活动/足球_1749986191.png
+LV_IMG_DECLARE(ui_img_193771503);    // assets/活动/飞盘_1749986106.png
+LV_IMG_DECLARE(ui_img_1251777188);    // assets/活动/风筝_1749986081.png
+LV_IMG_DECLARE(ui_img_647165550);    // assets/活动/道服_1749986121.png
+LV_IMG_DECLARE(ui_img_918736298);    // assets/活动/钓鱼竿与鱼_1749986112.png
+LV_IMG_DECLARE(ui_img_1143713160);    // assets/活动/游戏手柄_1749986150.png
+LV_IMG_DECLARE(ui_img_2024978968);    // assets/活动/靶心_1749986182.png
+LV_IMG_DECLARE(ui_img_754698310);    // assets/活动/羽毛球_1749986072.png
 LV_IMG_DECLARE(ui_img_525561802);    // assets/圆形_1749870035.png
 LV_IMG_DECLARE(ui_img_1758700865);    // assets/圆形_1749870120.png
+LV_IMG_DECLARE(ui_img_691945150);    // assets/动物/企鹅表情符号_1749986725.png
+LV_IMG_DECLARE(ui_img_921266886);    // assets/动物/兔子脸_1749986680.png
+LV_IMG_DECLARE(ui_img_838590808);    // assets/动物/可爱的乌龟表情符号_1749986650.png
+LV_IMG_DECLARE(ui_img_6017182);    // assets/动物/可爱的松鼠角色_1749986736.png
+LV_IMG_DECLARE(ui_img_189052461);    // assets/动物/可爱的水獭_1749986693.png
+LV_IMG_DECLARE(ui_img_1800458682);    // assets/动物/喷水的鲸鱼_1749986638.png
+LV_IMG_DECLARE(ui_img_1488135120);    // assets/动物/孔雀表情符号_1749986729.png
+LV_IMG_DECLARE(ui_img_64789106);    // assets/动物/懒洋洋的树懒_1749986706.png
+LV_IMG_DECLARE(ui_img_15388586);    // assets/动物/牛的脸_1749986753.png
+LV_IMG_DECLARE(ui_img_413235124);    // assets/动物/独角兽_1749986625.png
+LV_IMG_DECLARE(ui_img_1447691688);    // assets/动物/狮子表情符号_1749986666.png
+LV_IMG_DECLARE(ui_img_865156645);    // assets/动物/猛犸象_1749986656.png
+LV_IMG_DECLARE(ui_img_719381313);    // assets/动物/猫头鹰表情符号_1749986688.png
+LV_IMG_DECLARE(ui_img_701452542);    // assets/动物/羊驼表情符号_1749986660.png
+LV_IMG_DECLARE(ui_img_1182216894);    // assets/动物/老虎的脸_1749986632.png
+LV_IMG_DECLARE(ui_img_743825838);    // assets/动物/蜘蛛网_1749986644.png
+LV_IMG_DECLARE(ui_img_1040098182);    // assets/动物/蜥脚类恐龙_1749986702.png
+LV_IMG_DECLARE(ui_img_213109427);    // assets/动物/蝴蝶表情符号_1749986720.png
+LV_IMG_DECLARE(ui_img_1006453824);    // assets/动物/野猪表情符号_1749986747.png
+LV_IMG_DECLARE(ui_img_2026381252);    // assets/动物/驴子表情符号_1749986772.png
+LV_IMG_DECLARE(ui_img_1628148309);    // assets/动物/鲨鱼表情符号_1749986711.png
+LV_IMG_DECLARE(ui_img_190977669);    // assets/杂项/Wi-Fi连接问题_1749984538.png
+LV_IMG_DECLARE(ui_img_1220561086);    // assets/杂项/国家公园_1749985966.png
+LV_IMG_DECLARE(ui_img_1317392200);    // assets/杂项/数字0_1749984797.png
+LV_IMG_DECLARE(ui_img_328345682);    // assets/杂项/数字2的数码显示_1749984819.png
+LV_IMG_DECLARE(ui_img_537163071);    // assets/杂项/数字3的数码显示_1749984828.png
+LV_IMG_DECLARE(ui_img_1345017118);    // assets/杂项/数字3的数码显示_1749984832.png
+LV_IMG_DECLARE(ui_img_338008226);    // assets/杂项/数字4的创意设计_1749984844.png
+LV_IMG_DECLARE(ui_img_1651021565);    // assets/杂项/数字5的数码显示_1749984853.png
+LV_IMG_DECLARE(ui_img_188625264);    // assets/杂项/数字6的数码显示_1749984862.png
+LV_IMG_DECLARE(ui_img_768535410);    // assets/杂项/数字8的数码显示_1749984880.png
+LV_IMG_DECLARE(ui_img_1874934912);    // assets/杂项/数字9_1749984888.png
+LV_IMG_DECLARE(ui_img_796891563);    // assets/杂项/数字字体7_1749984870.png
+LV_IMG_DECLARE(ui_img_60263710);    // assets/杂项/数字音频字体_1749984809.png
+LV_IMG_DECLARE(ui_img_2103162353);    // assets/杂项/日本城堡_1749985949.png
+LV_IMG_DECLARE(ui_img_1195015344);    // assets/杂项/晴天_1749984616.png
+LV_IMG_DECLARE(ui_img_1970916912);    // assets/杂项/晴天_1749984641.png
+LV_IMG_DECLARE(ui_img_120716944);    // assets/杂项/清真寺图案_1749985933.png
+LV_IMG_DECLARE(ui_img_409892641);    // assets/杂项/雨天_1749984651.png
+LV_IMG_DECLARE(ui_img_819928086);    // assets/活动/冰球_1749986058.png
+LV_IMG_DECLARE(ui_img_396379797);    // assets/活动/滑雪板_1749986175.png
+LV_IMG_DECLARE(ui_img_1072915872);    // assets/表情/不满的猫咪_1749726476.png
+LV_IMG_DECLARE(ui_img_1997765350);    // assets/表情/不说话的猴子表情符号_1749726464.png
+LV_IMG_DECLARE(ui_img_945703623);    // assets/表情/在地上打滚大笑的表情符号_1749443352.png
+LV_IMG_DECLARE(ui_img_1221264709);    // assets/表情/天使的微笑_1749726446.png
+LV_IMG_DECLARE(ui_img_177437335);    // assets/表情/头晕表情_1749726418.png
+LV_IMG_DECLARE(ui_img_106759925);    // assets/表情/思考表情符号_1749443384.png
+LV_IMG_DECLARE(ui_img_1613165469);    // assets/表情/感受寒冷的脸_1749726499.png
+LV_IMG_DECLARE(ui_img_1627204797);    // assets/表情/放松的表情_1749443347.png
+LV_IMG_DECLARE(ui_img_1651094022);    // assets/表情/汗珠_1749726513.png
+LV_IMG_DECLARE(ui_img_1863416723);    // assets/表情/派对表情_1749443393.png
+LV_IMG_DECLARE(ui_img_261042028);    // assets/表情/爱心眼微笑_1749726441.png
+LV_IMG_DECLARE(ui_img_1558633752);    // assets/表情/脸红的表情符号_1749443374.png
+LV_IMG_DECLARE(ui_img_1850222669);    // assets/表情/骷髅与交叉骨头_1749726527.png
+LV_IMG_DECLARE(ui_img_878326522);    // assets/食物/华夫饼_1749986556.png
+LV_IMG_DECLARE(ui_img_2100201431);    // assets/食物/卷饼_1749986500.png
+LV_IMG_DECLARE(ui_img_489599133);    // assets/食物/哈密瓜_1749986518.png
+LV_IMG_DECLARE(ui_img_1114756079);    // assets/食物/大蒜图标_1749986246.png
+LV_IMG_DECLARE(ui_img_440466655);    // assets/食物/奶酪片_1749986535.png
+LV_IMG_DECLARE(ui_img_1442695620);    // assets/食物/意大利面插画_1749986379.png
+LV_IMG_DECLARE(ui_img_1521996747);    // assets/食物/松饼_1749986277.png
+LV_IMG_DECLARE(ui_img_2144570017);    // assets/食物/汉堡包_1749986283.png
+LV_IMG_DECLARE(ui_img_169773555);    // assets/食物/火锅_1749986233.png
+LV_IMG_DECLARE(ui_img_642449591);    // assets/食物/炸薯条_1749986239.png
+LV_IMG_DECLARE(ui_img_836835141);    // assets/食物/热狗_1749986293.png
+LV_IMG_DECLARE(ui_img_1305061770);    // assets/食物/牛油果表情符号_1749986355.png
+LV_IMG_DECLARE(ui_img_1078335801);    // assets/食物/甜甜圈_1749986321.png
+LV_IMG_DECLARE(ui_img_155258266);    // assets/食物/罐头食品_1749986511.png
+LV_IMG_DECLARE(ui_img_998280680);    // assets/食物/蜂蜜罐_1749986287.png
+LV_IMG_DECLARE(ui_img_703197322);    // assets/食物/豌豆荚_1749986302.png
+LV_IMG_DECLARE(ui_img_1542151835);    // assets/食物/面包_1749986571.png
 
 
 

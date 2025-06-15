@@ -12,6 +12,8 @@ extern "C" {
 
 void InitScreenAutoChangeEmoji(lv_event_t * e);
 void InitUnLoad(lv_event_t * e);
+void SetLabel(lv_event_t * e);
+void EatWhatRand(lv_event_t * e);
 
 #ifdef __cplusplus
 } /*extern "C"*/

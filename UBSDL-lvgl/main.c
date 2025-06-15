@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2025  LFG
  * 
  *************************************************/
-
+// cmake -DCMAKE_C_COMPILER=/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc -DCMAKE_CXX_COMPILER=/usr/local/arm/5.4.0/usr/bin/arm-linux-g++ ..
 #include <stdio.h>
 #include "lv_conf.h"
 #include <lv_drivers/sdl/sdl.h>
@@ -47,7 +47,6 @@ static void ta_event_cb(lv_event_t * e)
 
 
 
-
 int main(void)
 {
 
@@ -56,9 +55,8 @@ int main(void)
     
 
 
+
     ui_init();
-
-
 
     
     while(1) {

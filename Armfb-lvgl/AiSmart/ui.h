@@ -16,13 +16,13 @@ extern "C" {
 #include "ui_helpers.h"
 #include "ui_events.h"
 
-void emerge_Animation(lv_obj_t * TargetObject, int delay);
-void leftout_Animation(lv_obj_t * TargetObject, int delay);
-void rota_Animation(lv_obj_t * TargetObject, int delay);
+void floatout_Animation(lv_obj_t * TargetObject, int delay);
+void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
+void ui_event_Screen1(lv_event_t * e);
 extern lv_obj_t * ui_Screen1;
-extern lv_obj_t * ui_Image1;
+extern lv_obj_t * ui_circle1;
 extern lv_obj_t * ui_Container1;
 extern lv_obj_t * ui_Image2;
 extern lv_obj_t * ui_Image3;
@@ -36,10 +36,70 @@ extern lv_obj_t * ui_Image10;
 extern lv_obj_t * ui_Image11;
 extern lv_obj_t * ui_Image12;
 extern lv_obj_t * ui_Image13;
+extern lv_obj_t * ui_Image1;
+extern lv_obj_t * ui_Image14;
+void ui_event_time(lv_event_t * e);
+extern lv_obj_t * ui_time;
+void ui_event_date(lv_event_t * e);
+extern lv_obj_t * ui_date;
+void ui_event_Oneto2(lv_event_t * e);
+extern lv_obj_t * ui_Oneto2;
+extern lv_obj_t * ui_Label3;
+void ui_event_Oneto4(lv_event_t * e);
+extern lv_obj_t * ui_Oneto4;
+extern lv_obj_t * ui_Label5;
+// SCREEN: ui_Screen4
+void ui_Screen4_screen_init(void);
+void ui_event_Screen4(lv_event_t * e);
+extern lv_obj_t * ui_Screen4;
+void ui_event_time2(lv_event_t * e);
+extern lv_obj_t * ui_time2;
+void ui_event_date2(lv_event_t * e);
+extern lv_obj_t * ui_date2;
+extern lv_obj_t * ui_circle4;
+void ui_event_fourTo2(lv_event_t * e);
+extern lv_obj_t * ui_fourTo2;
+extern lv_obj_t * ui_Label11;
+void ui_event_fourTo3(lv_event_t * e);
+extern lv_obj_t * ui_fourTo3;
+extern lv_obj_t * ui_Label12;
+// SCREEN: ui_Screen2
+void ui_Screen2_screen_init(void);
+void ui_event_Screen2(lv_event_t * e);
+extern lv_obj_t * ui_Screen2;
+extern lv_obj_t * ui_Label13;
+extern lv_obj_t * ui_circle2;
+void ui_event_to1(lv_event_t * e);
+extern lv_obj_t * ui_to1;
+extern lv_obj_t * ui_Label4;
+void ui_event_to3(lv_event_t * e);
+extern lv_obj_t * ui_to3;
+void ui_event_Label7(lv_event_t * e);
+extern lv_obj_t * ui_Label7;
+extern lv_obj_t * ui_Container2;
+extern lv_obj_t * ui_AIPanel;
+extern lv_obj_t * ui_AILabel;
+void ui_event_humanPanel(lv_event_t * e);
+extern lv_obj_t * ui_humanPanel;
+extern lv_obj_t * ui_humanLabel;
+// SCREEN: ui_Screen3
+void ui_Screen3_screen_init(void);
+void ui_event_Screen3(lv_event_t * e);
+extern lv_obj_t * ui_Screen3;
+extern lv_obj_t * ui_Label2;
+extern lv_obj_t * ui_circle;
+void ui_event_Button4(lv_event_t * e);
+extern lv_obj_t * ui_Button4;
+void ui_event_Label6(lv_event_t * e);
+extern lv_obj_t * ui_Label6;
+void ui_event_Button7(lv_event_t * e);
+extern lv_obj_t * ui_Button7;
+void ui_event_Label9(lv_event_t * e);
+extern lv_obj_t * ui_Label9;
 extern lv_obj_t * ui____initial_actions0;
 
 
-LV_IMG_DECLARE(ui_img_1363077134);    // assets/保持安静的表情_1749443360.png
+LV_IMG_DECLARE(ui_img_1758698815);    // assets/圆形_1749870100.png
 LV_IMG_DECLARE(ui_img_1861617944);    // assets/眨眼吐舌表情_1749726432.png
 LV_IMG_DECLARE(ui_img_1348765827);    // assets/头晕表情_1749726418.png
 LV_IMG_DECLARE(ui_img_374812091);    // assets/思考表情符号_1749443384.png
@@ -51,18 +111,22 @@ LV_IMG_DECLARE(ui_img_391371230);    // assets/流下喜悦泪水的猫咪_17497
 LV_IMG_DECLARE(ui_img_345343629);    // assets/骷髅与交叉骨头_1749726527.png
 LV_IMG_DECLARE(ui_img_395471506);    // assets/汗珠_1749726513.png
 LV_IMG_DECLARE(ui_img_63016642);    // assets/不说话的猴子表情符号_1749726464.png
+LV_IMG_DECLARE(ui_img_1468085881);    // assets/感受寒冷的脸_1749726499.png
+LV_IMG_DECLARE(ui_img_2119297200);    // assets/小丑的脸_1749726493.png
 LV_IMG_DECLARE(ui_img_1782681216);    // assets/不满的猫咪_1749726476.png
+LV_IMG_DECLARE(ui_img_1363077134);    // assets/保持安静的表情_1749443360.png
 LV_IMG_DECLARE(ui_img_1610904046);    // assets/倒立的脸_1749726456.png
+LV_IMG_DECLARE(ui_img_525561802);    // assets/圆形_1749870035.png
+LV_IMG_DECLARE(ui_img_1758700865);    // assets/圆形_1749870120.png
 LV_IMG_DECLARE(ui_img_473278995);    // assets/在地上打滚大笑的表情符号_1749443352.png
 LV_IMG_DECLARE(ui_img_1799674937);    // assets/天使的微笑_1749726446.png
-LV_IMG_DECLARE(ui_img_2119297200);    // assets/小丑的脸_1749726493.png
-LV_IMG_DECLARE(ui_img_1468085881);    // assets/感受寒冷的脸_1749726499.png
 LV_IMG_DECLARE(ui_img_2018771700);    // assets/爱心眼微笑_1749726441.png
 LV_IMG_DECLARE(ui_img_459325315);    // assets/眯眼微笑的脸_1749443287.png
 LV_IMG_DECLARE(ui_img_794820540);    // assets/脸红的表情符号_1749443374.png
 
 
 
+LV_FONT_DECLARE(ui_font_puhui18);
 
 
 

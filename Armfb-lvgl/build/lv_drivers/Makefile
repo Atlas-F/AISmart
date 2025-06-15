@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl
+CMAKE_SOURCE_DIR = /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build
+CMAKE_BINARY_DIR = /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build/CMakeFiles /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build/lv_drivers/CMakeFiles/progress.marks
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build/CMakeFiles 0
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/lv_drivers/CMakeFiles/progress.marks
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/clean
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/preinstall
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/preinstall
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lv_drivers/CMakeFiles/lv_drivers.dir/rule:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/CMakeFiles/lv_drivers.dir/rule
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f CMakeFiles/Makefile2 lv_drivers/CMakeFiles/lv_drivers.dir/rule
 .PHONY : lv_drivers/CMakeFiles/lv_drivers.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ lv_drivers: lv_drivers/CMakeFiles/lv_drivers.dir/rule
 
 # fast build rule for target.
 lv_drivers/fast:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/build
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/build
 .PHONY : lv_drivers/fast
 
 display/GC9A01.o: display/GC9A01.c.o
@@ -177,7 +177,7 @@ display/GC9A01.o: display/GC9A01.c.o
 
 # target to build an object file
 display/GC9A01.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o
 .PHONY : display/GC9A01.c.o
 
 display/GC9A01.i: display/GC9A01.c.i
@@ -186,7 +186,7 @@ display/GC9A01.i: display/GC9A01.c.i
 
 # target to preprocess a source file
 display/GC9A01.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.i
 .PHONY : display/GC9A01.c.i
 
 display/GC9A01.s: display/GC9A01.c.s
@@ -195,7 +195,7 @@ display/GC9A01.s: display/GC9A01.c.s
 
 # target to generate assembly for a file
 display/GC9A01.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.s
 .PHONY : display/GC9A01.c.s
 
 display/ILI9341.o: display/ILI9341.c.o
@@ -204,7 +204,7 @@ display/ILI9341.o: display/ILI9341.c.o
 
 # target to build an object file
 display/ILI9341.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o
 .PHONY : display/ILI9341.c.o
 
 display/ILI9341.i: display/ILI9341.c.i
@@ -213,7 +213,7 @@ display/ILI9341.i: display/ILI9341.c.i
 
 # target to preprocess a source file
 display/ILI9341.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.i
 .PHONY : display/ILI9341.c.i
 
 display/ILI9341.s: display/ILI9341.c.s
@@ -222,7 +222,7 @@ display/ILI9341.s: display/ILI9341.c.s
 
 # target to generate assembly for a file
 display/ILI9341.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.s
 .PHONY : display/ILI9341.c.s
 
 display/R61581.o: display/R61581.c.o
@@ -231,7 +231,7 @@ display/R61581.o: display/R61581.c.o
 
 # target to build an object file
 display/R61581.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o
 .PHONY : display/R61581.c.o
 
 display/R61581.i: display/R61581.c.i
@@ -240,7 +240,7 @@ display/R61581.i: display/R61581.c.i
 
 # target to preprocess a source file
 display/R61581.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.i
 .PHONY : display/R61581.c.i
 
 display/R61581.s: display/R61581.c.s
@@ -249,7 +249,7 @@ display/R61581.s: display/R61581.c.s
 
 # target to generate assembly for a file
 display/R61581.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.s
 .PHONY : display/R61581.c.s
 
 display/SHARP_MIP.o: display/SHARP_MIP.c.o
@@ -258,7 +258,7 @@ display/SHARP_MIP.o: display/SHARP_MIP.c.o
 
 # target to build an object file
 display/SHARP_MIP.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o
 .PHONY : display/SHARP_MIP.c.o
 
 display/SHARP_MIP.i: display/SHARP_MIP.c.i
@@ -267,7 +267,7 @@ display/SHARP_MIP.i: display/SHARP_MIP.c.i
 
 # target to preprocess a source file
 display/SHARP_MIP.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.i
 .PHONY : display/SHARP_MIP.c.i
 
 display/SHARP_MIP.s: display/SHARP_MIP.c.s
@@ -276,7 +276,7 @@ display/SHARP_MIP.s: display/SHARP_MIP.c.s
 
 # target to generate assembly for a file
 display/SHARP_MIP.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.s
 .PHONY : display/SHARP_MIP.c.s
 
 display/SSD1963.o: display/SSD1963.c.o
@@ -285,7 +285,7 @@ display/SSD1963.o: display/SSD1963.c.o
 
 # target to build an object file
 display/SSD1963.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o
 .PHONY : display/SSD1963.c.o
 
 display/SSD1963.i: display/SSD1963.c.i
@@ -294,7 +294,7 @@ display/SSD1963.i: display/SSD1963.c.i
 
 # target to preprocess a source file
 display/SSD1963.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.i
 .PHONY : display/SSD1963.c.i
 
 display/SSD1963.s: display/SSD1963.c.s
@@ -303,7 +303,7 @@ display/SSD1963.s: display/SSD1963.c.s
 
 # target to generate assembly for a file
 display/SSD1963.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.s
 .PHONY : display/SSD1963.c.s
 
 display/ST7565.o: display/ST7565.c.o
@@ -312,7 +312,7 @@ display/ST7565.o: display/ST7565.c.o
 
 # target to build an object file
 display/ST7565.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o
 .PHONY : display/ST7565.c.o
 
 display/ST7565.i: display/ST7565.c.i
@@ -321,7 +321,7 @@ display/ST7565.i: display/ST7565.c.i
 
 # target to preprocess a source file
 display/ST7565.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.i
 .PHONY : display/ST7565.c.i
 
 display/ST7565.s: display/ST7565.c.s
@@ -330,7 +330,7 @@ display/ST7565.s: display/ST7565.c.s
 
 # target to generate assembly for a file
 display/ST7565.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.s
 .PHONY : display/ST7565.c.s
 
 display/UC1610.o: display/UC1610.c.o
@@ -339,7 +339,7 @@ display/UC1610.o: display/UC1610.c.o
 
 # target to build an object file
 display/UC1610.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o
 .PHONY : display/UC1610.c.o
 
 display/UC1610.i: display/UC1610.c.i
@@ -348,7 +348,7 @@ display/UC1610.i: display/UC1610.c.i
 
 # target to preprocess a source file
 display/UC1610.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.i
 .PHONY : display/UC1610.c.i
 
 display/UC1610.s: display/UC1610.c.s
@@ -357,7 +357,7 @@ display/UC1610.s: display/UC1610.c.s
 
 # target to generate assembly for a file
 display/UC1610.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.s
 .PHONY : display/UC1610.c.s
 
 display/drm.o: display/drm.c.o
@@ -366,7 +366,7 @@ display/drm.o: display/drm.c.o
 
 # target to build an object file
 display/drm.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o
 .PHONY : display/drm.c.o
 
 display/drm.i: display/drm.c.i
@@ -375,7 +375,7 @@ display/drm.i: display/drm.c.i
 
 # target to preprocess a source file
 display/drm.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.i
 .PHONY : display/drm.c.i
 
 display/drm.s: display/drm.c.s
@@ -384,7 +384,7 @@ display/drm.s: display/drm.c.s
 
 # target to generate assembly for a file
 display/drm.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.s
 .PHONY : display/drm.c.s
 
 display/fbdev.o: display/fbdev.c.o
@@ -393,7 +393,7 @@ display/fbdev.o: display/fbdev.c.o
 
 # target to build an object file
 display/fbdev.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o
 .PHONY : display/fbdev.c.o
 
 display/fbdev.i: display/fbdev.c.i
@@ -402,7 +402,7 @@ display/fbdev.i: display/fbdev.c.i
 
 # target to preprocess a source file
 display/fbdev.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.i
 .PHONY : display/fbdev.c.i
 
 display/fbdev.s: display/fbdev.c.s
@@ -411,7 +411,7 @@ display/fbdev.s: display/fbdev.c.s
 
 # target to generate assembly for a file
 display/fbdev.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.s
 .PHONY : display/fbdev.c.s
 
 gtkdrv/gtkdrv.o: gtkdrv/gtkdrv.c.o
@@ -420,7 +420,7 @@ gtkdrv/gtkdrv.o: gtkdrv/gtkdrv.c.o
 
 # target to build an object file
 gtkdrv/gtkdrv.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o
 .PHONY : gtkdrv/gtkdrv.c.o
 
 gtkdrv/gtkdrv.i: gtkdrv/gtkdrv.c.i
@@ -429,7 +429,7 @@ gtkdrv/gtkdrv.i: gtkdrv/gtkdrv.c.i
 
 # target to preprocess a source file
 gtkdrv/gtkdrv.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.i
 .PHONY : gtkdrv/gtkdrv.c.i
 
 gtkdrv/gtkdrv.s: gtkdrv/gtkdrv.c.s
@@ -438,7 +438,7 @@ gtkdrv/gtkdrv.s: gtkdrv/gtkdrv.c.s
 
 # target to generate assembly for a file
 gtkdrv/gtkdrv.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.s
 .PHONY : gtkdrv/gtkdrv.c.s
 
 indev/AD_touch.o: indev/AD_touch.c.o
@@ -447,7 +447,7 @@ indev/AD_touch.o: indev/AD_touch.c.o
 
 # target to build an object file
 indev/AD_touch.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o
 .PHONY : indev/AD_touch.c.o
 
 indev/AD_touch.i: indev/AD_touch.c.i
@@ -456,7 +456,7 @@ indev/AD_touch.i: indev/AD_touch.c.i
 
 # target to preprocess a source file
 indev/AD_touch.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.i
 .PHONY : indev/AD_touch.c.i
 
 indev/AD_touch.s: indev/AD_touch.c.s
@@ -465,7 +465,7 @@ indev/AD_touch.s: indev/AD_touch.c.s
 
 # target to generate assembly for a file
 indev/AD_touch.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.s
 .PHONY : indev/AD_touch.c.s
 
 indev/FT5406EE8.o: indev/FT5406EE8.c.o
@@ -474,7 +474,7 @@ indev/FT5406EE8.o: indev/FT5406EE8.c.o
 
 # target to build an object file
 indev/FT5406EE8.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o
 .PHONY : indev/FT5406EE8.c.o
 
 indev/FT5406EE8.i: indev/FT5406EE8.c.i
@@ -483,7 +483,7 @@ indev/FT5406EE8.i: indev/FT5406EE8.c.i
 
 # target to preprocess a source file
 indev/FT5406EE8.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.i
 .PHONY : indev/FT5406EE8.c.i
 
 indev/FT5406EE8.s: indev/FT5406EE8.c.s
@@ -492,7 +492,7 @@ indev/FT5406EE8.s: indev/FT5406EE8.c.s
 
 # target to generate assembly for a file
 indev/FT5406EE8.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.s
 .PHONY : indev/FT5406EE8.c.s
 
 indev/XPT2046.o: indev/XPT2046.c.o
@@ -501,7 +501,7 @@ indev/XPT2046.o: indev/XPT2046.c.o
 
 # target to build an object file
 indev/XPT2046.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o
 .PHONY : indev/XPT2046.c.o
 
 indev/XPT2046.i: indev/XPT2046.c.i
@@ -510,7 +510,7 @@ indev/XPT2046.i: indev/XPT2046.c.i
 
 # target to preprocess a source file
 indev/XPT2046.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.i
 .PHONY : indev/XPT2046.c.i
 
 indev/XPT2046.s: indev/XPT2046.c.s
@@ -519,7 +519,7 @@ indev/XPT2046.s: indev/XPT2046.c.s
 
 # target to generate assembly for a file
 indev/XPT2046.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.s
 .PHONY : indev/XPT2046.c.s
 
 indev/evdev.o: indev/evdev.c.o
@@ -528,7 +528,7 @@ indev/evdev.o: indev/evdev.c.o
 
 # target to build an object file
 indev/evdev.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o
 .PHONY : indev/evdev.c.o
 
 indev/evdev.i: indev/evdev.c.i
@@ -537,7 +537,7 @@ indev/evdev.i: indev/evdev.c.i
 
 # target to preprocess a source file
 indev/evdev.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.i
 .PHONY : indev/evdev.c.i
 
 indev/evdev.s: indev/evdev.c.s
@@ -546,7 +546,7 @@ indev/evdev.s: indev/evdev.c.s
 
 # target to generate assembly for a file
 indev/evdev.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.s
 .PHONY : indev/evdev.c.s
 
 indev/libinput.o: indev/libinput.c.o
@@ -555,7 +555,7 @@ indev/libinput.o: indev/libinput.c.o
 
 # target to build an object file
 indev/libinput.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o
 .PHONY : indev/libinput.c.o
 
 indev/libinput.i: indev/libinput.c.i
@@ -564,7 +564,7 @@ indev/libinput.i: indev/libinput.c.i
 
 # target to preprocess a source file
 indev/libinput.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.i
 .PHONY : indev/libinput.c.i
 
 indev/libinput.s: indev/libinput.c.s
@@ -573,7 +573,7 @@ indev/libinput.s: indev/libinput.c.s
 
 # target to generate assembly for a file
 indev/libinput.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.s
 .PHONY : indev/libinput.c.s
 
 indev/xkb.o: indev/xkb.c.o
@@ -582,7 +582,7 @@ indev/xkb.o: indev/xkb.c.o
 
 # target to build an object file
 indev/xkb.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o
 .PHONY : indev/xkb.c.o
 
 indev/xkb.i: indev/xkb.c.i
@@ -591,7 +591,7 @@ indev/xkb.i: indev/xkb.c.i
 
 # target to preprocess a source file
 indev/xkb.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.i
 .PHONY : indev/xkb.c.i
 
 indev/xkb.s: indev/xkb.c.s
@@ -600,7 +600,7 @@ indev/xkb.s: indev/xkb.c.s
 
 # target to generate assembly for a file
 indev/xkb.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.s
 .PHONY : indev/xkb.c.s
 
 sdl/sdl.o: sdl/sdl.c.o
@@ -609,7 +609,7 @@ sdl/sdl.o: sdl/sdl.c.o
 
 # target to build an object file
 sdl/sdl.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o
 .PHONY : sdl/sdl.c.o
 
 sdl/sdl.i: sdl/sdl.c.i
@@ -618,7 +618,7 @@ sdl/sdl.i: sdl/sdl.c.i
 
 # target to preprocess a source file
 sdl/sdl.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.i
 .PHONY : sdl/sdl.c.i
 
 sdl/sdl.s: sdl/sdl.c.s
@@ -627,7 +627,7 @@ sdl/sdl.s: sdl/sdl.c.s
 
 # target to generate assembly for a file
 sdl/sdl.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.s
 .PHONY : sdl/sdl.c.s
 
 sdl/sdl_common.o: sdl/sdl_common.c.o
@@ -636,7 +636,7 @@ sdl/sdl_common.o: sdl/sdl_common.c.o
 
 # target to build an object file
 sdl/sdl_common.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_common.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_common.c.o
 .PHONY : sdl/sdl_common.c.o
 
 sdl/sdl_common.i: sdl/sdl_common.c.i
@@ -645,7 +645,7 @@ sdl/sdl_common.i: sdl/sdl_common.c.i
 
 # target to preprocess a source file
 sdl/sdl_common.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_common.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_common.c.i
 .PHONY : sdl/sdl_common.c.i
 
 sdl/sdl_common.s: sdl/sdl_common.c.s
@@ -654,7 +654,7 @@ sdl/sdl_common.s: sdl/sdl_common.c.s
 
 # target to generate assembly for a file
 sdl/sdl_common.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_common.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_common.c.s
 .PHONY : sdl/sdl_common.c.s
 
 sdl/sdl_gpu.o: sdl/sdl_gpu.c.o
@@ -663,7 +663,7 @@ sdl/sdl_gpu.o: sdl/sdl_gpu.c.o
 
 # target to build an object file
 sdl/sdl_gpu.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o
 .PHONY : sdl/sdl_gpu.c.o
 
 sdl/sdl_gpu.i: sdl/sdl_gpu.c.i
@@ -672,7 +672,7 @@ sdl/sdl_gpu.i: sdl/sdl_gpu.c.i
 
 # target to preprocess a source file
 sdl/sdl_gpu.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.i
 .PHONY : sdl/sdl_gpu.c.i
 
 sdl/sdl_gpu.s: sdl/sdl_gpu.c.s
@@ -681,7 +681,7 @@ sdl/sdl_gpu.s: sdl/sdl_gpu.c.s
 
 # target to generate assembly for a file
 sdl/sdl_gpu.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.s
 .PHONY : sdl/sdl_gpu.c.s
 
 wayland/wayland.o: wayland/wayland.c.o
@@ -690,7 +690,7 @@ wayland/wayland.o: wayland/wayland.c.o
 
 # target to build an object file
 wayland/wayland.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o
 .PHONY : wayland/wayland.c.o
 
 wayland/wayland.i: wayland/wayland.c.i
@@ -699,7 +699,7 @@ wayland/wayland.i: wayland/wayland.c.i
 
 # target to preprocess a source file
 wayland/wayland.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.i
 .PHONY : wayland/wayland.c.i
 
 wayland/wayland.s: wayland/wayland.c.s
@@ -708,7 +708,7 @@ wayland/wayland.s: wayland/wayland.c.s
 
 # target to generate assembly for a file
 wayland/wayland.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.s
 .PHONY : wayland/wayland.c.s
 
 win32drv/win32drv.o: win32drv/win32drv.c.o
@@ -717,7 +717,7 @@ win32drv/win32drv.o: win32drv/win32drv.c.o
 
 # target to build an object file
 win32drv/win32drv.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o
 .PHONY : win32drv/win32drv.c.o
 
 win32drv/win32drv.i: win32drv/win32drv.c.i
@@ -726,7 +726,7 @@ win32drv/win32drv.i: win32drv/win32drv.c.i
 
 # target to preprocess a source file
 win32drv/win32drv.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.i
 .PHONY : win32drv/win32drv.c.i
 
 win32drv/win32drv.s: win32drv/win32drv.c.s
@@ -735,7 +735,7 @@ win32drv/win32drv.s: win32drv/win32drv.c.s
 
 # target to generate assembly for a file
 win32drv/win32drv.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.s
 .PHONY : win32drv/win32drv.c.s
 
 win_drv.o: win_drv.c.o
@@ -744,7 +744,7 @@ win_drv.o: win_drv.c.o
 
 # target to build an object file
 win_drv.c.o:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o
 .PHONY : win_drv.c.o
 
 win_drv.i: win_drv.c.i
@@ -753,7 +753,7 @@ win_drv.i: win_drv.c.i
 
 # target to preprocess a source file
 win_drv.c.i:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.i
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.i
 .PHONY : win_drv.c.i
 
 win_drv.s: win_drv.c.s
@@ -762,7 +762,7 @@ win_drv.s: win_drv.c.s
 
 # target to generate assembly for a file
 win_drv.c.s:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.s
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f lv_drivers/CMakeFiles/lv_drivers.dir/build.make lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.s
 .PHONY : win_drv.c.s
 
 # Help Target
@@ -855,6 +855,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

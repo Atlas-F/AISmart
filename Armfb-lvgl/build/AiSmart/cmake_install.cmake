@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/AISmart/Armfb-lvgl/AiSmart
+# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
