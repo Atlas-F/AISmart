@@ -1,10 +1,12 @@
 SET(SOURCES screens/ui_Screen1.c
+    screens/ui_Screen4.c
     screens/ui_Screen2.c
     screens/ui_Screen3.c
     ui.c
     components/ui_comp_hook.c
     ui_helpers.c
     ui_events.c
+    images/ui_img_1758698815.c
     images/ui_img_1861617944.c
     images/ui_img_1348765827.c
     images/ui_img_374812091.c
@@ -26,6 +28,8 @@ SET(SOURCES screens/ui_Screen1.c
     images/ui_img_2018771700.c
     images/ui_img_459325315.c
     images/ui_img_794820540.c
+    images/ui_img_525561802.c
+    images/ui_img_1758700865.c
     fonts/ui_font_puhui18.c)
 
 add_library(ui ${SOURCES})

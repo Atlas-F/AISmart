@@ -16,13 +16,13 @@ extern "C" {
 #include "ui_helpers.h"
 #include "ui_events.h"
 
-void emerge_Animation(lv_obj_t * TargetObject, int delay);
-void leftout_Animation(lv_obj_t * TargetObject, int delay);
-void rota_Animation(lv_obj_t * TargetObject, int delay);
+void floatout_Animation(lv_obj_t * TargetObject, int delay);
+void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
 void ui_event_Screen1(lv_event_t * e);
 extern lv_obj_t * ui_Screen1;
+extern lv_obj_t * ui_circle1;
 extern lv_obj_t * ui_Container1;
 extern lv_obj_t * ui_Image2;
 extern lv_obj_t * ui_Image3;
@@ -38,32 +38,57 @@ extern lv_obj_t * ui_Image12;
 extern lv_obj_t * ui_Image13;
 extern lv_obj_t * ui_Image1;
 extern lv_obj_t * ui_Image14;
-void ui_event_Button1(lv_event_t * e);
-extern lv_obj_t * ui_Button1;
-extern lv_obj_t * ui_Label3;
-void ui_event_Button3(lv_event_t * e);
-extern lv_obj_t * ui_Button3;
-extern lv_obj_t * ui_Label5;
-extern lv_obj_t * ui_TextArea1;
 void ui_event_time(lv_event_t * e);
 extern lv_obj_t * ui_time;
+void ui_event_date(lv_event_t * e);
 extern lv_obj_t * ui_date;
+void ui_event_Oneto2(lv_event_t * e);
+extern lv_obj_t * ui_Oneto2;
+extern lv_obj_t * ui_Label3;
+void ui_event_Oneto4(lv_event_t * e);
+extern lv_obj_t * ui_Oneto4;
+extern lv_obj_t * ui_Label5;
+// SCREEN: ui_Screen4
+void ui_Screen4_screen_init(void);
+void ui_event_Screen4(lv_event_t * e);
+extern lv_obj_t * ui_Screen4;
+void ui_event_time2(lv_event_t * e);
+extern lv_obj_t * ui_time2;
+void ui_event_date2(lv_event_t * e);
+extern lv_obj_t * ui_date2;
+extern lv_obj_t * ui_circle4;
+void ui_event_fourTo2(lv_event_t * e);
+extern lv_obj_t * ui_fourTo2;
+extern lv_obj_t * ui_Label11;
+void ui_event_fourTo3(lv_event_t * e);
+extern lv_obj_t * ui_fourTo3;
+extern lv_obj_t * ui_Label12;
 // SCREEN: ui_Screen2
 void ui_Screen2_screen_init(void);
 void ui_event_Screen2(lv_event_t * e);
 extern lv_obj_t * ui_Screen2;
-extern lv_obj_t * ui_Label1;
-void ui_event_Button2(lv_event_t * e);
-extern lv_obj_t * ui_Button2;
+void ui_event_AIPanel(lv_event_t * e);
+extern lv_obj_t * ui_AIPanel;
+void ui_event_AILabel(lv_event_t * e);
+extern lv_obj_t * ui_AILabel;
+extern lv_obj_t * ui_Label13;
+extern lv_obj_t * ui_circle2;
+void ui_event_to1(lv_event_t * e);
+extern lv_obj_t * ui_to1;
 extern lv_obj_t * ui_Label4;
-void ui_event_Button5(lv_event_t * e);
-extern lv_obj_t * ui_Button5;
+void ui_event_to3(lv_event_t * e);
+extern lv_obj_t * ui_to3;
 void ui_event_Label7(lv_event_t * e);
 extern lv_obj_t * ui_Label7;
+extern lv_obj_t * ui_humanPanel;
+void ui_event_humanLabel(lv_event_t * e);
+extern lv_obj_t * ui_humanLabel;
 // SCREEN: ui_Screen3
 void ui_Screen3_screen_init(void);
+void ui_event_Screen3(lv_event_t * e);
 extern lv_obj_t * ui_Screen3;
 extern lv_obj_t * ui_Label2;
+extern lv_obj_t * ui_circle;
 void ui_event_Button4(lv_event_t * e);
 extern lv_obj_t * ui_Button4;
 void ui_event_Label6(lv_event_t * e);
@@ -75,6 +100,7 @@ extern lv_obj_t * ui_Label9;
 extern lv_obj_t * ui____initial_actions0;
 
 
+LV_IMG_DECLARE(ui_img_1758698815);    // assets/圆形_1749870100.png
 LV_IMG_DECLARE(ui_img_1861617944);    // assets/眨眼吐舌表情_1749726432.png
 LV_IMG_DECLARE(ui_img_1348765827);    // assets/头晕表情_1749726418.png
 LV_IMG_DECLARE(ui_img_374812091);    // assets/思考表情符号_1749443384.png
@@ -96,6 +122,8 @@ LV_IMG_DECLARE(ui_img_1799674937);    // assets/天使的微笑_1749726446.png
 LV_IMG_DECLARE(ui_img_2018771700);    // assets/爱心眼微笑_1749726441.png
 LV_IMG_DECLARE(ui_img_459325315);    // assets/眯眼微笑的脸_1749443287.png
 LV_IMG_DECLARE(ui_img_794820540);    // assets/脸红的表情符号_1749443374.png
+LV_IMG_DECLARE(ui_img_525561802);    // assets/圆形_1749870035.png
+LV_IMG_DECLARE(ui_img_1758700865);    // assets/圆形_1749870120.png
 
 
 

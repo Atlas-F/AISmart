@@ -144,7 +144,7 @@ CMakeFiles/lvgl_sdl.dir/all: lv_drivers/CMakeFiles/lv_drivers.dir/all
 CMakeFiles/lvgl_sdl.dir/all: AiSmart/CMakeFiles/ui.dir/all
 	$(MAKE) -f CMakeFiles/lvgl_sdl.dir/build.make CMakeFiles/lvgl_sdl.dir/depend
 	$(MAKE) -f CMakeFiles/lvgl_sdl.dir/build.make CMakeFiles/lvgl_sdl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num= "Built target lvgl_sdl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=93 "Built target lvgl_sdl"
 .PHONY : CMakeFiles/lvgl_sdl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -198,12 +198,12 @@ lvgl/CMakeFiles/lvgl_demos.dir/clean:
 lvgl/CMakeFiles/lvgl_examples.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/depend
 	$(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92 "Built target lvgl_examples"
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/all
 
 # Build rule for subdir invocation for target.
 lvgl/CMakeFiles/lvgl_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles 76
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles 75
 	$(MAKE) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles 0
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/rule

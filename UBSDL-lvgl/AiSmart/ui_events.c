@@ -5,7 +5,7 @@
 
 /*********************
  * @file ui_events.c
- * @brief 
+ * @brief Squareline导出ui_event事件回调函数文件
  * @author LFG (lfg@.com)
  * @version 1.0
  * @date 2025-06-13
@@ -13,10 +13,21 @@
  * @copyright Copyright (c) 2025  LFG
  * 
  *************************************************/
-
+/* [USER CODE BEGIN ui_event] */
+ 
 #include "ui.h"
 #include <time.h>
 #include <stdlib.h>
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h> 
+
+#include <stdio.h>
+#include <sys/ioctl.h> 
+
+#include "ui_events.h"
 #include <stdio.h>
 
 
@@ -25,6 +36,10 @@
  *************************************************/
 lv_timer_t *emoji_timer = NULL;
 static uint8_t last_idx = 0;  // 初始化为无效索引
+
+lv_timer_t * timeDateTimer = NULL;
+
+// extern  lv_timer_t *emoji_timer;
 
 /*********************
  * @brief 定时器回调函数
@@ -38,7 +53,7 @@ static uint8_t last_idx = 0;  // 初始化为无效索引
 static void emoji_change_timer_cb(lv_timer_t *timer)
 {
     lv_obj_t *screen = (lv_obj_t *)timer->user_data;
-    lv_obj_t * container = lv_obj_get_child(screen, 0);
+    lv_obj_t * container = lv_obj_get_child(screen, 1);
     uint16_t child_cnt = lv_obj_get_child_cnt(container);
     
     if(child_cnt == 0) return;
@@ -84,6 +99,25 @@ void InitEmojiAutoChange(lv_event_t *e)
 }
 
 
+void TimeDateTimercb(lv_timer_t *timer)
+{
+    GetOutNowTime();
+    GetOutNowDate();
+}
+
+void InitSowTimeDate(lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    lv_obj_t * ta = lv_event_get_target(e);
+    if(code != LV_EVENT_SCREEN_LOADED) return;  // 确保只在屏幕加载时执行一次
+    if( code == LV_EVENT_SCREEN_LOADED )
+    {
+        timeDateTimer = lv_timer_create(TimeDateTimercb, 500, NULL);
+    }
+}
+
+
+
 /*********************
  * @brief 初始化表情切换，并准备定时器
  * @param  e 
@@ -95,10 +129,10 @@ void InitScreenAutoChangeEmoji(lv_event_t * e)
     if( code == LV_EVENT_SCREEN_LOADED  )
     {
         printf("进行定时器！\n");
-        InitEmojiAutoChange(e);
+        // InitEmojiAutoChange(e);
     }
-
 }
+
 
 void UnloadScreenAutoEmojiChange(lv_event_t * e)
 {
@@ -107,9 +141,124 @@ void UnloadScreenAutoEmojiChange(lv_event_t * e)
 
 
 
-
-
 void InitUnLoad(lv_event_t * e)
 {
 	// Your code here
 }
+
+
+
+void GetOutNowTime()
+{
+        time_t now;
+        struct tm *local_time;
+        time(&now);
+        local_time = localtime(&now);
+  
+        int month = local_time->tm_mon + 1;
+          // 月份从0开始，所以加1    
+        int day = local_time->tm_mday;
+        int hour = local_time->tm_hour;
+        int min = local_time->tm_min;
+        int sec = local_time->tm_sec;
+        printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
+        
+        lv_label_set_text_fmt(ui_time2, "%d:%d:%d", hour, min, sec);
+        return 0;
+}
+
+void GetOutNowDate()
+{
+        time_t now;
+        struct tm *local_time;
+        time(&now);
+        local_time = localtime(&now);
+  
+        int year = local_time->tm_year;
+        int month = local_time->tm_mon + 1;
+          // 月份从0开始，所以加1    
+        int day = local_time->tm_mday;
+        int hour = local_time->tm_hour;
+        int min = local_time->tm_min;
+        int sec = local_time->tm_sec;
+        printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
+        
+        lv_label_set_text_fmt(ui_date2, "%d-%d", month, day);
+        return 0;
+}
+
+/*********************
+ * @brief 点击用户label区域更新文本
+ * @param  e 
+ * @details 目前数据量小，使用系统IO
+ *************************************************/
+void ChangeHumanLabelTextClick(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+    FILE * ftex = fopen("../UBSDL-lvgl",O_RDONLY);
+    if(ftex == NULL) {
+        printf("文件打开失败！\n");
+        return;
+    }
+    char * textBuffer[1024] = {0};
+    
+    /*********************
+     * @details 使用系统IO进入文件并读取，然后对文件内容进行判断。
+     * 如果行首的前两个字符是AI则设置到AILabel，如果是人类，则设置到humanLabel。
+     * 将每一段内容都放在一行中，以句号或者问号结尾。
+     *********************/
+
+    while( fgets(textBuffer, sizeof(textBuffer), ftex) )
+    {
+        sscanf(textBuffer, "%[]")
+    }
+
+
+
+
+}
+
+
+#if 0
+void ui_event_Screen1(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+    InitEmojiAutoChange(e);
+    InitSowTimeDate(e);
+    
+    if(event_code == LV_EVENT_SCREEN_LOADED) {
+        printf("进入定时器\n");
+        InitScreenAutoChangeEmoji(e);
+    }
+    if(event_code == LV_EVENT_GESTURE &&  lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
+        printf("暂停定时器\n");
+        lv_timer_pause(emoji_timer);
+        lv_indev_wait_release(lv_indev_get_act());
+        _ui_screen_change(&ui_Screen2, LV_SCR_LOAD_ANIM_MOVE_LEFT, 500, 0, &ui_Screen2_screen_init);
+    }
+    if(event_code == LV_EVENT_SCREEN_UNLOADED) {
+        printf("删除定时器\n");
+        lv_timer_del(emoji_timer);
+        InitUnLoad(e);
+    }
+    if(event_code == LV_EVENT_CLICKED) {
+        printf("暂停定时器\n");
+        lv_timer_pause(emoji_timer);
+        _ui_flag_modify(ui_time, LV_OBJ_FLAG_HIDDEN, _UI_MODIFY_FLAG_REMOVE);
+        _ui_flag_modify(ui_date, LV_OBJ_FLAG_HIDDEN, _UI_MODIFY_FLAG_REMOVE);
+    }
+    if(event_code == LV_EVENT_GESTURE &&  lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_BOTTOM) {
+        printf("暂停定时器\n");
+        lv_timer_pause(emoji_timer);
+        lv_indev_wait_release(lv_indev_get_act());
+        _ui_screen_change(&ui_Screen4, LV_SCR_LOAD_ANIM_MOVE_BOTTOM, 500, 0, &ui_Screen4_screen_init);
+    }
+}
+
+#endif 
+
+/* [USER CODE END ui_event] */
