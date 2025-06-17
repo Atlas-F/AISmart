@@ -32,6 +32,16 @@
 
 #include <errno.h>
 
+
+#include "depskmainCopy.h"
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <curl/curl.h>
+#include <cjson/cJSON.h>
+
 // 下面语句与上面两条预处理在从欧冠SquareLine中将ui导出后要添加到ui.c中
 # if 0
 extern  lv_timer_t *emoji_timer;
@@ -207,6 +217,8 @@ void GetOutNowDate()
  * @param  e 
  * @details 目前数据量小，使用系统IO
  *************************************************/
+
+ #if 0
 void ChangeHumanLabelTextClick(lv_event_t * e)
 {
 
@@ -251,6 +263,8 @@ void ChangeHumanLabelTextClick(lv_event_t * e)
             printf("匹配AIText\n");
             strcpy(lineBuffer, lineBuffer+offset);
             printf("%s\n", lineBuffer);
+            // lv_textarea_get_text(ui_TextArea1);
+
             lv_label_set_text(ui_AILabel, lineBuffer);
             break;
         }
@@ -270,6 +284,58 @@ void ChangeHumanLabelTextClick(lv_event_t * e)
         }
     }
 }
+#endif
+
+void ChangeHumanLabelTextClick(lv_event_t * e)
+{
+
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+    // const char* base_dir = __FILE__;
+    // printf("%s\n", base_dir);
+    ///mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/
+    // if(ftex == NULL) 
+    // {
+    //     printf("文件打开失败！\n");
+    //     // printf("完整路径: %s\n", filepath);
+    //     printf("错误信息: %s (errno: %d)\n", strerror(errno), errno);
+    //     perror("fopen");        
+    //     return;
+    // }
+    // printf("文件打开成功！\n");
+
+    char  lineBuffer[1024] = {0};
+    char  AIText[1024] = {0};
+    char  humanText[1024] = {0};
+    char  TempBuf[32] = {0};
+
+    // %n 读取偏移量
+    int offset;
+
+    printf("准备调用deepseek\n");
+    depmain();
+    printf("结束调用deepseek\n");
+
+
+    // while(1 )
+    // {
+    //     sscanf(lineBuffer, "%[^:]%n", TempBuf, &offset);
+    //     printf("%s\n", TempBuf);
+    //     if( strcmp("AI", TempBuf) == 0 )
+    //     {
+    //         lv_textarea_get_text(ui_TextArea1);
+    //         lv_label_set_text(ui_AILabel, lineBuffer);
+    //         break;
+    //     }
+    //     if( strcmp("human", TempBuf) == 0)
+    //     {
+    //         lv_label_set_text(ui_humanLabel, lineBuffer);
+    //         break;
+    //     }
+
+    // }
+}
 
 
 
@@ -286,7 +352,8 @@ void ui_event_Screen1(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
-    ftex = fopen("/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/SimuTalk-copy.txt", "r");
+    // /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/SimuTalk-copy.txt
+    ftex = fopen("SimuTalk-copy.txt", "r");
 
     InitEmojiAutoChange(e);
     InitSowTimeDate(e);

@@ -32,10 +32,20 @@
 
 #include <errno.h>
 
+
+#include "depskmainCopy.h"
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <curl/curl.h>
+#include <cjson/cJSON.h>
+
 // 下面语句与上面两条预处理在从欧冠SquareLine中将ui导出后要添加到ui.c中
 # if 0
 extern  lv_timer_t *emoji_timer;
-
+extern FILE * ftex;
 _ui_label_set_property(ui_AILabel, _UI_LABEL_PROPERTY_TEXT, "设置AIlabel");
 
 #endif
@@ -176,7 +186,7 @@ void GetOutNowTime()
         int hour = local_time->tm_hour;
         int min = local_time->tm_min;
         int sec = local_time->tm_sec;
-        printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
+        // printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
         
         lv_label_set_text_fmt(ui_time2, "%d:%d:%d", hour, min, sec);
         
@@ -207,6 +217,8 @@ void GetOutNowDate()
  * @param  e 
  * @details 目前数据量小，使用系统IO
  *************************************************/
+
+ #if 0
 void ChangeHumanLabelTextClick(lv_event_t * e)
 {
 
@@ -235,11 +247,11 @@ void ChangeHumanLabelTextClick(lv_event_t * e)
      * 对于长内容的滚动显示一遍后定格，或者显示滑动条
      *********************/
     char  lineBuffer[1024] = {0};
-
     char  AIText[1024] = {0};
     char  humanText[1024] = {0};
     char  TempBuf[32] = {0};
 
+    // %n 读取偏移量
     int offset;
 
     while( fgets(lineBuffer, sizeof(lineBuffer), ftex) )
@@ -251,6 +263,8 @@ void ChangeHumanLabelTextClick(lv_event_t * e)
             printf("匹配AIText\n");
             strcpy(lineBuffer, lineBuffer+offset);
             printf("%s\n", lineBuffer);
+            // lv_textarea_get_text(ui_TextArea1);
+
             lv_label_set_text(ui_AILabel, lineBuffer);
             break;
         }
@@ -268,8 +282,68 @@ void ChangeHumanLabelTextClick(lv_event_t * e)
             fclose(ftex);
             break;
         }
-
     }
+}
+#endif
+
+void ChangeHumanLabelTextClick(lv_event_t * e)
+{
+
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+    // const char* base_dir = __FILE__;
+    // printf("%s\n", base_dir);
+    ///mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/
+    // if(ftex == NULL) 
+    // {
+    //     printf("文件打开失败！\n");
+    //     // printf("完整路径: %s\n", filepath);
+    //     printf("错误信息: %s (errno: %d)\n", strerror(errno), errno);
+    //     perror("fopen");        
+    //     return;
+    // }
+    // printf("文件打开成功！\n");
+
+    char  lineBuffer[1024] = {0};
+    char  AIText[1024] = {0};
+    char  humanText[1024] = {0};
+    char  TempBuf[32] = {0};
+
+    // %n 读取偏移量
+    int offset;
+
+    printf("准备调用deepseek\n");
+    depmain();
+    printf("结束调用deepseek\n");
+
+
+    // while(1 )
+    // {
+    //     sscanf(lineBuffer, "%[^:]%n", TempBuf, &offset);
+    //     printf("%s\n", TempBuf);
+    //     if( strcmp("AI", TempBuf) == 0 )
+    //     {
+    //         lv_textarea_get_text(ui_TextArea1);
+    //         lv_label_set_text(ui_AILabel, lineBuffer);
+    //         break;
+    //     }
+    //     if( strcmp("human", TempBuf) == 0)
+    //     {
+    //         lv_label_set_text(ui_humanLabel, lineBuffer);
+    //         break;
+    //     }
+
+    // }
+}
+
+
+
+void SetLabel(lv_event_t * e)
+{
+	// Your code here
+    ChangeHumanLabelTextClick(e);
+
 }
 
 
@@ -278,7 +352,8 @@ void ui_event_Screen1(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
-    ftex = fopen("/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/SimuTalk-copy.txt", "r");
+    // /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/SimuTalk-copy.txt
+    ftex = fopen("SimuTalk-copy.txt", "r");
 
     InitEmojiAutoChange(e);
     InitSowTimeDate(e);
@@ -316,64 +391,7 @@ void ui_event_Screen1(lv_event_t * e)
 
 /* [USER CODE END ui_event] */
 
-void SetLabel(lv_event_t * e)
+void EatWhatRand(lv_event_t * e)
 {
 	// Your code here
-    ChangeHumanLabelTextClick(e);
-    // lv_event_code_t code = lv_event_get_code(e);
-    // lv_obj_t * ta = lv_event_get_target(e);
-    // printf("准备打开文件！\n"); 
-    // ftex = fopen("SimuTalk-copy.txt","r");
-    // // printf("文件打开成功！\n");
-    // if(ftex == NULL) {
-    //     printf("文件打开失败！\n");
-    //     return;
-    // }
-    
-
-    // char  lineBuffer[1024] = {0};
-
-    // char  AIText[1024] = {0};
-    // char  humanText[1024] = {0};
-    // char  TempBuf[32] = {0};
-
-    // int offset;
-    // int c;
-    // c = fgetc(ftex);
-    // printf("%c", c);
-
-//     while(1)
-//    {
-//       c = fgetc(ftex);
-//       if( feof(ftex) )
-//       { 
-//           break ;
-//       }
-//       printf("%c", c);
-//    }
-
-    // while( fgets(lineBuffer, sizeof(lineBuffer), ftex) )
-    // {
-    //     sscanf(lineBuffer, "%[^：]%n", TempBuf, &offset);
-    //     if( strcmp("AI", TempBuf) )
-    //     {
-    //         printf("匹配AIText\n");
-    //         strcpy(lineBuffer, lineBuffer+offset);
-    //         lv_label_set_text(ui_AILabel, lineBuffer);
-    //         break;
-    //     }
-    //     if( strcmp("人类", TempBuf) )
-    //     {
-    //         printf("匹配HumanText\n");
-    //         strcpy(lineBuffer, lineBuffer+offset);
-    //         lv_label_set_text(ui_humanLabel, lineBuffer);
-    //         break;
-    //     }
-    //     if( strcmp("注", TempBuf) )
-    //     {
-    //         printf("退出Text\n");
-    //         fclose(ftex);
-    //         break;
-    //     }
-    // }
 }

@@ -219,6 +219,8 @@ ui_events.h
 /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
 stdio.h
 -
+errno.h
+-
 
 /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
 

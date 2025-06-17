@@ -84,6 +84,8 @@ lvgl_sdl: lvgl/liblvgl_examples.a
 lvgl_sdl: lvgl/liblvgl_demos.a
 lvgl_sdl: lib/liblv_drivers.a
 lvgl_sdl: AiSmart/libui.a
+lvgl_sdl: /usr/lib/x86_64-linux-gnu/libcurl.so
+lvgl_sdl: /usr/lib/x86_64-linux-gnu/libcjson.so
 lvgl_sdl: lib/liblvgl.a
 lvgl_sdl: CMakeFiles/lvgl_sdl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable lvgl_sdl"

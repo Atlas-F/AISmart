@@ -16,10 +16,18 @@ extern "C" {
 #include "ui_helpers.h"
 #include "ui_events.h"
 #include <stdio.h>
-extern  lv_timer_t *emoji_timer;
-extern FILE * ftex;
+
+#include <errno.h>
 void floatout_Animation(lv_obj_t * TargetObject, int delay);
 void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
+void movedown_Animation(lv_obj_t * TargetObject, int delay);
+void moveup_Animation(lv_obj_t * TargetObject, int delay);
+void flashmic64_Animation(lv_obj_t * TargetObject, int delay);
+void flashmic128_Animation(lv_obj_t * TargetObject, int delay);
+
+extern  lv_timer_t *emoji_timer;
+extern FILE * ftex;
+
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
 void ui_event_Screen1(lv_event_t * e);
@@ -82,13 +90,31 @@ extern lv_obj_t * ui_to3;
 void ui_event_Label7(lv_event_t * e);
 extern lv_obj_t * ui_Label7;
 extern lv_obj_t * ui_Container2;
+void ui_event_AIPanel(lv_event_t * e);
 extern lv_obj_t * ui_AIPanel;
 extern lv_obj_t * ui_AILabel;
 void ui_event_humanPanel(lv_event_t * e);
 extern lv_obj_t * ui_humanPanel;
 extern lv_obj_t * ui_humanLabel;
-extern lv_obj_t * ui_Image51;
-extern lv_obj_t * ui_Image52;
+extern lv_obj_t * ui_Button3;
+extern lv_obj_t * ui_Label14;
+extern lv_obj_t * ui_Button6;
+extern lv_obj_t * ui_Label16;
+extern lv_obj_t * ui_Button8;
+extern lv_obj_t * ui_Label17;
+extern lv_obj_t * ui_miccontain;
+void ui_event_mic(lv_event_t * e);
+extern lv_obj_t * ui_mic;
+void ui_event_mic2(lv_event_t * e);
+extern lv_obj_t * ui_mic2;
+extern lv_obj_t * ui_AIlogo;
+extern lv_obj_t * ui_human;
+extern lv_obj_t * ui_Container6;
+extern lv_obj_t * ui_horn;
+extern lv_obj_t * ui_horn1;
+extern lv_obj_t * ui_TextArea1;
+void ui_event_Keyboard1(lv_event_t * e);
+extern lv_obj_t * ui_Keyboard1;
 // SCREEN: ui_Screen3
 void ui_Screen3_screen_init(void);
 void ui_event_Screen3(lv_event_t * e);
@@ -173,8 +199,11 @@ LV_IMG_DECLARE(ui_img_1673239870);    // assets/表情/倒立的脸_1749726456.p
 LV_IMG_DECLARE(ui_img_1720058713);    // assets/杂项/wifi-20_1749984511.png
 LV_IMG_DECLARE(ui_img_1932583977);    // assets/杂项/多云天气_1749984566.png
 LV_IMG_DECLARE(ui_img_1630928100);    // assets/电池.png
+LV_IMG_DECLARE(ui_img_1328066288);    // assets/麦克风_1750044350.png
 LV_IMG_DECLARE(ui_img_1445365126);    // assets/AI头像.png
 LV_IMG_DECLARE(ui_img_1761902563);    // assets/男头像.png
+LV_IMG_DECLARE(ui_img_1637902983);    // assets/喇叭.png
+LV_IMG_DECLARE(ui_img_1758642971);    // assets/喇叭 (1).png
 LV_IMG_DECLARE(ui_img_520288613);    // assets/食物/三明治_1749986549.png
 LV_IMG_DECLARE(ui_img_2130913025);    // assets/食物/中秋月饼_1749986266.png
 LV_IMG_DECLARE(ui_img_1810507611);    // assets/食物/便当盒_1749986578.png
@@ -208,8 +237,6 @@ LV_IMG_DECLARE(ui_img_918736298);    // assets/活动/钓鱼竿与鱼_1749986112
 LV_IMG_DECLARE(ui_img_1143713160);    // assets/活动/游戏手柄_1749986150.png
 LV_IMG_DECLARE(ui_img_2024978968);    // assets/活动/靶心_1749986182.png
 LV_IMG_DECLARE(ui_img_754698310);    // assets/活动/羽毛球_1749986072.png
-LV_IMG_DECLARE(ui_img_525561802);    // assets/圆形_1749870035.png
-LV_IMG_DECLARE(ui_img_1758700865);    // assets/圆形_1749870120.png
 LV_IMG_DECLARE(ui_img_691945150);    // assets/动物/企鹅表情符号_1749986725.png
 LV_IMG_DECLARE(ui_img_921266886);    // assets/动物/兔子脸_1749986680.png
 LV_IMG_DECLARE(ui_img_838590808);    // assets/动物/可爱的乌龟表情符号_1749986650.png
@@ -281,6 +308,9 @@ LV_IMG_DECLARE(ui_img_155258266);    // assets/食物/罐头食品_1749986511.pn
 LV_IMG_DECLARE(ui_img_998280680);    // assets/食物/蜂蜜罐_1749986287.png
 LV_IMG_DECLARE(ui_img_703197322);    // assets/食物/豌豆荚_1749986302.png
 LV_IMG_DECLARE(ui_img_1542151835);    // assets/食物/面包_1749986571.png
+LV_IMG_DECLARE(ui_img_525561802);    // assets/圆形_1749870035.png
+LV_IMG_DECLARE(ui_img_1758700865);    // assets/圆形_1749870120.png
+LV_IMG_DECLARE(ui_img_1328075000);    // assets/麦克风_1750044358.png
 
 
 

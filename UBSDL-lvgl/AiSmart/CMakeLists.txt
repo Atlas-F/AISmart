@@ -7,6 +7,9 @@ SET(SOURCES screens/ui_Screen1.c
     components/ui_comp_hook.c
     ui_helpers.c
     ui_events.c
+
+    depskmainCopy.c
+    
     images/ui_img_1758698815.c
     images/ui_img_1273346190.c
     images/ui_img_1946132634.c
@@ -25,8 +28,11 @@ SET(SOURCES screens/ui_Screen1.c
     images/ui_img_1720058713.c
     images/ui_img_1932583977.c
     images/ui_img_1630928100.c
+    images/ui_img_1328066288.c
     images/ui_img_1445365126.c
     images/ui_img_1761902563.c
+    images/ui_img_1637902983.c
+    images/ui_img_1758642971.c
     images/ui_img_520288613.c
     images/ui_img_2130913025.c
     images/ui_img_1810507611.c
@@ -60,8 +66,6 @@ SET(SOURCES screens/ui_Screen1.c
     images/ui_img_1143713160.c
     images/ui_img_2024978968.c
     images/ui_img_754698310.c
-    images/ui_img_525561802.c
-    images/ui_img_1758700865.c
     images/ui_img_691945150.c
     images/ui_img_921266886.c
     images/ui_img_838590808.c
@@ -133,6 +137,9 @@ SET(SOURCES screens/ui_Screen1.c
     images/ui_img_998280680.c
     images/ui_img_703197322.c
     images/ui_img_1542151835.c
+    images/ui_img_525561802.c
+    images/ui_img_1758700865.c
+    images/ui_img_1328075000.c
     fonts/ui_font_puhui18.c)
 
 add_library(ui ${SOURCES})

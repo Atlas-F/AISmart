@@ -56,7 +56,7 @@ void ui_Screen3_screen_init(void)
     lv_obj_set_width(ui_Label9, LV_SIZE_CONTENT);   /// 1
     lv_obj_set_height(ui_Label9, LV_SIZE_CONTENT);    /// 1
     lv_obj_set_align(ui_Label9, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_Label9, "to1");
+    lv_label_set_text(ui_Label9, "to4");
 
     ui_Container3 = lv_obj_create(ui_Screen3);
     lv_obj_remove_style_all(ui_Container3);

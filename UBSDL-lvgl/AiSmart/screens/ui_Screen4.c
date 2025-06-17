@@ -23,8 +23,8 @@ void ui_Screen4_screen_init(void)
     ui_date2 = lv_label_create(ui_Screen4);
     lv_obj_set_width(ui_date2, LV_SIZE_CONTENT);   /// 1
     lv_obj_set_height(ui_date2, LV_SIZE_CONTENT);    /// 1
-    lv_obj_set_x(ui_date2, 0);
-    lv_obj_set_y(ui_date2, -50);
+    lv_obj_set_x(ui_date2, -3);
+    lv_obj_set_y(ui_date2, 55);
     lv_obj_set_align(ui_date2, LV_ALIGN_CENTER);
     lv_label_set_text(ui_date2, "2025.6.13");
     lv_obj_set_style_text_color(ui_date2, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -75,7 +75,7 @@ void ui_Screen4_screen_init(void)
     lv_obj_set_width(ui_Image15, LV_SIZE_CONTENT);   /// 48
     lv_obj_set_height(ui_Image15, LV_SIZE_CONTENT);    /// 48
     lv_obj_set_x(ui_Image15, -68);
-    lv_obj_set_y(ui_Image15, -91);
+    lv_obj_set_y(ui_Image15, -59);
     lv_obj_set_align(ui_Image15, LV_ALIGN_CENTER);
     lv_obj_add_flag(ui_Image15, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_Image15, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
@@ -85,7 +85,7 @@ void ui_Screen4_screen_init(void)
     lv_obj_set_width(ui_Image16, LV_SIZE_CONTENT);   /// 48
     lv_obj_set_height(ui_Image16, LV_SIZE_CONTENT);    /// 48
     lv_obj_set_x(ui_Image16, 54);
-    lv_obj_set_y(ui_Image16, -94);
+    lv_obj_set_y(ui_Image16, -59);
     lv_obj_set_align(ui_Image16, LV_ALIGN_CENTER);
     lv_obj_add_flag(ui_Image16, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_Image16, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
@@ -94,8 +94,8 @@ void ui_Screen4_screen_init(void)
     lv_img_set_src(ui_Image17, &ui_img_1630928100);
     lv_obj_set_width(ui_Image17, LV_SIZE_CONTENT);   /// 200
     lv_obj_set_height(ui_Image17, LV_SIZE_CONTENT);    /// 200
-    lv_obj_set_x(ui_Image17, -9);
-    lv_obj_set_y(ui_Image17, -92);
+    lv_obj_set_x(ui_Image17, -7);
+    lv_obj_set_y(ui_Image17, -61);
     lv_obj_set_align(ui_Image17, LV_ALIGN_CENTER);
     lv_obj_add_flag(ui_Image17, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_Image17, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
