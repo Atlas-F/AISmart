@@ -7,9 +7,8 @@ SET(SOURCES screens/ui_Screen1.c
     components/ui_comp_hook.c
     ui_helpers.c
     ui_events.c
-
     depskmainCopy.c
-    
+    cJSON.c
     images/ui_img_1758698815.c
     images/ui_img_1273346190.c
     images/ui_img_1946132634.c
@@ -33,6 +32,7 @@ SET(SOURCES screens/ui_Screen1.c
     images/ui_img_1761902563.c
     images/ui_img_1637902983.c
     images/ui_img_1758642971.c
+    images/ui_img_977105517.c
     images/ui_img_520288613.c
     images/ui_img_2130913025.c
     images/ui_img_1810507611.c

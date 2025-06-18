@@ -12,6 +12,7 @@ CMakeFiles/lvgl_fb.dir/main.c.o: ../lvgl/demos/music/lv_demo_music.h
 CMakeFiles/lvgl_fb.dir/main.c.o: ../lvgl/demos/stress/lv_demo_stress.h
 CMakeFiles/lvgl_fb.dir/main.c.o: ../lvgl/demos/widgets/lv_demo_widgets.h
 CMakeFiles/lvgl_fb.dir/main.c.o: ../lvgl/lvgl.h
+CMakeFiles/lvgl_fb.dir/main.c.o: ../AiSmart/depskmainCopy.h
 CMakeFiles/lvgl_fb.dir/main.c.o: ../AiSmart/ui.h
 CMakeFiles/lvgl_fb.dir/main.c.o: ../AiSmart/ui_events.h
 CMakeFiles/lvgl_fb.dir/main.c.o: ../AiSmart/ui_helpers.h

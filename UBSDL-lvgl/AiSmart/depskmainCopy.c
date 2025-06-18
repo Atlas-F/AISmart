@@ -1,3 +1,15 @@
+/*********************
+ * @file depskmainCopy.c
+ * @brief deepseek 接口操作函数
+ * @author LFG (lfg@.com)
+ * @version 1.0
+ * @date 2025-06-17
+ * 
+ * @details 使用cjson和curl库
+ * @copyright Copyright (c) 2025  LFG
+ * 
+ *************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,11 +17,22 @@
 #include <cjson/cJSON.h>
 
 #include "depskmainCopy.h"
+#include "lvgl/lvgl.h"
+#include <stdio.h>
+#include <errno.h>
+#include "ui_helpers.h"
+#include "ui_events.h"
 
 
+#include "ui.h"
+#include "ui_helpers.h"
 
-// 使用缓冲区输入输出是没问题的，需要解决循环的问题，
+// 使用缓冲区输入输出是没问题的，需要解决循环的问题，不使用循环
+// 模拟测试文本缓冲区
 char textbuf[128] = "who are you";
+
+// 文本输入
+extern char * kbEntertext;
 char dpOut[128] = {0};
 
 // ================== 前置声明 ==================
@@ -20,8 +43,24 @@ struct APIResponse call_deepseek(const char *api_key, const char *prompt);
 void print_token_usage(int prompt_tokens, int completion_tokens, int total_tokens);
 
 
+/*********************
+ * @brief deepseek与网络通信部份相应的全局变量
+ *************************************************/
+DeepSeekSession *session;
+char input[1024];
+int prompt_tokens, completion_tokens, total_tokens;
+char *response;
+
+
 // ================== 辅助函数 ==================
-// libcurl回调函数
+/*********************
+ * @brief libcurl回调函数
+ * @param  contents 
+ * @param  size 
+ * @param  nmemb 
+ * @param  userp 
+ * @return size_t 
+ *************************************************/
 static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp) {
     size_t realsize = size * nmemb;
     struct MemoryStruct *mem = (struct MemoryStruct *)userp;
@@ -41,6 +80,10 @@ static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *use
 }
 
 // 获取API密钥
+/*********************
+ * @brief Get the api key object
+ * @return char* 
+ *************************************************/
 char* get_api_key() {
     char *api_key = getenv("DEEPSEEK_API_KEY");
     if (api_key && strlen(api_key) > 0) {
@@ -62,12 +105,18 @@ char* get_api_key() {
         return NULL;
     }
     
+    // 这是什么语法
     input_key[strcspn(input_key, "\n")] = 0;
     return input_key;
 }
 
 // ================== 核心API函数 ==================
-// 调用DeepSeek API
+/*********************
+ * @brief 调用DeepSeek API
+ * @param  api_key 
+ * @param  prompt 
+ * @return struct APIResponse 
+ *************************************************/
 struct APIResponse call_deepseek(const char *api_key, const char *prompt) {
     CURL *curl;
     CURLcode res;
@@ -214,7 +263,12 @@ struct APIResponse call_deepseek(const char *api_key, const char *prompt) {
     return api_response;
 }
 
-// 显示令牌使用信息
+/*********************
+ * @brief 显示令牌使用信息
+ * @param  prompt_tokens 
+ * @param  completion_tokens 
+ * @param  total_tokens 
+ *************************************************/
 void print_token_usage(int prompt_tokens, int completion_tokens, int total_tokens) {
     printf("\n--- 令牌使用 ---\n");
     printf("提示令牌: %d\n", prompt_tokens);
@@ -227,7 +281,11 @@ void print_token_usage(int prompt_tokens, int completion_tokens, int total_token
 }
 
 // ================== 会话管理函数 ==================
-// 创建新会话
+/*********************
+ * @brief 创建新会话
+ * @param  api_key 
+ * @return DeepSeekSession* 
+ *************************************************/
 DeepSeekSession* deepseek_create_session(const char *api_key) {
     DeepSeekSession *session = malloc(sizeof(DeepSeekSession));
     if (!session) return NULL;
@@ -246,7 +304,11 @@ DeepSeekSession* deepseek_create_session(const char *api_key) {
     return session;
 }
 
-// 销毁会话
+// 
+/*********************
+ * @brief 销毁会话
+ * @param  session 
+ *************************************************/
 void deepseek_destroy_session(DeepSeekSession *session) {
     if (!session) return;
     
@@ -254,7 +316,16 @@ void deepseek_destroy_session(DeepSeekSession *session) {
     free(session);
 }
 
-// 发送消息并获取回复
+// 
+/*********************
+ * @brief 发送消息并获取回复
+ * @param  session 
+ * @param  message 
+ * @param  prompt_tokens 
+ * @param  completion_tokens 
+ * @param  total_tokens 
+ * @return char* 
+ *************************************************/
 char* deepseek_send_message(
     DeepSeekSession *session, 
     const char *message,
@@ -283,7 +354,14 @@ char* deepseek_send_message(
     return NULL;
 }
 
-// 获取会话令牌统计
+// 
+/*********************
+ * @brief 获取会话令牌统计
+ * @param  session 
+ * @param  total_prompt 
+ * @param  total_completion 
+ * @param  total_all 
+ *************************************************/
 void deepseek_get_token_stats(
     DeepSeekSession *session,
     int *total_prompt,
@@ -297,77 +375,120 @@ void deepseek_get_token_stats(
     if (total_all) *total_all = session->total_all_tokens;
 }
 
-// ================== 主函数 ==================
-int depmain() {
-    // 创建会话 - 修复API密钥传递问题
-    DeepSeekSession *session = deepseek_create_session("sk-28b778879e5b4fd6b227d767812fd83d");
-    if (!session) {
-        fprintf(stderr, "创建会话失败\n");
-        return 1;
+/*********************
+ * @brief Get the full text input object
+ * @details 获取完整的文本内容并输入到指定的缓冲区，未修正之前无法获取完整的文本框内容
+ *          遇到空格会中断文本内容，无法获取空格之后的文本内容
+ * @param  dest 
+ * @param  dest_size 
+ *************************************************/
+void get_full_text_input(char *dest, size_t dest_size) {
+    // 获取文本区域内容指针
+    const char *text = lv_textarea_get_text(ui_TextArea1);
+    if (!text) {
+        dest[0] = '\0';
+        return;
     }
     
-    printf("DeepSeek聊天客户端 (输入'exit'退出)\n");
-    printf("使用的API密钥: %.6s...\n", session->api_key);
+    // 计算实际文本长度（包括空格）
+    size_t text_len = strlen(text);
     
-    while(1) {
-        printf("\n你的问题: ");
-        char input[1024];
-        // fgets(input, sizeof(input), stdin);
-        // 使用这种方式需要处理循环的问题以及刷新。
-        sscanf(textbuf, "%s", input);
-        printf("%s\n", textbuf);
-        
-        // 移除换行符
-        input[strcspn(input, "\n")] = 0;
-        
-        if(strcmp(input, "exit") == 0) break;
-        if(strlen(input) == 0) continue;
-        
-        printf("正在查询DeepSeek API...\n");
-        
-        
-        int prompt_tokens, completion_tokens, total_tokens;
-        char *response = deepseek_send_message(
-            session, 
-            input,
-            &prompt_tokens,
-            &completion_tokens,
-            &total_tokens
-        );
-        
-        if(response) {
-            // printf("\n--- DeepSeek回复 ---\n%s\n", response);
-            printf("\n--- DeepSeek回复 ---\n");
-            sprintf(dpOut, "%s", response);
-            printf("%s\n", dpOut);
-            
-            // 显示令牌使用
-            print_token_usage(prompt_tokens, completion_tokens, total_tokens);
-            
-            free(response);
-        } else {
-            printf("获取回复时出错\n");
-        }
-    }
+    // 安全复制文本（防止缓冲区溢出）
+    size_t copy_len = text_len < dest_size - 1 ? text_len : dest_size - 1;
+    strncpy(dest, text, copy_len);
+    dest[copy_len] = '\0'; // 确保字符串终止
     
-    // 显示累计令牌使用
-    // int total_prompt, total_completion, total_all;
-    // deepseek_get_token_stats(session, &total_prompt, &total_completion, &total_all);
-    
-    // printf("\n--- 本次会话累计令牌使用 ---\n");
-    // printf("总提示令牌: %d\n", total_prompt);
-    // printf("总完成令牌: %d\n", total_completion);
-    // printf("总令牌: %d\n", total_all);
-    
-    // double estimated_total_cost = total_all * 0.0000015;
-    // printf("估算总成本: $%.6f\n\n", estimated_total_cost);
-    
-    // 清理资源
-    deepseek_destroy_session(session);
-    return 0;
+    // 移除末尾的换行符（如果有）
+    char *newline = strchr(dest, '\n');
+    if (newline) *newline = '\0';
 }
 
-// int main()
-// {
-//     depmain();
-// }
+// ================== 主函数 ==================
+/*********************
+ * @brief 创建会话
+ * @param  e 
+ * @details 加入LVGL，在函数void ui_event_inputlogo(lv_event_t * e)
+ *          中初始化，长按召出键盘与输入框，点击提交输入内容。
+ *          但是将创建会话的功能剥离出去，该函数已经可有可无了
+ * @return int 
+ *************************************************/
+int depmainlong(lv_event_t * e) // 创建会话标志，拉出键盘，标志进入会话
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+    if( event_code == LV_EVENT_LONG_PRESSED )
+    {
+        printf("DeepSeek聊天客户端 (输入'exit'退出)\n");
+        printf("使用的API密钥: %.6s...\n", session->api_key);
+        return 0; 
+    }   
+}
+
+/*********************
+ * @brief 会话
+ * @param  e 
+ * @details 交互会话，输入完成之后点击logo提交文本内容
+ * @return int 
+ *************************************************/
+int depmaintalk(lv_event_t * e) // 会话
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+    if( event_code == LV_EVENT_CLICKED )
+    {
+        // 判断键盘的状态，是否隐藏，若未隐藏，代表动画执行完毕，浮出，可以开始输入
+        if( !lv_obj_has_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN)) {
+            printf("\n你的问题: ");
+                printf("inputlogo被anxia!\n");
+
+                get_full_text_input(input, sizeof(input));
+                // sscanf(lv_textarea_get_text(ui_TextArea1), "%s", input);
+                printf("kbEntertext = %s\n", kbEntertext);
+                printf("input = %s\n", input);
+
+                if( strcmp(input, "exit") == 0 )
+                {
+                     // 清理资源
+                    deepseek_destroy_session(session);
+                    printf("退出！\n");
+                    return 0; 
+                }
+
+            printf("正在查询DeepSeek API...\n");
+
+            // char *response = deepseek_send_message
+                response = deepseek_send_message(
+                session, 
+                input,
+                &prompt_tokens,
+                &completion_tokens,
+                &total_tokens
+            );
+            
+            if(response) {
+                // printf("\n--- DeepSeek回复 ---\n%s\n", response);
+                printf("\n--- DeepSeek回复 ---\n");
+                sprintf(dpOut, "%s", response);
+                printf("%s\n", dpOut);
+                lv_label_set_text(ui_AILabel, dpOut);
+                
+                // 显示令牌使用
+                print_token_usage(prompt_tokens, completion_tokens, total_tokens);
+                
+                free(response);
+            } else {
+                printf("获取回复时出错\n");
+            }
+        }
+        if( strcmp(input, "exit") == 0 )
+        {
+            // 清理资源
+            deepseek_destroy_session(session);
+            return 0; 
+        }
+        
+    }   
+}
+

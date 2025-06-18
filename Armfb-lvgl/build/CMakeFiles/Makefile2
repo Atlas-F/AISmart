@@ -144,7 +144,7 @@ CMakeFiles/lvgl_fb.dir/all: lv_drivers/CMakeFiles/lv_drivers.dir/all
 CMakeFiles/lvgl_fb.dir/all: AiSmart/CMakeFiles/ui.dir/all
 	$(MAKE) -f CMakeFiles/lvgl_fb.dir/build.make CMakeFiles/lvgl_fb.dir/depend
 	$(MAKE) -f CMakeFiles/lvgl_fb.dir/build.make CMakeFiles/lvgl_fb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles --progress-num=76 "Built target lvgl_fb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles --progress-num= "Built target lvgl_fb"
 .PHONY : CMakeFiles/lvgl_fb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -279,12 +279,12 @@ lv_drivers/CMakeFiles/lv_drivers.dir/clean:
 AiSmart/CMakeFiles/ui.dir/all:
 	$(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/depend
 	$(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles --progress-num=77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target ui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target ui"
 .PHONY : AiSmart/CMakeFiles/ui.dir/all
 
 # Build rule for subdir invocation for target.
 AiSmart/CMakeFiles/ui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 AiSmart/CMakeFiles/ui.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles 0
 .PHONY : AiSmart/CMakeFiles/ui.dir/rule

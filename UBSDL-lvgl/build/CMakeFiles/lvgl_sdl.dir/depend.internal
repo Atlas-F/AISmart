@@ -13,6 +13,7 @@ CMakeFiles/lvgl_sdl.dir/main.c.o
  ../lvgl/demos/stress/lv_demo_stress.h
  ../lvgl/demos/widgets/lv_demo_widgets.h
  ../lvgl/lvgl.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.h

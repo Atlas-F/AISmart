@@ -3,8 +3,135 @@
 
 AiSmart/CMakeFiles/ui.dir/components/ui_comp_hook.c.o: ../AiSmart/components/ui_comp_hook.c
 
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lv_conf.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/lvgl.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_disp.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_event.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_group.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_indev.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_obj.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_obj_class.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_obj_draw.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_obj_pos.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_obj_scroll.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_obj_style.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_obj_style_gen.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_obj_tree.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_refr.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/core/lv_theme.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_arc.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_img.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_label.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_layer.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_line.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_mask.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_rect.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_transform.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_draw_triangle.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_img_buf.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_img_cache.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/lv_img_decoder.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/sw/lv_draw_sw_dither.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/draw/sw/lv_draw_sw_gradient.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/layouts/flex/lv_flex.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/layouts/grid/lv_grid.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/layouts/lv_layouts.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/bmp/lv_bmp.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/freetype/lv_freetype.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fsdrv.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/gif/gifdec.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/gif/lv_gif.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/lv_libs.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/png/lv_png.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/qrcode/lv_qrcode.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/rlottie/lv_rlottie.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/sjpg/lv_sjpg.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/lv_extra.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/others/fragment/lv_fragment.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/others/gridnav/lv_gridnav.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/others/ime/lv_ime_pinyin.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/others/imgfont/lv_imgfont.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/others/lv_others.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/others/monkey/lv_monkey.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/others/msg/lv_msg.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/others/snapshot/lv_snapshot.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/themes/basic/lv_theme_basic.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/themes/default/lv_theme_default.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/themes/lv_themes.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/themes/mono/lv_theme_mono.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/animimg/lv_animimg.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/chart/lv_chart.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/keyboard/lv_keyboard.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/led/lv_led.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/list/lv_list.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/lv_widgets.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/menu/lv_menu.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/meter/lv_meter.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/msgbox/lv_msgbox.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/span/lv_span.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/spinbox/lv_spinbox.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/spinner/lv_spinner.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/tabview/lv_tabview.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/tileview/lv_tileview.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/extra/widgets/win/lv_win.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/font/lv_font.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/font/lv_font_fmt_txt.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/font/lv_font_loader.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/font/lv_symbol_def.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/hal/lv_hal.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/hal/lv_hal_disp.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/hal/lv_hal_indev.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/hal/lv_hal_tick.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/lv_api_map.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/lv_conf_internal.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/lv_conf_kconfig.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/lvgl.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_anim.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_anim_timeline.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_area.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_assert.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_async.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_bidi.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_color.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_fs.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_ll.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_log.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_math.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_mem.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_printf.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_style.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_style_gen.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_timer.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_txt.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/misc/lv_types.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_arc.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_bar.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_btn.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_btnmatrix.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_canvas.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_checkbox.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_dropdown.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_img.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_label.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_line.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_roller.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_slider.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_switch.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_table.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../lvgl/src/widgets/lv_textarea.h
 AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/depskmainCopy.c
 AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/depskmainCopy.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/ui.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/ui_events.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/ui_helpers.h
 
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../lv_conf.h
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../lvgl/lvgl.h
@@ -130,6 +257,7 @@ AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../lvgl/src/widgets/lv_slid
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../AiSmart/fonts/ui_font_puhui18.c
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../AiSmart/ui_events.h
@@ -259,6 +387,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: ../AiSmart/images/ui_img_1006453824.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: ../AiSmart/ui_events.h
@@ -388,6 +517,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: ../AiSmart/images/ui_img_1040098182.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: ../AiSmart/ui_events.h
@@ -517,6 +647,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: ../AiSmart/images/ui_img_1042948001.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: ../AiSmart/ui_events.h
@@ -646,6 +777,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: ../AiSmart/images/ui_img_105594312.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: ../AiSmart/ui_events.h
@@ -775,6 +907,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: ../AiSmart/images/ui_img_106759925.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: ../AiSmart/ui_events.h
@@ -904,6 +1037,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: ../AiSmart/images/ui_img_1072915872.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: ../AiSmart/ui_events.h
@@ -1033,6 +1167,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: ../AiSmart/images/ui_img_1078335801.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: ../AiSmart/ui_events.h
@@ -1162,6 +1297,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: ../AiSmart/images/ui_img_1106867240.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: ../AiSmart/ui_events.h
@@ -1291,6 +1427,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: ../AiSmart/images/ui_img_1114756079.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: ../AiSmart/ui_events.h
@@ -1420,6 +1557,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: ../AiSmart/images/ui_img_1143713160.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: ../AiSmart/ui_events.h
@@ -1549,6 +1687,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: ../AiSmart/images/ui_img_1152444760.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: ../AiSmart/ui_events.h
@@ -1678,6 +1817,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: ../AiSmart/images/ui_img_1179136265.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: ../AiSmart/ui_events.h
@@ -1807,6 +1947,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: ../AiSmart/images/ui_img_1182216894.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: ../AiSmart/ui_events.h
@@ -1936,6 +2077,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: ../AiSmart/images/ui_img_1186072952.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: ../AiSmart/ui_events.h
@@ -2065,6 +2207,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: ../AiSmart/images/ui_img_1195015344.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: ../AiSmart/ui_events.h
@@ -2194,6 +2337,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: ../AiSmart/images/ui_img_120716944.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: ../AiSmart/ui_events.h
@@ -2323,6 +2467,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: ../AiSmart/images/ui_img_1220561086.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: ../AiSmart/ui_events.h
@@ -2452,6 +2597,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: ../AiSmart/images/ui_img_1221264709.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: ../AiSmart/ui_events.h
@@ -2581,6 +2727,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: ../AiSmart/images/ui_img_1250489853.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: ../AiSmart/ui_events.h
@@ -2710,6 +2857,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: ../AiSmart/images/ui_img_1251777188.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: ../AiSmart/ui_events.h
@@ -2839,6 +2987,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o: ../AiSmart/images/ui_img_1273346190.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o: ../AiSmart/ui_events.h
@@ -2968,6 +3117,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: ../AiSmart/images/ui_img_1274767758.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: ../AiSmart/ui_events.h
@@ -3097,6 +3247,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: ../AiSmart/images/ui_img_1305061770.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: ../AiSmart/ui_events.h
@@ -3226,6 +3377,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: ../AiSmart/images/ui_img_1317392200.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: ../AiSmart/ui_events.h
@@ -3355,6 +3507,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: ../AiSmart/images/ui_img_1328066288.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: ../AiSmart/ui_events.h
@@ -3484,6 +3637,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: ../AiSmart/images/ui_img_1328075000.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: ../AiSmart/ui_events.h
@@ -3613,6 +3767,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: ../AiSmart/images/ui_img_1345017118.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: ../AiSmart/ui_events.h
@@ -3742,6 +3897,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o: ../AiSmart/images/ui_img_1395808306.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o: ../AiSmart/ui_events.h
@@ -3871,6 +4027,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: ../AiSmart/images/ui_img_1409127908.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: ../AiSmart/ui_events.h
@@ -4000,6 +4157,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: ../AiSmart/images/ui_img_1433976870.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: ../AiSmart/ui_events.h
@@ -4129,6 +4287,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: ../AiSmart/images/ui_img_1442695620.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: ../AiSmart/ui_events.h
@@ -4258,6 +4417,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: ../AiSmart/images/ui_img_1445365126.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: ../AiSmart/ui_events.h
@@ -4387,6 +4547,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: ../AiSmart/images/ui_img_1447691688.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: ../AiSmart/ui_events.h
@@ -4516,6 +4677,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: ../AiSmart/images/ui_img_1488135120.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: ../AiSmart/ui_events.h
@@ -4645,6 +4807,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: ../AiSmart/images/ui_img_1521996747.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: ../AiSmart/ui_events.h
@@ -4774,6 +4937,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: ../lvgl/src/widgets/lv_sli
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: ../AiSmart/images/ui_img_15388586.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: ../AiSmart/ui_events.h
@@ -4903,6 +5067,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: ../AiSmart/images/ui_img_1542151835.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: ../AiSmart/ui_events.h
@@ -5032,6 +5197,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: ../AiSmart/images/ui_img_154984886.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: ../AiSmart/ui_events.h
@@ -5161,6 +5327,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: ../AiSmart/images/ui_img_155258266.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: ../AiSmart/ui_events.h
@@ -5290,6 +5457,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: ../AiSmart/images/ui_img_1558633752.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: ../AiSmart/ui_events.h
@@ -5419,6 +5587,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o: ../AiSmart/images/ui_img_1579771612.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o: ../AiSmart/ui_events.h
@@ -5548,6 +5717,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: ../AiSmart/images/ui_img_1613165469.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: ../AiSmart/ui_events.h
@@ -5677,6 +5847,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: ../AiSmart/images/ui_img_1627204797.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: ../AiSmart/ui_events.h
@@ -5806,6 +5977,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: ../AiSmart/images/ui_img_1628148309.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: ../AiSmart/ui_events.h
@@ -5935,6 +6107,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: ../AiSmart/images/ui_img_1630928100.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: ../AiSmart/ui_events.h
@@ -6064,6 +6237,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: ../AiSmart/images/ui_img_1637902983.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: ../AiSmart/ui_events.h
@@ -6193,6 +6367,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: ../AiSmart/images/ui_img_1646327931.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: ../AiSmart/ui_events.h
@@ -6322,6 +6497,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: ../AiSmart/images/ui_img_1651021565.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: ../AiSmart/ui_events.h
@@ -6451,6 +6627,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: ../AiSmart/images/ui_img_1651094022.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: ../AiSmart/ui_events.h
@@ -6580,6 +6757,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o: ../AiSmart/images/ui_img_1673239870.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o: ../AiSmart/ui_events.h
@@ -6709,6 +6887,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: ../AiSmart/images/ui_img_169773555.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: ../AiSmart/ui_events.h
@@ -6838,6 +7017,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: ../AiSmart/images/ui_img_1720058713.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: ../AiSmart/ui_events.h
@@ -6967,6 +7147,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: ../AiSmart/images/ui_img_1758642971.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: ../AiSmart/ui_events.h
@@ -7096,6 +7277,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o: ../AiSmart/images/ui_img_1758698815.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o: ../AiSmart/ui_events.h
@@ -7225,6 +7407,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: ../AiSmart/images/ui_img_1758700865.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: ../AiSmart/ui_events.h
@@ -7354,6 +7537,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: ../AiSmart/images/ui_img_1761902563.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: ../AiSmart/ui_events.h
@@ -7483,6 +7667,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: ../AiSmart/images/ui_img_177437335.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: ../AiSmart/ui_events.h
@@ -7612,6 +7797,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o: ../AiSmart/images/ui_img_1779534644.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o: ../AiSmart/ui_events.h
@@ -7741,6 +7927,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: ../AiSmart/images/ui_img_1800458682.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: ../AiSmart/ui_events.h
@@ -7870,6 +8057,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: ../AiSmart/images/ui_img_1804492491.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: ../AiSmart/ui_events.h
@@ -7999,6 +8187,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: ../AiSmart/images/ui_img_1810507611.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: ../AiSmart/ui_events.h
@@ -8128,6 +8317,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: ../AiSmart/images/ui_img_1850222669.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: ../AiSmart/ui_events.h
@@ -8257,6 +8447,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: ../AiSmart/images/ui_img_1863416723.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: ../AiSmart/ui_events.h
@@ -8386,6 +8577,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: ../AiSmart/images/ui_img_1874934912.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: ../AiSmart/ui_events.h
@@ -8515,6 +8707,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: ../AiSmart/images/ui_img_188625264.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: ../AiSmart/ui_events.h
@@ -8644,6 +8837,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: ../AiSmart/images/ui_img_1887742475.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: ../AiSmart/ui_events.h
@@ -8773,6 +8967,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: ../AiSmart/images/ui_img_189052461.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: ../AiSmart/ui_events.h
@@ -8902,6 +9097,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: ../AiSmart/images/ui_img_190977669.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: ../AiSmart/ui_events.h
@@ -9031,6 +9227,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: ../AiSmart/images/ui_img_1932583977.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: ../AiSmart/ui_events.h
@@ -9160,6 +9357,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: ../AiSmart/images/ui_img_193771503.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: ../AiSmart/ui_events.h
@@ -9289,6 +9487,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o: ../AiSmart/images/ui_img_1946132634.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o: ../AiSmart/ui_events.h
@@ -9418,6 +9617,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: ../AiSmart/images/ui_img_1951583080.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: ../AiSmart/ui_events.h
@@ -9547,6 +9747,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: ../AiSmart/images/ui_img_1970916912.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: ../AiSmart/ui_events.h
@@ -9676,6 +9877,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: ../AiSmart/images/ui_img_1997765350.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: ../AiSmart/ui_events.h
@@ -9805,6 +10007,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o: ../AiSmart/images/ui_img_201494986.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o: ../AiSmart/ui_events.h
@@ -9934,6 +10137,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: ../AiSmart/images/ui_img_2024978968.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: ../AiSmart/ui_events.h
@@ -10063,6 +10267,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: ../AiSmart/images/ui_img_2026381252.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: ../AiSmart/ui_events.h
@@ -10192,6 +10397,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o: ../AiSmart/images/ui_img_2084888120.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o: ../AiSmart/ui_events.h
@@ -10321,6 +10527,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: ../AiSmart/images/ui_img_2100201431.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: ../AiSmart/ui_events.h
@@ -10450,6 +10657,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: ../AiSmart/images/ui_img_2103162353.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: ../AiSmart/ui_events.h
@@ -10579,6 +10787,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: ../AiSmart/images/ui_img_2130913025.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: ../AiSmart/ui_events.h
@@ -10708,6 +10917,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: ../AiSmart/images/ui_img_213109427.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: ../AiSmart/ui_events.h
@@ -10837,6 +11047,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: ../lvgl/src/widgets/lv_s
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: ../AiSmart/images/ui_img_2144570017.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: ../AiSmart/ui_events.h
@@ -10966,6 +11177,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: ../AiSmart/images/ui_img_253109117.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: ../AiSmart/ui_events.h
@@ -11095,6 +11307,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: ../AiSmart/images/ui_img_261042028.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: ../AiSmart/ui_events.h
@@ -11224,6 +11437,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: ../AiSmart/images/ui_img_270677314.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: ../AiSmart/ui_events.h
@@ -11353,6 +11567,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: ../AiSmart/images/ui_img_328345682.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: ../AiSmart/ui_events.h
@@ -11482,6 +11697,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: ../AiSmart/images/ui_img_338008226.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: ../AiSmart/ui_events.h
@@ -11611,6 +11827,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: ../AiSmart/images/ui_img_396379797.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: ../AiSmart/ui_events.h
@@ -11740,6 +11957,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: ../AiSmart/images/ui_img_409892641.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: ../AiSmart/ui_events.h
@@ -11869,6 +12087,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: ../AiSmart/images/ui_img_410336698.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: ../AiSmart/ui_events.h
@@ -11998,6 +12217,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: ../AiSmart/images/ui_img_413235124.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: ../AiSmart/ui_events.h
@@ -12127,6 +12347,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: ../AiSmart/images/ui_img_440466655.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: ../AiSmart/ui_events.h
@@ -12256,6 +12477,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o: ../AiSmart/images/ui_img_449276547.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o: ../AiSmart/ui_events.h
@@ -12385,6 +12607,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: ../AiSmart/images/ui_img_457596404.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: ../AiSmart/ui_events.h
@@ -12514,6 +12737,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: ../AiSmart/images/ui_img_489599133.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: ../AiSmart/ui_events.h
@@ -12643,6 +12867,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: ../AiSmart/images/ui_img_520288613.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: ../AiSmart/ui_events.h
@@ -12772,6 +12997,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o: ../AiSmart/images/ui_img_520820240.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o: ../AiSmart/ui_events.h
@@ -12901,6 +13127,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o: ../AiSmart/images/ui_img_525561802.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o: ../AiSmart/ui_events.h
@@ -13030,6 +13257,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: ../AiSmart/images/ui_img_537163071.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: ../AiSmart/ui_events.h
@@ -13159,6 +13387,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: ../AiSmart/images/ui_img_590844277.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: ../AiSmart/ui_events.h
@@ -13288,6 +13517,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: ../lvgl/src/widgets/lv_slid
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: ../AiSmart/images/ui_img_6017182.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: ../AiSmart/ui_events.h
@@ -13417,6 +13647,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: ../lvgl/src/widgets/lv_sli
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: ../AiSmart/images/ui_img_60263710.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: ../AiSmart/ui_events.h
@@ -13546,6 +13777,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: ../AiSmart/images/ui_img_642449591.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: ../AiSmart/ui_events.h
@@ -13675,6 +13907,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: ../AiSmart/images/ui_img_647165550.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: ../AiSmart/ui_events.h
@@ -13804,6 +14037,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: ../lvgl/src/widgets/lv_sli
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: ../AiSmart/images/ui_img_64789106.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: ../AiSmart/ui_events.h
@@ -13933,6 +14167,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: ../AiSmart/images/ui_img_657341686.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: ../AiSmart/ui_events.h
@@ -14062,6 +14297,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: ../AiSmart/images/ui_img_691945150.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: ../AiSmart/ui_events.h
@@ -14191,6 +14427,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: ../AiSmart/images/ui_img_701452542.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: ../AiSmart/ui_events.h
@@ -14320,6 +14557,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: ../AiSmart/images/ui_img_703197322.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: ../AiSmart/ui_events.h
@@ -14449,6 +14687,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: ../AiSmart/images/ui_img_719381313.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: ../AiSmart/ui_events.h
@@ -14578,6 +14817,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o: ../AiSmart/images/ui_img_721922142.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o: ../AiSmart/ui_events.h
@@ -14707,6 +14947,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: ../AiSmart/images/ui_img_743825838.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: ../AiSmart/ui_events.h
@@ -14836,6 +15077,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o: ../AiSmart/images/ui_img_748560880.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o: ../AiSmart/ui_events.h
@@ -14965,6 +15207,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: ../AiSmart/images/ui_img_754698310.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: ../AiSmart/ui_events.h
@@ -15094,6 +15337,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: ../AiSmart/images/ui_img_758318489.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: ../AiSmart/ui_events.h
@@ -15223,6 +15467,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: ../AiSmart/images/ui_img_768535410.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: ../AiSmart/ui_events.h
@@ -15352,6 +15597,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: ../AiSmart/images/ui_img_774798805.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: ../AiSmart/ui_events.h
@@ -15481,6 +15727,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: ../AiSmart/images/ui_img_796891563.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: ../AiSmart/ui_events.h
@@ -15610,6 +15857,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: ../AiSmart/images/ui_img_819928086.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: ../AiSmart/ui_events.h
@@ -15739,6 +15987,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: ../AiSmart/images/ui_img_836835141.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: ../AiSmart/ui_events.h
@@ -15868,6 +16117,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: ../AiSmart/images/ui_img_838590808.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: ../AiSmart/ui_events.h
@@ -15997,6 +16247,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: ../AiSmart/images/ui_img_865156645.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: ../AiSmart/ui_events.h
@@ -16126,6 +16377,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o: ../AiSmart/images/ui_img_873017022.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o: ../AiSmart/ui_events.h
@@ -16255,6 +16507,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: ../AiSmart/images/ui_img_878326522.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: ../AiSmart/ui_events.h
@@ -16384,6 +16637,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: ../AiSmart/images/ui_img_918736298.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: ../AiSmart/ui_events.h
@@ -16513,6 +16767,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: ../AiSmart/images/ui_img_921266886.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: ../AiSmart/ui_events.h
@@ -16642,10 +16897,141 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../AiSmart/images/ui_img_945703623.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../AiSmart/ui_events.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: ../AiSmart/ui_helpers.h
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lv_conf.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/lvgl.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_disp.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_event.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_group.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_indev.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_obj.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_obj_class.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_obj_draw.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_obj_pos.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_obj_scroll.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_obj_style.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_obj_style_gen.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_obj_tree.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_refr.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/core/lv_theme.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_arc.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_img.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_label.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_layer.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_line.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_mask.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_rect.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_transform.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_draw_triangle.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_img_buf.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_img_cache.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/lv_img_decoder.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/sw/lv_draw_sw_dither.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/draw/sw/lv_draw_sw_gradient.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/layouts/flex/lv_flex.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/layouts/grid/lv_grid.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/layouts/lv_layouts.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/bmp/lv_bmp.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/freetype/lv_freetype.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fsdrv.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/gif/gifdec.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/gif/lv_gif.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/lv_libs.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/png/lv_png.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/qrcode/lv_qrcode.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/rlottie/lv_rlottie.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/sjpg/lv_sjpg.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/lv_extra.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/others/fragment/lv_fragment.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/others/gridnav/lv_gridnav.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/others/ime/lv_ime_pinyin.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/others/imgfont/lv_imgfont.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/others/lv_others.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/others/monkey/lv_monkey.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/others/msg/lv_msg.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/others/snapshot/lv_snapshot.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/themes/basic/lv_theme_basic.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/themes/default/lv_theme_default.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/themes/lv_themes.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/themes/mono/lv_theme_mono.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/animimg/lv_animimg.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/chart/lv_chart.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/keyboard/lv_keyboard.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/led/lv_led.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/list/lv_list.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/lv_widgets.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/menu/lv_menu.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/meter/lv_meter.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/msgbox/lv_msgbox.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/span/lv_span.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/spinbox/lv_spinbox.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/spinner/lv_spinner.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/tabview/lv_tabview.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/tileview/lv_tileview.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/extra/widgets/win/lv_win.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/font/lv_font.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/font/lv_font_fmt_txt.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/font/lv_font_loader.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/font/lv_symbol_def.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/hal/lv_hal.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/hal/lv_hal_disp.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/hal/lv_hal_indev.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/hal/lv_hal_tick.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/lv_api_map.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/lv_conf_internal.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/lv_conf_kconfig.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/lvgl.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_anim.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_anim_timeline.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_area.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_assert.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_async.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_bidi.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_color.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_fs.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_ll.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_log.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_math.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_mem.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_printf.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_style.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_style_gen.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_timer.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_txt.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/misc/lv_types.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_arc.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_bar.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_btn.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_btnmatrix.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_canvas.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_checkbox.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_dropdown.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_img.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_label.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_line.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_roller.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_slider.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_switch.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_table.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../AiSmart/depskmainCopy.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../AiSmart/images/ui_img_977105517.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../AiSmart/ui.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../AiSmart/ui_events.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: ../AiSmart/ui_helpers.h
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../lv_conf.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../lvgl/lvgl.h
@@ -16771,6 +17157,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../AiSmart/images/ui_img_986324200.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o: ../AiSmart/ui_events.h
@@ -16900,6 +17287,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: ../lvgl/src/widgets/lv_sl
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: ../AiSmart/images/ui_img_998280680.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: ../AiSmart/ui_events.h
@@ -17029,6 +17417,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: ../lvgl/src/widgets/lv_slider.
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: ../AiSmart/screens/ui_Screen1.c
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: ../AiSmart/ui_events.h
@@ -17158,6 +17547,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: ../lvgl/src/widgets/lv_slider.
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: ../AiSmart/screens/ui_Screen2.c
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: ../AiSmart/ui_events.h
@@ -17287,6 +17677,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o: ../lvgl/src/widgets/lv_slider.
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o: ../AiSmart/screens/ui_Screen3.c
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o: ../AiSmart/ui_events.h
@@ -17416,6 +17807,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o: ../lvgl/src/widgets/lv_slider.
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o: ../AiSmart/screens/ui_Screen4.c
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o: ../AiSmart/ui_events.h
@@ -17545,6 +17937,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o: ../lvgl/src/widgets/lv_slider.
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o: ../AiSmart/screens/ui_Screen5.c
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o: ../AiSmart/ui_events.h
@@ -17674,6 +18067,7 @@ AiSmart/CMakeFiles/ui.dir/ui.c.o: ../lvgl/src/widgets/lv_slider.h
 AiSmart/CMakeFiles/ui.dir/ui.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/ui.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/ui.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/ui.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/ui.c.o: ../AiSmart/ui.c
 AiSmart/CMakeFiles/ui.dir/ui.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/ui.c.o: ../AiSmart/ui_events.h
@@ -17933,6 +18327,7 @@ AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../lvgl/src/widgets/lv_slider.h
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../lvgl/src/widgets/lv_switch.h
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../lvgl/src/widgets/lv_table.h
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../lvgl/src/widgets/lv_textarea.h
+AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../AiSmart/ui_events.h
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../AiSmart/ui_helpers.c

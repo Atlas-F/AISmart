@@ -18,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../."
   ".././AiSmart"
+  "/opt/curl/build-arm/include"
   "../lvgl"
   "../lvgl/examples"
   "../lvgl/demos"

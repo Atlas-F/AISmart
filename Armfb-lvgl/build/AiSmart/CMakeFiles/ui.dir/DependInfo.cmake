@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/cJSON.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/cJSON.c.o"
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/components/ui_comp_hook.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/components/ui_comp_hook.c.o"
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/depskmainCopy.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o"
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/fonts/ui_font_puhui18.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o"
@@ -135,6 +136,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/images/ui_img_918736298.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o"
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/images/ui_img_921266886.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o"
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/images/ui_img_945703623.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o"
+  "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/images/ui_img_977105517.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o"
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/images/ui_img_986324200.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o"
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/images/ui_img_998280680.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o"
   "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/screens/ui_Screen1.c" "/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o"
@@ -152,6 +154,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../."
   ".././AiSmart"
+  "/opt/curl/build-arm/include"
   )
 
 # Targets to which this target links.

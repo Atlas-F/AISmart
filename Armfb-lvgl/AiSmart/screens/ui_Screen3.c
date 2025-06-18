@@ -80,8 +80,8 @@ void ui_Screen3_screen_init(void)
     lv_img_set_src(ui_Image19, &ui_img_2130913025);
     lv_obj_set_width(ui_Image19, LV_SIZE_CONTENT);   /// 256
     lv_obj_set_height(ui_Image19, LV_SIZE_CONTENT);    /// 256
-    lv_obj_set_x(ui_Image19, -29);
-    lv_obj_set_y(ui_Image19, -107);
+    lv_obj_set_x(ui_Image19, -30);
+    lv_obj_set_y(ui_Image19, -102);
     lv_obj_set_align(ui_Image19, LV_ALIGN_CENTER);
     lv_obj_add_flag(ui_Image19, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_Image19, LV_OBJ_FLAG_SCROLLABLE);      /// Flags

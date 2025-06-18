@@ -130,6 +130,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ui.dir/images/ui_img_918736298.c.o"
   "CMakeFiles/ui.dir/images/ui_img_921266886.c.o"
   "CMakeFiles/ui.dir/images/ui_img_945703623.c.o"
+  "CMakeFiles/ui.dir/images/ui_img_977105517.c.o"
   "CMakeFiles/ui.dir/images/ui_img_986324200.c.o"
   "CMakeFiles/ui.dir/images/ui_img_998280680.c.o"
   "CMakeFiles/ui.dir/screens/ui_Screen1.c.o"

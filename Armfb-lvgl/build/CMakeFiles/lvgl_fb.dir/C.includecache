@@ -210,13 +210,23 @@ src/lv_api_map.h
 src/extra/lv_extra.h
 ../lvgl/src/extra/lv_extra.h
 
+/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/depskmainCopy.h
+lvgl/lvgl.h
+/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/lvgl/lvgl.h
+
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui.h
 lvgl/lvgl.h
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/lvgl/lvgl.h
+stdio.h
+-
+errno.h
+-
 ui_helpers.h
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_helpers.h
 ui_events.h
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_events.h
+depskmainCopy.h
+/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/depskmainCopy.h
 
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_events.h
 

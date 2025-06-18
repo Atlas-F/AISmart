@@ -13,6 +13,11 @@ void movedown_Animation(lv_obj_t * TargetObject, int delay);
 void moveup_Animation(lv_obj_t * TargetObject, int delay);
 void flashmic64_Animation(lv_obj_t * TargetObject, int delay);
 void flashmic128_Animation(lv_obj_t * TargetObject, int delay);
+void yuebing_Animation(lv_obj_t * TargetObject, int delay);
+
+// const char * kbEntertext ;   const 与普通状态的区别？
+// 输入给AI的中间缓冲区
+char * kbEntertext ;
 
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
@@ -105,6 +110,8 @@ lv_obj_t * ui_horn1;
 lv_obj_t * ui_TextArea1;
 void ui_event_Keyboard1(lv_event_t * e);
 lv_obj_t * ui_Keyboard1;
+void ui_event_inputlogo(lv_event_t * e);
+lv_obj_t * ui_inputlogo;
 
 
 // SCREEN: ui_Screen3
@@ -440,6 +447,29 @@ void flashmic128_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_start(&PropertyAnimation_0);
 
 }
+void yuebing_Animation(lv_obj_t * TargetObject, int delay)
+{
+    ui_anim_user_data_t * PropertyAnimation_0_user_data = lv_mem_alloc(sizeof(ui_anim_user_data_t));
+    PropertyAnimation_0_user_data->target = TargetObject;
+    PropertyAnimation_0_user_data->val = -1;
+    lv_anim_t PropertyAnimation_0;
+    lv_anim_init(&PropertyAnimation_0);
+    lv_anim_set_time(&PropertyAnimation_0, 2000);
+    lv_anim_set_user_data(&PropertyAnimation_0, PropertyAnimation_0_user_data);
+    lv_anim_set_custom_exec_cb(&PropertyAnimation_0, _ui_anim_callback_set_image_zoom);
+    lv_anim_set_values(&PropertyAnimation_0, 0, 128);
+    lv_anim_set_path_cb(&PropertyAnimation_0, lv_anim_path_linear);
+    lv_anim_set_delay(&PropertyAnimation_0, delay + 0);
+    lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
+    lv_anim_set_playback_time(&PropertyAnimation_0, 0);
+    lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 0);
+    lv_anim_set_repeat_delay(&PropertyAnimation_0, 0);
+    lv_anim_set_early_apply(&PropertyAnimation_0, false);
+    lv_anim_set_get_value_cb(&PropertyAnimation_0, &_ui_anim_callback_get_image_zoom);
+    lv_anim_start(&PropertyAnimation_0);
+
+}
 
 ///////////////////// FUNCTIONS ////////////////////
 void ui_event_Screen1(lv_event_t * e)
@@ -447,7 +477,7 @@ void ui_event_Screen1(lv_event_t * e)
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
     // /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/SimuTalk-copy.txt
-    ftex = fopen("SimuTalk-copy.txt", "r");
+    // ftex = fopen("SimuTalk-copy.txt", "r");
 
     InitEmojiAutoChange(e);
     InitSowTimeDate(e);
@@ -606,11 +636,8 @@ void ui_event_humanPanel(lv_event_t * e)
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
     if(event_code == LV_EVENT_CLICKED) {
-        SetLabel(e);
+        // SetLabel(e);
     }
-    // if(event_code == LV_EVENT_CLICKED) {
-    //     moveup_Animation(ui_humanPanel, 0);
-    // }
 }
 void ui_event_mic(lv_event_t * e)
 {
@@ -632,8 +659,50 @@ void ui_event_Keyboard1(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
-    if(event_code == LV_EVENT_CLICKED) {
-        _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+    kbenterevent_code = lv_event_get_code(e);
+
+
+    // SetLabel(e);
+    // depmain(e);
+
+    // if(event_code == LV_EVENT_READY) {
+    //     // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+    //     kbEntertext = lv_textarea_get_text(ui_TextArea1);
+    //     printf("提交内容: %s\n", kbEntertext);
+
+    //     lv_keyboard_set_textarea(ui_Keyboard1, NULL);  // 解除关联
+    //     lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+    // }
+}
+
+void ui_event_inputlogo(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+    // 创建会话 - 修复API密钥传递问题 使用硬编码API Key
+        session = deepseek_create_session("sk-28b778879e5b4fd6b227d767812fd83d");
+        if (!session) {
+            fprintf(stderr, "创建会话失败\n");
+            return 1;
+        }
+
+    if(event_code == LV_EVENT_LONG_PRESSED ) 
+    {
+
+        lv_obj_clear_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);
+        lv_obj_clear_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+        lv_obj_set_pos(ui_inputlogo, 117, 11);
+
+        depmainlong(e);
+
+    }
+
+    if( event_code == LV_EVENT_CLICKED )
+    {
+        printf("inputlogo被长按!\n");
+        depmaintalk(e);
+        printf("退出eventcode！\n");
     }
 }
 void ui_event_Screen3(lv_event_t * e)

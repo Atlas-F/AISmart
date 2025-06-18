@@ -12,22 +12,24 @@ extern "C" {
 
 #include "lvgl/lvgl.h"
 
-// #include "lv_i18n.h"
-#include "ui_helpers.h"
-#include "ui_events.h"
 #include <stdio.h>
 
 #include <errno.h>
+#include "ui_helpers.h"
+#include "ui_events.h"
+
+#include "depskmainCopy.h"
+extern  lv_timer_t *emoji_timer;
+extern FILE * ftex;
+extern DeepSeekSession *session;
+lv_event_code_t kbenterevent_code;
 void floatout_Animation(lv_obj_t * TargetObject, int delay);
 void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
 void movedown_Animation(lv_obj_t * TargetObject, int delay);
 void moveup_Animation(lv_obj_t * TargetObject, int delay);
 void flashmic64_Animation(lv_obj_t * TargetObject, int delay);
 void flashmic128_Animation(lv_obj_t * TargetObject, int delay);
-
-extern  lv_timer_t *emoji_timer;
-extern FILE * ftex;
-
+void yuebing_Animation(lv_obj_t * TargetObject, int delay);
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
 void ui_event_Screen1(lv_event_t * e);
@@ -115,6 +117,8 @@ extern lv_obj_t * ui_horn1;
 extern lv_obj_t * ui_TextArea1;
 void ui_event_Keyboard1(lv_event_t * e);
 extern lv_obj_t * ui_Keyboard1;
+void ui_event_inputlogo(lv_event_t * e);
+extern lv_obj_t * ui_inputlogo;
 // SCREEN: ui_Screen3
 void ui_Screen3_screen_init(void);
 void ui_event_Screen3(lv_event_t * e);
@@ -204,6 +208,7 @@ LV_IMG_DECLARE(ui_img_1445365126);    // assets/AI头像.png
 LV_IMG_DECLARE(ui_img_1761902563);    // assets/男头像.png
 LV_IMG_DECLARE(ui_img_1637902983);    // assets/喇叭.png
 LV_IMG_DECLARE(ui_img_1758642971);    // assets/喇叭 (1).png
+LV_IMG_DECLARE(ui_img_977105517);    // assets/输入框.png
 LV_IMG_DECLARE(ui_img_520288613);    // assets/食物/三明治_1749986549.png
 LV_IMG_DECLARE(ui_img_2130913025);    // assets/食物/中秋月饼_1749986266.png
 LV_IMG_DECLARE(ui_img_1810507611);    // assets/食物/便当盒_1749986578.png

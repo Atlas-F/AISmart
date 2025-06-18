@@ -1,5 +1,9 @@
-#ifndef _DPSKMAINCOPY_H_
-#define _DPSKMAINCOPY_H_
+#ifndef _DEPSKMAINCOPY_H_
+#define _DEPSKMAINCOPY_H_
+
+#include "lvgl/lvgl.h"
+// #include <curl/curl.h>
+
 
 // ================== 数据结构定义 ==================
 // 存储HTTP响应
@@ -53,8 +57,12 @@ void deepseek_get_token_stats(
     int *total_all
 );
 
+void get_full_text_input(char *dest, size_t dest_size) ;
 
 
-int depmain(void);
+int depmainlong(lv_event_t * e) ;
+
+
+int depmaintalk(lv_event_t * e);
 
 #endif

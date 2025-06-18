@@ -40,10 +40,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <curl/curl.h>
-#include <cjson/cJSON.h>
-
+#include "cJSON.h"
 // 下面语句与上面两条预处理在从欧冠SquareLine中将ui导出后要添加到ui.c中
 # if 0
+记得在CMakeLists.txt中加入depskmainCopy.c
+
 extern  lv_timer_t *emoji_timer;
 extern FILE * ftex;
 _ui_label_set_property(ui_AILabel, _UI_LABEL_PROPERTY_TEXT, "设置AIlabel");
@@ -206,7 +207,7 @@ void GetOutNowDate()
         int hour = local_time->tm_hour;
         int min = local_time->tm_min;
         int sec = local_time->tm_sec;
-        printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
+        // printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
         
         lv_label_set_text_fmt(ui_date2, "%d-%d", month, day);
         
@@ -314,7 +315,7 @@ void ChangeHumanLabelTextClick(lv_event_t * e)
     int offset;
 
     printf("准备调用deepseek\n");
-    depmain();
+    // depmain(lv_event_t * e);
     printf("结束调用deepseek\n");
 
 
@@ -384,6 +385,70 @@ void ui_event_Screen1(lv_event_t * e)
         lv_timer_pause(emoji_timer);
         lv_indev_wait_release(lv_indev_get_act());
         _ui_screen_change(&ui_Screen4, LV_SCR_LOAD_ANIM_MOVE_BOTTOM, 500, 0, &ui_Screen4_screen_init);
+    }
+}
+
+
+void ui_event_inputlogo(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        moveup_Animation(ui_TextArea1, 0);
+        moveup_Animation(ui_Keyboard1, 0);
+    }
+}
+
+// 创建时直接关联文本框
+    _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+    lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+
+void ui_event_Keyboard1(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_READY) {
+        // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+        const char * text = lv_textarea_get_text(ui_TextArea1);
+        printf("提交内容: %s\n", text);
+
+        lv_keyboard_set_textarea(keyboard, NULL);  // 解除关联
+        lv_obj_add_flag(keyboard, LV_OBJ_FLAG_HIDDEN);
+    }
+}
+
+
+
+void ui_event_Keyboard1(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+
+    SetLabel(e);
+
+    // if(event_code == LV_EVENT_READY) {
+    //     // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+    //     kbEntertext = lv_textarea_get_text(ui_TextArea1);
+    //     printf("提交内容: %s\n", kbEntertext);
+
+    //     lv_keyboard_set_textarea(ui_Keyboard1, NULL);  // 解除关联
+    //     lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+    // }
+}
+
+void ui_event_inputlogo(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        moveup_Animation(ui_TextArea1, 0);
+        moveup_Animation(ui_Keyboard1, 0);
+
+        lv_obj_clear_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);
+        lv_obj_clear_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+        lv_obj_set_pos(ui_inputlogo, 117, 11);
+        // lv_obj_add_flag(ui_inputlogo, LV_OBJ_FLAG_HIDDEN);
     }
 }
 

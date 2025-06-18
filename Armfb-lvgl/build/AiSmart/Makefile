@@ -171,6 +171,33 @@ ui/fast:
 	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/build
 .PHONY : ui/fast
 
+cJSON.o: cJSON.c.o
+
+.PHONY : cJSON.o
+
+# target to build an object file
+cJSON.c.o:
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/cJSON.c.o
+.PHONY : cJSON.c.o
+
+cJSON.i: cJSON.c.i
+
+.PHONY : cJSON.i
+
+# target to preprocess a source file
+cJSON.c.i:
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/cJSON.c.i
+.PHONY : cJSON.c.i
+
+cJSON.s: cJSON.c.s
+
+.PHONY : cJSON.s
+
+# target to generate assembly for a file
+cJSON.c.s:
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/cJSON.c.s
+.PHONY : cJSON.c.s
+
 components/ui_comp_hook.o: components/ui_comp_hook.c.o
 
 .PHONY : components/ui_comp_hook.o
@@ -3708,6 +3735,33 @@ images/ui_img_945703623.c.s:
 	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.s
 .PHONY : images/ui_img_945703623.c.s
 
+images/ui_img_977105517.o: images/ui_img_977105517.c.o
+
+.PHONY : images/ui_img_977105517.o
+
+# target to build an object file
+images/ui_img_977105517.c.o:
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o
+.PHONY : images/ui_img_977105517.c.o
+
+images/ui_img_977105517.i: images/ui_img_977105517.c.i
+
+.PHONY : images/ui_img_977105517.i
+
+# target to preprocess a source file
+images/ui_img_977105517.c.i:
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.i
+.PHONY : images/ui_img_977105517.c.i
+
+images/ui_img_977105517.s: images/ui_img_977105517.c.s
+
+.PHONY : images/ui_img_977105517.s
+
+# target to generate assembly for a file
+images/ui_img_977105517.c.s:
+	cd /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build && $(MAKE) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.s
+.PHONY : images/ui_img_977105517.c.s
+
 images/ui_img_986324200.o: images/ui_img_986324200.c.o
 
 .PHONY : images/ui_img_986324200.o
@@ -3991,6 +4045,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ui"
+	@echo "... cJSON.o"
+	@echo "... cJSON.i"
+	@echo "... cJSON.s"
 	@echo "... components/ui_comp_hook.o"
 	@echo "... components/ui_comp_hook.i"
 	@echo "... components/ui_comp_hook.s"
@@ -4384,6 +4441,9 @@ help:
 	@echo "... images/ui_img_945703623.o"
 	@echo "... images/ui_img_945703623.i"
 	@echo "... images/ui_img_945703623.s"
+	@echo "... images/ui_img_977105517.o"
+	@echo "... images/ui_img_977105517.i"
+	@echo "... images/ui_img_977105517.s"
 	@echo "... images/ui_img_986324200.o"
 	@echo "... images/ui_img_986324200.i"
 	@echo "... images/ui_img_986324200.s"

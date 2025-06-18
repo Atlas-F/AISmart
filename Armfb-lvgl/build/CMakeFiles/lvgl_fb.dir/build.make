@@ -84,8 +84,7 @@ lvgl_fb: lvgl/liblvgl_examples.a
 lvgl_fb: lvgl/liblvgl_demos.a
 lvgl_fb: lib/liblv_drivers.a
 lvgl_fb: AiSmart/libui.a
-lvgl_fb: /usr/lib/x86_64-linux-gnu/libcurl.so
-lvgl_fb: /usr/lib/x86_64-linux-gnu/libcjson.so
+lvgl_fb: /opt/curl/build-arm/lib/libcurl.so
 lvgl_fb: lib/liblvgl.a
 lvgl_fb: CMakeFiles/lvgl_fb.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable lvgl_fb"

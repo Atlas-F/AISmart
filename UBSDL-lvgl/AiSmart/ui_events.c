@@ -31,8 +31,6 @@
 #include <stdio.h>
 
 #include <errno.h>
-
-
 #include "depskmainCopy.h"
 
 
@@ -42,16 +40,22 @@
 #include <curl/curl.h>
 #include <cjson/cJSON.h>
 
-// 下面语句与上面两条预处理在从欧冠SquareLine中将ui导出后要添加到ui.c中
+// x86架构将cJSON 使用库链接方式
+// arm架构将cJSON.c 和cJSON.h直接包含在文件里面，不使用库链接方式
+
+// 下面语句与上面两条预处理在从SquareLine中将ui导出后要添加到ui.c中
 # if 0
+记得在CMakeLists.txt中加入depskmainCopy.c
+// ui.h 中
 extern  lv_timer_t *emoji_timer;
 extern FILE * ftex;
+
+// ui.c 中输入给AI的中间缓冲区
+char * kbEntertext ;
+
 _ui_label_set_property(ui_AILabel, _UI_LABEL_PROPERTY_TEXT, "设置AIlabel");
 
 #endif
-
-
-
 
 
 
@@ -64,10 +68,11 @@ static uint8_t last_idx = 0;  // 初始化为无效索引
 // 时间日期定时器 
 lv_timer_t * timeDateTimer = NULL;
 
+// 模拟对话文本文件流
 FILE * ftex = NULL;
 
 /*********************
- * @brief 定时器回调函数
+ * @brief emoji表情切换定时器回调函数
  * @param  timer 定时器
  * @param idx 显示表情索引
  * @param last_idx 上一个显示索引
@@ -123,13 +128,22 @@ void InitEmojiAutoChange(lv_event_t *e)
     }
 }
 
-
+/*********************
+ * @brief 时间日期获取函数
+ * @param  timer 
+ *************************************************/
 void TimeDateTimercb(lv_timer_t *timer)
 {
     GetOutNowTime();
     GetOutNowDate();
 }
 
+
+/*********************
+ * @brief 时间日期显示定时器初始化
+ * @param  e 
+ * @param timeDateTimer 全局变量，时间日期定时器
+ *************************************************/
 void InitSowTimeDate(lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -173,6 +187,9 @@ void InitUnLoad(lv_event_t * e)
 
 
 
+/*********************
+ * @brief 获取时间
+ *************************************************/
 void GetOutNowTime()
 {
         time_t now;
@@ -192,6 +209,9 @@ void GetOutNowTime()
         
 }
 
+/*********************
+ * @brief 获取日期
+ *************************************************/
 void GetOutNowDate()
 {
         time_t now;
@@ -206,7 +226,7 @@ void GetOutNowDate()
         int hour = local_time->tm_hour;
         int min = local_time->tm_min;
         int sec = local_time->tm_sec;
-        printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
+        // printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
         
         lv_label_set_text_fmt(ui_date2, "%d-%d", month, day);
         
@@ -219,6 +239,11 @@ void GetOutNowDate()
  *************************************************/
 
  #if 0
+
+/*********************
+ * @brief 点击切换模拟对话文本内容
+ * @param  e 
+ *************************************************/
 void ChangeHumanLabelTextClick(lv_event_t * e)
 {
 
@@ -314,7 +339,7 @@ void ChangeHumanLabelTextClick(lv_event_t * e)
     int offset;
 
     printf("准备调用deepseek\n");
-    depmain();
+    // depmain(lv_event_t * e);
     printf("结束调用deepseek\n");
 
 
@@ -348,12 +373,16 @@ void SetLabel(lv_event_t * e)
 
 
 #if 0
+/*********************
+ * @brief 加载第一幕时需要做的初始化定时器，判定暂停和删除
+ * @param  e 
+ *************************************************/
 void ui_event_Screen1(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
     // /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/SimuTalk-copy.txt
-    ftex = fopen("SimuTalk-copy.txt", "r");
+    // ftex = fopen("SimuTalk-copy.txt", "r");
 
     InitEmojiAutoChange(e);
     InitSowTimeDate(e);
@@ -387,6 +416,104 @@ void ui_event_Screen1(lv_event_t * e)
     }
 }
 
+
+
+// 创建时直接关联文本框
+    _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+    lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+
+void ui_event_Keyboard1(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_READY) {
+        // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+        const char * text = lv_textarea_get_text(ui_TextArea1);
+        printf("提交内容: %s\n", text);
+
+        lv_keyboard_set_textarea(keyboard, NULL);  // 解除关联
+        lv_obj_add_flag(keyboard, LV_OBJ_FLAG_HIDDEN);
+    }
+}
+
+
+
+void ui_event_Keyboard1(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+
+    SetLabel(e);
+
+    // if(event_code == LV_EVENT_READY) {
+    //     // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+    //     kbEntertext = lv_textarea_get_text(ui_TextArea1);
+    //     printf("提交内容: %s\n", kbEntertext);
+
+    //     lv_keyboard_set_textarea(ui_Keyboard1, NULL);  // 解除关联
+    //     lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+    // }
+}
+
+
+
+
+void ui_event_inputlogo(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+
+    // 创建会话 - 修复API密钥传递问题 使用硬编码API Key
+        session = deepseek_create_session("sk-28b778879e5b4fd6b227d767812fd83d");
+        if (!session) {
+            fprintf(stderr, "创建会话失败\n");
+            return 1;
+        }
+
+    if(event_code == LV_EVENT_LONG_PRESSED ) 
+    {
+
+        lv_obj_clear_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);
+        lv_obj_clear_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+        lv_obj_set_pos(ui_inputlogo, 117, 11);
+
+        depmainlong(e);
+
+    }
+
+    if( event_code == LV_EVENT_CLICKED )
+    {
+        printf("inputlogo被长按!\n");
+        depmaintalk(e);
+        printf("退出eventcode！\n");
+    }
+}
+
+
+
+void ui_event_Keyboard1(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    kbenterevent_code = lv_event_get_code(e);
+
+
+    // SetLabel(e);
+    // depmain(e);
+
+    // if(event_code == LV_EVENT_READY) {
+    //     // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+    //     kbEntertext = lv_textarea_get_text(ui_TextArea1);
+    //     printf("提交内容: %s\n", kbEntertext);
+
+    //     lv_keyboard_set_textarea(ui_Keyboard1, NULL);  // 解除关联
+    //     lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+    // }
+}
+
+// 该事件取消setlabel
+void ui_event_humanPanel(lv_event_t * e)
 #endif 
 
 /* [USER CODE END ui_event] */

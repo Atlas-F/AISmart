@@ -4,8 +4,135 @@
 AiSmart/CMakeFiles/ui.dir/components/ui_comp_hook.c.o
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/components/ui_comp_hook.c
 AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o
+ ../lv_conf.h
+ ../lvgl/lvgl.h
+ ../lvgl/src/core/lv_disp.h
+ ../lvgl/src/core/lv_event.h
+ ../lvgl/src/core/lv_group.h
+ ../lvgl/src/core/lv_indev.h
+ ../lvgl/src/core/lv_obj.h
+ ../lvgl/src/core/lv_obj_class.h
+ ../lvgl/src/core/lv_obj_draw.h
+ ../lvgl/src/core/lv_obj_pos.h
+ ../lvgl/src/core/lv_obj_scroll.h
+ ../lvgl/src/core/lv_obj_style.h
+ ../lvgl/src/core/lv_obj_style_gen.h
+ ../lvgl/src/core/lv_obj_tree.h
+ ../lvgl/src/core/lv_refr.h
+ ../lvgl/src/core/lv_theme.h
+ ../lvgl/src/draw/lv_draw.h
+ ../lvgl/src/draw/lv_draw_arc.h
+ ../lvgl/src/draw/lv_draw_img.h
+ ../lvgl/src/draw/lv_draw_label.h
+ ../lvgl/src/draw/lv_draw_layer.h
+ ../lvgl/src/draw/lv_draw_line.h
+ ../lvgl/src/draw/lv_draw_mask.h
+ ../lvgl/src/draw/lv_draw_rect.h
+ ../lvgl/src/draw/lv_draw_transform.h
+ ../lvgl/src/draw/lv_draw_triangle.h
+ ../lvgl/src/draw/lv_img_buf.h
+ ../lvgl/src/draw/lv_img_cache.h
+ ../lvgl/src/draw/lv_img_decoder.h
+ ../lvgl/src/draw/sw/lv_draw_sw_dither.h
+ ../lvgl/src/draw/sw/lv_draw_sw_gradient.h
+ ../lvgl/src/extra/layouts/flex/lv_flex.h
+ ../lvgl/src/extra/layouts/grid/lv_grid.h
+ ../lvgl/src/extra/layouts/lv_layouts.h
+ ../lvgl/src/extra/libs/bmp/lv_bmp.h
+ ../lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h
+ ../lvgl/src/extra/libs/freetype/lv_freetype.h
+ ../lvgl/src/extra/libs/fsdrv/lv_fsdrv.h
+ ../lvgl/src/extra/libs/gif/gifdec.h
+ ../lvgl/src/extra/libs/gif/lv_gif.h
+ ../lvgl/src/extra/libs/lv_libs.h
+ ../lvgl/src/extra/libs/png/lv_png.h
+ ../lvgl/src/extra/libs/qrcode/lv_qrcode.h
+ ../lvgl/src/extra/libs/rlottie/lv_rlottie.h
+ ../lvgl/src/extra/libs/sjpg/lv_sjpg.h
+ ../lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h
+ ../lvgl/src/extra/lv_extra.h
+ ../lvgl/src/extra/others/fragment/lv_fragment.h
+ ../lvgl/src/extra/others/gridnav/lv_gridnav.h
+ ../lvgl/src/extra/others/ime/lv_ime_pinyin.h
+ ../lvgl/src/extra/others/imgfont/lv_imgfont.h
+ ../lvgl/src/extra/others/lv_others.h
+ ../lvgl/src/extra/others/monkey/lv_monkey.h
+ ../lvgl/src/extra/others/msg/lv_msg.h
+ ../lvgl/src/extra/others/snapshot/lv_snapshot.h
+ ../lvgl/src/extra/themes/basic/lv_theme_basic.h
+ ../lvgl/src/extra/themes/default/lv_theme_default.h
+ ../lvgl/src/extra/themes/lv_themes.h
+ ../lvgl/src/extra/themes/mono/lv_theme_mono.h
+ ../lvgl/src/extra/widgets/animimg/lv_animimg.h
+ ../lvgl/src/extra/widgets/calendar/lv_calendar.h
+ ../lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h
+ ../lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h
+ ../lvgl/src/extra/widgets/chart/lv_chart.h
+ ../lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h
+ ../lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h
+ ../lvgl/src/extra/widgets/keyboard/lv_keyboard.h
+ ../lvgl/src/extra/widgets/led/lv_led.h
+ ../lvgl/src/extra/widgets/list/lv_list.h
+ ../lvgl/src/extra/widgets/lv_widgets.h
+ ../lvgl/src/extra/widgets/menu/lv_menu.h
+ ../lvgl/src/extra/widgets/meter/lv_meter.h
+ ../lvgl/src/extra/widgets/msgbox/lv_msgbox.h
+ ../lvgl/src/extra/widgets/span/lv_span.h
+ ../lvgl/src/extra/widgets/spinbox/lv_spinbox.h
+ ../lvgl/src/extra/widgets/spinner/lv_spinner.h
+ ../lvgl/src/extra/widgets/tabview/lv_tabview.h
+ ../lvgl/src/extra/widgets/tileview/lv_tileview.h
+ ../lvgl/src/extra/widgets/win/lv_win.h
+ ../lvgl/src/font/lv_font.h
+ ../lvgl/src/font/lv_font_fmt_txt.h
+ ../lvgl/src/font/lv_font_loader.h
+ ../lvgl/src/font/lv_symbol_def.h
+ ../lvgl/src/hal/lv_hal.h
+ ../lvgl/src/hal/lv_hal_disp.h
+ ../lvgl/src/hal/lv_hal_indev.h
+ ../lvgl/src/hal/lv_hal_tick.h
+ ../lvgl/src/lv_api_map.h
+ ../lvgl/src/lv_conf_internal.h
+ ../lvgl/src/lv_conf_kconfig.h
+ ../lvgl/src/lvgl.h
+ ../lvgl/src/misc/lv_anim.h
+ ../lvgl/src/misc/lv_anim_timeline.h
+ ../lvgl/src/misc/lv_area.h
+ ../lvgl/src/misc/lv_assert.h
+ ../lvgl/src/misc/lv_async.h
+ ../lvgl/src/misc/lv_bidi.h
+ ../lvgl/src/misc/lv_color.h
+ ../lvgl/src/misc/lv_fs.h
+ ../lvgl/src/misc/lv_ll.h
+ ../lvgl/src/misc/lv_log.h
+ ../lvgl/src/misc/lv_math.h
+ ../lvgl/src/misc/lv_mem.h
+ ../lvgl/src/misc/lv_printf.h
+ ../lvgl/src/misc/lv_style.h
+ ../lvgl/src/misc/lv_style_gen.h
+ ../lvgl/src/misc/lv_timer.h
+ ../lvgl/src/misc/lv_txt.h
+ ../lvgl/src/misc/lv_types.h
+ ../lvgl/src/widgets/lv_arc.h
+ ../lvgl/src/widgets/lv_bar.h
+ ../lvgl/src/widgets/lv_btn.h
+ ../lvgl/src/widgets/lv_btnmatrix.h
+ ../lvgl/src/widgets/lv_canvas.h
+ ../lvgl/src/widgets/lv_checkbox.h
+ ../lvgl/src/widgets/lv_dropdown.h
+ ../lvgl/src/widgets/lv_img.h
+ ../lvgl/src/widgets/lv_label.h
+ ../lvgl/src/widgets/lv_line.h
+ ../lvgl/src/widgets/lv_roller.h
+ ../lvgl/src/widgets/lv_slider.h
+ ../lvgl/src/widgets/lv_switch.h
+ ../lvgl/src/widgets/lv_table.h
+ ../lvgl/src/widgets/lv_textarea.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.h
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o
  ../lv_conf.h
  ../lvgl/lvgl.h
@@ -131,6 +258,7 @@ AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/fonts/ui_font_puhui18.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -260,6 +388,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1006453824.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -389,6 +518,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1040098182.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -518,6 +648,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1042948001.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -647,6 +778,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_105594312.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -776,6 +908,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_106759925.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -905,6 +1038,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1072915872.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -1034,6 +1168,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1078335801.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -1163,6 +1298,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1106867240.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -1292,6 +1428,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1114756079.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -1421,6 +1558,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1143713160.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -1550,6 +1688,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1152444760.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -1679,6 +1818,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1179136265.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -1808,6 +1948,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1182216894.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -1937,6 +2078,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1186072952.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -2066,6 +2208,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1195015344.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -2195,6 +2338,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_120716944.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -2324,6 +2468,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1220561086.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -2453,6 +2598,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1221264709.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -2582,6 +2728,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1250489853.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -2711,6 +2858,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1251777188.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -2840,6 +2988,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1273346190.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1273346190.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -2969,6 +3118,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1274767758.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -3098,6 +3248,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1305061770.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -3227,6 +3378,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1317392200.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -3356,6 +3508,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1328066288.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -3485,6 +3638,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1328075000.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -3614,6 +3768,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1345017118.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -3743,6 +3898,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1395808306.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -3872,6 +4028,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1409127908.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -4001,6 +4158,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1433976870.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -4130,6 +4288,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1442695620.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -4259,6 +4418,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1445365126.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -4388,6 +4548,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1447691688.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -4517,6 +4678,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1488135120.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -4646,6 +4808,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1521996747.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -4775,6 +4938,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_15388586.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -4904,6 +5068,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1542151835.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -5033,6 +5198,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_154984886.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -5162,6 +5328,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_155258266.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -5291,6 +5458,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1558633752.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -5420,6 +5588,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1579771612.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -5549,6 +5718,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1613165469.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -5678,6 +5848,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1627204797.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -5807,6 +5978,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1628148309.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -5936,6 +6108,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1630928100.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -6065,6 +6238,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1637902983.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -6194,6 +6368,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1646327931.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -6323,6 +6498,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1651021565.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -6452,6 +6628,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1651094022.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -6581,6 +6758,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1673239870.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -6710,6 +6888,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_169773555.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -6839,6 +7018,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -6968,6 +7148,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1758642971.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -7097,6 +7278,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1758698815.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -7226,6 +7408,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1758700865.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -7355,6 +7538,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1761902563.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -7484,6 +7668,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_177437335.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -7613,6 +7798,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1779534644.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1779534644.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -7742,6 +7928,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1800458682.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -7871,6 +8058,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1804492491.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -8000,6 +8188,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1810507611.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -8129,6 +8318,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1850222669.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -8258,6 +8448,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1863416723.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -8387,6 +8578,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1874934912.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -8516,6 +8708,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_188625264.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -8645,6 +8838,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1887742475.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -8774,6 +8968,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_189052461.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -8903,6 +9098,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_190977669.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -9032,6 +9228,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -9161,6 +9358,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_193771503.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -9290,6 +9488,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1946132634.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1946132634.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -9419,6 +9618,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1951583080.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -9548,6 +9748,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1970916912.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -9677,6 +9878,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1997765350.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -9806,6 +10008,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_201494986.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_201494986.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -9935,6 +10138,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2024978968.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -10064,6 +10268,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2026381252.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -10193,6 +10398,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2084888120.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2084888120.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -10322,6 +10528,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2100201431.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -10451,6 +10658,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2103162353.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -10580,6 +10788,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2130913025.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -10709,6 +10918,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_213109427.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -10838,6 +11048,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2144570017.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -10967,6 +11178,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_253109117.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -11096,6 +11308,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_261042028.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -11225,6 +11438,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_270677314.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -11354,6 +11568,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_328345682.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -11483,6 +11698,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_338008226.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -11612,6 +11828,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_396379797.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -11741,6 +11958,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_409892641.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -11870,6 +12088,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_410336698.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -11999,6 +12218,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_413235124.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -12128,6 +12348,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_440466655.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -12257,6 +12478,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_449276547.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_449276547.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -12386,6 +12608,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_457596404.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -12515,6 +12738,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_489599133.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -12644,6 +12868,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_520288613.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -12773,6 +12998,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_520820240.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_520820240.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -12902,6 +13128,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_525561802.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -13031,6 +13258,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_537163071.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -13160,6 +13388,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_590844277.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -13289,6 +13518,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_6017182.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -13418,6 +13648,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_60263710.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -13547,6 +13778,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_642449591.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -13676,6 +13908,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_647165550.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -13805,6 +14038,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_64789106.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -13934,6 +14168,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_657341686.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -14063,6 +14298,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_691945150.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -14192,6 +14428,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_701452542.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -14321,6 +14558,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_703197322.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -14450,6 +14688,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_719381313.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -14579,6 +14818,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_721922142.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -14708,6 +14948,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_743825838.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -14837,6 +15078,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_748560880.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_748560880.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -14966,6 +15208,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_754698310.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -15095,6 +15338,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_758318489.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -15224,6 +15468,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_768535410.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -15353,6 +15598,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_774798805.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -15482,6 +15728,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_796891563.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -15611,6 +15858,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_819928086.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -15740,6 +15988,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_836835141.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -15869,6 +16118,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_838590808.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -15998,6 +16248,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_865156645.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -16127,6 +16378,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_873017022.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_873017022.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -16256,6 +16508,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_878326522.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -16385,6 +16638,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_918736298.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -16514,6 +16768,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_921266886.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -16643,7 +16898,138 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_945703623.c
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.h
+AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o
+ ../lv_conf.h
+ ../lvgl/lvgl.h
+ ../lvgl/src/core/lv_disp.h
+ ../lvgl/src/core/lv_event.h
+ ../lvgl/src/core/lv_group.h
+ ../lvgl/src/core/lv_indev.h
+ ../lvgl/src/core/lv_obj.h
+ ../lvgl/src/core/lv_obj_class.h
+ ../lvgl/src/core/lv_obj_draw.h
+ ../lvgl/src/core/lv_obj_pos.h
+ ../lvgl/src/core/lv_obj_scroll.h
+ ../lvgl/src/core/lv_obj_style.h
+ ../lvgl/src/core/lv_obj_style_gen.h
+ ../lvgl/src/core/lv_obj_tree.h
+ ../lvgl/src/core/lv_refr.h
+ ../lvgl/src/core/lv_theme.h
+ ../lvgl/src/draw/lv_draw.h
+ ../lvgl/src/draw/lv_draw_arc.h
+ ../lvgl/src/draw/lv_draw_img.h
+ ../lvgl/src/draw/lv_draw_label.h
+ ../lvgl/src/draw/lv_draw_layer.h
+ ../lvgl/src/draw/lv_draw_line.h
+ ../lvgl/src/draw/lv_draw_mask.h
+ ../lvgl/src/draw/lv_draw_rect.h
+ ../lvgl/src/draw/lv_draw_transform.h
+ ../lvgl/src/draw/lv_draw_triangle.h
+ ../lvgl/src/draw/lv_img_buf.h
+ ../lvgl/src/draw/lv_img_cache.h
+ ../lvgl/src/draw/lv_img_decoder.h
+ ../lvgl/src/draw/sw/lv_draw_sw_dither.h
+ ../lvgl/src/draw/sw/lv_draw_sw_gradient.h
+ ../lvgl/src/extra/layouts/flex/lv_flex.h
+ ../lvgl/src/extra/layouts/grid/lv_grid.h
+ ../lvgl/src/extra/layouts/lv_layouts.h
+ ../lvgl/src/extra/libs/bmp/lv_bmp.h
+ ../lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h
+ ../lvgl/src/extra/libs/freetype/lv_freetype.h
+ ../lvgl/src/extra/libs/fsdrv/lv_fsdrv.h
+ ../lvgl/src/extra/libs/gif/gifdec.h
+ ../lvgl/src/extra/libs/gif/lv_gif.h
+ ../lvgl/src/extra/libs/lv_libs.h
+ ../lvgl/src/extra/libs/png/lv_png.h
+ ../lvgl/src/extra/libs/qrcode/lv_qrcode.h
+ ../lvgl/src/extra/libs/rlottie/lv_rlottie.h
+ ../lvgl/src/extra/libs/sjpg/lv_sjpg.h
+ ../lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h
+ ../lvgl/src/extra/lv_extra.h
+ ../lvgl/src/extra/others/fragment/lv_fragment.h
+ ../lvgl/src/extra/others/gridnav/lv_gridnav.h
+ ../lvgl/src/extra/others/ime/lv_ime_pinyin.h
+ ../lvgl/src/extra/others/imgfont/lv_imgfont.h
+ ../lvgl/src/extra/others/lv_others.h
+ ../lvgl/src/extra/others/monkey/lv_monkey.h
+ ../lvgl/src/extra/others/msg/lv_msg.h
+ ../lvgl/src/extra/others/snapshot/lv_snapshot.h
+ ../lvgl/src/extra/themes/basic/lv_theme_basic.h
+ ../lvgl/src/extra/themes/default/lv_theme_default.h
+ ../lvgl/src/extra/themes/lv_themes.h
+ ../lvgl/src/extra/themes/mono/lv_theme_mono.h
+ ../lvgl/src/extra/widgets/animimg/lv_animimg.h
+ ../lvgl/src/extra/widgets/calendar/lv_calendar.h
+ ../lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h
+ ../lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h
+ ../lvgl/src/extra/widgets/chart/lv_chart.h
+ ../lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h
+ ../lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h
+ ../lvgl/src/extra/widgets/keyboard/lv_keyboard.h
+ ../lvgl/src/extra/widgets/led/lv_led.h
+ ../lvgl/src/extra/widgets/list/lv_list.h
+ ../lvgl/src/extra/widgets/lv_widgets.h
+ ../lvgl/src/extra/widgets/menu/lv_menu.h
+ ../lvgl/src/extra/widgets/meter/lv_meter.h
+ ../lvgl/src/extra/widgets/msgbox/lv_msgbox.h
+ ../lvgl/src/extra/widgets/span/lv_span.h
+ ../lvgl/src/extra/widgets/spinbox/lv_spinbox.h
+ ../lvgl/src/extra/widgets/spinner/lv_spinner.h
+ ../lvgl/src/extra/widgets/tabview/lv_tabview.h
+ ../lvgl/src/extra/widgets/tileview/lv_tileview.h
+ ../lvgl/src/extra/widgets/win/lv_win.h
+ ../lvgl/src/font/lv_font.h
+ ../lvgl/src/font/lv_font_fmt_txt.h
+ ../lvgl/src/font/lv_font_loader.h
+ ../lvgl/src/font/lv_symbol_def.h
+ ../lvgl/src/hal/lv_hal.h
+ ../lvgl/src/hal/lv_hal_disp.h
+ ../lvgl/src/hal/lv_hal_indev.h
+ ../lvgl/src/hal/lv_hal_tick.h
+ ../lvgl/src/lv_api_map.h
+ ../lvgl/src/lv_conf_internal.h
+ ../lvgl/src/lv_conf_kconfig.h
+ ../lvgl/src/lvgl.h
+ ../lvgl/src/misc/lv_anim.h
+ ../lvgl/src/misc/lv_anim_timeline.h
+ ../lvgl/src/misc/lv_area.h
+ ../lvgl/src/misc/lv_assert.h
+ ../lvgl/src/misc/lv_async.h
+ ../lvgl/src/misc/lv_bidi.h
+ ../lvgl/src/misc/lv_color.h
+ ../lvgl/src/misc/lv_fs.h
+ ../lvgl/src/misc/lv_ll.h
+ ../lvgl/src/misc/lv_log.h
+ ../lvgl/src/misc/lv_math.h
+ ../lvgl/src/misc/lv_mem.h
+ ../lvgl/src/misc/lv_printf.h
+ ../lvgl/src/misc/lv_style.h
+ ../lvgl/src/misc/lv_style_gen.h
+ ../lvgl/src/misc/lv_timer.h
+ ../lvgl/src/misc/lv_txt.h
+ ../lvgl/src/misc/lv_types.h
+ ../lvgl/src/widgets/lv_arc.h
+ ../lvgl/src/widgets/lv_bar.h
+ ../lvgl/src/widgets/lv_btn.h
+ ../lvgl/src/widgets/lv_btnmatrix.h
+ ../lvgl/src/widgets/lv_canvas.h
+ ../lvgl/src/widgets/lv_checkbox.h
+ ../lvgl/src/widgets/lv_dropdown.h
+ ../lvgl/src/widgets/lv_img.h
+ ../lvgl/src/widgets/lv_label.h
+ ../lvgl/src/widgets/lv_line.h
+ ../lvgl/src/widgets/lv_roller.h
+ ../lvgl/src/widgets/lv_slider.h
+ ../lvgl/src/widgets/lv_switch.h
+ ../lvgl/src/widgets/lv_table.h
+ ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_977105517.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.h
@@ -16772,6 +17158,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_986324200.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_986324200.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -16901,6 +17288,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_998280680.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -17030,6 +17418,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen1.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/screens/ui_Screen1.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -17159,6 +17548,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen2.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/screens/ui_Screen2.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -17288,6 +17678,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen3.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/screens/ui_Screen3.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -17417,6 +17808,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen4.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/screens/ui_Screen4.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -17546,6 +17938,7 @@ AiSmart/CMakeFiles/ui.dir/screens/ui_Screen5.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/screens/ui_Screen5.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -17675,6 +18068,7 @@ AiSmart/CMakeFiles/ui.dir/ui.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.c
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
@@ -17934,6 +18328,7 @@ AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o
  ../lvgl/src/widgets/lv_switch.h
  ../lvgl/src/widgets/lv_table.h
  ../lvgl/src/widgets/lv_textarea.h
+ /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
  /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.c
