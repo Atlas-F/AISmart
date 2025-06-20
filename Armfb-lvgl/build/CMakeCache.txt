@@ -242,12 +242,6 @@ lvgl_fb_BINARY_DIR:STATIC=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build
 //Value Computed by CMake
 lvgl_fb_SOURCE_DIR:STATIC=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl
 
-//Value Computed by CMake
-lvgl_sdl_BINARY_DIR:STATIC=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/build
-
-//Value Computed by CMake
-lvgl_sdl_SOURCE_DIR:STATIC=/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl
-
 
 ########################
 # INTERNAL cache entries

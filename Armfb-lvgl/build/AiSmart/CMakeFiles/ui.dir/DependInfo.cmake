@@ -154,7 +154,8 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../."
   ".././AiSmart"
-  "/opt/curl/build-arm/include"
+  "/opt/opensslcurl/install-libcurl/include"
+  "/opt/opensslcurl/install-openssl/include"
   )
 
 # Targets to which this target links.

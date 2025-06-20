@@ -1072,55 +1072,17 @@ ui_events.h
 depskmainCopy.h
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/depskmainCopy.h
 
-/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_events.c
-ui.h
-/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui.h
-time.h
--
-stdlib.h
--
-sys/types.h
--
-sys/stat.h
--
-fcntl.h
--
-unistd.h
--
-stdio.h
--
-sys/ioctl.h
--
-ui_events.h
-/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_events.h
-stdio.h
--
-errno.h
--
-depskmainCopy.h
-/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/depskmainCopy.h
-stdio.h
--
-stdlib.h
--
-string.h
--
-curl/curl.h
--
-cJSON.h
-/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/cJSON.h
-
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_events.h
 
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_helpers.h
 ui.h
 /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui.h
 
-/opt/curl/build-arm/include/curl/curl.h
+/opt/opensslcurl/install-libcurl/include/curl/curl.h
 curlver.h
-/opt/curl/build-arm/include/curl/curlver.h
+/opt/opensslcurl/install-libcurl/include/curl/curlver.h
 system.h
-/opt/curl/build-arm/include/curl/system.h
+/opt/opensslcurl/install-libcurl/include/curl/system.h
 stdio.h
 -
 limits.h
@@ -1144,23 +1106,23 @@ sys/time.h
 support/SupportDefs.h
 -
 easy.h
-/opt/curl/build-arm/include/curl/easy.h
+/opt/opensslcurl/install-libcurl/include/curl/easy.h
 multi.h
-/opt/curl/build-arm/include/curl/multi.h
+/opt/opensslcurl/install-libcurl/include/curl/multi.h
 urlapi.h
-/opt/curl/build-arm/include/curl/urlapi.h
+/opt/opensslcurl/install-libcurl/include/curl/urlapi.h
 typecheck-gcc.h
-/opt/curl/build-arm/include/curl/typecheck-gcc.h
+/opt/opensslcurl/install-libcurl/include/curl/typecheck-gcc.h
 
-/opt/curl/build-arm/include/curl/curlver.h
+/opt/opensslcurl/install-libcurl/include/curl/curlver.h
 
-/opt/curl/build-arm/include/curl/easy.h
+/opt/opensslcurl/install-libcurl/include/curl/easy.h
 
-/opt/curl/build-arm/include/curl/multi.h
+/opt/opensslcurl/install-libcurl/include/curl/multi.h
 curl.h
-/opt/curl/build-arm/include/curl/curl.h
+/opt/opensslcurl/install-libcurl/include/curl/curl.h
 
-/opt/curl/build-arm/include/curl/system.h
+/opt/opensslcurl/install-libcurl/include/curl/system.h
 winsock2.h
 -
 windows.h
@@ -1174,7 +1136,7 @@ sys/socket.h
 sys/poll.h
 -
 
-/opt/curl/build-arm/include/curl/typecheck-gcc.h
+/opt/opensslcurl/install-libcurl/include/curl/typecheck-gcc.h
 
-/opt/curl/build-arm/include/curl/urlapi.h
+/opt/opensslcurl/install-libcurl/include/curl/urlapi.h
 

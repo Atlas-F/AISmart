@@ -170,6 +170,24 @@ struct APIResponse call_deepseek(const char *api_key, const char *prompt) {
     
     // 执行请求
     res = curl_easy_perform(curl);
+
+    // 检查不支持的协议
+    if(res == CURLE_UNSUPPORTED_PROTOCOL) {
+        fprintf(stderr, "cURL错误: 不支持的协议 - URL: %s\n", 
+                "https://api.deepseek.com/chat/completions");
+        
+        // 获取支持的协议列表
+        curl_version_info_data *ver_info = curl_version_info(CURLVERSION_NOW);
+        if(ver_info && ver_info->protocols) {
+            fprintf(stderr, "支持的协议列表:\n");
+            const char * const *proto;
+            for(proto = ver_info->protocols; *proto; proto++) {
+                fprintf(stderr, "- %s\n", *proto);
+            }
+        }
+    } else if(res != CURLE_OK) {
+        fprintf(stderr, "cURL错误: %s\n", curl_easy_strerror(res));
+    }
     
     // 检查HTTP状态码
     curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &http_code);
@@ -440,6 +458,9 @@ int depmaintalk(lv_event_t * e) // 会话
     {
         // 判断键盘的状态，是否隐藏，若未隐藏，代表动画执行完毕，浮出，可以开始输入
         if( !lv_obj_has_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN)) {
+
+                //  char input[1024] = {0};  // 本地声明，避免全局变量
+
             printf("\n你的问题: ");
                 printf("inputlogo被anxia!\n");
 

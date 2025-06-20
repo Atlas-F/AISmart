@@ -149,7 +149,7 @@ void ui_Screen1_screen_init(void)
     lv_obj_set_width(ui_time, 160);
     lv_obj_set_height(ui_time, 55);
     lv_obj_set_align(ui_time, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_time, "20 : 54");
+    // lv_label_set_text(ui_time, "20 : 54");
     lv_obj_add_flag(ui_time, LV_OBJ_FLAG_HIDDEN | LV_OBJ_FLAG_CLICKABLE);     /// Flags
     lv_obj_set_style_text_color(ui_time, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_time, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -161,12 +161,13 @@ void ui_Screen1_screen_init(void)
     lv_obj_set_x(ui_date, -7);
     lv_obj_set_y(ui_date, -49);
     lv_obj_set_align(ui_date, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_date, "2025.6.13");
+    // lv_label_set_text(ui_date, "2025.6.13");
     lv_obj_add_flag(ui_date, LV_OBJ_FLAG_HIDDEN);     /// Flags
     lv_obj_set_style_text_color(ui_date, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_date, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_date, &lv_font_montserrat_22, LV_PART_MAIN | LV_STATE_DEFAULT);
 
+    #if 0
     ui_Oneto2 = lv_btn_create(ui_Screen1);
     lv_obj_set_width(ui_Oneto2, 35);
     lv_obj_set_height(ui_Oneto2, 50);
@@ -196,11 +197,12 @@ void ui_Screen1_screen_init(void)
     lv_obj_set_height(ui_Label5, LV_SIZE_CONTENT);    /// 1
     lv_obj_set_align(ui_Label5, LV_ALIGN_CENTER);
     lv_label_set_text(ui_Label5, "to3");
+    #endif 
 
     lv_obj_add_event_cb(ui_time, ui_event_time, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_date, ui_event_date, LV_EVENT_ALL, NULL);
-    lv_obj_add_event_cb(ui_Oneto2, ui_event_Oneto2, LV_EVENT_ALL, NULL);
-    lv_obj_add_event_cb(ui_Oneto4, ui_event_Oneto4, LV_EVENT_ALL, NULL);
+    // lv_obj_add_event_cb(ui_Oneto2, ui_event_Oneto2, LV_EVENT_ALL, NULL);
+    // lv_obj_add_event_cb(ui_Oneto4, ui_event_Oneto4, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_Screen1, ui_event_Screen1, LV_EVENT_ALL, NULL);
 
 }

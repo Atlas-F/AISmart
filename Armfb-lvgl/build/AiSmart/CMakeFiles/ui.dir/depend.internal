@@ -137,13 +137,13 @@ AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o
  /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui.h
  /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_events.h
  /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_helpers.h
- /opt/curl/build-arm/include/curl/curl.h
- /opt/curl/build-arm/include/curl/curlver.h
- /opt/curl/build-arm/include/curl/easy.h
- /opt/curl/build-arm/include/curl/multi.h
- /opt/curl/build-arm/include/curl/system.h
- /opt/curl/build-arm/include/curl/typecheck-gcc.h
- /opt/curl/build-arm/include/curl/urlapi.h
+ /opt/opensslcurl/install-libcurl/include/curl/curl.h
+ /opt/opensslcurl/install-libcurl/include/curl/curlver.h
+ /opt/opensslcurl/install-libcurl/include/curl/easy.h
+ /opt/opensslcurl/install-libcurl/include/curl/multi.h
+ /opt/opensslcurl/install-libcurl/include/curl/system.h
+ /opt/opensslcurl/install-libcurl/include/curl/typecheck-gcc.h
+ /opt/opensslcurl/install-libcurl/include/curl/urlapi.h
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o
  ../lv_conf.h
  ../lvgl/lvgl.h
@@ -18215,13 +18215,13 @@ AiSmart/CMakeFiles/ui.dir/ui_events.c.o
  /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_events.c
  /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_events.h
  /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/AiSmart/ui_helpers.h
- /opt/curl/build-arm/include/curl/curl.h
- /opt/curl/build-arm/include/curl/curlver.h
- /opt/curl/build-arm/include/curl/easy.h
- /opt/curl/build-arm/include/curl/multi.h
- /opt/curl/build-arm/include/curl/system.h
- /opt/curl/build-arm/include/curl/typecheck-gcc.h
- /opt/curl/build-arm/include/curl/urlapi.h
+ /opt/opensslcurl/install-libcurl/include/curl/curl.h
+ /opt/opensslcurl/install-libcurl/include/curl/curlver.h
+ /opt/opensslcurl/install-libcurl/include/curl/easy.h
+ /opt/opensslcurl/install-libcurl/include/curl/multi.h
+ /opt/opensslcurl/install-libcurl/include/curl/system.h
+ /opt/opensslcurl/install-libcurl/include/curl/typecheck-gcc.h
+ /opt/opensslcurl/install-libcurl/include/curl/urlapi.h
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o
  ../lv_conf.h
  ../lvgl/lvgl.h

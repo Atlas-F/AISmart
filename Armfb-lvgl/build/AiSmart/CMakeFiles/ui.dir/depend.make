@@ -136,13 +136,13 @@ AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/depskmainCopy.h
 AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/ui_events.h
 AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: ../AiSmart/ui_helpers.h
-AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/curl/build-arm/include/curl/curl.h
-AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/curl/build-arm/include/curl/curlver.h
-AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/curl/build-arm/include/curl/easy.h
-AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/curl/build-arm/include/curl/multi.h
-AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/curl/build-arm/include/curl/system.h
-AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/curl/build-arm/include/curl/typecheck-gcc.h
-AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/curl/build-arm/include/curl/urlapi.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/opensslcurl/install-libcurl/include/curl/curl.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/opensslcurl/install-libcurl/include/curl/curlver.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/opensslcurl/install-libcurl/include/curl/easy.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/opensslcurl/install-libcurl/include/curl/multi.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/opensslcurl/install-libcurl/include/curl/system.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/opensslcurl/install-libcurl/include/curl/typecheck-gcc.h
+AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: /opt/opensslcurl/install-libcurl/include/curl/urlapi.h
 
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../lv_conf.h
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: ../lvgl/lvgl.h
@@ -18214,13 +18214,13 @@ AiSmart/CMakeFiles/ui.dir/ui_events.c.o: ../AiSmart/ui.h
 AiSmart/CMakeFiles/ui.dir/ui_events.c.o: ../AiSmart/ui_events.c
 AiSmart/CMakeFiles/ui.dir/ui_events.c.o: ../AiSmart/ui_events.h
 AiSmart/CMakeFiles/ui.dir/ui_events.c.o: ../AiSmart/ui_helpers.h
-AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/curl/build-arm/include/curl/curl.h
-AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/curl/build-arm/include/curl/curlver.h
-AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/curl/build-arm/include/curl/easy.h
-AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/curl/build-arm/include/curl/multi.h
-AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/curl/build-arm/include/curl/system.h
-AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/curl/build-arm/include/curl/typecheck-gcc.h
-AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/curl/build-arm/include/curl/urlapi.h
+AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/opensslcurl/install-libcurl/include/curl/curl.h
+AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/opensslcurl/install-libcurl/include/curl/curlver.h
+AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/opensslcurl/install-libcurl/include/curl/easy.h
+AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/opensslcurl/install-libcurl/include/curl/multi.h
+AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/opensslcurl/install-libcurl/include/curl/system.h
+AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/opensslcurl/install-libcurl/include/curl/typecheck-gcc.h
+AiSmart/CMakeFiles/ui.dir/ui_events.c.o: /opt/opensslcurl/install-libcurl/include/curl/urlapi.h
 
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../lv_conf.h
 AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o: ../lvgl/lvgl.h

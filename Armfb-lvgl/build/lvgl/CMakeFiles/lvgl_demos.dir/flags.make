@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-C_INCLUDES = -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/. -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/./AiSmart -I/opt/curl/build-arm/include -isystem /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/lvgl/demos -isystem /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/lvgl 
+C_INCLUDES = -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/. -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/./AiSmart -I/opt/opensslcurl/install-libcurl/include -I/opt/opensslcurl/install-openssl/include -isystem /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/lvgl/demos -isystem /mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/lvgl 
 

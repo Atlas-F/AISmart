@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/. -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/./AiSmart -I/opt/curl/build-arm/include 
+C_INCLUDES = -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/. -I/mnt/hgfs/ub2004sf/AISmart/Armfb-lvgl/./AiSmart -I/opt/opensslcurl/install-libcurl/include -I/opt/opensslcurl/install-openssl/include 
 

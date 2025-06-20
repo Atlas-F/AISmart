@@ -40,6 +40,7 @@ void ui_Screen4_screen_init(void)
     lv_obj_clear_flag(ui_circle4, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
     lv_img_set_zoom(ui_circle4, 350);
 
+    #if 0
     ui_fourTo2 = lv_btn_create(ui_Screen4);
     lv_obj_set_width(ui_fourTo2, 35);
     lv_obj_set_height(ui_fourTo2, 50);
@@ -69,7 +70,7 @@ void ui_Screen4_screen_init(void)
     lv_obj_set_height(ui_Label12, LV_SIZE_CONTENT);    /// 1
     lv_obj_set_align(ui_Label12, LV_ALIGN_CENTER);
     lv_label_set_text(ui_Label12, "to3");
-
+#endif 
     ui_Image15 = lv_img_create(ui_Screen4);
     lv_img_set_src(ui_Image15, &ui_img_1720058713);
     lv_obj_set_width(ui_Image15, LV_SIZE_CONTENT);   /// 48
@@ -103,8 +104,8 @@ void ui_Screen4_screen_init(void)
 
     lv_obj_add_event_cb(ui_time2, ui_event_time2, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_date2, ui_event_date2, LV_EVENT_ALL, NULL);
-    lv_obj_add_event_cb(ui_fourTo2, ui_event_fourTo2, LV_EVENT_ALL, NULL);
-    lv_obj_add_event_cb(ui_fourTo3, ui_event_fourTo3, LV_EVENT_ALL, NULL);
+    // lv_obj_add_event_cb(ui_fourTo2, ui_event_fourTo2, LV_EVENT_ALL, NULL);
+    // lv_obj_add_event_cb(ui_fourTo3, ui_event_fourTo3, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_Screen4, ui_event_Screen4, LV_EVENT_ALL, NULL);
 
 }

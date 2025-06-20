@@ -1,1 +1,0 @@
-/usr/local/arm/5.4.0/usr/bin/arm-linux-gcc   -rdynamic CMakeFiles/lvgl_sdl.dir/main.c.o  -o lvgl_sdl  -Wl,-rpath,/opt/curl/build-arm/lib lib/liblvgl.a lvgl/liblvgl_examples.a lvgl/liblvgl_demos.a lib/liblv_drivers.a AiSmart/libui.a /opt/curl/build-arm/lib/libcurl.so lib/liblvgl.a 

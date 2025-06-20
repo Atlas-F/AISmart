@@ -1,4 +1,15 @@
-#include <stdio.h>
+
+/*********************
+ * @file depskmainCopy.c
+ * @brief ARm开发板使用deepseek接口文件
+ * @author LFG (lfg@.com)
+ * @version 1.0
+ * @date 2025-06-20
+ * 
+ * @copyright Copyright (c) 2025  LFG
+ * 
+ *************************************************/
+
 #include <stdlib.h>
 #include <string.h>
 #include <curl/curl.h>
@@ -14,9 +25,10 @@
 #include "ui_helpers.h"
 #include "ui_events.h"
 
-
 #include "ui.h"
 #include "ui_helpers.h"
+
+#define DEBUG_MODE 1
 
 // 使用缓冲区输入输出是没问题的，需要解决循环的问题，
 char textbuf[128] = "who are you";
@@ -100,8 +112,43 @@ struct APIResponse call_deepseek(const char *api_key, const char *prompt) {
         return api_response;
     }
 
+    // 设置OpenSSL引擎选项
+    setenv("OPENSSL_ia32cap", "~0x200000200000000", 1);
+
     // 设置API端点
     curl_easy_setopt(curl, CURLOPT_URL, "https://api.deepseek.com/chat/completions");
+
+    // // 添加 SSL 版本和密码套件配置
+    curl_easy_setopt(curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
+    // 使用兼容的密码套件
+    curl_easy_setopt(curl, CURLOPT_SSL_CIPHER_LIST, "ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384");
+
+    // 修改 call_deepseek 函数中的SSL设置部分
+#ifdef  0 // 调试模式下禁用验证
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+#else
+    // 生产环境使用系统证书
+    curl_easy_setopt(curl, CURLOPT_CAINFO, "/etc/ssl/certs/ca-certificates.crt");
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 1L);
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 2L);
+#endif
+
+
+    // 资源优化设置
+    curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 1024L);
+    curl_easy_setopt(curl, CURLOPT_UPLOAD_BUFFERSIZE, 1024L);
+    curl_easy_setopt(curl, CURLOPT_TIMEOUT, 30L);
+
+    /*************************************************
+     * @brief 有关于SSL证书配置
+     *************************************************/
+
+    // 添加详细的错误信息
+    char errbuf[CURL_ERROR_SIZE];
+    curl_easy_setopt(curl, CURLOPT_ERRORBUFFER, errbuf);
+    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
+    curl_easy_setopt(curl, CURLOPT_CERTINFO, 1L);
     
     // 设置请求头
     struct curl_slist *headers = NULL;
@@ -138,6 +185,49 @@ struct APIResponse call_deepseek(const char *api_key, const char *prompt) {
     
     // 执行请求
     res = curl_easy_perform(curl);
+
+    // 检查不支持的协议
+    if(res == CURLE_UNSUPPORTED_PROTOCOL) {
+        fprintf(stderr, "cURL错误: 不支持的协议 - URL: %s\n", 
+                "https://api.deepseek.com/chat/completions");
+        
+        // 获取支持的协议列表
+        curl_version_info_data *ver_info = curl_version_info(CURLVERSION_NOW);
+        if(ver_info && ver_info->protocols) {
+            fprintf(stderr, "支持的协议列表:\n");
+            const char * const *proto;
+            for(proto = ver_info->protocols; *proto; proto++) {
+                fprintf(stderr, "- %s\n", *proto);
+            }
+        }
+    } else if(res != CURLE_OK) {
+    fprintf(stderr, "cURL错误详情: %s\n", curl_easy_strerror(res));
+    
+    // 获取SSL错误详情
+    long verify_result;
+    curl_easy_getinfo(curl, CURLINFO_SSL_VERIFYRESULT, &verify_result);
+    fprintf(stderr, "SSL验证结果: %ld\n", verify_result);
+    
+    // 获取证书信息
+    struct curl_certinfo *certinfo;
+    curl_easy_getinfo(curl, CURLINFO_CERTINFO, &certinfo);
+    if(certinfo) {
+        fprintf(stderr, "证书信息:\n");
+        for(int i = 0; i < certinfo->num_of_certs; i++) {
+            struct curl_slist *slist;
+            for(slist = certinfo->certinfo[i]; slist; slist = slist->next) {
+                fprintf(stderr, "  %s\n", slist->data);
+            }
+        }
+    }
+} else if 
+    (res == CURLE_SSL_PEER_CERTIFICATE) {
+        fprintf(stderr, "SSL证书错误: %s\n", curl_easy_strerror(res));
+        // 获取更多错误信息
+        char error_buffer[CURL_ERROR_SIZE];
+        curl_easy_getinfo(curl, CURLINFO_SSL_VERIFYRESULT, &error_buffer);
+        fprintf(stderr, "SSL验证结果: %s\n", error_buffer);
+    }
     
     // 检查HTTP状态码
     curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &http_code);
@@ -334,7 +424,6 @@ void get_full_text_input(char *dest, size_t dest_size) {
     char *newline = strchr(dest, '\n');
     if (newline) *newline = '\0';
 
-    printf("111111111111\n");
 }
 
 // ================== 主函数 ==================
@@ -345,81 +434,9 @@ int depmainlong(lv_event_t * e) // 创建会话
 
     if( event_code == LV_EVENT_LONG_PRESSED )
     {
-        // 创建会话 - 修复API密钥传递问题
-        // session = deepseek_create_session("sk-28b778879e5b4fd6b227d767812fd83d");
-        // if (!session) {
-        //     fprintf(stderr, "创建会话失败\n");
-        //     return 1;
-        // }
         
         printf("DeepSeek聊天客户端 (输入'exit'退出)\n");
         printf("使用的API密钥: %.6s...\n", session->api_key);
-        
-        // if( !lv_obj_has_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN)) {
-        //     printf("\n你的问题: ");
-        //     // char input[1024];
-
-        //     // 如何判定提交文本时机，以及如何控制循环
-        //     /*********************
-        //      * @brief Construct a new if object
-        //      * @details 按键长按不起作用，起作用的是点击
-        //      * 点击一次，进入一次，判断一次。
-        //      * 而由于全局变量的设置，文本内容与对话的循环并无直接关系
-        //      * 目前会出现段错误，猜测可能是由于内容缓冲区越界，因为还保留了上下文
-        //      *************************************************/
-
-        //     if( event_code == LV_EVENT_CLICKED )
-        //     {
-        //         printf("inputlogo被长按!\n");
-        //         printf("111111111111");
-        //     }
-        //     if(1)
-        //     { 
-        //         kbEntertext = lv_textarea_get_text(ui_TextArea1);
-        //         printf("提交内容: %s\n", kbEntertext);
-
-        //     }
-
-        //     // 使用这种方式需要处理循环的问题以及刷新。
-        //     sscanf(kbEntertext, "%s", input);
-        //     printf("kbEntertext = %s\n", kbEntertext);
-        //     printf("input = %s\n", input);
-            
-        //     // 移除换行符
-        //     input[strcspn(input, "\n")] = 0;
-            
-        //     // 线程阻塞原因，暂不使用循环while 以及相应的语句
-        //     // if(strcmp(input, "exit") == 0) break;
-        //     // if(strlen(input) == 0) continue;
-            
-        //     printf("正在查询DeepSeek API...\n");
-            
-        //     // int prompt_tokens, completion_tokens, total_tokens;
-        //     // char *response = deepseek_send_message
-        //     response = deepseek_send_message(
-        //         session, 
-        //         input,
-        //         &prompt_tokens,
-        //         &completion_tokens,
-        //         &total_tokens
-        //     );
-            
-        //     if(response) {
-        //         // printf("\n--- DeepSeek回复 ---\n%s\n", response);
-        //         printf("\n--- DeepSeek回复 ---\n");
-        //         sprintf(dpOut, "%s", response);
-        //         printf("%s\n", dpOut);
-        //         lv_label_set_text(ui_AILabel, dpOut);
-                
-        //         // 显示令牌使用
-        //         print_token_usage(prompt_tokens, completion_tokens, total_tokens);
-                
-        //         free(response);
-        //     } else {
-        //         printf("获取回复时出错\n");
-        //     }
-        // }
-
         return 0; 
     }   
 }
@@ -437,9 +454,6 @@ int depmaintalk(lv_event_t * e) // 会话
             // char input[1024];
 
                 printf("inputlogo被anxia!\n");
-                
-                // kbEntertext = lv_textarea_get_text(ui_TextArea1);
-                // input = lv_textarea_get_text(ui_TextArea1);
 
                 get_full_text_input(input, sizeof(input));
                 // sscanf(lv_textarea_get_text(ui_TextArea1), "%s", input);
@@ -453,15 +467,7 @@ int depmaintalk(lv_event_t * e) // 会话
                     deepseek_destroy_session(session);
                     printf("退出！\n");
                     return 0; 
-                }
-
-                // 使用这个清理判断会卡住，不知道为什么
-                //     if( strcmp(input, "exit") )
-                // {
-                // // 清理资源
-                // deepseek_destroy_session(session);
-                // return 0; 
-                //  }   
+                } 
 
             printf("正在查询DeepSeek API...\n");
 

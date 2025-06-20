@@ -676,15 +676,22 @@ void ui_event_Keyboard1(lv_event_t * e)
 
 void ui_event_inputlogo(lv_event_t * e)
 {
+
+     static bool session_initialized = false;
+
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
 
-    // 创建会话 - 修复API密钥传递问题
+    // 创建会话 - 修复API密钥传递问题 使用硬编码API Key
+        // 只在首次调用时创建session
+    if (!session_initialized) {
         session = deepseek_create_session("sk-28b778879e5b4fd6b227d767812fd83d");
         if (!session) {
             fprintf(stderr, "创建会话失败\n");
-            return 1;
+            return;
         }
+        session_initialized = true;
+    }
 
     if(event_code == LV_EVENT_LONG_PRESSED ) 
     {
