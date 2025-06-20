@@ -98,13 +98,13 @@ AI 小智 小型嵌入式智能助手，使用deepseek
 ​        	日历
 ​        	时钟：时分秒
 ![2025-06-20 12 52 12](https://github.com/user-attachments/assets/9614eac6-581a-4695-bc9b-1e1dddcf339c)
-![2025-06-20 12 52 12](https://github.com/user-attachments/assets/75e59fd1-0ebf-42c3-8610-8b4297de48a4)
+
 
 <img src="C:\Users\phoen\Pictures\aismart\2025-06-20 12 52 12.png" style="zoom:50%;" />
 
 ​	2.AI对话：使用虚拟键盘，点击键盘输入，暂时只支持 英文
 ![2025-06-20 12 52 38](https://github.com/user-attachments/assets/2d582045-6ed0-4648-bc59-5b2667aa2123)
-![2025-06-20 12 52 38](https://github.com/user-attachments/assets/8594e82e-5023-4667-9e35-b5de67ad0282)
+
 
 ​																	<img src="C:\Users\phoen\Pictures\aismart\2025-06-20 12 52 38.png" style="zoom:50%;" />		
 
@@ -112,7 +112,7 @@ AI 小智 小型嵌入式智能助手，使用deepseek
 ![2025-06-20 13 00 33](https://github.com/user-attachments/assets/514d0d18-271b-4dec-b642-439df49955ab)
 
 <img src="C:\Users\phoen\Pictures\aismart\2025-06-20 13 00 33.png" style="zoom:50%;" />
-![2025-06-20 13 00 33](https://github.com/user-attachments/assets/632b7e66-fb91-4c0a-9e37-fff0ec8d8e4b)
+
 
 ​		
 
