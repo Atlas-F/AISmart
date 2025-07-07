@@ -3,6 +3,9 @@
 
 #include "lvgl/lvgl.h"
 
+
+// extern DeepSeekSession *session;    // 声明外部变量
+
 // ================== 数据结构定义 ==================
 // 存储HTTP响应
 struct MemoryStruct {
@@ -24,6 +27,7 @@ typedef struct {
     int total_prompt_tokens;
     int total_completion_tokens;
     int total_all_tokens;
+    int magic;
 } DeepSeekSession;
 
 // ================== 封装函数声明 ==================

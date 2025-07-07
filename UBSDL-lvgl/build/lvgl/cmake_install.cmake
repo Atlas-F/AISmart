@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lvgl
+# Install script for directory: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -37,7 +37,12 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/include/lvgl//src")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -46,10 +51,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/lvgl/" TYPE DIRECTORY FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "/usr/local/include/lvgl/" TYPE DIRECTORY FILES "/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/include/lvgl/../lv_conf.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -58,21 +63,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/lvgl/.." TYPE FILE OPTIONAL RENAME "lv_conf.h" FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lvgl/OFF")
+  file(INSTALL DESTINATION "/usr/local/include/lvgl/.." TYPE FILE OPTIONAL RENAME "lv_conf.h" FILES "/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/OFF")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lvgl.pc")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/lvgl.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/build/lib/liblvgl.a")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/lib/liblvgl.a")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE FILE FILES
-    "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lv_conf.h"
-    "/mnt/hgfs/ub2004sf/AISmart/UBSDL-lvgl/lvgl.h"
+    "/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lv_conf.h"
+    "/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl.h"
     )
 endif()
 

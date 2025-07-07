@@ -21,8 +21,8 @@ extern "C" {
 #include "depskmainCopy.h"
 extern  lv_timer_t *emoji_timer;
 extern FILE * ftex;
-extern DeepSeekSession *session;
-lv_event_code_t kbenterevent_code;
+// extern DeepSeekSession *session;
+extern lv_event_code_t kbenterevent_code;
 void floatout_Animation(lv_obj_t * TargetObject, int delay);
 void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
 void movedown_Animation(lv_obj_t * TargetObject, int delay);
@@ -116,7 +116,12 @@ extern lv_obj_t * ui_horn;
 extern lv_obj_t * ui_horn1;
 extern lv_obj_t * ui_TextArea1;
 void ui_event_Keyboard1(lv_event_t * e);
+
+void ta_event_cb(lv_event_t * e);
+
 extern lv_obj_t * ui_Keyboard1;
+
+
 void ui_event_inputlogo(lv_event_t * e);
 extern lv_obj_t * ui_inputlogo;
 // SCREEN: ui_Screen3

@@ -6,6 +6,8 @@
 #include "ui.h"
 #include "ui_helpers.h"
 
+#include "depskmainCopy.h" // 包含头文件以访问全局session
+
 ///////////////////// VARIABLES ////////////////////
 void floatout_Animation(lv_obj_t * TargetObject, int delay);
 void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
@@ -18,6 +20,10 @@ void yuebing_Animation(lv_obj_t * TargetObject, int delay);
 // const char * kbEntertext ;   const 与普通状态的区别？
 // 输入给AI的中间缓冲区
 char * kbEntertext ;
+
+lv_event_code_t kbenterevent_code;
+
+extern DeepSeekSession *session;    // 声明外部变量
 
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
@@ -659,7 +665,7 @@ void ui_event_Keyboard1(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
-    kbenterevent_code = lv_event_get_code(e);
+    // kbenterevent_code = lv_event_get_code(e);   多次定义，将这里注释掉
 
 
     // SetLabel(e);
@@ -675,22 +681,43 @@ void ui_event_Keyboard1(lv_event_t * e)
     // }
 }
 
+void ta_event_cb(lv_event_t * e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    lv_obj_t * ta = lv_event_get_target(e);
+    lv_obj_t * kb = lv_event_get_user_data(e);
+
+    if(code == LV_EVENT_FOCUSED) {
+        if(lv_indev_get_type(lv_indev_get_act()) != LV_INDEV_TYPE_KEYPAD) {
+            lv_keyboard_set_textarea(kb, ta);
+            lv_obj_clear_flag(kb, LV_OBJ_FLAG_HIDDEN);
+        }
+    }
+    else if(code == LV_EVENT_READY) {
+        lv_obj_add_flag(kb, LV_OBJ_FLAG_HIDDEN);
+        lv_obj_clear_state(ta, LV_STATE_FOCUSED);
+        lv_indev_reset(NULL, ta);   /*To forget the last clicked object to make it focusable again*/
+    }
+}
+
 void ui_event_inputlogo(lv_event_t * e)
 {
     static bool session_initialized = false;
-
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
 
     // 创建会话 - 修复API密钥传递问题 使用硬编码API Key
         // 只在首次调用时创建session
     if (!session_initialized) {
-        session = deepseek_create_session("sk-28b778879e5b4fd6b227d767812fd83d");
+        // 现在操作的是全局session
+        session = deepseek_create_session("sk-39498dd4b1564b409b8a0bb959a608ac");   // 将API key 硬编码在这里，而不是depskmainCopy.c中
         if (!session) {
             fprintf(stderr, "创建会话失败\n");
             return;
         }
         session_initialized = true;
+        // 调试信息
+        printf("Session initialized at: %p\n", (void*)session);
     }
 
     if(event_code == LV_EVENT_LONG_PRESSED ) 

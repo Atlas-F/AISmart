@@ -38,7 +38,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <curl/curl.h>
-#include <cjson/cJSON.h>
+#include "cJSON.h"
+
+// #include <cjson/cJSON.h>
+
 
 // x86架构将cJSON 使用库链接方式
 // arm架构将cJSON.c 和cJSON.h直接包含在文件里面，不使用库链接方式

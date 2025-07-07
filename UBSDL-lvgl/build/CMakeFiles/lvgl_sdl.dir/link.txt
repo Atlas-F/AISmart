@@ -1,1 +1,1 @@
-/usr/bin/cc   -rdynamic CMakeFiles/lvgl_sdl.dir/main.c.o  -o lvgl_sdl  lib/liblvgl.a lvgl/liblvgl_examples.a lvgl/liblvgl_demos.a lib/liblv_drivers.a -lSDL2 AiSmart/libui.a -lcurl -lcjson lib/liblvgl.a 
+/usr/bin/cc -g -g3 -O0 -ggdb3 -fno-omit-frame-pointer CMakeFiles/lvgl_sdl.dir/main.c.o -o lvgl_sdl  lib/liblvgl.a lvgl/liblvgl_examples.a lvgl/liblvgl_demos.a lib/liblv_drivers.a -lSDL2 AiSmart/libui.a /usr/lib/x86_64-linux-gnu/libcurl.so.4 /usr/lib/x86_64-linux-gnu/libcjson.so.1 lib/liblvgl.a 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lvgl_sdl.dir/main.c.o"
+  "CMakeFiles/lvgl_sdl.dir/main.c.o.d"
   "lvgl_sdl"
   "lvgl_sdl.pdb"
 )

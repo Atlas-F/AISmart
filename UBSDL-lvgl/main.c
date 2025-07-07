@@ -30,18 +30,18 @@ void lvgl_init_framebuffer_ts();
 #define USD_SDL 1
 
 static lv_obj_t* kb = NULL;
-static void ta_event_cb(lv_event_t * e)
-{
-    lv_event_code_t code = lv_event_get_code(e);  //获取事件
-    lv_obj_t * ta = lv_event_get_target(e);  //获取焦点组件
-    if(code == LV_EVENT_CLICKED || code == LV_EVENT_FOCUSED) {
-        /*Focus on the clicked text area*/
-        if(kb != NULL) lv_keyboard_set_textarea(kb, ta);
-    }
-    else if(code == LV_EVENT_READY) {
-        LV_LOG_USER("Ready, current text: %s", lv_textarea_get_text(ta));
-    }
-}
+// static void ta_event_cb(lv_event_t * e)
+// {
+//     lv_event_code_t code = lv_event_get_code(e);  //获取事件
+//     lv_obj_t * ta = lv_event_get_target(e);  //获取焦点组件
+//     if(code == LV_EVENT_CLICKED || code == LV_EVENT_FOCUSED) {
+//         /*Focus on the clicked text area*/
+//         if(kb != NULL) lv_keyboard_set_textarea(kb, ta);
+//     }
+//     else if(code == LV_EVENT_READY) {
+//         LV_LOG_USER("Ready, current text: %s", lv_textarea_get_text(ta));
+//     }
+// }
 
 
 

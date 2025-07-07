@@ -320,7 +320,7 @@ void deepseek_get_token_stats(
 // ================== 主函数 ==================
 int depmain() {
     // 创建会话 - 修复API密钥传递问题
-    DeepSeekSession *session = deepseek_create_session("sk-28b778879e5b4fd6b227d767812fd83d");
+    DeepSeekSession *session = deepseek_create_session("sk-39498dd4b1564b409b8a0bb959a608ac");  // 更新新的API key
     if (!session) {
         fprintf(stderr, "创建会话失败\n");
         return 1;

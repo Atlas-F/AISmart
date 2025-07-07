@@ -8,6 +8,7 @@ SET(SOURCES screens/ui_Screen1.c
     ui_helpers.c
     ui_events.c
     depskmainCopy.c
+    cJSON.c
     images/ui_img_1758698815.c
     images/ui_img_1273346190.c
     images/ui_img_1946132634.c

@@ -1,0 +1,48 @@
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o: \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_style_gen.c \
+ /usr/include/stdc-predef.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_style.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/../font/lv_font.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/../font/../lv_conf_internal.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/../font/../lv_conf_kconfig.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lv_conf.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/../font/lv_symbol_def.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/../font/../misc/lv_area.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/../font/../misc/../lv_conf_internal.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_color.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/../lv_conf_internal.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_assert.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_log.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_types.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_mem.h \
+ /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_math.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_area.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_anim.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_txt.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_printf.h \
+ /usr/include/inttypes.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_bidi.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/lvgl/src/misc/lv_style_gen.h
