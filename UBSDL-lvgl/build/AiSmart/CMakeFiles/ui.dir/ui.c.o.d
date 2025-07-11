@@ -251,6 +251,8 @@ AiSmart/CMakeFiles/ui.dir/ui.c.o: \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/extra/widgets/imgbtn/../../../lvgl.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/extra/widgets/span/lv_span.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/extra/widgets/span/../../../lvgl.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_events.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -260,10 +262,6 @@ AiSmart/CMakeFiles/ui.dir/ui.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.h \
- /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_events.h \
- /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/cJSON.h

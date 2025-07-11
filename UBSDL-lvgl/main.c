@@ -25,7 +25,7 @@
 // #include "AISmart.h"
 
 
-#define  DISP_BUF_SIZE  800*480*4
+#define  DISP_BUF_SIZE  350*350*4
 void lvgl_init_framebuffer_ts();
 #define USD_SDL 1
 
@@ -93,8 +93,8 @@ void lvgl_init_framebuffer_ts()
 #else
     disp_drv.flush_cb   = fbdev_flush;
 #endif
-    disp_drv.hor_res    = 800;
-    disp_drv.ver_res    = 480;
+    disp_drv.hor_res    = 350;
+    disp_drv.ver_res    = 350;
     lv_disp_drv_register(&disp_drv);
 
 

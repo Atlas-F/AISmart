@@ -10,14 +10,16 @@
  * 
  *************************************************/
 
+ /* 错误信息输出使用<>括号，正常输出使用[], 对话文本输出使用【】 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h> 
 #include <curl/curl.h>
 #include "cJSON.h"
+#include <stdbool.h>
 
 // #include <cjson/cJSON.h>
-
 
 #include "depskmainCopy.h"
 #include "lvgl/lvgl.h"
@@ -26,21 +28,27 @@
 #include "ui_helpers.h"
 #include "ui_events.h"
 
-
 #include "ui.h"
 #include "ui_helpers.h"
 
 #include <inttypes.h>
+#include "MessageHistory.h"
+
+
+
+
 
 #define MAX_INPUT_LEN 2048  // 增大缓冲区
 __attribute__((aligned(256))) 
 char input[MAX_INPUT_LEN];  // 对齐边界
 
 // 添加保护区域
-uint8_t input_guard[128] = {0xAA, 0xAA, 0xAA, 0xAA};  // 溢出检测区
+uint8_t input_guard[128] = {0};  // 溢出检测区
 
 DeepSeekSession *session = NULL;  // 远离输入缓冲区
 
+// 对话历史结构体
+extern MessageHistory * meghistory ;
 
 // 重排token变量
 int prompt_tokens;
@@ -50,11 +58,15 @@ int total_tokens;
 #define SESSION_MAGIC 0x5E5510DE
 
 // 使用缓冲区输入输出是没问题的，需要解决循环的问题，不使用循环
+// 不使用循环，每次点击事件进入，关于对话上下文如何操作、保护、
 // 模拟测试文本缓冲区
 char textbuf[128] = "who are you";
 // 文本输入
 extern char * kbEntertext;
-char dpOut[128] = {0};
+
+#define DP_OUT_SIZE 512
+char dpOut[DP_OUT_SIZE] = {0};
+
 
 // ================== 前置声明 ==================
 struct MemoryStruct;
@@ -64,15 +76,150 @@ struct APIResponse call_deepseek(const char *api_key, const char *prompt);
 void print_token_usage(int prompt_tokens, int completion_tokens, int total_tokens);
 
 
+
+// 构造一个全局messgaes 对象数组，然后每次输入和输出就向里面添加对象，不用中间消息数组，直接向数组添加消息对象
+// 由于每次构造时都是新的局部变量，所以只添加一次消息对象
+
+
+cJSON *root = NULL;
+cJSON *messages =  NULL;
+// char *post_data = NULL;
+// struct curl_slist *headers = NULL;
+// CURL *curl;
+
+/*********************
+ * @brief 创建初始化函数，负责一次性设置全局资源
+ * @param  api_key 
+ * @return true 
+ * @return false 
+ *************************************************/
+#if 0
+bool CompleteInit()
+{
+    // 1. 初始化libcurl
+    curl_global_init(CURL_GLOBAL_DEFAULT);
+    // curl = curl_easy_init();
+    if (!curl) {
+        fprintf(stderr, "错误: 无法初始化cURL\n");
+        return false;
+    }
+
+    // 设置请求头
+    // struct curl_slist *headers = NULL;
+    // headers = curl_slist_append(headers, "Content-Type: application/json");
+    // char auth_header[256];
+    // snprintf(auth_header, sizeof(auth_header), "Authorization: Bearer %s", api_key);
+    // headers = curl_slist_append(headers, auth_header);
+    // curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+
+    // 3、初始化JSON请求体
+    CompleteRequestBodyroot();
+
+    // 4、初始化消息数组
+    messages = cJSON_CreateArray();
+    if (!messages) {
+        fprintf(stderr, "错误: 无法创建消息数组\n");
+        return false;
+    }
+    cJSON_AddItemToObject(root, "messages", messages);
+
+    return true;
+}
+#endif
+
+/*********************
+ * @brief 清理API客户端资源
+ *************************************************/
+#if 0
+void CleanupApiClient()
+{
+    if (post_data) {
+        free(post_data);
+        post_data = NULL;
+    }
+    
+    if (headers) {
+        curl_slist_free_all(headers);
+        headers = NULL;
+    }
+    
+    if (curl) {
+        curl_easy_cleanup(curl);
+        curl = NULL;
+    }
+    
+    if (root) {
+        cJSON_Delete(root);
+        root = NULL;
+    }
+    
+    curl_global_cleanup();
+}
+#endif
+
+void CompleteRequestBodyroot()
+{
+    root = cJSON_CreateObject();
+    if (!root) {
+        fprintf(stderr, "错误: 无法创建JSON根对象\n");
+        return false;
+    }
+    cJSON_AddStringToObject(root, "model", "deepseek-chat");
+    cJSON_AddNumberToObject(root, "max_tokens", 2000);
+}
+
+/*********************
+ * @brief 构造messages数组用户消息对象并添加到messages数组
+ * @param  messages 
+ * @param  prompt 
+ *************************************************/
+void MakeupUserMessageObj(cJSON *messages, const char *prompt)
+{
+    if (!messages || !prompt) return;  // 检查输入参数
+    cJSON *message = cJSON_CreateObject();
+    if (!message)  // 处理内存分配失败
+    {
+        fprintf(stderr, "错误：[cJSON_CreateObject](ERRNO:%d, DETAILS:%s, LINE:%d)\n", errno, strerror(errno), __LINE__);
+        return;
+    }
+    cJSON_AddStringToObject(message, "role", "user");
+    cJSON_AddStringToObject(message, "content", prompt);
+
+        // 将message对象添加到messages数组
+    cJSON_AddItemToArray(messages, message);
+}
+
+/*********************
+ * @brief 构造messages数组AI消息对象并添加到messages数组
+ * @param  messages 
+ * @param  dpOutput 
+ *************************************************/
+void MakeupAIReplyMessageObj(cJSON *messages, const char *dpOutput)
+{
+    cJSON *AIReply = cJSON_CreateObject();
+    cJSON_AddStringToObject(AIReply, "role", "assistant");
+    cJSON_AddStringToObject(AIReply, "content", dpOutput);
+
+        // 将message对象添加到messages数组
+    cJSON_AddItemToArray(messages, AIReply);
+}
+
+
+void ResolveInputMessage()
+{
+
+}
+
+
 /*********************
  * @brief 保护区域检查
  *************************************************/
 void check_guard_zone() {
     for (int i = 0; i < sizeof(input_guard); i++) {
-        if (input_guard[i] != 0xAA) {
-            printf("!!! BUFFER OVERFLOW DETECTED at position %d !!!\n", i);
+        if (input_guard[i] != 0) {
+            printf("<!!! BUFFER OVERFLOW DETECTED at position %d !!!>\n", i);
             // 重置保护区域
-            input_guard[i] = 0xAA;
+            input_guard[i] = 0;
             // 可选：添加恢复逻辑或错误处理
         }
     }
@@ -81,11 +228,13 @@ void check_guard_zone() {
 /*********************
  * @brief 检查栈使用
  *************************************************/
-// void check_stack() {
-//     char marker;
-//     printf("当前栈使用: %ld bytes\n", 
-//         (long)((void*)&marker - (void*)pthread_get_stackaddr_np(pthread_self())));
-// }
+#if 0
+void check_stack() {
+    char marker;
+    printf("当前栈使用: %ld bytes\n", 
+        (long)((void*)&marker - (void*)pthread_get_stackaddr_np(pthread_self())));
+}
+#endif
 
 /*********************
  * @brief 获取当前栈指针的辅助函数
@@ -116,10 +265,9 @@ char *response;
 static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp) {
     size_t realsize = size * nmemb;
     struct MemoryStruct *mem = (struct MemoryStruct *)userp;
-
     char *ptr = realloc(mem->memory, mem->size + realsize + 1);
     if(!ptr) {
-        fprintf(stderr, "内存分配错误\n");
+        fprintf(stderr, "<内存分配错误>\n");
         return 0;
     }
 
@@ -138,6 +286,8 @@ static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *use
  *************************************************/
 char* get_api_key() {
     char *api_key = getenv("DEEPSEEK_API_KEY");
+
+    #if 0
     if (api_key && strlen(api_key) > 0) {
         return strdup(api_key);
     }
@@ -147,7 +297,7 @@ char* get_api_key() {
     
     char *input_key = malloc(256);
     if (!input_key) {
-        fprintf(stderr, "内存分配失败\n");
+        fprintf(stderr, "<内存分配失败>\n");
         return NULL;
     }
     
@@ -160,6 +310,9 @@ char* get_api_key() {
     // 这是什么语法
     input_key[strcspn(input_key, "\n")] = 0;
     return input_key;
+    #endif
+
+    return api_key;
 }
 
 // ================== 核心API函数 ==================
@@ -169,202 +322,19 @@ char* get_api_key() {
  * @param  prompt 
  * @return struct APIResponse 
  *************************************************/
-// struct APIResponse call_deepseek(const char *api_key, const char *prompt) {
-//     CURL *curl = NULL;
-//     CURLcode res;
-//     struct MemoryStruct chunk = {0};
-//     long http_code = 0;
-//     struct APIResponse api_response = {0};
-//     cJSON *root = NULL;
-//     char *post_data = NULL;
-//     struct curl_slist *headers = NULL;
-    
-//     // 初始化cURL全局环境
-//     CURLcode global_res = curl_global_init(CURL_GLOBAL_DEFAULT);
-//     if (global_res != CURLE_OK) {
-//         fprintf(stderr, "curl_global_init() failed: %s\n", curl_easy_strerror(global_res));
-//         return api_response;
-//     }
-
-//     curl = curl_easy_init();
-//     if (!curl) {
-//         fprintf(stderr, "无法初始化cURL\n");
-//         goto cleanup;
-//     }
-
-//     // 构建请求体
-//     root = cJSON_CreateObject();
-//     if (!root) {
-//         fprintf(stderr, "创建JSON对象失败\n");
-//         goto cleanup;
-//     }
-    
-//     cJSON_AddStringToObject(root, "model", "deepseek-chat");
-//     cJSON_AddNumberToObject(root, "max_tokens", 2000);
-    
-//     cJSON *messages = cJSON_CreateArray();
-//     cJSON *message = cJSON_CreateObject();
-//     cJSON_AddStringToObject(message, "role", "user");
-//     cJSON_AddStringToObject(message, "content", prompt);
-//     cJSON_AddItemToArray(messages, message);
-//     cJSON_AddItemToObject(root, "messages", messages);
-    
-//     post_data = cJSON_PrintUnformatted(root);
-//     if (!post_data) {
-//         fprintf(stderr, "生成JSON数据失败\n");
-//         goto cleanup;
-//     }
-    
-//     // 设置API端点
-//     curl_easy_setopt(curl, CURLOPT_URL, "https://api.deepseek.com/chat/completions");
-    
-//     // 设置请求头
-//     headers = curl_slist_append(headers, "Content-Type: application/json");
-//     char auth_header[256];
-//     snprintf(auth_header, sizeof(auth_header), "Authorization: Bearer %s", api_key);
-//     headers = curl_slist_append(headers, auth_header);
-//     curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
-    
-//     // 设置POST数据
-//     curl_easy_setopt(curl, CURLOPT_POSTFIELDS, post_data);
-//     curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE, (long)strlen(post_data));
-    
-//     // 设置响应回调
-//     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
-//     curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void*)&chunk);
-//     curl_easy_setopt(curl, CURLOPT_TIMEOUT, 10L);
-    
-//     // 执行请求
-//     res = curl_easy_perform(curl);
-//     if (res != CURLE_OK) {
-//         fprintf(stderr, "cURL错误: %s\n", curl_easy_strerror(res));
-//         if (res == CURLE_UNSUPPORTED_PROTOCOL) {
-//             fprintf(stderr, "不支持的协议 - URL: %s\n", "https://api.deepseek.com/chat/completions");
-//             curl_version_info_data *ver_info = curl_version_info(CURLVERSION_NOW);
-//             if (ver_info && ver_info->protocols) {
-//                 fprintf(stderr, "支持的协议列表:\n");
-//                 for (const char* const* proto = ver_info->protocols; *proto; proto++) {
-//                     fprintf(stderr, "- %s\n", *proto);
-//                 }
-//             }
-//         }
-//     }
-    
-//     // 获取HTTP状态码
-//     curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &http_code);
-    
-//     // 打印原始响应
-//     printf("\n--- API响应 ---\n状态码: %ld\n", http_code);
-//     printf("内容: %s\n", chunk.memory ? chunk.memory : "(NULL)");
-    
-//     // 调试信息
-//     printf("\n--- 请求详情 ---\n");
-//     printf("端点: %s\n", "https://api.deepseek.com/chat/completions");
-//     printf("模型: deepseek-chat\n");
-//     printf("提示: %s\n", prompt);
-//     printf("状态码: %ld\n", http_code);
-    
-//     // 处理HTTP错误
-//     if (http_code != 200) {
-//         fprintf(stderr, "API错误: HTTP %ld\n", http_code);
-//         if (chunk.memory) {
-//             cJSON *error_json = cJSON_Parse(chunk.memory);
-//             if (error_json) {
-//                 cJSON *error_obj = cJSON_GetObjectItem(error_json, "error");
-//                 if (error_obj) {
-//                     cJSON *msg = cJSON_GetObjectItem(error_obj, "message");
-//                     cJSON *code = cJSON_GetObjectItem(error_obj, "code");
-//                     if (cJSON_IsString(msg)) {
-//                         fprintf(stderr, "错误信息: %s\n", msg->valuestring);
-//                     }
-//                     if (cJSON_IsString(code)) {
-//                         fprintf(stderr, "错误代码: %s\n", code->valuestring);
-//                     }
-//                 }
-//                 cJSON_Delete(error_json);
-//             } else {
-//                 fprintf(stderr, "JSON解析失败\n");
-//             }
-//         }
-//         goto cleanup;
-//     }
-    
-//     // 检查响应是否为空
-//     if (!chunk.memory || chunk.size == 0) {
-//         fprintf(stderr, "API返回空响应\n");
-//         goto cleanup;
-//     }
-    
-//     // 解析API响应
-//     cJSON *response_json = cJSON_Parse(chunk.memory);
-//     if (!response_json) {
-//         const char *error_ptr = cJSON_GetErrorPtr();
-//         fprintf(stderr, "JSON解析错误: %s\n", error_ptr ? error_ptr : "unknown");
-//         fprintf(stderr, "原始响应: %s\n", chunk.memory);
-//         goto cleanup;
-//     }
-    
-//     // 提取令牌使用信息
-//     cJSON *usage = cJSON_GetObjectItem(response_json, "usage");
-//     if (usage) {
-//         cJSON *prompt_tokens = cJSON_GetObjectItem(usage, "prompt_tokens");
-//         cJSON *completion_tokens = cJSON_GetObjectItem(usage, "completion_tokens");
-//         cJSON *total_tokens = cJSON_GetObjectItem(usage, "total_tokens");
-        
-//         if (cJSON_IsNumber(prompt_tokens)) 
-//             api_response.prompt_tokens = prompt_tokens->valueint;
-//         if (cJSON_IsNumber(completion_tokens)) 
-//             api_response.completion_tokens = completion_tokens->valueint;
-//         if (cJSON_IsNumber(total_tokens)) 
-//             api_response.total_tokens = total_tokens->valueint;
-//     }
-    
-//     // 提取回复内容
-//     cJSON *choices = cJSON_GetObjectItem(response_json, "choices");
-//     if (cJSON_IsArray(choices) && cJSON_GetArraySize(choices) > 0) {
-//         cJSON *first_choice = cJSON_GetArrayItem(choices, 0);
-//         if (first_choice) {
-//             cJSON *message = cJSON_GetObjectItem(first_choice, "message");
-//             if (message) {
-//                 cJSON *content = cJSON_GetObjectItem(message, "content");
-//                 if (cJSON_IsString(content) && content->valuestring) {
-//                     api_response.content = strdup(content->valuestring);
-//                 }
-//             }
-//         }
-//     }
-    
-//     cJSON_Delete(response_json);
-
-// cleanup:
-//     // 统一清理资源
-//     if (curl) curl_easy_cleanup(curl);
-//     if (headers) curl_slist_free_all(headers);
-//     if (root) cJSON_Delete(root);
-//     if (post_data) free(post_data);
-//     if (chunk.memory) {
-//         free(chunk.memory);
-//         chunk.memory = NULL;
-//     }
-//     curl_global_cleanup();
-//     return api_response;
-// }
-
  struct APIResponse call_deepseek(const char *api_key, const char *prompt) {
     // 函数入口栈指针检查
     void *entry_sp = get_stack_pointer();
-    printf("函数入口栈指针: %p\n", entry_sp);
+    printf("[函数入口栈指针: %p]\n", entry_sp);
     
     // 计算栈使用量
     static void *last_pre_call_sp = NULL;
     if (last_pre_call_sp) {
         uintptr_t stack_used = (uintptr_t)last_pre_call_sp - (uintptr_t)entry_sp;
-        printf("栈使用量: %" PRIuPTR " 字节\n", stack_used);
+        printf("[栈使用量: %" PRIuPTR " 字节]\n", stack_used);
     }
     last_pre_call_sp = entry_sp;
 
-
-    printf("定位12...\n");
     // 原有代码
     CURL *curl;
     CURLcode res;
@@ -373,20 +343,18 @@ char* get_api_key() {
     struct APIResponse api_response = {0};
 
     curl_global_init(CURL_GLOBAL_DEFAULT);
-    printf("定位13...\n");
     curl = curl_easy_init();
-    printf("定14...\n");
+    // curl_easy_reset(curl);
     if(!curl) {
-        fprintf(stderr, "无法初始化cURL\n");
-        // cJSON_Delete(root);
-        // free(post_data);  // 修复内存泄漏   
+        fprintf(stderr, "<无法初始化cURL>\n");
         return api_response;
     }
 
-    printf("定位7...\n");
-    // 设置API端点
+    // // 设置API端点
     curl_easy_setopt(curl, CURLOPT_URL, "https://api.deepseek.com/chat/completions");
     
+    /* -----------------------------------------------------*/
+
     // 设置请求头
     struct curl_slist *headers = NULL;
     headers = curl_slist_append(headers, "Content-Type: application/json");
@@ -395,54 +363,80 @@ char* get_api_key() {
     headers = curl_slist_append(headers, auth_header);
     curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
     
-    // 构建请求体
+    // 构建请求体--使用函数代替，并设为全局变量，在事件层初始化
+    #if 0
     cJSON *root = cJSON_CreateObject();
     cJSON_AddStringToObject(root, "model", "deepseek-chat");
     cJSON_AddNumberToObject(root, "max_tokens", 2000);
-    
-    cJSON *messages = cJSON_CreateArray();
+    #endif
+    CompleteRequestBodyroot();
+
+    // 使用全局messages对象
+    #if 0
+    messages = cJSON_CreateArray();
     cJSON *message = cJSON_CreateObject();
     cJSON_AddStringToObject(message, "role", "user");
     cJSON_AddStringToObject(message, "content", prompt);
+        // 将message对象添加到messages数组
     cJSON_AddItemToArray(messages, message);
-    
+    #endif 
+
+    // 替换上面三行构造对象与添加对象功能
+    MakeupUserMessageObj(messages, prompt);
+
+    /* -----------------------------------------------------*/
     cJSON_AddItemToObject(root, "messages", messages);
-    char *post_data = cJSON_PrintUnformatted(root);
+
+    char *post_data = cJSON_PrintUnformatted(root);   // 有疑点，如何安置？？？
+    if (!post_data) {
+        fprintf(stderr, "错误: 无法生成JSON请求体\n");
+        return api_response;
+    }
+
+    // 打印最终cjson对象数据
+    if (root) {
+        char *jsonstring = cJSON_Print(root);
+        if (jsonstring) {
+            printf("%s\n", jsonstring);
+            free(jsonstring); // 必须释放!
+        } else {
+            fprintf(stderr, "<错误：JSON打印失败>\n");
+        }
+    } else {
+        fprintf(stderr, "<错误：root对象为空>\n");
+    }
     
+
     // 设置POST数据
     curl_easy_setopt(curl, CURLOPT_POSTFIELDS, post_data);
     curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE, (long)strlen(post_data));
-    
     // 设置响应回调
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
     curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&chunk);
-    
     // 设置超时
     curl_easy_setopt(curl, CURLOPT_TIMEOUT, 10L);
     
     // 执行请求
     res = curl_easy_perform(curl);
 
-    printf("定位8...\n");
     // 检查不支持的协议
     if(res == CURLE_UNSUPPORTED_PROTOCOL) {
-        fprintf(stderr, "cURL错误: 不支持的协议 - URL: %s\n", 
+        fprintf(stderr, "<cURL错误: 不支持的协议 - URL: %s>\n", 
                 "https://api.deepseek.com/chat/completions");
         
         // 获取支持的协议列表
         curl_version_info_data *ver_info = curl_version_info(CURLVERSION_NOW);
         if(ver_info && ver_info->protocols) {
-            fprintf(stderr, "支持的协议列表:\n");
+            fprintf(stderr, "<支持的协议列表: >\n");
             const char * const *proto;
             for(proto = ver_info->protocols; *proto; proto++) {
                 fprintf(stderr, "- %s\n", *proto);
             }
         }
     } else if(res != CURLE_OK) {
-        fprintf(stderr, "cURL错误: %s\n", curl_easy_strerror(res));
+        fprintf(stderr, "<cURL错误: %s>\n", curl_easy_strerror(res));
     }
     
-    printf("定位9...\n");
     // 检查HTTP状态码
     curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &http_code);
     
@@ -450,12 +444,12 @@ char* get_api_key() {
     printf("原始API响应: %s\n", chunk.memory ? chunk.memory : "(NULL)");
     
     // 清理cURL资源
+    // 使用全局变量不删除root
     curl_easy_cleanup(curl);
     curl_slist_free_all(headers);
-    cJSON_Delete(root);
+    // cJSON_Delete(root);
     free(post_data);
     
-    printf("定位10...\n");
     // 调试信息
     printf("\n--- API请求详情 ---\n");
     printf("端点: https://api.deepseek.com/chat/completions\n");
@@ -464,15 +458,14 @@ char* get_api_key() {
     printf("状态码: %ld\n", http_code);
     
     if(res != CURLE_OK) {
-        fprintf(stderr, "cURL错误: %s\n", curl_easy_strerror(res));
-        // if(chunk.memory) free(chunk.memory);
+        fprintf(stderr, "<cURL错误: %s>\n", curl_easy_strerror(res));
         curl_global_cleanup();
         return api_response;
     }
     
     // 检查HTTP状态码
     if(http_code != 200) {
-        fprintf(stderr, "API错误: HTTP %ld\n", http_code);
+        fprintf(stderr, "<API错误: HTTP %ld>\n", http_code);
         if(chunk.memory) {
             printf("原始响应: %s\n", chunk.memory);
             
@@ -484,30 +477,27 @@ char* get_api_key() {
                     cJSON *code = cJSON_GetObjectItem(error_obj, "code");
                     
                     if(cJSON_IsString(message)) {
-                        fprintf(stderr, "错误信息: %s\n", message->valuestring);
+                        fprintf(stderr, "<错误信息: %s>\n", message->valuestring);
                     }
                     if(cJSON_IsString(code)) {
-                        fprintf(stderr, "错误代码: %s\n", code->valuestring);
+                        fprintf(stderr, "<错误代码: %s>\n", code->valuestring);
                     }
                 }
                 cJSON_Delete(error_json);
             }else
             {
-                fprintf(stderr, "错误：【cJSON_parse】(错误码：%d, 详情：%s)\n", errno, strerror(errno));
-                
+                fprintf(stderr, "<错误：【cJSON_parse】(错误码：%d, 详情：%s)>\n", errno, strerror(errno));
             }
         }
-        // if(chunk.memory) free(chunk.memory); // 重复释放问题
         curl_global_cleanup();
         return api_response;
     }
     
     curl_global_cleanup();
     
-    printf("定位11...\n");
     // 检查chunk.memory
     if (!chunk.memory || !chunk.size) {
-        fprintf(stderr, "API返回空响应\n");
+        fprintf(stderr, "<API返回空响应>\n");
         if (chunk.memory) free(chunk.memory);
         return api_response;
     }
@@ -515,9 +505,9 @@ char* get_api_key() {
     cJSON *response_json = cJSON_Parse(chunk.memory);
     
     if (!response_json) {
-        fprintf(stderr, "错误：【cJSON_parse】(错误码：%d, 详情：%s,行号：%d)\n", errno, strerror(errno), __LINE__);
+        fprintf(stderr, "<错误：【cJSON_parse】(错误码：%d, 详情：%s,行号：%d)>\n", errno, strerror(errno), __LINE__);
         const char *error_ptr = cJSON_GetErrorPtr();
-        if (error_ptr) fprintf(stderr, "JSON解析错误: %s\n", error_ptr);
+        if (error_ptr) fprintf(stderr, "<JSON解析错误: %s>\n", error_ptr);
         fprintf(stderr, "原始响应: %s\n", chunk.memory);
         if (chunk.memory) free(chunk.memory);
         return api_response;
@@ -546,6 +536,7 @@ char* get_api_key() {
             api_response.content = strdup(content->valuestring);
         }
     }
+    
     
     cJSON_Delete(response_json);
     if(chunk.memory) {
@@ -586,12 +577,14 @@ DeepSeekSession* deepseek_create_session(const char *api_key) {
     session->magic = SESSION_MAGIC;  // 添加魔术字
     
     // 修复类型不匹配问题
-    if (api_key) {
-        session->api_key = strdup(api_key);
-    } else {
-        session->api_key = get_api_key();
-    }
+    // if (api_key) {
+    //     session->api_key = strdup(api_key);   strdup函数会导致段错误，原因未知
+    // } else {
+    //     session->api_key = get_api_key();
+    // }
     
+    session->api_key = get_api_key();
+
     session->total_prompt_tokens = 0;
     session->total_completion_tokens = 0;
     session->total_all_tokens = 0;
@@ -606,8 +599,16 @@ DeepSeekSession* deepseek_create_session(const char *api_key) {
  *************************************************/
 void deepseek_destroy_session(DeepSeekSession *session) {
     if (!session) return;
-    
-    free(session->api_key);
+    // free(session->api_key);
+    if (session->api_key) {
+        // 安全擦除API密钥内存
+        size_t len = strlen(session->api_key);
+        volatile char *p = session->api_key;
+        while (len--) {
+            *p++ = 0;
+        }
+        free(session->api_key);
+    }
     free(session);
 }
 
@@ -638,43 +639,35 @@ char* deepseek_send_message(
     
     // 魔术字验证
     if (session->magic != SESSION_MAGIC) {
-        fprintf(stderr, "CRITICAL: Session magic mismatch! Expected 0x%X, got 0x%X\n",
+        fprintf(stderr, "<CRITICAL: Session magic mismatch! Expected 0x%X, got 0x%X>\n",
                 SESSION_MAGIC, session->magic);
         fprintf(stderr, "Memory dump at %p:\n", session);
         // 打印session指针附近内存
-        // hex_dump((void*)session, 32);
         return NULL;
     }
-    printf("定位2...\n");
 
     // 添加详细的调试信息
     printf("Session pointer: %p\n", (void*)session);
     if (session) {
         printf("API key: %s\n", session->api_key ? "VALID" : "NULL");
     } else {
-        printf("Session is NULL\n");
+        printf("<Session is NULL>\n");
     }
 
     // 添加安全检查
     if (!session || !session->api_key) {
-        fprintf(stderr, "错误: 会话未初始化或API密钥无效\n");
+        fprintf(stderr, "<错误: 会话未初始化或API密钥无效>\n");
         return NULL;
     }
     if (!session || !message) 
     {
-        printf("定位5...\n");
         return NULL;
     }
-    printf("定位6...\n");
     // 调用前栈指针检查
     void *pre_call_sp = get_stack_pointer();
     printf("调用前栈指针: %p\n", pre_call_sp);
     struct APIResponse api_res = call_deepseek(session->api_key, message);
-    // if(api_res == )
-    // {
-    //     fprintf(stderr, "错误:[call_deepseek](错误码：%d, 详情：%s)\n", errno, strerror(errno));
-    // }
-    printf("定位4...\n");
+
     
     if (api_res.content) {
         // 更新会话令牌计数
@@ -689,7 +682,6 @@ char* deepseek_send_message(
         
         return api_res.content;
     }
-    printf("定位3...\n");
     return NULL;
 }
 
@@ -708,7 +700,6 @@ void deepseek_get_token_stats(
     int *total_all
 ) {
     if (!session) return;
-    
     if (total_prompt) *total_prompt = session->total_prompt_tokens;
     if (total_completion) *total_completion = session->total_completion_tokens;
     if (total_all) *total_all = session->total_all_tokens;
@@ -720,6 +711,7 @@ void deepseek_get_token_stats(
  *          遇到空格会中断文本内容，无法获取空格之后的文本内容
  * @param  dest 
  * @param  dest_size 
+ * @note 该函数有些问题！！！
  *************************************************/
 void get_full_text_input(char *dest, size_t dest_size) {
     // 清空缓冲区
@@ -733,12 +725,6 @@ void get_full_text_input(char *dest, size_t dest_size) {
     
     // 计算实际文本长度（包括空格）
     size_t text_len = strlen(text);
-    // 安全计算长度 - 使用文本区域API获取长度
-    // size_t text_len = lv_textarea_get_text_length(ui_TextArea1);
-    // if (text_len > dest_size - 1) {
-    //     text_len = dest_size - 1;
-    //     lv_label_set_text(ui_AILabel, "输入过长已截断!");
-    // }
     
     // 安全复制文本（防止缓冲区溢出）
     size_t copy_len = text_len < dest_size - 1 ? text_len : dest_size - 1;
@@ -776,6 +762,9 @@ int depmainlong(lv_event_t * e) // 创建会话标志，拉出键盘，标志进
     {
         printf("DeepSeek聊天客户端 (输入'exit'退出)\n");
         printf("使用的API密钥: %.6s...\n", session->api_key);
+
+        // messages =  cJSON_CreateArray();
+
         return 0; 
     }   
 }
@@ -795,55 +784,74 @@ int depmaintalk(lv_event_t * e) // 会话
     {
         // 添加会话检查
         if (!session) {
-            fprintf(stderr, "错误: 会话未初始化，请先长按LOGO创建会话\n");
+            fprintf(stderr, "<错误: 会话未初始化，请先长按LOGO创建会话>\n");
             return -1;
         }
+
         // 判断键盘的状态，是否隐藏，若未隐藏，代表动画执行完毕，浮出，可以开始输入
         if( !lv_obj_has_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN)) {
+            //  char input[1024] = {0};  // 本地声明，避免全局变量
+            printf("-inputlogo被按下!-\n");
+            get_full_text_input(input, sizeof(input));
+            printf("【 input = %s 】\n", input);
+            if( strcmp(input, "exit") == 0 )
+            {
+                    // 清理资源
+                deepseek_destroy_session(session);
+                printf("退出！\n");
+                return 0; 
+            }
+            printf("正在查询DeepSeek API...\n");    
 
-                //  char input[1024] = {0};  // 本地声明，避免全局变量
-                // printf("\n你的问题: ");
-                printf("inputlogo被按下!\n");
-
-                get_full_text_input(input, sizeof(input));
-                // sscanf(lv_textarea_get_text(ui_TextArea1), "%s", input);
-                // printf("kbEntertext = %s\n", kbEntertext);
-                printf("input = %s\n", input);
-
-                if( strcmp(input, "exit") == 0 )
-                {
-                     // 清理资源
-                    deepseek_destroy_session(session);
-                    printf("退出！\n");
-                    return 0; 
-                }
-
-            printf("正在查询DeepSeek API...\n");    // ！！！该处之后出现段错误
-
-            // char *local_response = deepseek_send_message
             // 在调用前打印栈指针
-                void *stack_ptr;
-                asm("mov %%rsp, %0" : "=r"(stack_ptr));  // x86_64
-                printf("调用前栈指针: %p\n", stack_ptr);
+            void *stack_ptr;
+            asm("mov %%rsp, %0" : "=r"(stack_ptr));  // x86_64
+            printf("调用前栈指针: %p\n", stack_ptr);
 
-                char* local_response = deepseek_send_message(
+            char* local_response = deepseek_send_message(
                 session, 
-                input,
+                input,  
                 &prompt_tokens,
                 &completion_tokens,
                 &total_tokens
             );
-            printf("定位1...\n");
+
             if(local_response) {
                 // printf("\n--- DeepSeek回复 ---\n%s\n", local_response);
                 printf("\n--- DeepSeek回复 ---\n");
-                sprintf(dpOut, "%s", local_response);
-                printf("%s\n", dpOut);
+                int written = snprintf(dpOut, sizeof(dpOut), "%s", local_response);
+
+                // 检查是否被截断
+                if(written >= (int)sizeof(dpOut)) {
+                    fprintf(stderr, "警告: AI响应被截断 (原始长度: %d, 缓冲区大小: %zu)\n", 
+                            written, sizeof(dpOut));
+                    
+                    // 可选：在截断处添加省略号
+                    size_t last_pos = sizeof(dpOut) - 4; // 保留空间给 "..."
+                    if(last_pos > 0) {
+                        strcpy(dpOut + last_pos, "...");
+                    }
+                }
+
+                printf("dpOut = %s\n", dpOut);
                 lv_label_set_text(ui_AILabel, dpOut);
-                
+
+                MakeupAIReplyMessageObj(messages, dpOut);
+
+                printf("将dpOut添加到messages数组\n");
+                char * jsonstring = cJSON_Print(root);
+                printf("jsonstring = %s\n", jsonstring);
+                // char *json_str = cJSON_Print(messages);
+                // if (json_str) {
+                //     printf("messages = %s\n", json_str);
+                //     free(json_str);
+                // } else {
+                //     printf("ERROR: Failed to print messages!\n");
+                // }
+
+
                 // 显示令牌使用
                 print_token_usage(prompt_tokens, completion_tokens, total_tokens);
-                
                 free(local_response);
             } else {
                 printf("获取回复时出错\n");

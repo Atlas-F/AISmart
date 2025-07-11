@@ -6,7 +6,18 @@
 #include "ui.h"
 #include "ui_helpers.h"
 
-#include "depskmainCopy.h" // 包含头文件以访问全局session
+
+#include "ui_events.h"
+char * kbEntertext ;
+
+#include "depskmainCopy.h"
+#include "cJSON.h"
+
+
+extern DeepSeekSession *session;   
+
+extern cJSON *messages ;
+extern cJSON *root ;
 
 ///////////////////// VARIABLES ////////////////////
 void floatout_Animation(lv_obj_t * TargetObject, int delay);
@@ -17,18 +28,13 @@ void flashmic64_Animation(lv_obj_t * TargetObject, int delay);
 void flashmic128_Animation(lv_obj_t * TargetObject, int delay);
 void yuebing_Animation(lv_obj_t * TargetObject, int delay);
 
-// const char * kbEntertext ;   const 与普通状态的区别？
-// 输入给AI的中间缓冲区
-char * kbEntertext ;
-
-lv_event_code_t kbenterevent_code;
-
-extern DeepSeekSession *session;    // 声明外部变量
 
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
 void ui_event_Screen1(lv_event_t * e);
 lv_obj_t * ui_Screen1;
+lv_obj_t * ui_Image52;
+lv_obj_t * ui_Image51;
 lv_obj_t * ui_circle1;
 lv_obj_t * ui_Container1;
 lv_obj_t * ui_Image2;
@@ -55,6 +61,7 @@ lv_obj_t * ui_Label3;
 void ui_event_Oneto4(lv_event_t * e);
 lv_obj_t * ui_Oneto4;
 lv_obj_t * ui_Label5;
+lv_obj_t * ui_Image55;
 
 
 // SCREEN: ui_Screen4
@@ -65,6 +72,7 @@ void ui_event_time2(lv_event_t * e);
 lv_obj_t * ui_time2;
 void ui_event_date2(lv_event_t * e);
 lv_obj_t * ui_date2;
+lv_obj_t * ui_Image57;
 lv_obj_t * ui_circle4;
 void ui_event_fourTo2(lv_event_t * e);
 lv_obj_t * ui_fourTo2;
@@ -81,6 +89,7 @@ lv_obj_t * ui_Image17;
 void ui_Screen2_screen_init(void);
 void ui_event_Screen2(lv_event_t * e);
 lv_obj_t * ui_Screen2;
+lv_obj_t * ui_Image53;
 lv_obj_t * ui_Label13;
 lv_obj_t * ui_circle2;
 void ui_event_to1(lv_event_t * e);
@@ -125,6 +134,7 @@ void ui_Screen3_screen_init(void);
 void ui_event_Screen3(lv_event_t * e);
 lv_obj_t * ui_Screen3;
 lv_obj_t * ui_Label2;
+lv_obj_t * ui_Image54;
 lv_obj_t * ui_circle;
 void ui_event_Button4(lv_event_t * e);
 lv_obj_t * ui_Button4;
@@ -159,6 +169,7 @@ void ui_Screen5_screen_init(void);
 void ui_event_Screen5(lv_event_t * e);
 lv_obj_t * ui_Screen5;
 lv_obj_t * ui_Label1;
+lv_obj_t * ui_Image56;
 lv_obj_t * ui_circle3;
 void ui_event_Button1(lv_event_t * e);
 lv_obj_t * ui_Button1;
@@ -303,7 +314,7 @@ const lv_img_dsc_t * ui_imgset_2111622300[1] = {&ui_img_774798805};
 const lv_img_dsc_t * ui_imgset_2087311896[1] = {&ui_img_270677314};
 const lv_img_dsc_t * ui_imgset_73115368[1] = {&ui_img_1542151835};
 const lv_img_dsc_t * ui_imgset_1236677998[1] = {&ui_img_657341686};
-const lv_img_dsc_t * ui_imgset_1771576097[3] = {&ui_img_525561802, &ui_img_1758698815, &ui_img_1758700865};
+const lv_img_dsc_t * ui_imgset_1771576097[8] = {&ui_img_525561802, &ui_img_1758698815, &ui_img_1758700865, &ui_img_1805148743, &ui_img_536328497, &ui_img_965791753, &ui_img_1884734136, &ui_img_570494189};
 const lv_img_dsc_t * ui_imgset_1847158846[2] = {&ui_img_1328066288, &ui_img_1328075000};
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////
@@ -487,6 +498,8 @@ void ui_event_Screen1(lv_event_t * e)
 
     InitEmojiAutoChange(e);
     InitSowTimeDate(e);
+
+    
     
     if(event_code == LV_EVENT_SCREEN_LOADED) {
         printf("进入定时器\n");
@@ -596,6 +609,11 @@ void ui_event_Screen2(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
+
+    // 初始化全局cJSON 对象root 和 messages
+    messages =  cJSON_CreateArray();
+    CompleteRequestBodyroot();
+
     if(event_code == LV_EVENT_GESTURE &&  lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
         _ui_screen_change(&ui_Screen3, LV_SCR_LOAD_ANIM_MOVE_LEFT, 500, 0, &ui_Screen3_screen_init);
@@ -603,6 +621,14 @@ void ui_event_Screen2(lv_event_t * e)
     if(event_code == LV_EVENT_GESTURE &&  lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_RIGHT) {
         lv_indev_wait_release(lv_indev_get_act());
         _ui_screen_change(&ui_Screen1, LV_SCR_LOAD_ANIM_MOVE_RIGHT, 500, 0, &ui_Screen1_screen_init);
+    }
+    if(event_code == LV_EVENT_SCREEN_LOADED) {
+        
+        // char *api_key = get_api_key();
+        // CompleteInit();
+    }
+    if(event_code == LV_EVENT_SCREEN_UNLOADED) {
+        // CleanupApiClient();
     }
 }
 void ui_event_to1(lv_event_t * e)
@@ -642,7 +668,7 @@ void ui_event_humanPanel(lv_event_t * e)
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
     if(event_code == LV_EVENT_CLICKED) {
-        // SetLabel(e);
+        SetLabel(e);
     }
 }
 void ui_event_mic(lv_event_t * e)
@@ -665,56 +691,31 @@ void ui_event_Keyboard1(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
-    // kbenterevent_code = lv_event_get_code(e);   多次定义，将这里注释掉
-
-
-    // SetLabel(e);
-    // depmain(e);
-
-    // if(event_code == LV_EVENT_READY) {
-    //     // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
-    //     kbEntertext = lv_textarea_get_text(ui_TextArea1);
-    //     printf("提交内容: %s\n", kbEntertext);
-
-    //     lv_keyboard_set_textarea(ui_Keyboard1, NULL);  // 解除关联
-    //     lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
-    // }
-}
-
-void ta_event_cb(lv_event_t * e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    lv_obj_t * ta = lv_event_get_target(e);
-    lv_obj_t * kb = lv_event_get_user_data(e);
-
-    if(code == LV_EVENT_FOCUSED) {
-        if(lv_indev_get_type(lv_indev_get_act()) != LV_INDEV_TYPE_KEYPAD) {
-            lv_keyboard_set_textarea(kb, ta);
-            lv_obj_clear_flag(kb, LV_OBJ_FLAG_HIDDEN);
-        }
-    }
-    else if(code == LV_EVENT_READY) {
-        lv_obj_add_flag(kb, LV_OBJ_FLAG_HIDDEN);
-        lv_obj_clear_state(ta, LV_STATE_FOCUSED);
-        lv_indev_reset(NULL, ta);   /*To forget the last clicked object to make it focusable again*/
+    if(event_code == LV_EVENT_CLICKED) {
+        _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
     }
 }
-
 void ui_event_inputlogo(lv_event_t * e)
 {
     static bool session_initialized = false;
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
 
-    // 创建会话 - 修复API密钥传递问题 使用硬编码API Key
-        // 只在首次调用时创建session
+    // // 初始化全局cJSON 对象root 和 messages
+    // messages =  cJSON_CreateArray();
+    // CompleteRequestBodyroot();
+
+    // 创建会话 - 只在首次调用时创建session
+
     if (!session_initialized) {
+
         // 现在操作的是全局session
-        session = deepseek_create_session("sk-39498dd4b1564b409b8a0bb959a608ac");   // 将API key 硬编码在这里，而不是depskmainCopy.c中
+        session = deepseek_create_session(NULL);   // 将API key 硬编码在这里，而不是depskmainCopy.c中sk-39498dd4b1564b409b8a0bb959a608ac
         if (!session) {
             fprintf(stderr, "创建会话失败\n");
             return;
         }
+        
         session_initialized = true;
         // 调试信息
         printf("Session initialized at: %p\n", (void*)session);
@@ -722,22 +723,22 @@ void ui_event_inputlogo(lv_event_t * e)
 
     if(event_code == LV_EVENT_LONG_PRESSED ) 
     {
-
         lv_obj_clear_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);
         lv_obj_clear_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
         lv_obj_set_pos(ui_inputlogo, 117, 11);
 
         depmainlong(e);
-
     }
-
     if( event_code == LV_EVENT_CLICKED )
     {
+        printf("*-----------------------------------------*\n");
         printf("inputlogo被长按!\n");
         depmaintalk(e);
-        printf("退出eventcode！\n");
+        printf("退出eventcode！\n\n");
+        printf("*-----------------------------------------*\n");
     }
 }
+
 void ui_event_Screen3(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);

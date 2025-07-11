@@ -48,14 +48,26 @@
 
 // 下面语句与上面两条预处理在从SquareLine中将ui导出后要添加到ui.c中
 # if 0
-记得在CMakeLists.txt中加入depskmainCopy.c
-// ui.h 中
+//记得在CMakeLists.txt中加入，添加以下文件
+depskmainCopy.c
+cJSON.c
+
+最下面
+images/ui_temporary_image.c
+
+// ui.h 中添加以下文件
+
+#include <stdio.h>
 extern  lv_timer_t *emoji_timer;
 extern FILE * ftex;
 
-// ui.c 中输入给AI的中间缓冲区
+// ui.c 中输入给AI的中间缓冲区 添加以下文件
+#include <stdio.h>
+#include "ui_events.h"
 char * kbEntertext ;
+extern DeepSeekSession *session;   
 
+//
 _ui_label_set_property(ui_AILabel, _UI_LABEL_PROPERTY_TEXT, "设置AIlabel");
 
 #endif
@@ -85,10 +97,12 @@ FILE * ftex = NULL;
  *************************************************/
 static void emoji_change_timer_cb(lv_timer_t *timer)
 {
+    printf("定位1...\n");
     lv_obj_t *screen = (lv_obj_t *)timer->user_data;
-    lv_obj_t * container = lv_obj_get_child(screen, 1);
-    uint16_t child_cnt = lv_obj_get_child_cnt(container);
+    lv_obj_t * container = lv_obj_get_child(screen, 4);
+    uint16_t child_cnt = lv_obj_get_child_cnt(ui_Container1);
     
+    printf("child_cnt = %d\n");
     if(child_cnt == 0) return;
     // 生成一个与上次不同的随机索引
     uint16_t idx;
@@ -99,10 +113,10 @@ static void emoji_change_timer_cb(lv_timer_t *timer)
 
     // 隐藏表情
     printf("last_idx 索引为 %d\n", last_idx);
-    lv_obj_add_flag(lv_obj_get_child(container, last_idx), LV_OBJ_FLAG_HIDDEN);
+    lv_obj_add_flag(lv_obj_get_child(ui_Container1, last_idx), LV_OBJ_FLAG_HIDDEN);
 
     // 显示选中的表情
-    lv_obj_t *curImage = lv_obj_get_child(container, idx);
+    lv_obj_t *curImage = lv_obj_get_child(ui_Container1, idx);
     lv_obj_clear_flag(curImage, LV_OBJ_FLAG_HIDDEN);
     printf("显示表情！%d\n", idx);
     // 随机设置下一次切换的时间间隔（1-3秒）
@@ -208,7 +222,8 @@ void GetOutNowTime()
         int sec = local_time->tm_sec;
         // printf("今天是 %d月%d日%d时%d分%d秒\n", month, day, hour, min, sec);
         
-        lv_label_set_text_fmt(ui_time2, "%d:%d:%d", hour, min, sec);
+        // lv_label_set_text_fmt(ui_time2, "%d:%d:%d", hour, min, sec);
+        lv_label_set_text_fmt(ui_time2, "%d:%d", hour, min);
         
 }
 
@@ -446,33 +461,34 @@ void ui_event_Keyboard1(lv_event_t * e)
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
 
-
     SetLabel(e);
 
-    // if(event_code == LV_EVENT_READY) {
-    //     // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
-    //     kbEntertext = lv_textarea_get_text(ui_TextArea1);
-    //     printf("提交内容: %s\n", kbEntertext);
-
-    //     lv_keyboard_set_textarea(ui_Keyboard1, NULL);  // 解除关联
-    //     lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
-    // }
 }
-
 
 
 
 void ui_event_inputlogo(lv_event_t * e)
 {
+    static bool session_initialized = false;
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
 
-    // 创建会话 - 修复API密钥传递问题 使用硬编码API Key
-        session = deepseek_create_session("sk-28b778879e5b4fd6b227d767812fd83d");
+    // 创建会话 - 
+    // 只在首次调用时创建session
+
+    if (!session_initialized) {
+        // 从环境变量获取API密钥
+
+        // 现在操作的是全局session
+        session = deepseek_create_session(NULL);   // 将API key 硬编码在这里，而不是depskmainCopy.c中sk-39498dd4b1564b409b8a0bb959a608ac
         if (!session) {
             fprintf(stderr, "创建会话失败\n");
-            return 1;
+            return;
         }
+        session_initialized = true;
+        // 调试信息
+        printf("Session initialized at: %p\n", (void*)session);
+    }
 
     if(event_code == LV_EVENT_LONG_PRESSED ) 
     {
@@ -501,18 +517,6 @@ void ui_event_Keyboard1(lv_event_t * e)
     lv_obj_t * target = lv_event_get_target(e);
     kbenterevent_code = lv_event_get_code(e);
 
-
-    // SetLabel(e);
-    // depmain(e);
-
-    // if(event_code == LV_EVENT_READY) {
-    //     // _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
-    //     kbEntertext = lv_textarea_get_text(ui_TextArea1);
-    //     printf("提交内容: %s\n", kbEntertext);
-
-    //     lv_keyboard_set_textarea(ui_Keyboard1, NULL);  // 解除关联
-    //     lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
-    // }
 }
 
 // 该事件取消setlabel

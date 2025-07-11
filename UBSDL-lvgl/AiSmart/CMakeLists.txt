@@ -9,7 +9,10 @@ SET(SOURCES screens/ui_Screen1.c
     ui_events.c
     depskmainCopy.c
     cJSON.c
-    images/ui_img_1758698815.c
+    MessageHistory.c
+    images/ui_img_807690992.c
+    images/ui_img_1805148743.c
+    images/ui_img_525561802.c
     images/ui_img_1273346190.c
     images/ui_img_1946132634.c
     images/ui_img_721922142.c
@@ -24,15 +27,22 @@ SET(SOURCES screens/ui_Screen1.c
     images/ui_img_1395808306.c
     images/ui_img_520820240.c
     images/ui_img_1673239870.c
+    images/ui_img_408278187.c
+    images/ui_img_570494189.c
+    images/ui_img_1758698815.c
     images/ui_img_1720058713.c
     images/ui_img_1932583977.c
     images/ui_img_1630928100.c
+    images/ui_img_706617981.c
+    images/ui_img_536328497.c
     images/ui_img_1328066288.c
     images/ui_img_1445365126.c
     images/ui_img_1761902563.c
     images/ui_img_1637902983.c
     images/ui_img_1758642971.c
     images/ui_img_977105517.c
+    images/ui_img_846333120.c
+    images/ui_img_965791753.c
     images/ui_img_520288613.c
     images/ui_img_2130913025.c
     images/ui_img_1810507611.c
@@ -50,6 +60,8 @@ SET(SOURCES screens/ui_Screen1.c
     images/ui_img_774798805.c
     images/ui_img_1409127908.c
     images/ui_img_590844277.c
+    images/ui_img_16379619.c
+    images/ui_img_1884734136.c
     images/ui_img_1106867240.c
     images/ui_img_253109117.c
     images/ui_img_758318489.c
@@ -137,9 +149,9 @@ SET(SOURCES screens/ui_Screen1.c
     images/ui_img_998280680.c
     images/ui_img_703197322.c
     images/ui_img_1542151835.c
-    images/ui_img_525561802.c
     images/ui_img_1758700865.c
     images/ui_img_1328075000.c
+    images/ui_temporary_image.c
     fonts/ui_font_puhui18.c)
 
 add_library(ui ${SOURCES})

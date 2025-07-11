@@ -4,12 +4,23 @@
 // Project name: SquareLine_Project
 
 #include "../ui.h"
-#include "../../lvgl/src/extra/others/ime/lv_ime_pinyin.h"
-#include "../../lvgl/src/font/lv_font.h"
+
 void ui_Screen2_screen_init(void)
 {
     ui_Screen2 = lv_obj_create(NULL);
     lv_obj_clear_flag(ui_Screen2, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
+    lv_obj_set_style_bg_img_src(ui_Screen2, &ui_img_706617981, LV_PART_MAIN | LV_STATE_DEFAULT);
+
+    ui_Image53 = lv_img_create(ui_Screen2);
+    lv_img_set_src(ui_Image53, &ui_img_536328497);
+    lv_obj_set_width(ui_Image53, LV_SIZE_CONTENT);   /// 1
+    lv_obj_set_height(ui_Image53, LV_SIZE_CONTENT);    /// 1
+    lv_obj_set_x(ui_Image53, 34);
+    lv_obj_set_y(ui_Image53, 35);
+    lv_obj_set_align(ui_Image53, LV_ALIGN_CENTER);
+    lv_obj_add_flag(ui_Image53, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
+    lv_obj_clear_flag(ui_Image53, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
+    lv_img_set_zoom(ui_Image53, 310);
 
     ui_Label13 = lv_label_create(ui_Screen2);
     lv_obj_set_width(ui_Label13, LV_SIZE_CONTENT);   /// 1
@@ -22,21 +33,23 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_style_text_font(ui_Label13, &ui_font_puhui18, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_circle2 = lv_img_create(ui_Screen2);
-    lv_img_set_src(ui_circle2, &ui_img_1758698815);
+    lv_img_set_src(ui_circle2, &ui_img_536328497);
     lv_obj_set_width(ui_circle2, LV_SIZE_CONTENT);   /// 300
     lv_obj_set_height(ui_circle2, LV_SIZE_CONTENT);    /// 300
+    lv_obj_set_x(ui_circle2, 34);
+    lv_obj_set_y(ui_circle2, 35);
     lv_obj_set_align(ui_circle2, LV_ALIGN_CENTER);
-    lv_obj_add_flag(ui_circle2, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
+    lv_obj_add_flag(ui_circle2, LV_OBJ_FLAG_HIDDEN | LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_circle2, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
-    lv_img_set_zoom(ui_circle2, 350);
-#if 0
+    lv_img_set_zoom(ui_circle2, 310);
+
     ui_to1 = lv_btn_create(ui_Screen2);
     lv_obj_set_width(ui_to1, 35);
     lv_obj_set_height(ui_to1, 50);
     lv_obj_set_x(ui_to1, -158);
     lv_obj_set_y(ui_to1, -1);
     lv_obj_set_align(ui_to1, LV_ALIGN_CENTER);
-    lv_obj_add_flag(ui_to1, LV_OBJ_FLAG_SCROLL_ON_FOCUS);     /// Flags
+    lv_obj_add_flag(ui_to1, LV_OBJ_FLAG_HIDDEN | LV_OBJ_FLAG_SCROLL_ON_FOCUS);     /// Flags
     lv_obj_clear_flag(ui_to1, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
     ui_Label4 = lv_label_create(ui_to1);
@@ -51,7 +64,7 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_x(ui_to3, 158);
     lv_obj_set_y(ui_to3, -3);
     lv_obj_set_align(ui_to3, LV_ALIGN_CENTER);
-    lv_obj_add_flag(ui_to3, LV_OBJ_FLAG_SCROLL_ON_FOCUS);     /// Flags
+    lv_obj_add_flag(ui_to3, LV_OBJ_FLAG_HIDDEN | LV_OBJ_FLAG_SCROLL_ON_FOCUS);     /// Flags
     lv_obj_clear_flag(ui_to3, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
     ui_Label7 = lv_label_create(ui_to3);
@@ -59,7 +72,7 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_height(ui_Label7, LV_SIZE_CONTENT);    /// 1
     lv_obj_set_align(ui_Label7, LV_ALIGN_CENTER);
     lv_label_set_text(ui_Label7, "to3");
-#endif
+
     ui_Container2 = lv_obj_create(ui_Screen2);
     lv_obj_remove_style_all(ui_Container2);
     lv_obj_set_width(ui_Container2, 218);
@@ -78,25 +91,16 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_style_bg_color(ui_AIPanel, lv_color_hex(0x00E6FF), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui_AIPanel, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
 
-    // 允许垂直滚动并自动显示滚动条
-    // 
-    // lv_Panel_set_long_mode(ui_AIPanel, LV_DIR_VER);      // 这个函数会导致段错误，为什么？
-    lv_obj_set_scrollbar_mode(ui_AIPanel, LV_SCROLLBAR_MODE_AUTO);
-
-
     ui_AILabel = lv_label_create(ui_AIPanel);
     lv_obj_set_width(ui_AILabel, 188);
     lv_obj_set_height(ui_AILabel, 79);
     lv_obj_set_align(ui_AILabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_AILabel, "我是AI\n请叫我小豆!");
+    lv_label_set_text(ui_AILabel, "What can i do for you ?");
     lv_obj_set_style_text_color(ui_AILabel, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_AILabel, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui_AILabel, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui_AILabel, 5, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_AILabel, &ui_font_puhui18, LV_PART_MAIN | LV_STATE_DEFAULT);
-
-    //设置AIlabel滚动
-    // lv_label_set_long_mode(ui_AILabel, LV_LABEL_LONG_SCROLL); // 循环滚动模式
 
     ui_humanPanel = lv_obj_create(ui_Container2);
     lv_obj_set_width(ui_humanPanel, 202);
@@ -270,10 +274,9 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_y(ui_TextArea1, 35);
     lv_obj_set_align(ui_TextArea1, LV_ALIGN_CENTER);
     lv_textarea_set_placeholder_text(ui_TextArea1, "Placeholder...");
-    
-    lv_obj_set_style_text_font(ui_TextArea1, &lv_font_simsun_16_cjk, 0);
-    
-    lv_obj_add_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);
+    lv_obj_add_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);     /// Flags
+
+
 
     ui_Keyboard1 = lv_keyboard_create(ui_Screen2);
     lv_obj_set_width(ui_Keyboard1, 239);
@@ -281,72 +284,7 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_x(ui_Keyboard1, 1);
     lv_obj_set_y(ui_Keyboard1, 108);
     lv_obj_set_align(ui_Keyboard1, LV_ALIGN_CENTER);
-
-    // /* ————————————————中文输入法————————————————*/
-    // 创建中文输入法组件
-    // lv_obj_t * pinyin_ime = lv_ime_pinyin_create(lv_scr_act());
-    // lv_obj_set_style_text_font(pinyin_ime, &lv_font_simsun_16_cjk, 0);
-    // lv_obj_set_style_text_font(ui_TextArea1, &lv_font_simsun_16_cjk, 0);
-
-    // lv_ime_pinyin_set_keyboard(pinyin_ime, ui_Keyboard1);
-    // lv_ime_pinyin_set_mode(pinyin_ime, LV_IME_PINYIN_MODE_K26);  // Set to 9-key input mode. Default: 26-key input(k26) mode.
-    // lv_obj_add_event_cb(ui_TextArea1, ta_event_cb, LV_EVENT_ALL, ui_Keyboard1);
-
-    // /*Get the cand_panel, and adjust its size and position*/
-    // lv_obj_t * cand_panel = lv_ime_pinyin_get_cand_panel(pinyin_ime);
-    // lv_obj_set_size(cand_panel, LV_PCT(100), LV_PCT(10));
-    // lv_obj_align_to(cand_panel, ui_Keyboard1, LV_ALIGN_OUT_TOP_MID, 0, 0);
-
-    /* ————————————————中文输入法————————————————*/
-    // 在创建输入法前检查字体
-    // if( &lv_font_simsun_16_cjk == NULL )
-    // {
-    //     printf("错误：中文字体未加载\n");
-    //         // 回退到基本字体
-    //     lv_obj_set_style_text_font(ui_TextArea1, LV_FONT_MONTSERRAT_16, 0);
-    //     return 0;
-    // } else
-    // {
-    //     printf("中文字体已经加载:%p\n", &lv_font_simsun_16_cjk);
-    // }
-
-    // // 创建中文输入法组件
-    // lv_obj_t * pinyin_ime = lv_ime_pinyin_create(lv_scr_act());
-    // if(!pinyin_ime) {
-    //     printf("错误: 无法创建拼音输入法\n");
-    //     return;
-    // }
-    // // 先设置关键属性
-    // lv_ime_pinyin_set_keyboard(pinyin_ime, ui_Keyboard1);
-    // lv_ime_pinyin_set_mode(pinyin_ime, LV_IME_PINYIN_MODE_K26);  // Set to 9-key input mode. Default: 26-key input(k26) mode.
-    // // 在设置字体
-    // lv_obj_set_style_text_font(pinyin_ime, &lv_font_simsun_16_cjk, 0);
-    // lv_obj_set_style_text_font(ui_TextArea1, &lv_font_simsun_16_cjk, 0);
-
-    // // lv_obj_add_event_cb(ui_TextArea1, ta_event_cb, LV_EVENT_ALL, ui_Keyboard1);
-
-    // /*Get the cand_panel, and adjust its size and position*/
-    // lv_obj_t * cand_panel = lv_ime_pinyin_get_cand_panel(pinyin_ime);
-    // if(!cand_panel) {
-    //     printf("警告: 候选面板未创建，使用默认键盘\n");
-    //     lv_keyboard_set_textarea(ui_Keyboard1, ui_TextArea1);
-    //     return;
-    // }
-    //     // 延迟布局更新
-    // lv_obj_mark_layout_as_dirty(lv_scr_act());
-    // lv_task_handler();   // 处理一次任务队列
-
-    // lv_obj_set_size(cand_panel, LV_PCT(100), LV_PCT(10));
-    // lv_obj_align_to(cand_panel, ui_Keyboard1, LV_ALIGN_OUT_TOP_MID, 0, 0);
-    // // lv_obj_align_to(cand_panel, ui_Keyboard1, LV_ALIGN_OUT_BOTTOM_MID, 0, 0);
-    
-    // lv_obj_add_event_cb(ui_TextArea1, ta_event_cb, LV_EVENT_ALL, ui_Keyboard1);
-
-     /* ————————————————中文输入法————————————————*/
-
-    // 创建时直接关联文本框
-    _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
-    lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
+    lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);     /// Flags
 
     ui_inputlogo = lv_img_create(ui_Screen2);
     lv_img_set_src(ui_inputlogo, &ui_img_977105517);
@@ -358,19 +296,15 @@ void ui_Screen2_screen_init(void)
     lv_obj_add_flag(ui_inputlogo, LV_OBJ_FLAG_CLICKABLE | LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_inputlogo, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
     lv_img_set_zoom(ui_inputlogo, 40);
-    
 
-    // lv_obj_add_event_cb(ui_to1, ui_event_to1, LV_EVENT_ALL, NULL);
-    // lv_obj_add_event_cb(ui_Label7, ui_event_Label7, LV_EVENT_ALL, NULL);
-    // lv_obj_add_event_cb(ui_to3, ui_event_to3, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_to1, ui_event_to1, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_Label7, ui_event_Label7, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_to3, ui_event_to3, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_AIPanel, ui_event_AIPanel, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_humanPanel, ui_event_humanPanel, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_mic, ui_event_mic, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_mic2, ui_event_mic2, LV_EVENT_ALL, NULL);
-    
-    // kbenterevent_code 报错，该事件并未hi使用，注释掉
-    // lv_obj_add_event_cb(ui_Keyboard1, ui_event_Keyboard1, LV_EVENT_ALL, NULL);
-    
+    lv_obj_add_event_cb(ui_Keyboard1, ui_event_Keyboard1, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_inputlogo, ui_event_inputlogo, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_Screen2, ui_event_Screen2, LV_EVENT_ALL, NULL);
 

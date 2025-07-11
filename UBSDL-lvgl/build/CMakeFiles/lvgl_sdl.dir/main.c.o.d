@@ -303,9 +303,6 @@ CMakeFiles/lvgl_sdl.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/lvgl.h \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_events.h \

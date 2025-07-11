@@ -12,17 +12,18 @@ extern "C" {
 
 #include "lvgl/lvgl.h"
 
-#include <stdio.h>
-
-#include <errno.h>
+// #include "lv_i18n.h"
 #include "ui_helpers.h"
 #include "ui_events.h"
 
+#include <stdio.h>
 #include "depskmainCopy.h"
+
+
+#include <stdio.h>
 extern  lv_timer_t *emoji_timer;
 extern FILE * ftex;
-// extern DeepSeekSession *session;
-extern lv_event_code_t kbenterevent_code;
+
 void floatout_Animation(lv_obj_t * TargetObject, int delay);
 void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
 void movedown_Animation(lv_obj_t * TargetObject, int delay);
@@ -34,6 +35,8 @@ void yuebing_Animation(lv_obj_t * TargetObject, int delay);
 void ui_Screen1_screen_init(void);
 void ui_event_Screen1(lv_event_t * e);
 extern lv_obj_t * ui_Screen1;
+extern lv_obj_t * ui_Image52;
+extern lv_obj_t * ui_Image51;
 extern lv_obj_t * ui_circle1;
 extern lv_obj_t * ui_Container1;
 extern lv_obj_t * ui_Image2;
@@ -60,6 +63,7 @@ extern lv_obj_t * ui_Label3;
 void ui_event_Oneto4(lv_event_t * e);
 extern lv_obj_t * ui_Oneto4;
 extern lv_obj_t * ui_Label5;
+extern lv_obj_t * ui_Image55;
 // SCREEN: ui_Screen4
 void ui_Screen4_screen_init(void);
 void ui_event_Screen4(lv_event_t * e);
@@ -68,6 +72,7 @@ void ui_event_time2(lv_event_t * e);
 extern lv_obj_t * ui_time2;
 void ui_event_date2(lv_event_t * e);
 extern lv_obj_t * ui_date2;
+extern lv_obj_t * ui_Image57;
 extern lv_obj_t * ui_circle4;
 void ui_event_fourTo2(lv_event_t * e);
 extern lv_obj_t * ui_fourTo2;
@@ -82,6 +87,7 @@ extern lv_obj_t * ui_Image17;
 void ui_Screen2_screen_init(void);
 void ui_event_Screen2(lv_event_t * e);
 extern lv_obj_t * ui_Screen2;
+extern lv_obj_t * ui_Image53;
 extern lv_obj_t * ui_Label13;
 extern lv_obj_t * ui_circle2;
 void ui_event_to1(lv_event_t * e);
@@ -116,12 +122,7 @@ extern lv_obj_t * ui_horn;
 extern lv_obj_t * ui_horn1;
 extern lv_obj_t * ui_TextArea1;
 void ui_event_Keyboard1(lv_event_t * e);
-
-void ta_event_cb(lv_event_t * e);
-
 extern lv_obj_t * ui_Keyboard1;
-
-
 void ui_event_inputlogo(lv_event_t * e);
 extern lv_obj_t * ui_inputlogo;
 // SCREEN: ui_Screen3
@@ -129,6 +130,7 @@ void ui_Screen3_screen_init(void);
 void ui_event_Screen3(lv_event_t * e);
 extern lv_obj_t * ui_Screen3;
 extern lv_obj_t * ui_Label2;
+extern lv_obj_t * ui_Image54;
 extern lv_obj_t * ui_circle;
 void ui_event_Button4(lv_event_t * e);
 extern lv_obj_t * ui_Button4;
@@ -161,6 +163,7 @@ void ui_Screen5_screen_init(void);
 void ui_event_Screen5(lv_event_t * e);
 extern lv_obj_t * ui_Screen5;
 extern lv_obj_t * ui_Label1;
+extern lv_obj_t * ui_Image56;
 extern lv_obj_t * ui_circle3;
 void ui_event_Button1(lv_event_t * e);
 extern lv_obj_t * ui_Button1;
@@ -190,7 +193,10 @@ extern lv_obj_t * ui_Image50;
 extern lv_obj_t * ui____initial_actions0;
 
 
-LV_IMG_DECLARE(ui_img_1758698815);    // assets/圆形_1749870100.png
+LV_IMG_DECLARE(ui__temporary_image);
+LV_IMG_DECLARE(ui_img_807690992);    // assets/coolbackgrounds-fractalize-clear_lagoon.png
+LV_IMG_DECLARE(ui_img_1805148743);    // assets/圆形_1751957563.png
+LV_IMG_DECLARE(ui_img_525561802);    // assets/圆形_1749870035.png
 LV_IMG_DECLARE(ui_img_1273346190);    // assets/表情/爱心眼微笑_1749443366.png
 LV_IMG_DECLARE(ui_img_1946132634);    // assets/表情/保持安静的表情_1749443360.png
 LV_IMG_DECLARE(ui_img_721922142);    // assets/杂项/摩天轮_1749985980.png
@@ -205,15 +211,22 @@ LV_IMG_DECLARE(ui_img_986324200);    // assets/动物/猩猩表情符号_1749986
 LV_IMG_DECLARE(ui_img_1395808306);    // assets/杂项/UFO_1749985975.png
 LV_IMG_DECLARE(ui_img_520820240);    // assets/杂项/直升机_1749985958.png
 LV_IMG_DECLARE(ui_img_1673239870);    // assets/表情/倒立的脸_1749726456.png
+LV_IMG_DECLARE(ui_img_408278187);    // assets/coolbackgrounds-fractalize-wooded_flora.png
+LV_IMG_DECLARE(ui_img_570494189);    // assets/圆形_1751959259.png
+LV_IMG_DECLARE(ui_img_1758698815);    // assets/圆形_1749870100.png
 LV_IMG_DECLARE(ui_img_1720058713);    // assets/杂项/wifi-20_1749984511.png
 LV_IMG_DECLARE(ui_img_1932583977);    // assets/杂项/多云天气_1749984566.png
 LV_IMG_DECLARE(ui_img_1630928100);    // assets/电池.png
+LV_IMG_DECLARE(ui_img_706617981);    // assets/coolbackgrounds-fractalize-persian_lounge.png
+LV_IMG_DECLARE(ui_img_536328497);    // assets/圆形_1751958724.png
 LV_IMG_DECLARE(ui_img_1328066288);    // assets/麦克风_1750044350.png
 LV_IMG_DECLARE(ui_img_1445365126);    // assets/AI头像.png
 LV_IMG_DECLARE(ui_img_1761902563);    // assets/男头像.png
 LV_IMG_DECLARE(ui_img_1637902983);    // assets/喇叭.png
 LV_IMG_DECLARE(ui_img_1758642971);    // assets/喇叭 (1).png
 LV_IMG_DECLARE(ui_img_977105517);    // assets/输入框.png
+LV_IMG_DECLARE(ui_img_846333120);    // assets/coolbackgrounds-fractalize-ruby_garden.png
+LV_IMG_DECLARE(ui_img_965791753);    // assets/圆形_1751958867.png
 LV_IMG_DECLARE(ui_img_520288613);    // assets/食物/三明治_1749986549.png
 LV_IMG_DECLARE(ui_img_2130913025);    // assets/食物/中秋月饼_1749986266.png
 LV_IMG_DECLARE(ui_img_1810507611);    // assets/食物/便当盒_1749986578.png
@@ -231,6 +244,8 @@ LV_IMG_DECLARE(ui_img_1804492491);    // assets/食物/玉米棒_1749986338.png
 LV_IMG_DECLARE(ui_img_774798805);    // assets/食物/贝果_1749986359.png
 LV_IMG_DECLARE(ui_img_1409127908);    // assets/食物/炸鹰嘴豆丸_1749986225.png
 LV_IMG_DECLARE(ui_img_590844277);    // assets/食物/牛奶杯_1749986253.png
+LV_IMG_DECLARE(ui_img_16379619);    // assets/coolbackgrounds-fractalize-ranger_made.png
+LV_IMG_DECLARE(ui_img_1884734136);    // assets/圆形_1751959072.png
 LV_IMG_DECLARE(ui_img_1106867240);    // assets/活动/8号黑球_1749986140.png
 LV_IMG_DECLARE(ui_img_253109117);    // assets/活动/乒乓球_1749986135.png
 LV_IMG_DECLARE(ui_img_758318489);    // assets/活动/保龄球_1749986162.png
@@ -318,7 +333,6 @@ LV_IMG_DECLARE(ui_img_155258266);    // assets/食物/罐头食品_1749986511.pn
 LV_IMG_DECLARE(ui_img_998280680);    // assets/食物/蜂蜜罐_1749986287.png
 LV_IMG_DECLARE(ui_img_703197322);    // assets/食物/豌豆荚_1749986302.png
 LV_IMG_DECLARE(ui_img_1542151835);    // assets/食物/面包_1749986571.png
-LV_IMG_DECLARE(ui_img_525561802);    // assets/圆形_1749870035.png
 LV_IMG_DECLARE(ui_img_1758700865);    // assets/圆形_1749870120.png
 LV_IMG_DECLARE(ui_img_1328075000);    // assets/麦克风_1750044358.png
 

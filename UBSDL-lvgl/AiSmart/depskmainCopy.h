@@ -3,6 +3,8 @@
 
 #include "lvgl/lvgl.h"
 
+#define CONVERSATIONMEGCAP 10
+
 
 // extern DeepSeekSession *session;    // 声明外部变量
 
@@ -29,6 +31,11 @@ typedef struct {
     int total_all_tokens;
     int magic;
 } DeepSeekSession;
+
+
+
+
+
 
 // ================== 封装函数声明 ==================
 /*********************

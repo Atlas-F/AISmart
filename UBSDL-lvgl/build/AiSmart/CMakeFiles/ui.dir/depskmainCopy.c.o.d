@@ -51,7 +51,14 @@ AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/x86_64-linux-gnu/curl/curl.h \
+ /usr/include/strings.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/x86_64-linux-gnu/curl/curl.h \
  /usr/include/x86_64-linux-gnu/curl/curlver.h \
  /usr/include/x86_64-linux-gnu/curl/system.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
@@ -92,6 +99,7 @@ AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: \
  /usr/include/x86_64-linux-gnu/curl/mprintf.h \
  /usr/include/x86_64-linux-gnu/curl/typecheck-gcc.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/cJSON.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/lvgl.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/misc/lv_log.h \
@@ -106,7 +114,6 @@ AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/misc/lv_timer.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/misc/../hal/lv_hal_tick.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/misc/../hal/../lv_conf_internal.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/misc/lv_math.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/misc/lv_mem.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/./lvgl/src/misc/lv_async.h \
@@ -330,4 +337,5 @@ AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_helpers.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui.h \
- /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_events.h
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/ui_events.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/MessageHistory.h
