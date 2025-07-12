@@ -58,14 +58,20 @@ images/ui_temporary_image.c
 // ui.h 中添加以下文件
 
 #include <stdio.h>
+#include "depskmainCopy.h"
 extern  lv_timer_t *emoji_timer;
 extern FILE * ftex;
 
 // ui.c 中输入给AI的中间缓冲区 添加以下文件
 #include <stdio.h>
 #include "ui_events.h"
+#include "depskmainCopy.h"
+#include "cJSON.h"
 char * kbEntertext ;
 extern DeepSeekSession *session;   
+
+extern cJSON *messages ;
+extern cJSON *root ;
 
 //
 _ui_label_set_property(ui_AILabel, _UI_LABEL_PROPERTY_TEXT, "设置AIlabel");
@@ -434,7 +440,31 @@ void ui_event_Screen1(lv_event_t * e)
     }
 }
 
+void ui_event_Screen2(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
 
+    // 初始化全局cJSON 对象root 和 messages
+    messages =  cJSON_CreateArray();
+    CompleteRequestBodyroot();
+
+    if(event_code == LV_EVENT_GESTURE &&  lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
+        lv_indev_wait_release(lv_indev_get_act());
+        _ui_screen_change(&ui_Screen3, LV_SCR_LOAD_ANIM_MOVE_LEFT, 500, 0, &ui_Screen3_screen_init);
+    }
+    if(event_code == LV_EVENT_GESTURE &&  lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_RIGHT) {
+        lv_indev_wait_release(lv_indev_get_act());
+        _ui_screen_change(&ui_Screen1, LV_SCR_LOAD_ANIM_MOVE_RIGHT, 500, 0, &ui_Screen1_screen_init);
+    }
+    if(event_code == LV_EVENT_SCREEN_LOADED) {
+        
+
+    }
+    if(event_code == LV_EVENT_SCREEN_UNLOADED) {
+
+    }
+}
 
 // 创建时直接关联文本框
     _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
@@ -455,36 +485,21 @@ void ui_event_Keyboard1(lv_event_t * e)
 }
 
 
-
-void ui_event_Keyboard1(lv_event_t * e)
-{
-    lv_event_code_t event_code = lv_event_get_code(e);
-    lv_obj_t * target = lv_event_get_target(e);
-
-    SetLabel(e);
-
-}
-
-
-
 void ui_event_inputlogo(lv_event_t * e)
 {
     static bool session_initialized = false;
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
 
-    // 创建会话 - 
-    // 只在首次调用时创建session
-
+    // 创建会话 - 只在首次调用时创建session
     if (!session_initialized) {
-        // 从环境变量获取API密钥
-
         // 现在操作的是全局session
         session = deepseek_create_session(NULL);   // 将API key 硬编码在这里，而不是depskmainCopy.c中sk-39498dd4b1564b409b8a0bb959a608ac
         if (!session) {
             fprintf(stderr, "创建会话失败\n");
             return;
         }
+        
         session_initialized = true;
         // 调试信息
         printf("Session initialized at: %p\n", (void*)session);
@@ -492,32 +507,33 @@ void ui_event_inputlogo(lv_event_t * e)
 
     if(event_code == LV_EVENT_LONG_PRESSED ) 
     {
-
         lv_obj_clear_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);
         lv_obj_clear_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
         lv_obj_set_pos(ui_inputlogo, 117, 11);
 
         depmainlong(e);
-
     }
-
     if( event_code == LV_EVENT_CLICKED )
     {
+        printf("*-----------------------------------------*\n");
         printf("inputlogo被长按!\n");
         depmaintalk(e);
-        printf("退出eventcode！\n");
+        printf("退出eventcode！\n\n");
+        printf("*-----------------------------------------*\n");
     }
 }
 
 
-
-void ui_event_Keyboard1(lv_event_t * e)
+void ui_event_inputlogo(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
-    kbenterevent_code = lv_event_get_code(e);
-
+    if(event_code == LV_EVENT_CLICKED) {
+        moveup_Animation(ui_TextArea1, 0);
+        moveup_Animation(ui_Keyboard1, 0);
+    }
 }
+
 
 // 该事件取消setlabel
 void ui_event_humanPanel(lv_event_t * e)

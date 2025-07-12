@@ -178,30 +178,6 @@ ui/fast:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/build
 .PHONY : ui/fast
 
-MessageHistory.o: MessageHistory.c.o
-.PHONY : MessageHistory.o
-
-# target to build an object file
-MessageHistory.c.o:
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/MessageHistory.c.o
-.PHONY : MessageHistory.c.o
-
-MessageHistory.i: MessageHistory.c.i
-.PHONY : MessageHistory.i
-
-# target to preprocess a source file
-MessageHistory.c.i:
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/MessageHistory.c.i
-.PHONY : MessageHistory.c.i
-
-MessageHistory.s: MessageHistory.c.s
-.PHONY : MessageHistory.s
-
-# target to generate assembly for a file
-MessageHistory.c.s:
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/MessageHistory.c.s
-.PHONY : MessageHistory.c.s
-
 cJSON.o: cJSON.c.o
 .PHONY : cJSON.o
 
@@ -250,6 +226,30 @@ components/ui_comp_hook.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/components/ui_comp_hook.c.s
 .PHONY : components/ui_comp_hook.c.s
 
+deepseek_tianqi.o: deepseek_tianqi.c.o
+.PHONY : deepseek_tianqi.o
+
+# target to build an object file
+deepseek_tianqi.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.o
+.PHONY : deepseek_tianqi.c.o
+
+deepseek_tianqi.i: deepseek_tianqi.c.i
+.PHONY : deepseek_tianqi.i
+
+# target to preprocess a source file
+deepseek_tianqi.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.i
+.PHONY : deepseek_tianqi.c.i
+
+deepseek_tianqi.s: deepseek_tianqi.c.s
+.PHONY : deepseek_tianqi.s
+
+# target to generate assembly for a file
+deepseek_tianqi.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.s
+.PHONY : deepseek_tianqi.c.s
+
 depskmainCopy.o: depskmainCopy.c.o
 .PHONY : depskmainCopy.o
 
@@ -273,6 +273,30 @@ depskmainCopy.s: depskmainCopy.c.s
 depskmainCopy.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.s
 .PHONY : depskmainCopy.c.s
+
+fonts/ui_font_location.o: fonts/ui_font_location.c.o
+.PHONY : fonts/ui_font_location.o
+
+# target to build an object file
+fonts/ui_font_location.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.o
+.PHONY : fonts/ui_font_location.c.o
+
+fonts/ui_font_location.i: fonts/ui_font_location.c.i
+.PHONY : fonts/ui_font_location.i
+
+# target to preprocess a source file
+fonts/ui_font_location.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.i
+.PHONY : fonts/ui_font_location.c.i
+
+fonts/ui_font_location.s: fonts/ui_font_location.c.s
+.PHONY : fonts/ui_font_location.s
+
+# target to generate assembly for a file
+fonts/ui_font_location.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.s
+.PHONY : fonts/ui_font_location.c.s
 
 fonts/ui_font_puhui18.o: fonts/ui_font_puhui18.c.o
 .PHONY : fonts/ui_font_puhui18.o
@@ -513,6 +537,78 @@ images/ui_img_1114756079.s: images/ui_img_1114756079.c.s
 images/ui_img_1114756079.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.s
 .PHONY : images/ui_img_1114756079.c.s
+
+images/ui_img_1133233917.o: images/ui_img_1133233917.c.o
+.PHONY : images/ui_img_1133233917.o
+
+# target to build an object file
+images/ui_img_1133233917.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.o
+.PHONY : images/ui_img_1133233917.c.o
+
+images/ui_img_1133233917.i: images/ui_img_1133233917.c.i
+.PHONY : images/ui_img_1133233917.i
+
+# target to preprocess a source file
+images/ui_img_1133233917.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.i
+.PHONY : images/ui_img_1133233917.c.i
+
+images/ui_img_1133233917.s: images/ui_img_1133233917.c.s
+.PHONY : images/ui_img_1133233917.s
+
+# target to generate assembly for a file
+images/ui_img_1133233917.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.s
+.PHONY : images/ui_img_1133233917.c.s
+
+images/ui_img_1140209915.o: images/ui_img_1140209915.c.o
+.PHONY : images/ui_img_1140209915.o
+
+# target to build an object file
+images/ui_img_1140209915.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.o
+.PHONY : images/ui_img_1140209915.c.o
+
+images/ui_img_1140209915.i: images/ui_img_1140209915.c.i
+.PHONY : images/ui_img_1140209915.i
+
+# target to preprocess a source file
+images/ui_img_1140209915.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.i
+.PHONY : images/ui_img_1140209915.c.i
+
+images/ui_img_1140209915.s: images/ui_img_1140209915.c.s
+.PHONY : images/ui_img_1140209915.s
+
+# target to generate assembly for a file
+images/ui_img_1140209915.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.s
+.PHONY : images/ui_img_1140209915.c.s
+
+images/ui_img_1141258426.o: images/ui_img_1141258426.c.o
+.PHONY : images/ui_img_1141258426.o
+
+# target to build an object file
+images/ui_img_1141258426.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.o
+.PHONY : images/ui_img_1141258426.c.o
+
+images/ui_img_1141258426.i: images/ui_img_1141258426.c.i
+.PHONY : images/ui_img_1141258426.i
+
+# target to preprocess a source file
+images/ui_img_1141258426.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.i
+.PHONY : images/ui_img_1141258426.c.i
+
+images/ui_img_1141258426.s: images/ui_img_1141258426.c.s
+.PHONY : images/ui_img_1141258426.s
+
+# target to generate assembly for a file
+images/ui_img_1141258426.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.s
+.PHONY : images/ui_img_1141258426.c.s
 
 images/ui_img_1143713160.o: images/ui_img_1143713160.c.o
 .PHONY : images/ui_img_1143713160.o
@@ -826,6 +922,30 @@ images/ui_img_1274767758.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.s
 .PHONY : images/ui_img_1274767758.c.s
 
+images/ui_img_1282432712.o: images/ui_img_1282432712.c.o
+.PHONY : images/ui_img_1282432712.o
+
+# target to build an object file
+images/ui_img_1282432712.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.o
+.PHONY : images/ui_img_1282432712.c.o
+
+images/ui_img_1282432712.i: images/ui_img_1282432712.c.i
+.PHONY : images/ui_img_1282432712.i
+
+# target to preprocess a source file
+images/ui_img_1282432712.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.i
+.PHONY : images/ui_img_1282432712.c.i
+
+images/ui_img_1282432712.s: images/ui_img_1282432712.c.s
+.PHONY : images/ui_img_1282432712.s
+
+# target to generate assembly for a file
+images/ui_img_1282432712.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.s
+.PHONY : images/ui_img_1282432712.c.s
+
 images/ui_img_1305061770.o: images/ui_img_1305061770.c.o
 .PHONY : images/ui_img_1305061770.o
 
@@ -970,6 +1090,54 @@ images/ui_img_1395808306.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1395808306.c.s
 .PHONY : images/ui_img_1395808306.c.s
 
+images/ui_img_1406459048.o: images/ui_img_1406459048.c.o
+.PHONY : images/ui_img_1406459048.o
+
+# target to build an object file
+images/ui_img_1406459048.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.o
+.PHONY : images/ui_img_1406459048.c.o
+
+images/ui_img_1406459048.i: images/ui_img_1406459048.c.i
+.PHONY : images/ui_img_1406459048.i
+
+# target to preprocess a source file
+images/ui_img_1406459048.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.i
+.PHONY : images/ui_img_1406459048.c.i
+
+images/ui_img_1406459048.s: images/ui_img_1406459048.c.s
+.PHONY : images/ui_img_1406459048.s
+
+# target to generate assembly for a file
+images/ui_img_1406459048.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.s
+.PHONY : images/ui_img_1406459048.c.s
+
+images/ui_img_1407507559.o: images/ui_img_1407507559.c.o
+.PHONY : images/ui_img_1407507559.o
+
+# target to build an object file
+images/ui_img_1407507559.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.o
+.PHONY : images/ui_img_1407507559.c.o
+
+images/ui_img_1407507559.i: images/ui_img_1407507559.c.i
+.PHONY : images/ui_img_1407507559.i
+
+# target to preprocess a source file
+images/ui_img_1407507559.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.i
+.PHONY : images/ui_img_1407507559.c.i
+
+images/ui_img_1407507559.s: images/ui_img_1407507559.c.s
+.PHONY : images/ui_img_1407507559.s
+
+# target to generate assembly for a file
+images/ui_img_1407507559.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.s
+.PHONY : images/ui_img_1407507559.c.s
+
 images/ui_img_1409127908.o: images/ui_img_1409127908.c.o
 .PHONY : images/ui_img_1409127908.o
 
@@ -993,6 +1161,30 @@ images/ui_img_1409127908.s: images/ui_img_1409127908.c.s
 images/ui_img_1409127908.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.s
 .PHONY : images/ui_img_1409127908.c.s
+
+images/ui_img_1414483557.o: images/ui_img_1414483557.c.o
+.PHONY : images/ui_img_1414483557.o
+
+# target to build an object file
+images/ui_img_1414483557.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.o
+.PHONY : images/ui_img_1414483557.c.o
+
+images/ui_img_1414483557.i: images/ui_img_1414483557.c.i
+.PHONY : images/ui_img_1414483557.i
+
+# target to preprocess a source file
+images/ui_img_1414483557.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.i
+.PHONY : images/ui_img_1414483557.c.i
+
+images/ui_img_1414483557.s: images/ui_img_1414483557.c.s
+.PHONY : images/ui_img_1414483557.s
+
+# target to generate assembly for a file
+images/ui_img_1414483557.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.s
+.PHONY : images/ui_img_1414483557.c.s
 
 images/ui_img_1433976870.o: images/ui_img_1433976870.c.o
 .PHONY : images/ui_img_1433976870.o
@@ -1282,6 +1474,54 @@ images/ui_img_1579771612.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1579771612.c.s
 .PHONY : images/ui_img_1579771612.c.s
 
+images/ui_img_1609674147.o: images/ui_img_1609674147.c.o
+.PHONY : images/ui_img_1609674147.o
+
+# target to build an object file
+images/ui_img_1609674147.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.o
+.PHONY : images/ui_img_1609674147.c.o
+
+images/ui_img_1609674147.i: images/ui_img_1609674147.c.i
+.PHONY : images/ui_img_1609674147.i
+
+# target to preprocess a source file
+images/ui_img_1609674147.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.i
+.PHONY : images/ui_img_1609674147.c.i
+
+images/ui_img_1609674147.s: images/ui_img_1609674147.c.s
+.PHONY : images/ui_img_1609674147.s
+
+# target to generate assembly for a file
+images/ui_img_1609674147.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.s
+.PHONY : images/ui_img_1609674147.c.s
+
+images/ui_img_1610722658.o: images/ui_img_1610722658.c.o
+.PHONY : images/ui_img_1610722658.o
+
+# target to build an object file
+images/ui_img_1610722658.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.o
+.PHONY : images/ui_img_1610722658.c.o
+
+images/ui_img_1610722658.i: images/ui_img_1610722658.c.i
+.PHONY : images/ui_img_1610722658.i
+
+# target to preprocess a source file
+images/ui_img_1610722658.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.i
+.PHONY : images/ui_img_1610722658.c.i
+
+images/ui_img_1610722658.s: images/ui_img_1610722658.c.s
+.PHONY : images/ui_img_1610722658.s
+
+# target to generate assembly for a file
+images/ui_img_1610722658.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.s
+.PHONY : images/ui_img_1610722658.c.s
+
 images/ui_img_1613165469.o: images/ui_img_1613165469.c.o
 .PHONY : images/ui_img_1613165469.o
 
@@ -1305,6 +1545,30 @@ images/ui_img_1613165469.s: images/ui_img_1613165469.c.s
 images/ui_img_1613165469.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.s
 .PHONY : images/ui_img_1613165469.c.s
+
+images/ui_img_1617698656.o: images/ui_img_1617698656.c.o
+.PHONY : images/ui_img_1617698656.o
+
+# target to build an object file
+images/ui_img_1617698656.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.o
+.PHONY : images/ui_img_1617698656.c.o
+
+images/ui_img_1617698656.i: images/ui_img_1617698656.c.i
+.PHONY : images/ui_img_1617698656.i
+
+# target to preprocess a source file
+images/ui_img_1617698656.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.i
+.PHONY : images/ui_img_1617698656.c.i
+
+images/ui_img_1617698656.s: images/ui_img_1617698656.c.s
+.PHONY : images/ui_img_1617698656.s
+
+# target to generate assembly for a file
+images/ui_img_1617698656.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.s
+.PHONY : images/ui_img_1617698656.c.s
 
 images/ui_img_1627204797.o: images/ui_img_1627204797.c.o
 .PHONY : images/ui_img_1627204797.o
@@ -1497,6 +1761,78 @@ images/ui_img_1651094022.s: images/ui_img_1651094022.c.s
 images/ui_img_1651094022.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.s
 .PHONY : images/ui_img_1651094022.c.s
+
+images/ui_img_1653549846.o: images/ui_img_1653549846.c.o
+.PHONY : images/ui_img_1653549846.o
+
+# target to build an object file
+images/ui_img_1653549846.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.o
+.PHONY : images/ui_img_1653549846.c.o
+
+images/ui_img_1653549846.i: images/ui_img_1653549846.c.i
+.PHONY : images/ui_img_1653549846.i
+
+# target to preprocess a source file
+images/ui_img_1653549846.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.i
+.PHONY : images/ui_img_1653549846.c.i
+
+images/ui_img_1653549846.s: images/ui_img_1653549846.c.s
+.PHONY : images/ui_img_1653549846.s
+
+# target to generate assembly for a file
+images/ui_img_1653549846.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.s
+.PHONY : images/ui_img_1653549846.c.s
+
+images/ui_img_1660525844.o: images/ui_img_1660525844.c.o
+.PHONY : images/ui_img_1660525844.o
+
+# target to build an object file
+images/ui_img_1660525844.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.o
+.PHONY : images/ui_img_1660525844.c.o
+
+images/ui_img_1660525844.i: images/ui_img_1660525844.c.i
+.PHONY : images/ui_img_1660525844.i
+
+# target to preprocess a source file
+images/ui_img_1660525844.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.i
+.PHONY : images/ui_img_1660525844.c.i
+
+images/ui_img_1660525844.s: images/ui_img_1660525844.c.s
+.PHONY : images/ui_img_1660525844.s
+
+# target to generate assembly for a file
+images/ui_img_1660525844.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.s
+.PHONY : images/ui_img_1660525844.c.s
+
+images/ui_img_1661574355.o: images/ui_img_1661574355.c.o
+.PHONY : images/ui_img_1661574355.o
+
+# target to build an object file
+images/ui_img_1661574355.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.o
+.PHONY : images/ui_img_1661574355.c.o
+
+images/ui_img_1661574355.i: images/ui_img_1661574355.c.i
+.PHONY : images/ui_img_1661574355.i
+
+# target to preprocess a source file
+images/ui_img_1661574355.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.i
+.PHONY : images/ui_img_1661574355.c.i
+
+images/ui_img_1661574355.s: images/ui_img_1661574355.c.s
+.PHONY : images/ui_img_1661574355.s
+
+# target to generate assembly for a file
+images/ui_img_1661574355.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.s
+.PHONY : images/ui_img_1661574355.c.s
 
 images/ui_img_1673239870.o: images/ui_img_1673239870.c.o
 .PHONY : images/ui_img_1673239870.o
@@ -1858,6 +2194,54 @@ images/ui_img_1863416723.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.s
 .PHONY : images/ui_img_1863416723.c.s
 
+images/ui_img_1871393601.o: images/ui_img_1871393601.c.o
+.PHONY : images/ui_img_1871393601.o
+
+# target to build an object file
+images/ui_img_1871393601.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.o
+.PHONY : images/ui_img_1871393601.c.o
+
+images/ui_img_1871393601.i: images/ui_img_1871393601.c.i
+.PHONY : images/ui_img_1871393601.i
+
+# target to preprocess a source file
+images/ui_img_1871393601.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.i
+.PHONY : images/ui_img_1871393601.c.i
+
+images/ui_img_1871393601.s: images/ui_img_1871393601.c.s
+.PHONY : images/ui_img_1871393601.s
+
+# target to generate assembly for a file
+images/ui_img_1871393601.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.s
+.PHONY : images/ui_img_1871393601.c.s
+
+images/ui_img_1872442112.o: images/ui_img_1872442112.c.o
+.PHONY : images/ui_img_1872442112.o
+
+# target to build an object file
+images/ui_img_1872442112.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.o
+.PHONY : images/ui_img_1872442112.c.o
+
+images/ui_img_1872442112.i: images/ui_img_1872442112.c.i
+.PHONY : images/ui_img_1872442112.i
+
+# target to preprocess a source file
+images/ui_img_1872442112.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.i
+.PHONY : images/ui_img_1872442112.c.i
+
+images/ui_img_1872442112.s: images/ui_img_1872442112.c.s
+.PHONY : images/ui_img_1872442112.s
+
+# target to generate assembly for a file
+images/ui_img_1872442112.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.s
+.PHONY : images/ui_img_1872442112.c.s
+
 images/ui_img_1874934912.o: images/ui_img_1874934912.c.o
 .PHONY : images/ui_img_1874934912.o
 
@@ -1881,6 +2265,30 @@ images/ui_img_1874934912.s: images/ui_img_1874934912.c.s
 images/ui_img_1874934912.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.s
 .PHONY : images/ui_img_1874934912.c.s
+
+images/ui_img_1879418110.o: images/ui_img_1879418110.c.o
+.PHONY : images/ui_img_1879418110.o
+
+# target to build an object file
+images/ui_img_1879418110.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.o
+.PHONY : images/ui_img_1879418110.c.o
+
+images/ui_img_1879418110.i: images/ui_img_1879418110.c.i
+.PHONY : images/ui_img_1879418110.i
+
+# target to preprocess a source file
+images/ui_img_1879418110.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.i
+.PHONY : images/ui_img_1879418110.c.i
+
+images/ui_img_1879418110.s: images/ui_img_1879418110.c.s
+.PHONY : images/ui_img_1879418110.s
+
+# target to generate assembly for a file
+images/ui_img_1879418110.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.s
+.PHONY : images/ui_img_1879418110.c.s
 
 images/ui_img_1884734136.o: images/ui_img_1884734136.c.o
 .PHONY : images/ui_img_1884734136.o
@@ -2482,6 +2890,78 @@ images/ui_img_338008226.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.s
 .PHONY : images/ui_img_338008226.c.s
 
+images/ui_img_371234577.o: images/ui_img_371234577.c.o
+.PHONY : images/ui_img_371234577.o
+
+# target to build an object file
+images/ui_img_371234577.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.o
+.PHONY : images/ui_img_371234577.c.o
+
+images/ui_img_371234577.i: images/ui_img_371234577.c.i
+.PHONY : images/ui_img_371234577.i
+
+# target to preprocess a source file
+images/ui_img_371234577.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.i
+.PHONY : images/ui_img_371234577.c.i
+
+images/ui_img_371234577.s: images/ui_img_371234577.c.s
+.PHONY : images/ui_img_371234577.s
+
+# target to generate assembly for a file
+images/ui_img_371234577.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.s
+.PHONY : images/ui_img_371234577.c.s
+
+images/ui_img_378210575.o: images/ui_img_378210575.c.o
+.PHONY : images/ui_img_378210575.o
+
+# target to build an object file
+images/ui_img_378210575.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.o
+.PHONY : images/ui_img_378210575.c.o
+
+images/ui_img_378210575.i: images/ui_img_378210575.c.i
+.PHONY : images/ui_img_378210575.i
+
+# target to preprocess a source file
+images/ui_img_378210575.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.i
+.PHONY : images/ui_img_378210575.c.i
+
+images/ui_img_378210575.s: images/ui_img_378210575.c.s
+.PHONY : images/ui_img_378210575.s
+
+# target to generate assembly for a file
+images/ui_img_378210575.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.s
+.PHONY : images/ui_img_378210575.c.s
+
+images/ui_img_379259086.o: images/ui_img_379259086.c.o
+.PHONY : images/ui_img_379259086.o
+
+# target to build an object file
+images/ui_img_379259086.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.o
+.PHONY : images/ui_img_379259086.c.o
+
+images/ui_img_379259086.i: images/ui_img_379259086.c.i
+.PHONY : images/ui_img_379259086.i
+
+# target to preprocess a source file
+images/ui_img_379259086.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.i
+.PHONY : images/ui_img_379259086.c.i
+
+images/ui_img_379259086.s: images/ui_img_379259086.c.s
+.PHONY : images/ui_img_379259086.s
+
+# target to generate assembly for a file
+images/ui_img_379259086.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.s
+.PHONY : images/ui_img_379259086.c.s
+
 images/ui_img_396379797.o: images/ui_img_396379797.c.o
 .PHONY : images/ui_img_396379797.o
 
@@ -2938,6 +3418,54 @@ images/ui_img_642449591.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.s
 .PHONY : images/ui_img_642449591.c.s
 
+images/ui_img_644459708.o: images/ui_img_644459708.c.o
+.PHONY : images/ui_img_644459708.o
+
+# target to build an object file
+images/ui_img_644459708.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.o
+.PHONY : images/ui_img_644459708.c.o
+
+images/ui_img_644459708.i: images/ui_img_644459708.c.i
+.PHONY : images/ui_img_644459708.i
+
+# target to preprocess a source file
+images/ui_img_644459708.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.i
+.PHONY : images/ui_img_644459708.c.i
+
+images/ui_img_644459708.s: images/ui_img_644459708.c.s
+.PHONY : images/ui_img_644459708.s
+
+# target to generate assembly for a file
+images/ui_img_644459708.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.s
+.PHONY : images/ui_img_644459708.c.s
+
+images/ui_img_645508219.o: images/ui_img_645508219.c.o
+.PHONY : images/ui_img_645508219.o
+
+# target to build an object file
+images/ui_img_645508219.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.o
+.PHONY : images/ui_img_645508219.c.o
+
+images/ui_img_645508219.i: images/ui_img_645508219.c.i
+.PHONY : images/ui_img_645508219.i
+
+# target to preprocess a source file
+images/ui_img_645508219.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.i
+.PHONY : images/ui_img_645508219.c.i
+
+images/ui_img_645508219.s: images/ui_img_645508219.c.s
+.PHONY : images/ui_img_645508219.s
+
+# target to generate assembly for a file
+images/ui_img_645508219.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.s
+.PHONY : images/ui_img_645508219.c.s
+
 images/ui_img_647165550.o: images/ui_img_647165550.c.o
 .PHONY : images/ui_img_647165550.o
 
@@ -2986,6 +3514,30 @@ images/ui_img_64789106.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.s
 .PHONY : images/ui_img_64789106.c.s
 
+images/ui_img_652484217.o: images/ui_img_652484217.c.o
+.PHONY : images/ui_img_652484217.o
+
+# target to build an object file
+images/ui_img_652484217.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.o
+.PHONY : images/ui_img_652484217.c.o
+
+images/ui_img_652484217.i: images/ui_img_652484217.c.i
+.PHONY : images/ui_img_652484217.i
+
+# target to preprocess a source file
+images/ui_img_652484217.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.i
+.PHONY : images/ui_img_652484217.c.i
+
+images/ui_img_652484217.s: images/ui_img_652484217.c.s
+.PHONY : images/ui_img_652484217.s
+
+# target to generate assembly for a file
+images/ui_img_652484217.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.s
+.PHONY : images/ui_img_652484217.c.s
+
 images/ui_img_657341686.o: images/ui_img_657341686.c.o
 .PHONY : images/ui_img_657341686.o
 
@@ -3009,6 +3561,78 @@ images/ui_img_657341686.s: images/ui_img_657341686.c.s
 images/ui_img_657341686.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.s
 .PHONY : images/ui_img_657341686.c.s
+
+images/ui_img_668299364.o: images/ui_img_668299364.c.o
+.PHONY : images/ui_img_668299364.o
+
+# target to build an object file
+images/ui_img_668299364.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.o
+.PHONY : images/ui_img_668299364.c.o
+
+images/ui_img_668299364.i: images/ui_img_668299364.c.i
+.PHONY : images/ui_img_668299364.i
+
+# target to preprocess a source file
+images/ui_img_668299364.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.i
+.PHONY : images/ui_img_668299364.c.i
+
+images/ui_img_668299364.s: images/ui_img_668299364.c.s
+.PHONY : images/ui_img_668299364.s
+
+# target to generate assembly for a file
+images/ui_img_668299364.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.s
+.PHONY : images/ui_img_668299364.c.s
+
+images/ui_img_675275362.o: images/ui_img_675275362.c.o
+.PHONY : images/ui_img_675275362.o
+
+# target to build an object file
+images/ui_img_675275362.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.o
+.PHONY : images/ui_img_675275362.c.o
+
+images/ui_img_675275362.i: images/ui_img_675275362.c.i
+.PHONY : images/ui_img_675275362.i
+
+# target to preprocess a source file
+images/ui_img_675275362.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.i
+.PHONY : images/ui_img_675275362.c.i
+
+images/ui_img_675275362.s: images/ui_img_675275362.c.s
+.PHONY : images/ui_img_675275362.s
+
+# target to generate assembly for a file
+images/ui_img_675275362.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.s
+.PHONY : images/ui_img_675275362.c.s
+
+images/ui_img_676323873.o: images/ui_img_676323873.c.o
+.PHONY : images/ui_img_676323873.o
+
+# target to build an object file
+images/ui_img_676323873.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.o
+.PHONY : images/ui_img_676323873.c.o
+
+images/ui_img_676323873.i: images/ui_img_676323873.c.i
+.PHONY : images/ui_img_676323873.i
+
+# target to preprocess a source file
+images/ui_img_676323873.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.i
+.PHONY : images/ui_img_676323873.c.i
+
+images/ui_img_676323873.s: images/ui_img_676323873.c.s
+.PHONY : images/ui_img_676323873.s
+
+# target to generate assembly for a file
+images/ui_img_676323873.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.s
+.PHONY : images/ui_img_676323873.c.s
 
 images/ui_img_691945150.o: images/ui_img_691945150.c.o
 .PHONY : images/ui_img_691945150.o
@@ -3153,6 +3777,30 @@ images/ui_img_721922142.s: images/ui_img_721922142.c.s
 images/ui_img_721922142.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_721922142.c.s
 .PHONY : images/ui_img_721922142.c.s
+
+images/ui_img_730167363.o: images/ui_img_730167363.c.o
+.PHONY : images/ui_img_730167363.o
+
+# target to build an object file
+images/ui_img_730167363.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.o
+.PHONY : images/ui_img_730167363.c.o
+
+images/ui_img_730167363.i: images/ui_img_730167363.c.i
+.PHONY : images/ui_img_730167363.i
+
+# target to preprocess a source file
+images/ui_img_730167363.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.i
+.PHONY : images/ui_img_730167363.c.i
+
+images/ui_img_730167363.s: images/ui_img_730167363.c.s
+.PHONY : images/ui_img_730167363.s
+
+# target to generate assembly for a file
+images/ui_img_730167363.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.s
+.PHONY : images/ui_img_730167363.c.s
 
 images/ui_img_743825838.o: images/ui_img_743825838.c.o
 .PHONY : images/ui_img_743825838.o
@@ -3442,6 +4090,78 @@ images/ui_img_846333120.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.s
 .PHONY : images/ui_img_846333120.c.s
 
+images/ui_img_847674807.o: images/ui_img_847674807.c.o
+.PHONY : images/ui_img_847674807.o
+
+# target to build an object file
+images/ui_img_847674807.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.o
+.PHONY : images/ui_img_847674807.c.o
+
+images/ui_img_847674807.i: images/ui_img_847674807.c.i
+.PHONY : images/ui_img_847674807.i
+
+# target to preprocess a source file
+images/ui_img_847674807.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.i
+.PHONY : images/ui_img_847674807.c.i
+
+images/ui_img_847674807.s: images/ui_img_847674807.c.s
+.PHONY : images/ui_img_847674807.s
+
+# target to generate assembly for a file
+images/ui_img_847674807.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.s
+.PHONY : images/ui_img_847674807.c.s
+
+images/ui_img_848723318.o: images/ui_img_848723318.c.o
+.PHONY : images/ui_img_848723318.o
+
+# target to build an object file
+images/ui_img_848723318.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.o
+.PHONY : images/ui_img_848723318.c.o
+
+images/ui_img_848723318.i: images/ui_img_848723318.c.i
+.PHONY : images/ui_img_848723318.i
+
+# target to preprocess a source file
+images/ui_img_848723318.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.i
+.PHONY : images/ui_img_848723318.c.i
+
+images/ui_img_848723318.s: images/ui_img_848723318.c.s
+.PHONY : images/ui_img_848723318.s
+
+# target to generate assembly for a file
+images/ui_img_848723318.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.s
+.PHONY : images/ui_img_848723318.c.s
+
+images/ui_img_855699316.o: images/ui_img_855699316.c.o
+.PHONY : images/ui_img_855699316.o
+
+# target to build an object file
+images/ui_img_855699316.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.o
+.PHONY : images/ui_img_855699316.c.o
+
+images/ui_img_855699316.i: images/ui_img_855699316.c.i
+.PHONY : images/ui_img_855699316.i
+
+# target to preprocess a source file
+images/ui_img_855699316.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.i
+.PHONY : images/ui_img_855699316.c.i
+
+images/ui_img_855699316.s: images/ui_img_855699316.c.s
+.PHONY : images/ui_img_855699316.s
+
+# target to generate assembly for a file
+images/ui_img_855699316.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.s
+.PHONY : images/ui_img_855699316.c.s
+
 images/ui_img_865156645.o: images/ui_img_865156645.c.o
 .PHONY : images/ui_img_865156645.o
 
@@ -3465,6 +4185,222 @@ images/ui_img_865156645.s: images/ui_img_865156645.c.s
 images/ui_img_865156645.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.s
 .PHONY : images/ui_img_865156645.c.s
+
+images/ui_img_869361361.o: images/ui_img_869361361.c.o
+.PHONY : images/ui_img_869361361.o
+
+# target to build an object file
+images/ui_img_869361361.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.o
+.PHONY : images/ui_img_869361361.c.o
+
+images/ui_img_869361361.i: images/ui_img_869361361.c.i
+.PHONY : images/ui_img_869361361.i
+
+# target to preprocess a source file
+images/ui_img_869361361.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.i
+.PHONY : images/ui_img_869361361.c.i
+
+images/ui_img_869361361.s: images/ui_img_869361361.c.s
+.PHONY : images/ui_img_869361361.s
+
+# target to generate assembly for a file
+images/ui_img_869361361.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.s
+.PHONY : images/ui_img_869361361.c.s
+
+images/ui_img_869397362.o: images/ui_img_869397362.c.o
+.PHONY : images/ui_img_869397362.o
+
+# target to build an object file
+images/ui_img_869397362.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.o
+.PHONY : images/ui_img_869397362.c.o
+
+images/ui_img_869397362.i: images/ui_img_869397362.c.i
+.PHONY : images/ui_img_869397362.i
+
+# target to preprocess a source file
+images/ui_img_869397362.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.i
+.PHONY : images/ui_img_869397362.c.i
+
+images/ui_img_869397362.s: images/ui_img_869397362.c.s
+.PHONY : images/ui_img_869397362.s
+
+# target to generate assembly for a file
+images/ui_img_869397362.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.s
+.PHONY : images/ui_img_869397362.c.s
+
+images/ui_img_869433235.o: images/ui_img_869433235.c.o
+.PHONY : images/ui_img_869433235.o
+
+# target to build an object file
+images/ui_img_869433235.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.o
+.PHONY : images/ui_img_869433235.c.o
+
+images/ui_img_869433235.i: images/ui_img_869433235.c.i
+.PHONY : images/ui_img_869433235.i
+
+# target to preprocess a source file
+images/ui_img_869433235.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.i
+.PHONY : images/ui_img_869433235.c.i
+
+images/ui_img_869433235.s: images/ui_img_869433235.c.s
+.PHONY : images/ui_img_869433235.s
+
+# target to generate assembly for a file
+images/ui_img_869433235.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.s
+.PHONY : images/ui_img_869433235.c.s
+
+images/ui_img_869469236.o: images/ui_img_869469236.c.o
+.PHONY : images/ui_img_869469236.o
+
+# target to build an object file
+images/ui_img_869469236.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.o
+.PHONY : images/ui_img_869469236.c.o
+
+images/ui_img_869469236.i: images/ui_img_869469236.c.i
+.PHONY : images/ui_img_869469236.i
+
+# target to preprocess a source file
+images/ui_img_869469236.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.i
+.PHONY : images/ui_img_869469236.c.i
+
+images/ui_img_869469236.s: images/ui_img_869469236.c.s
+.PHONY : images/ui_img_869469236.s
+
+# target to generate assembly for a file
+images/ui_img_869469236.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.s
+.PHONY : images/ui_img_869469236.c.s
+
+images/ui_img_869504853.o: images/ui_img_869504853.c.o
+.PHONY : images/ui_img_869504853.o
+
+# target to build an object file
+images/ui_img_869504853.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.o
+.PHONY : images/ui_img_869504853.c.o
+
+images/ui_img_869504853.i: images/ui_img_869504853.c.i
+.PHONY : images/ui_img_869504853.i
+
+# target to preprocess a source file
+images/ui_img_869504853.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.i
+.PHONY : images/ui_img_869504853.c.i
+
+images/ui_img_869504853.s: images/ui_img_869504853.c.s
+.PHONY : images/ui_img_869504853.s
+
+# target to generate assembly for a file
+images/ui_img_869504853.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.s
+.PHONY : images/ui_img_869504853.c.s
+
+images/ui_img_869540854.o: images/ui_img_869540854.c.o
+.PHONY : images/ui_img_869540854.o
+
+# target to build an object file
+images/ui_img_869540854.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.o
+.PHONY : images/ui_img_869540854.c.o
+
+images/ui_img_869540854.i: images/ui_img_869540854.c.i
+.PHONY : images/ui_img_869540854.i
+
+# target to preprocess a source file
+images/ui_img_869540854.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.i
+.PHONY : images/ui_img_869540854.c.i
+
+images/ui_img_869540854.s: images/ui_img_869540854.c.s
+.PHONY : images/ui_img_869540854.s
+
+# target to generate assembly for a file
+images/ui_img_869540854.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.s
+.PHONY : images/ui_img_869540854.c.s
+
+images/ui_img_869576727.o: images/ui_img_869576727.c.o
+.PHONY : images/ui_img_869576727.o
+
+# target to build an object file
+images/ui_img_869576727.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.o
+.PHONY : images/ui_img_869576727.c.o
+
+images/ui_img_869576727.i: images/ui_img_869576727.c.i
+.PHONY : images/ui_img_869576727.i
+
+# target to preprocess a source file
+images/ui_img_869576727.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.i
+.PHONY : images/ui_img_869576727.c.i
+
+images/ui_img_869576727.s: images/ui_img_869576727.c.s
+.PHONY : images/ui_img_869576727.s
+
+# target to generate assembly for a file
+images/ui_img_869576727.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.s
+.PHONY : images/ui_img_869576727.c.s
+
+images/ui_img_869612728.o: images/ui_img_869612728.c.o
+.PHONY : images/ui_img_869612728.o
+
+# target to build an object file
+images/ui_img_869612728.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.o
+.PHONY : images/ui_img_869612728.c.o
+
+images/ui_img_869612728.i: images/ui_img_869612728.c.i
+.PHONY : images/ui_img_869612728.i
+
+# target to preprocess a source file
+images/ui_img_869612728.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.i
+.PHONY : images/ui_img_869612728.c.i
+
+images/ui_img_869612728.s: images/ui_img_869612728.c.s
+.PHONY : images/ui_img_869612728.s
+
+# target to generate assembly for a file
+images/ui_img_869612728.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.s
+.PHONY : images/ui_img_869612728.c.s
+
+images/ui_img_871514463.o: images/ui_img_871514463.c.o
+.PHONY : images/ui_img_871514463.o
+
+# target to build an object file
+images/ui_img_871514463.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.o
+.PHONY : images/ui_img_871514463.c.o
+
+images/ui_img_871514463.i: images/ui_img_871514463.c.i
+.PHONY : images/ui_img_871514463.i
+
+# target to preprocess a source file
+images/ui_img_871514463.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.i
+.PHONY : images/ui_img_871514463.c.i
+
+images/ui_img_871514463.s: images/ui_img_871514463.c.s
+.PHONY : images/ui_img_871514463.s
+
+# target to generate assembly for a file
+images/ui_img_871514463.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.s
+.PHONY : images/ui_img_871514463.c.s
 
 images/ui_img_873017022.o: images/ui_img_873017022.c.o
 .PHONY : images/ui_img_873017022.o
@@ -3513,6 +4449,54 @@ images/ui_img_878326522.s: images/ui_img_878326522.c.s
 images/ui_img_878326522.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.s
 .PHONY : images/ui_img_878326522.c.s
+
+images/ui_img_879538972.o: images/ui_img_879538972.c.o
+.PHONY : images/ui_img_879538972.o
+
+# target to build an object file
+images/ui_img_879538972.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.o
+.PHONY : images/ui_img_879538972.c.o
+
+images/ui_img_879538972.i: images/ui_img_879538972.c.i
+.PHONY : images/ui_img_879538972.i
+
+# target to preprocess a source file
+images/ui_img_879538972.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.i
+.PHONY : images/ui_img_879538972.c.i
+
+images/ui_img_879538972.s: images/ui_img_879538972.c.s
+.PHONY : images/ui_img_879538972.s
+
+# target to generate assembly for a file
+images/ui_img_879538972.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.s
+.PHONY : images/ui_img_879538972.c.s
+
+images/ui_img_880984407.o: images/ui_img_880984407.c.o
+.PHONY : images/ui_img_880984407.o
+
+# target to build an object file
+images/ui_img_880984407.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.o
+.PHONY : images/ui_img_880984407.c.o
+
+images/ui_img_880984407.i: images/ui_img_880984407.c.i
+.PHONY : images/ui_img_880984407.i
+
+# target to preprocess a source file
+images/ui_img_880984407.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.i
+.PHONY : images/ui_img_880984407.c.i
+
+images/ui_img_880984407.s: images/ui_img_880984407.c.s
+.PHONY : images/ui_img_880984407.s
+
+# target to generate assembly for a file
+images/ui_img_880984407.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.s
+.PHONY : images/ui_img_880984407.c.s
 
 images/ui_img_918736298.o: images/ui_img_918736298.c.o
 .PHONY : images/ui_img_918736298.o
@@ -3681,6 +4665,30 @@ images/ui_img_998280680.s: images/ui_img_998280680.c.s
 images/ui_img_998280680.c.s:
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.s
 .PHONY : images/ui_img_998280680.c.s
+
+images/ui_img_wifi_png.o: images/ui_img_wifi_png.c.o
+.PHONY : images/ui_img_wifi_png.o
+
+# target to build an object file
+images/ui_img_wifi_png.c.o:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o
+.PHONY : images/ui_img_wifi_png.c.o
+
+images/ui_img_wifi_png.i: images/ui_img_wifi_png.c.i
+.PHONY : images/ui_img_wifi_png.i
+
+# target to preprocess a source file
+images/ui_img_wifi_png.c.i:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.i
+.PHONY : images/ui_img_wifi_png.c.i
+
+images/ui_img_wifi_png.s: images/ui_img_wifi_png.c.s
+.PHONY : images/ui_img_wifi_png.s
+
+# target to generate assembly for a file
+images/ui_img_wifi_png.c.s:
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build && $(MAKE) $(MAKESILENT) -f AiSmart/CMakeFiles/ui.dir/build.make AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.s
+.PHONY : images/ui_img_wifi_png.c.s
 
 images/ui_temporary_image.o: images/ui_temporary_image.c.o
 .PHONY : images/ui_temporary_image.o
@@ -3911,18 +4919,21 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... ui"
-	@echo "... MessageHistory.o"
-	@echo "... MessageHistory.i"
-	@echo "... MessageHistory.s"
 	@echo "... cJSON.o"
 	@echo "... cJSON.i"
 	@echo "... cJSON.s"
 	@echo "... components/ui_comp_hook.o"
 	@echo "... components/ui_comp_hook.i"
 	@echo "... components/ui_comp_hook.s"
+	@echo "... deepseek_tianqi.o"
+	@echo "... deepseek_tianqi.i"
+	@echo "... deepseek_tianqi.s"
 	@echo "... depskmainCopy.o"
 	@echo "... depskmainCopy.i"
 	@echo "... depskmainCopy.s"
+	@echo "... fonts/ui_font_location.o"
+	@echo "... fonts/ui_font_location.i"
+	@echo "... fonts/ui_font_location.s"
 	@echo "... fonts/ui_font_puhui18.o"
 	@echo "... fonts/ui_font_puhui18.i"
 	@echo "... fonts/ui_font_puhui18.s"
@@ -3953,6 +4964,15 @@ help:
 	@echo "... images/ui_img_1114756079.o"
 	@echo "... images/ui_img_1114756079.i"
 	@echo "... images/ui_img_1114756079.s"
+	@echo "... images/ui_img_1133233917.o"
+	@echo "... images/ui_img_1133233917.i"
+	@echo "... images/ui_img_1133233917.s"
+	@echo "... images/ui_img_1140209915.o"
+	@echo "... images/ui_img_1140209915.i"
+	@echo "... images/ui_img_1140209915.s"
+	@echo "... images/ui_img_1141258426.o"
+	@echo "... images/ui_img_1141258426.i"
+	@echo "... images/ui_img_1141258426.s"
 	@echo "... images/ui_img_1143713160.o"
 	@echo "... images/ui_img_1143713160.i"
 	@echo "... images/ui_img_1143713160.s"
@@ -3992,6 +5012,9 @@ help:
 	@echo "... images/ui_img_1274767758.o"
 	@echo "... images/ui_img_1274767758.i"
 	@echo "... images/ui_img_1274767758.s"
+	@echo "... images/ui_img_1282432712.o"
+	@echo "... images/ui_img_1282432712.i"
+	@echo "... images/ui_img_1282432712.s"
 	@echo "... images/ui_img_1305061770.o"
 	@echo "... images/ui_img_1305061770.i"
 	@echo "... images/ui_img_1305061770.s"
@@ -4010,9 +5033,18 @@ help:
 	@echo "... images/ui_img_1395808306.o"
 	@echo "... images/ui_img_1395808306.i"
 	@echo "... images/ui_img_1395808306.s"
+	@echo "... images/ui_img_1406459048.o"
+	@echo "... images/ui_img_1406459048.i"
+	@echo "... images/ui_img_1406459048.s"
+	@echo "... images/ui_img_1407507559.o"
+	@echo "... images/ui_img_1407507559.i"
+	@echo "... images/ui_img_1407507559.s"
 	@echo "... images/ui_img_1409127908.o"
 	@echo "... images/ui_img_1409127908.i"
 	@echo "... images/ui_img_1409127908.s"
+	@echo "... images/ui_img_1414483557.o"
+	@echo "... images/ui_img_1414483557.i"
+	@echo "... images/ui_img_1414483557.s"
 	@echo "... images/ui_img_1433976870.o"
 	@echo "... images/ui_img_1433976870.i"
 	@echo "... images/ui_img_1433976870.s"
@@ -4049,9 +5081,18 @@ help:
 	@echo "... images/ui_img_1579771612.o"
 	@echo "... images/ui_img_1579771612.i"
 	@echo "... images/ui_img_1579771612.s"
+	@echo "... images/ui_img_1609674147.o"
+	@echo "... images/ui_img_1609674147.i"
+	@echo "... images/ui_img_1609674147.s"
+	@echo "... images/ui_img_1610722658.o"
+	@echo "... images/ui_img_1610722658.i"
+	@echo "... images/ui_img_1610722658.s"
 	@echo "... images/ui_img_1613165469.o"
 	@echo "... images/ui_img_1613165469.i"
 	@echo "... images/ui_img_1613165469.s"
+	@echo "... images/ui_img_1617698656.o"
+	@echo "... images/ui_img_1617698656.i"
+	@echo "... images/ui_img_1617698656.s"
 	@echo "... images/ui_img_1627204797.o"
 	@echo "... images/ui_img_1627204797.i"
 	@echo "... images/ui_img_1627204797.s"
@@ -4076,6 +5117,15 @@ help:
 	@echo "... images/ui_img_1651094022.o"
 	@echo "... images/ui_img_1651094022.i"
 	@echo "... images/ui_img_1651094022.s"
+	@echo "... images/ui_img_1653549846.o"
+	@echo "... images/ui_img_1653549846.i"
+	@echo "... images/ui_img_1653549846.s"
+	@echo "... images/ui_img_1660525844.o"
+	@echo "... images/ui_img_1660525844.i"
+	@echo "... images/ui_img_1660525844.s"
+	@echo "... images/ui_img_1661574355.o"
+	@echo "... images/ui_img_1661574355.i"
+	@echo "... images/ui_img_1661574355.s"
 	@echo "... images/ui_img_1673239870.o"
 	@echo "... images/ui_img_1673239870.i"
 	@echo "... images/ui_img_1673239870.s"
@@ -4121,9 +5171,18 @@ help:
 	@echo "... images/ui_img_1863416723.o"
 	@echo "... images/ui_img_1863416723.i"
 	@echo "... images/ui_img_1863416723.s"
+	@echo "... images/ui_img_1871393601.o"
+	@echo "... images/ui_img_1871393601.i"
+	@echo "... images/ui_img_1871393601.s"
+	@echo "... images/ui_img_1872442112.o"
+	@echo "... images/ui_img_1872442112.i"
+	@echo "... images/ui_img_1872442112.s"
 	@echo "... images/ui_img_1874934912.o"
 	@echo "... images/ui_img_1874934912.i"
 	@echo "... images/ui_img_1874934912.s"
+	@echo "... images/ui_img_1879418110.o"
+	@echo "... images/ui_img_1879418110.i"
+	@echo "... images/ui_img_1879418110.s"
 	@echo "... images/ui_img_1884734136.o"
 	@echo "... images/ui_img_1884734136.i"
 	@echo "... images/ui_img_1884734136.s"
@@ -4199,6 +5258,15 @@ help:
 	@echo "... images/ui_img_338008226.o"
 	@echo "... images/ui_img_338008226.i"
 	@echo "... images/ui_img_338008226.s"
+	@echo "... images/ui_img_371234577.o"
+	@echo "... images/ui_img_371234577.i"
+	@echo "... images/ui_img_371234577.s"
+	@echo "... images/ui_img_378210575.o"
+	@echo "... images/ui_img_378210575.i"
+	@echo "... images/ui_img_378210575.s"
+	@echo "... images/ui_img_379259086.o"
+	@echo "... images/ui_img_379259086.i"
+	@echo "... images/ui_img_379259086.s"
 	@echo "... images/ui_img_396379797.o"
 	@echo "... images/ui_img_396379797.i"
 	@echo "... images/ui_img_396379797.s"
@@ -4256,15 +5324,33 @@ help:
 	@echo "... images/ui_img_642449591.o"
 	@echo "... images/ui_img_642449591.i"
 	@echo "... images/ui_img_642449591.s"
+	@echo "... images/ui_img_644459708.o"
+	@echo "... images/ui_img_644459708.i"
+	@echo "... images/ui_img_644459708.s"
+	@echo "... images/ui_img_645508219.o"
+	@echo "... images/ui_img_645508219.i"
+	@echo "... images/ui_img_645508219.s"
 	@echo "... images/ui_img_647165550.o"
 	@echo "... images/ui_img_647165550.i"
 	@echo "... images/ui_img_647165550.s"
 	@echo "... images/ui_img_64789106.o"
 	@echo "... images/ui_img_64789106.i"
 	@echo "... images/ui_img_64789106.s"
+	@echo "... images/ui_img_652484217.o"
+	@echo "... images/ui_img_652484217.i"
+	@echo "... images/ui_img_652484217.s"
 	@echo "... images/ui_img_657341686.o"
 	@echo "... images/ui_img_657341686.i"
 	@echo "... images/ui_img_657341686.s"
+	@echo "... images/ui_img_668299364.o"
+	@echo "... images/ui_img_668299364.i"
+	@echo "... images/ui_img_668299364.s"
+	@echo "... images/ui_img_675275362.o"
+	@echo "... images/ui_img_675275362.i"
+	@echo "... images/ui_img_675275362.s"
+	@echo "... images/ui_img_676323873.o"
+	@echo "... images/ui_img_676323873.i"
+	@echo "... images/ui_img_676323873.s"
 	@echo "... images/ui_img_691945150.o"
 	@echo "... images/ui_img_691945150.i"
 	@echo "... images/ui_img_691945150.s"
@@ -4283,6 +5369,9 @@ help:
 	@echo "... images/ui_img_721922142.o"
 	@echo "... images/ui_img_721922142.i"
 	@echo "... images/ui_img_721922142.s"
+	@echo "... images/ui_img_730167363.o"
+	@echo "... images/ui_img_730167363.i"
+	@echo "... images/ui_img_730167363.s"
 	@echo "... images/ui_img_743825838.o"
 	@echo "... images/ui_img_743825838.i"
 	@echo "... images/ui_img_743825838.s"
@@ -4319,15 +5408,57 @@ help:
 	@echo "... images/ui_img_846333120.o"
 	@echo "... images/ui_img_846333120.i"
 	@echo "... images/ui_img_846333120.s"
+	@echo "... images/ui_img_847674807.o"
+	@echo "... images/ui_img_847674807.i"
+	@echo "... images/ui_img_847674807.s"
+	@echo "... images/ui_img_848723318.o"
+	@echo "... images/ui_img_848723318.i"
+	@echo "... images/ui_img_848723318.s"
+	@echo "... images/ui_img_855699316.o"
+	@echo "... images/ui_img_855699316.i"
+	@echo "... images/ui_img_855699316.s"
 	@echo "... images/ui_img_865156645.o"
 	@echo "... images/ui_img_865156645.i"
 	@echo "... images/ui_img_865156645.s"
+	@echo "... images/ui_img_869361361.o"
+	@echo "... images/ui_img_869361361.i"
+	@echo "... images/ui_img_869361361.s"
+	@echo "... images/ui_img_869397362.o"
+	@echo "... images/ui_img_869397362.i"
+	@echo "... images/ui_img_869397362.s"
+	@echo "... images/ui_img_869433235.o"
+	@echo "... images/ui_img_869433235.i"
+	@echo "... images/ui_img_869433235.s"
+	@echo "... images/ui_img_869469236.o"
+	@echo "... images/ui_img_869469236.i"
+	@echo "... images/ui_img_869469236.s"
+	@echo "... images/ui_img_869504853.o"
+	@echo "... images/ui_img_869504853.i"
+	@echo "... images/ui_img_869504853.s"
+	@echo "... images/ui_img_869540854.o"
+	@echo "... images/ui_img_869540854.i"
+	@echo "... images/ui_img_869540854.s"
+	@echo "... images/ui_img_869576727.o"
+	@echo "... images/ui_img_869576727.i"
+	@echo "... images/ui_img_869576727.s"
+	@echo "... images/ui_img_869612728.o"
+	@echo "... images/ui_img_869612728.i"
+	@echo "... images/ui_img_869612728.s"
+	@echo "... images/ui_img_871514463.o"
+	@echo "... images/ui_img_871514463.i"
+	@echo "... images/ui_img_871514463.s"
 	@echo "... images/ui_img_873017022.o"
 	@echo "... images/ui_img_873017022.i"
 	@echo "... images/ui_img_873017022.s"
 	@echo "... images/ui_img_878326522.o"
 	@echo "... images/ui_img_878326522.i"
 	@echo "... images/ui_img_878326522.s"
+	@echo "... images/ui_img_879538972.o"
+	@echo "... images/ui_img_879538972.i"
+	@echo "... images/ui_img_879538972.s"
+	@echo "... images/ui_img_880984407.o"
+	@echo "... images/ui_img_880984407.i"
+	@echo "... images/ui_img_880984407.s"
 	@echo "... images/ui_img_918736298.o"
 	@echo "... images/ui_img_918736298.i"
 	@echo "... images/ui_img_918736298.s"
@@ -4349,6 +5480,9 @@ help:
 	@echo "... images/ui_img_998280680.o"
 	@echo "... images/ui_img_998280680.i"
 	@echo "... images/ui_img_998280680.s"
+	@echo "... images/ui_img_wifi_png.o"
+	@echo "... images/ui_img_wifi_png.i"
+	@echo "... images/ui_img_wifi_png.s"
 	@echo "... images/ui_temporary_image.o"
 	@echo "... images/ui_temporary_image.i"
 	@echo "... images/ui_temporary_image.s"

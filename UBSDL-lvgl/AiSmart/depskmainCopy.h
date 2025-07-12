@@ -9,6 +9,8 @@
 // extern DeepSeekSession *session;    // 声明外部变量
 
 // ================== 数据结构定义 ==================
+
+
 // 存储HTTP响应
 struct MemoryStruct {
     char *memory;

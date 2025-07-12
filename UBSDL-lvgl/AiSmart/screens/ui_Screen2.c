@@ -86,6 +86,7 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_x(ui_AIPanel, 0);
     lv_obj_set_y(ui_AIPanel, -60);
     lv_obj_set_align(ui_AIPanel, LV_ALIGN_CENTER);
+    lv_obj_add_flag(ui_AIPanel, LV_OBJ_FLAG_HIDDEN);     /// Flags
     lv_obj_clear_flag(ui_AIPanel, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
     lv_obj_set_style_radius(ui_AIPanel, 15, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui_AIPanel, lv_color_hex(0x00E6FF), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -192,6 +193,7 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_x(ui_miccontain, 1);
     lv_obj_set_y(ui_miccontain, 62);
     lv_obj_set_align(ui_miccontain, LV_ALIGN_CENTER);
+    lv_obj_add_flag(ui_miccontain, LV_OBJ_FLAG_HIDDEN);     /// Flags
     lv_obj_clear_flag(ui_miccontain, LV_OBJ_FLAG_CLICKABLE | LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
     ui_mic = lv_img_create(ui_miccontain);
@@ -220,7 +222,7 @@ void ui_Screen2_screen_init(void)
     lv_img_set_src(ui_AIlogo, &ui_img_1445365126);
     lv_obj_set_width(ui_AIlogo, LV_SIZE_CONTENT);   /// 200
     lv_obj_set_height(ui_AIlogo, LV_SIZE_CONTENT);    /// 200
-    lv_obj_set_x(ui_AIlogo, -1);
+    lv_obj_set_x(ui_AIlogo, 0);
     lv_obj_set_y(ui_AIlogo, -122);
     lv_obj_set_align(ui_AIlogo, LV_ALIGN_CENTER);
     lv_obj_add_flag(ui_AIlogo, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
@@ -231,7 +233,7 @@ void ui_Screen2_screen_init(void)
     lv_img_set_src(ui_human, &ui_img_1761902563);
     lv_obj_set_width(ui_human, LV_SIZE_CONTENT);   /// 200
     lv_obj_set_height(ui_human, LV_SIZE_CONTENT);    /// 200
-    lv_obj_set_x(ui_human, -2);
+    lv_obj_set_x(ui_human, 0);
     lv_obj_set_y(ui_human, 122);
     lv_obj_set_align(ui_human, LV_ALIGN_CENTER);
     lv_obj_add_flag(ui_human, LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
@@ -242,11 +244,12 @@ void ui_Screen2_screen_init(void)
     lv_obj_remove_style_all(ui_Container6);
     lv_obj_set_width(ui_Container6, 50);
     lv_obj_set_height(ui_Container6, 46);
-    lv_obj_set_x(ui_Container6, 117);
+    lv_obj_set_x(ui_Container6, 0);
     lv_obj_set_y(ui_Container6, -34);
     lv_obj_set_align(ui_Container6, LV_ALIGN_CENTER);
     lv_obj_clear_flag(ui_Container6, LV_OBJ_FLAG_CLICKABLE | LV_OBJ_FLAG_SCROLLABLE);      /// Flags
-
+    // lv_obj_add_flag(ui_Container6, LV_OBJ_FLAG_HIDDEN);
+    
     ui_horn = lv_img_create(ui_Container6);
     lv_img_set_src(ui_horn, &ui_img_1637902983);
     lv_obj_set_width(ui_horn, LV_SIZE_CONTENT);   /// 200
@@ -267,35 +270,43 @@ void ui_Screen2_screen_init(void)
     lv_obj_clear_flag(ui_horn1, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
     lv_img_set_zoom(ui_horn1, 48);
 
-    ui_TextArea1 = lv_textarea_create(ui_Screen2);
-    lv_obj_set_width(ui_TextArea1, 198);
-    lv_obj_set_height(ui_TextArea1, 73);
-    lv_obj_set_x(ui_TextArea1, 0);
-    lv_obj_set_y(ui_TextArea1, 35);
-    lv_obj_set_align(ui_TextArea1, LV_ALIGN_CENTER);
-    lv_textarea_set_placeholder_text(ui_TextArea1, "Placeholder...");
-    lv_obj_add_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);     /// Flags
-
-
-
-    ui_Keyboard1 = lv_keyboard_create(ui_Screen2);
-    lv_obj_set_width(ui_Keyboard1, 239);
-    lv_obj_set_height(ui_Keyboard1, 71);
-    lv_obj_set_x(ui_Keyboard1, 1);
-    lv_obj_set_y(ui_Keyboard1, 108);
-    lv_obj_set_align(ui_Keyboard1, LV_ALIGN_CENTER);
-    lv_obj_add_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);     /// Flags
-
     ui_inputlogo = lv_img_create(ui_Screen2);
     lv_img_set_src(ui_inputlogo, &ui_img_977105517);
     lv_obj_set_width(ui_inputlogo, LV_SIZE_CONTENT);   /// 200
     lv_obj_set_height(ui_inputlogo, LV_SIZE_CONTENT);    /// 200
-    lv_obj_set_x(ui_inputlogo, 40);
-    lv_obj_set_y(ui_inputlogo, 48);
+    lv_obj_set_x(ui_inputlogo, 0);
+    lv_obj_set_y(ui_inputlogo, 34);
     lv_obj_set_align(ui_inputlogo, LV_ALIGN_CENTER);
     lv_obj_add_flag(ui_inputlogo, LV_OBJ_FLAG_CLICKABLE | LV_OBJ_FLAG_ADV_HITTEST);     /// Flags
     lv_obj_clear_flag(ui_inputlogo, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
     lv_img_set_zoom(ui_inputlogo, 40);
+
+    ui_intextkeyboard = lv_obj_create(ui_Screen2);
+    lv_obj_remove_style_all(ui_intextkeyboard);
+    lv_obj_set_width(ui_intextkeyboard, 243);
+    lv_obj_set_height(ui_intextkeyboard, 204);
+    lv_obj_set_x(ui_intextkeyboard, 1);
+    lv_obj_set_y(ui_intextkeyboard, 52);
+    lv_obj_set_align(ui_intextkeyboard, LV_ALIGN_CENTER);
+    lv_obj_add_flag(ui_intextkeyboard, LV_OBJ_FLAG_HIDDEN);     /// Flags
+    lv_obj_clear_flag(ui_intextkeyboard, LV_OBJ_FLAG_CLICKABLE | LV_OBJ_FLAG_SCROLLABLE);      /// Flags
+
+    ui_TextArea1 = lv_textarea_create(ui_intextkeyboard);
+    lv_obj_set_width(ui_TextArea1, 198);
+    lv_obj_set_height(ui_TextArea1, 73);
+    lv_obj_set_x(ui_TextArea1, 0);
+    lv_obj_set_y(ui_TextArea1, 40);
+    lv_obj_set_align(ui_TextArea1, LV_ALIGN_TOP_MID);
+    lv_textarea_set_placeholder_text(ui_TextArea1, "Placeholder...");
+
+
+
+    ui_Keyboard1 = lv_keyboard_create(ui_intextkeyboard);
+    lv_obj_set_width(ui_Keyboard1, 237);
+    lv_obj_set_height(ui_Keyboard1, 76);
+    lv_obj_set_x(ui_Keyboard1, 0);
+    lv_obj_set_y(ui_Keyboard1, 53);
+    lv_obj_set_align(ui_Keyboard1, LV_ALIGN_CENTER);
 
     lv_obj_add_event_cb(ui_to1, ui_event_to1, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_Label7, ui_event_Label7, LV_EVENT_ALL, NULL);
@@ -304,8 +315,8 @@ void ui_Screen2_screen_init(void)
     lv_obj_add_event_cb(ui_humanPanel, ui_event_humanPanel, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_mic, ui_event_mic, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_mic2, ui_event_mic2, LV_EVENT_ALL, NULL);
-    lv_obj_add_event_cb(ui_Keyboard1, ui_event_Keyboard1, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_inputlogo, ui_event_inputlogo, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_Keyboard1, ui_event_Keyboard1, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_Screen2, ui_event_Screen2, LV_EVENT_ALL, NULL);
 
 }

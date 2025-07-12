@@ -11,16 +11,11 @@ extern "C" {
 #endif
 
 #include "lvgl/lvgl.h"
-
-// #include "lv_i18n.h"
 #include "ui_helpers.h"
 #include "ui_events.h"
 
 #include <stdio.h>
 #include "depskmainCopy.h"
-
-
-#include <stdio.h>
 extern  lv_timer_t *emoji_timer;
 extern FILE * ftex;
 
@@ -36,7 +31,6 @@ void ui_Screen1_screen_init(void);
 void ui_event_Screen1(lv_event_t * e);
 extern lv_obj_t * ui_Screen1;
 extern lv_obj_t * ui_Image52;
-extern lv_obj_t * ui_Image51;
 extern lv_obj_t * ui_circle1;
 extern lv_obj_t * ui_Container1;
 extern lv_obj_t * ui_Image2;
@@ -80,9 +74,54 @@ extern lv_obj_t * ui_Label11;
 void ui_event_fourTo3(lv_event_t * e);
 extern lv_obj_t * ui_fourTo3;
 extern lv_obj_t * ui_Label12;
-extern lv_obj_t * ui_Image15;
-extern lv_obj_t * ui_Image16;
 extern lv_obj_t * ui_Image17;
+void ui_event_weather(lv_event_t * e);
+extern lv_obj_t * ui_weather;
+extern lv_obj_t * ui_weather0;
+extern lv_obj_t * ui_weather1;
+extern lv_obj_t * ui_weather2;
+extern lv_obj_t * ui_weather3;
+extern lv_obj_t * ui_weather4;
+extern lv_obj_t * ui_weather5;
+extern lv_obj_t * ui_weather6;
+extern lv_obj_t * ui_weather7;
+extern lv_obj_t * ui_weather8;
+extern lv_obj_t * ui_weather9;
+extern lv_obj_t * ui_weather10;
+extern lv_obj_t * ui_weather11;
+extern lv_obj_t * ui_weather12;
+extern lv_obj_t * ui_weather13;
+extern lv_obj_t * ui_weather14;
+extern lv_obj_t * ui_weather15;
+extern lv_obj_t * ui_weather16;
+extern lv_obj_t * ui_weather17;
+extern lv_obj_t * ui_weather18;
+extern lv_obj_t * ui_weather19;
+extern lv_obj_t * ui_weather20;
+extern lv_obj_t * ui_weather21;
+extern lv_obj_t * ui_weather22;
+extern lv_obj_t * ui_weather23;
+extern lv_obj_t * ui_weather24;
+extern lv_obj_t * ui_weather25;
+extern lv_obj_t * ui_weather26;
+extern lv_obj_t * ui_weather27;
+extern lv_obj_t * ui_weather28;
+extern lv_obj_t * ui_weather29;
+extern lv_obj_t * ui_weather30;
+extern lv_obj_t * ui_weather31;
+extern lv_obj_t * ui_weather32;
+extern lv_obj_t * ui_weather33;
+extern lv_obj_t * ui_weather34;
+extern lv_obj_t * ui_weather35;
+extern lv_obj_t * ui_weather36;
+extern lv_obj_t * ui_weather37;
+extern lv_obj_t * ui_weather38;
+extern lv_obj_t * ui_weather99;
+extern lv_obj_t * ui_wifi;
+void ui_event_locationtempurature(lv_event_t * e);
+extern lv_obj_t * ui_locationtempurature;
+void ui_event_tempurature(lv_event_t * e);
+extern lv_obj_t * ui_tempurature;
 // SCREEN: ui_Screen2
 void ui_Screen2_screen_init(void);
 void ui_event_Screen2(lv_event_t * e);
@@ -120,11 +159,12 @@ extern lv_obj_t * ui_human;
 extern lv_obj_t * ui_Container6;
 extern lv_obj_t * ui_horn;
 extern lv_obj_t * ui_horn1;
+void ui_event_inputlogo(lv_event_t * e);
+extern lv_obj_t * ui_inputlogo;
+extern lv_obj_t * ui_intextkeyboard;
 extern lv_obj_t * ui_TextArea1;
 void ui_event_Keyboard1(lv_event_t * e);
 extern lv_obj_t * ui_Keyboard1;
-void ui_event_inputlogo(lv_event_t * e);
-extern lv_obj_t * ui_inputlogo;
 // SCREEN: ui_Screen3
 void ui_Screen3_screen_init(void);
 void ui_event_Screen3(lv_event_t * e);
@@ -214,9 +254,48 @@ LV_IMG_DECLARE(ui_img_1673239870);    // assets/表情/倒立的脸_1749726456.p
 LV_IMG_DECLARE(ui_img_408278187);    // assets/coolbackgrounds-fractalize-wooded_flora.png
 LV_IMG_DECLARE(ui_img_570494189);    // assets/圆形_1751959259.png
 LV_IMG_DECLARE(ui_img_1758698815);    // assets/圆形_1749870100.png
-LV_IMG_DECLARE(ui_img_1720058713);    // assets/杂项/wifi-20_1749984511.png
-LV_IMG_DECLARE(ui_img_1932583977);    // assets/杂项/多云天气_1749984566.png
 LV_IMG_DECLARE(ui_img_1630928100);    // assets/电池.png
+LV_IMG_DECLARE(ui_img_1282432712);    // assets/0@1x.png
+LV_IMG_DECLARE(ui_img_730167363);    // assets/1@1x.png
+LV_IMG_DECLARE(ui_img_869361361);    // assets/whitesmall/2@1x.png
+LV_IMG_DECLARE(ui_img_869397362);    // assets/whitesmall/3@1x.png
+LV_IMG_DECLARE(ui_img_869433235);    // assets/whitesmall/4@1x.png
+LV_IMG_DECLARE(ui_img_869469236);    // assets/whitesmall/5@1x.png
+LV_IMG_DECLARE(ui_img_869504853);    // assets/whitesmall/6@1x.png
+LV_IMG_DECLARE(ui_img_869540854);    // assets/whitesmall/7@1x.png
+LV_IMG_DECLARE(ui_img_869576727);    // assets/whitesmall/8@1x.png
+LV_IMG_DECLARE(ui_img_869612728);    // assets/whitesmall/9@1x.png
+LV_IMG_DECLARE(ui_img_855699316);    // assets/whitesmall/10@1x.png
+LV_IMG_DECLARE(ui_img_652484217);    // assets/whitesmall/11@1x.png
+LV_IMG_DECLARE(ui_img_1879418110);    // assets/whitesmall/12@1x.png
+LV_IMG_DECLARE(ui_img_1133233917);    // assets/whitesmall/13@1x.png
+LV_IMG_DECLARE(ui_img_1617698656);    // assets/whitesmall/14@1x.png
+LV_IMG_DECLARE(ui_img_1414483557);    // assets/whitesmall/15@1x.png
+LV_IMG_DECLARE(ui_img_1653549846);    // assets/whitesmall/16@1x.png
+LV_IMG_DECLARE(ui_img_371234577);    // assets/whitesmall/17@1x.png
+LV_IMG_DECLARE(ui_img_668299364);    // assets/whitesmall/18@1x.png
+LV_IMG_DECLARE(ui_img_871514463);    // assets/whitesmall/19@1x.png
+LV_IMG_DECLARE(ui_img_847674807);    // assets/whitesmall/20@1x.png
+LV_IMG_DECLARE(ui_img_644459708);    // assets/whitesmall/21@1x.png
+LV_IMG_DECLARE(ui_img_1871393601);    // assets/whitesmall/22@1x.png
+LV_IMG_DECLARE(ui_img_1141258426);    // assets/whitesmall/23@1x.png
+LV_IMG_DECLARE(ui_img_1609674147);    // assets/whitesmall/24@1x.png
+LV_IMG_DECLARE(ui_img_1406459048);    // assets/whitesmall/25@1x.png
+LV_IMG_DECLARE(ui_img_1661574355);    // assets/whitesmall/26@1x.png
+LV_IMG_DECLARE(ui_img_379259086);    // assets/whitesmall/27@1x.png
+LV_IMG_DECLARE(ui_img_676323873);    // assets/whitesmall/28@1x.png
+LV_IMG_DECLARE(ui_img_879538972);    // assets/whitesmall/29@1x.png
+LV_IMG_DECLARE(ui_img_848723318);    // assets/whitesmall/30@1x.png
+LV_IMG_DECLARE(ui_img_645508219);    // assets/whitesmall/31@1x.png
+LV_IMG_DECLARE(ui_img_1872442112);    // assets/whitesmall/32@1x.png
+LV_IMG_DECLARE(ui_img_1140209915);    // assets/whitesmall/33@1x.png
+LV_IMG_DECLARE(ui_img_1610722658);    // assets/whitesmall/34@1x.png
+LV_IMG_DECLARE(ui_img_1407507559);    // assets/whitesmall/35@1x.png
+LV_IMG_DECLARE(ui_img_1660525844);    // assets/whitesmall/36@1x.png
+LV_IMG_DECLARE(ui_img_378210575);    // assets/whitesmall/37@1x.png
+LV_IMG_DECLARE(ui_img_675275362);    // assets/whitesmall/38@1x.png
+LV_IMG_DECLARE(ui_img_880984407);    // assets/whitesmall/99@1x.png
+LV_IMG_DECLARE(ui_img_wifi_png);    // assets/wifi.png
 LV_IMG_DECLARE(ui_img_706617981);    // assets/coolbackgrounds-fractalize-persian_lounge.png
 LV_IMG_DECLARE(ui_img_536328497);    // assets/圆形_1751958724.png
 LV_IMG_DECLARE(ui_img_1328066288);    // assets/麦克风_1750044350.png
@@ -284,7 +363,9 @@ LV_IMG_DECLARE(ui_img_1006453824);    // assets/动物/野猪表情符号_174998
 LV_IMG_DECLARE(ui_img_2026381252);    // assets/动物/驴子表情符号_1749986772.png
 LV_IMG_DECLARE(ui_img_1628148309);    // assets/动物/鲨鱼表情符号_1749986711.png
 LV_IMG_DECLARE(ui_img_190977669);    // assets/杂项/Wi-Fi连接问题_1749984538.png
+LV_IMG_DECLARE(ui_img_1720058713);    // assets/杂项/wifi-20_1749984511.png
 LV_IMG_DECLARE(ui_img_1220561086);    // assets/杂项/国家公园_1749985966.png
+LV_IMG_DECLARE(ui_img_1932583977);    // assets/杂项/多云天气_1749984566.png
 LV_IMG_DECLARE(ui_img_1317392200);    // assets/杂项/数字0_1749984797.png
 LV_IMG_DECLARE(ui_img_328345682);    // assets/杂项/数字2的数码显示_1749984819.png
 LV_IMG_DECLARE(ui_img_537163071);    // assets/杂项/数字3的数码显示_1749984828.png
@@ -339,6 +420,7 @@ LV_IMG_DECLARE(ui_img_1328075000);    // assets/麦克风_1750044358.png
 
 
 LV_FONT_DECLARE(ui_font_puhui18);
+LV_FONT_DECLARE(ui_font_location);
 
 
 

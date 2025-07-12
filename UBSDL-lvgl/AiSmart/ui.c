@@ -6,14 +6,13 @@
 #include "ui.h"
 #include "ui_helpers.h"
 
-
+#include <stdio.h>
 #include "ui_events.h"
-char * kbEntertext ;
-
 #include "depskmainCopy.h"
 #include "cJSON.h"
 
-
+#include "deepseek_tianqi.h"
+char * kbEntertext ;
 extern DeepSeekSession *session;   
 
 extern cJSON *messages ;
@@ -34,7 +33,6 @@ void ui_Screen1_screen_init(void);
 void ui_event_Screen1(lv_event_t * e);
 lv_obj_t * ui_Screen1;
 lv_obj_t * ui_Image52;
-lv_obj_t * ui_Image51;
 lv_obj_t * ui_circle1;
 lv_obj_t * ui_Container1;
 lv_obj_t * ui_Image2;
@@ -80,9 +78,54 @@ lv_obj_t * ui_Label11;
 void ui_event_fourTo3(lv_event_t * e);
 lv_obj_t * ui_fourTo3;
 lv_obj_t * ui_Label12;
-lv_obj_t * ui_Image15;
-lv_obj_t * ui_Image16;
 lv_obj_t * ui_Image17;
+void ui_event_weather(lv_event_t * e);
+lv_obj_t * ui_weather;
+lv_obj_t * ui_weather0;
+lv_obj_t * ui_weather1;
+lv_obj_t * ui_weather2;
+lv_obj_t * ui_weather3;
+lv_obj_t * ui_weather4;
+lv_obj_t * ui_weather5;
+lv_obj_t * ui_weather6;
+lv_obj_t * ui_weather7;
+lv_obj_t * ui_weather8;
+lv_obj_t * ui_weather9;
+lv_obj_t * ui_weather10;
+lv_obj_t * ui_weather11;
+lv_obj_t * ui_weather12;
+lv_obj_t * ui_weather13;
+lv_obj_t * ui_weather14;
+lv_obj_t * ui_weather15;
+lv_obj_t * ui_weather16;
+lv_obj_t * ui_weather17;
+lv_obj_t * ui_weather18;
+lv_obj_t * ui_weather19;
+lv_obj_t * ui_weather20;
+lv_obj_t * ui_weather21;
+lv_obj_t * ui_weather22;
+lv_obj_t * ui_weather23;
+lv_obj_t * ui_weather24;
+lv_obj_t * ui_weather25;
+lv_obj_t * ui_weather26;
+lv_obj_t * ui_weather27;
+lv_obj_t * ui_weather28;
+lv_obj_t * ui_weather29;
+lv_obj_t * ui_weather30;
+lv_obj_t * ui_weather31;
+lv_obj_t * ui_weather32;
+lv_obj_t * ui_weather33;
+lv_obj_t * ui_weather34;
+lv_obj_t * ui_weather35;
+lv_obj_t * ui_weather36;
+lv_obj_t * ui_weather37;
+lv_obj_t * ui_weather38;
+lv_obj_t * ui_weather99;
+lv_obj_t * ui_wifi;
+void ui_event_locationtempurature(lv_event_t * e);
+lv_obj_t * ui_locationtempurature;
+void ui_event_tempurature(lv_event_t * e);
+lv_obj_t * ui_tempurature;
 
 
 // SCREEN: ui_Screen2
@@ -122,11 +165,12 @@ lv_obj_t * ui_human;
 lv_obj_t * ui_Container6;
 lv_obj_t * ui_horn;
 lv_obj_t * ui_horn1;
+void ui_event_inputlogo(lv_event_t * e);
+lv_obj_t * ui_inputlogo;
+lv_obj_t * ui_intextkeyboard;
 lv_obj_t * ui_TextArea1;
 void ui_event_Keyboard1(lv_event_t * e);
 lv_obj_t * ui_Keyboard1;
-void ui_event_inputlogo(lv_event_t * e);
-lv_obj_t * ui_inputlogo;
 
 
 // SCREEN: ui_Screen3
@@ -498,8 +542,6 @@ void ui_event_Screen1(lv_event_t * e)
 
     InitEmojiAutoChange(e);
     InitSowTimeDate(e);
-
-    
     
     if(event_code == LV_EVENT_SCREEN_LOADED) {
         printf("进入定时器\n");
@@ -572,6 +614,10 @@ void ui_event_Screen4(lv_event_t * e)
         lv_indev_wait_release(lv_indev_get_act());
         _ui_screen_change(&ui_Screen2, LV_SCR_LOAD_ANIM_MOVE_LEFT, 500, 0, &ui_Screen2_screen_init);
     }
+    if(event_code == LV_EVENT_SCREEN_LOADED)
+    {
+        get_weather("广州");
+    }
 }
 void ui_event_time2(lv_event_t * e)
 {
@@ -605,6 +651,30 @@ void ui_event_fourTo3(lv_event_t * e)
         _ui_screen_change(&ui_Screen3, LV_SCR_LOAD_ANIM_FADE_ON, 0, 0, &ui_Screen3_screen_init);
     }
 }
+void ui_event_weather(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_SCREEN_LOADED) {
+        _ui_flag_modify(ui_weather, LV_OBJ_FLAG_HIDDEN, _UI_MODIFY_FLAG_REMOVE);
+    }
+}
+void ui_event_locationtempurature(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_SCREEN_LOADED) {
+        _ui_label_set_property(ui_locationtempurature, _UI_LABEL_PROPERTY_TEXT, "");
+    }
+}
+void ui_event_tempurature(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_SCREEN_LOADED) {
+        _ui_label_set_property(ui_locationtempurature, _UI_LABEL_PROPERTY_TEXT, "");
+    }
+}
 void ui_event_Screen2(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
@@ -624,11 +694,10 @@ void ui_event_Screen2(lv_event_t * e)
     }
     if(event_code == LV_EVENT_SCREEN_LOADED) {
         
-        // char *api_key = get_api_key();
-        // CompleteInit();
+
     }
     if(event_code == LV_EVENT_SCREEN_UNLOADED) {
-        // CleanupApiClient();
+
     }
 }
 void ui_event_to1(lv_event_t * e)
@@ -687,28 +756,14 @@ void ui_event_mic2(lv_event_t * e)
         flashmic128_Animation(ui_mic2, 0);
     }
 }
-void ui_event_Keyboard1(lv_event_t * e)
-{
-    lv_event_code_t event_code = lv_event_get_code(e);
-    lv_obj_t * target = lv_event_get_target(e);
-    if(event_code == LV_EVENT_CLICKED) {
-        _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
-    }
-}
 void ui_event_inputlogo(lv_event_t * e)
 {
     static bool session_initialized = false;
     lv_event_code_t event_code = lv_event_get_code(e);
     lv_obj_t * target = lv_event_get_target(e);
 
-    // // 初始化全局cJSON 对象root 和 messages
-    // messages =  cJSON_CreateArray();
-    // CompleteRequestBodyroot();
-
     // 创建会话 - 只在首次调用时创建session
-
     if (!session_initialized) {
-
         // 现在操作的是全局session
         session = deepseek_create_session(NULL);   // 将API key 硬编码在这里，而不是depskmainCopy.c中sk-39498dd4b1564b409b8a0bb959a608ac
         if (!session) {
@@ -723,9 +778,12 @@ void ui_event_inputlogo(lv_event_t * e)
 
     if(event_code == LV_EVENT_LONG_PRESSED ) 
     {
-        lv_obj_clear_flag(ui_TextArea1, LV_OBJ_FLAG_HIDDEN);
-        lv_obj_clear_flag(ui_Keyboard1, LV_OBJ_FLAG_HIDDEN);
-        lv_obj_set_pos(ui_inputlogo, 117, 11);
+        lv_obj_clear_flag(ui_intextkeyboard, LV_OBJ_FLAG_HIDDEN);
+        lv_obj_clear_flag(ui_AIPanel, LV_OBJ_FLAG_HIDDEN);
+
+        lv_obj_set_pos(ui_inputlogo, 117, 34);
+        lv_obj_set_pos(ui_Container6, 117, -34);
+        
 
         depmainlong(e);
     }
@@ -738,7 +796,14 @@ void ui_event_inputlogo(lv_event_t * e)
         printf("*-----------------------------------------*\n");
     }
 }
-
+void ui_event_Keyboard1(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        _ui_keyboard_set_target(ui_Keyboard1,  ui_TextArea1);
+    }
+}
 void ui_event_Screen3(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);

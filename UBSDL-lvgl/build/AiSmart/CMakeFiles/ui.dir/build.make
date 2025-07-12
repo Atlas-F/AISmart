@@ -226,19 +226,19 @@ AiSmart/CMakeFiles/ui.dir/cJSON.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/cJSON.c.s"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/cJSON.c -o CMakeFiles/ui.dir/cJSON.c.s
 
-AiSmart/CMakeFiles/ui.dir/MessageHistory.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
-AiSmart/CMakeFiles/ui.dir/MessageHistory.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/MessageHistory.c
-AiSmart/CMakeFiles/ui.dir/MessageHistory.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object AiSmart/CMakeFiles/ui.dir/MessageHistory.c.o"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/MessageHistory.c.o -MF CMakeFiles/ui.dir/MessageHistory.c.o.d -o CMakeFiles/ui.dir/MessageHistory.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/MessageHistory.c
+AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/deepseek_tianqi.c
+AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.o -MF CMakeFiles/ui.dir/deepseek_tianqi.c.o.d -o CMakeFiles/ui.dir/deepseek_tianqi.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/deepseek_tianqi.c
 
-AiSmart/CMakeFiles/ui.dir/MessageHistory.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/MessageHistory.c.i"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/MessageHistory.c > CMakeFiles/ui.dir/MessageHistory.c.i
+AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/deepseek_tianqi.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/deepseek_tianqi.c > CMakeFiles/ui.dir/deepseek_tianqi.c.i
 
-AiSmart/CMakeFiles/ui.dir/MessageHistory.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/MessageHistory.c.s"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/MessageHistory.c -o CMakeFiles/ui.dir/MessageHistory.c.s
+AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/deepseek_tianqi.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/deepseek_tianqi.c -o CMakeFiles/ui.dir/deepseek_tianqi.c.s
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_807690992.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_807690992.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_807690992.c
@@ -520,38 +520,10 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1758698815.c.s"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1758698815.c -o CMakeFiles/ui.dir/images/ui_img_1758698815.c.s
 
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o -MF CMakeFiles/ui.dir/images/ui_img_1720058713.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1720058713.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c
-
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1720058713.c.i"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c > CMakeFiles/ui.dir/images/ui_img_1720058713.c.i
-
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1720058713.c.s"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c -o CMakeFiles/ui.dir/images/ui_img_1720058713.c.s
-
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o -MF CMakeFiles/ui.dir/images/ui_img_1932583977.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1932583977.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c
-
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1932583977.c.i"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c > CMakeFiles/ui.dir/images/ui_img_1932583977.c.i
-
-AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1932583977.c.s"
-	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c -o CMakeFiles/ui.dir/images/ui_img_1932583977.c.s
-
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1630928100.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o -MF CMakeFiles/ui.dir/images/ui_img_1630928100.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1630928100.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1630928100.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.i: cmake_force
@@ -562,10 +534,584 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1630928100.c.s"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1630928100.c -o CMakeFiles/ui.dir/images/ui_img_1630928100.c.s
 
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1282432712.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.o -MF CMakeFiles/ui.dir/images/ui_img_1282432712.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1282432712.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1282432712.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1282432712.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1282432712.c > CMakeFiles/ui.dir/images/ui_img_1282432712.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1282432712.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1282432712.c -o CMakeFiles/ui.dir/images/ui_img_1282432712.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_730167363.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.o -MF CMakeFiles/ui.dir/images/ui_img_730167363.c.o.d -o CMakeFiles/ui.dir/images/ui_img_730167363.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_730167363.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_730167363.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_730167363.c > CMakeFiles/ui.dir/images/ui_img_730167363.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_730167363.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_730167363.c -o CMakeFiles/ui.dir/images/ui_img_730167363.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869361361.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.o -MF CMakeFiles/ui.dir/images/ui_img_869361361.c.o.d -o CMakeFiles/ui.dir/images/ui_img_869361361.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869361361.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_869361361.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869361361.c > CMakeFiles/ui.dir/images/ui_img_869361361.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_869361361.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869361361.c -o CMakeFiles/ui.dir/images/ui_img_869361361.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869397362.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.o -MF CMakeFiles/ui.dir/images/ui_img_869397362.c.o.d -o CMakeFiles/ui.dir/images/ui_img_869397362.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869397362.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_869397362.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869397362.c > CMakeFiles/ui.dir/images/ui_img_869397362.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_869397362.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869397362.c -o CMakeFiles/ui.dir/images/ui_img_869397362.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869433235.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.o -MF CMakeFiles/ui.dir/images/ui_img_869433235.c.o.d -o CMakeFiles/ui.dir/images/ui_img_869433235.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869433235.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_869433235.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869433235.c > CMakeFiles/ui.dir/images/ui_img_869433235.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_869433235.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869433235.c -o CMakeFiles/ui.dir/images/ui_img_869433235.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869469236.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.o -MF CMakeFiles/ui.dir/images/ui_img_869469236.c.o.d -o CMakeFiles/ui.dir/images/ui_img_869469236.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869469236.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_869469236.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869469236.c > CMakeFiles/ui.dir/images/ui_img_869469236.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_869469236.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869469236.c -o CMakeFiles/ui.dir/images/ui_img_869469236.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869504853.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.o -MF CMakeFiles/ui.dir/images/ui_img_869504853.c.o.d -o CMakeFiles/ui.dir/images/ui_img_869504853.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869504853.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_869504853.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869504853.c > CMakeFiles/ui.dir/images/ui_img_869504853.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_869504853.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869504853.c -o CMakeFiles/ui.dir/images/ui_img_869504853.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869540854.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.o -MF CMakeFiles/ui.dir/images/ui_img_869540854.c.o.d -o CMakeFiles/ui.dir/images/ui_img_869540854.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869540854.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_869540854.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869540854.c > CMakeFiles/ui.dir/images/ui_img_869540854.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_869540854.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869540854.c -o CMakeFiles/ui.dir/images/ui_img_869540854.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869576727.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.o -MF CMakeFiles/ui.dir/images/ui_img_869576727.c.o.d -o CMakeFiles/ui.dir/images/ui_img_869576727.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869576727.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_869576727.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869576727.c > CMakeFiles/ui.dir/images/ui_img_869576727.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_869576727.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869576727.c -o CMakeFiles/ui.dir/images/ui_img_869576727.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869612728.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.o -MF CMakeFiles/ui.dir/images/ui_img_869612728.c.o.d -o CMakeFiles/ui.dir/images/ui_img_869612728.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869612728.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_869612728.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869612728.c > CMakeFiles/ui.dir/images/ui_img_869612728.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_869612728.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_869612728.c -o CMakeFiles/ui.dir/images/ui_img_869612728.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_855699316.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.o -MF CMakeFiles/ui.dir/images/ui_img_855699316.c.o.d -o CMakeFiles/ui.dir/images/ui_img_855699316.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_855699316.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_855699316.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_855699316.c > CMakeFiles/ui.dir/images/ui_img_855699316.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_855699316.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_855699316.c -o CMakeFiles/ui.dir/images/ui_img_855699316.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_652484217.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.o -MF CMakeFiles/ui.dir/images/ui_img_652484217.c.o.d -o CMakeFiles/ui.dir/images/ui_img_652484217.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_652484217.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_652484217.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_652484217.c > CMakeFiles/ui.dir/images/ui_img_652484217.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_652484217.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_652484217.c -o CMakeFiles/ui.dir/images/ui_img_652484217.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1879418110.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.o -MF CMakeFiles/ui.dir/images/ui_img_1879418110.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1879418110.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1879418110.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1879418110.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1879418110.c > CMakeFiles/ui.dir/images/ui_img_1879418110.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1879418110.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1879418110.c -o CMakeFiles/ui.dir/images/ui_img_1879418110.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1133233917.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.o -MF CMakeFiles/ui.dir/images/ui_img_1133233917.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1133233917.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1133233917.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1133233917.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1133233917.c > CMakeFiles/ui.dir/images/ui_img_1133233917.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1133233917.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1133233917.c -o CMakeFiles/ui.dir/images/ui_img_1133233917.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1617698656.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.o -MF CMakeFiles/ui.dir/images/ui_img_1617698656.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1617698656.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1617698656.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1617698656.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1617698656.c > CMakeFiles/ui.dir/images/ui_img_1617698656.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1617698656.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1617698656.c -o CMakeFiles/ui.dir/images/ui_img_1617698656.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1414483557.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.o -MF CMakeFiles/ui.dir/images/ui_img_1414483557.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1414483557.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1414483557.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1414483557.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1414483557.c > CMakeFiles/ui.dir/images/ui_img_1414483557.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1414483557.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1414483557.c -o CMakeFiles/ui.dir/images/ui_img_1414483557.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1653549846.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.o -MF CMakeFiles/ui.dir/images/ui_img_1653549846.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1653549846.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1653549846.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1653549846.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1653549846.c > CMakeFiles/ui.dir/images/ui_img_1653549846.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1653549846.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1653549846.c -o CMakeFiles/ui.dir/images/ui_img_1653549846.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_371234577.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.o -MF CMakeFiles/ui.dir/images/ui_img_371234577.c.o.d -o CMakeFiles/ui.dir/images/ui_img_371234577.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_371234577.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_371234577.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_371234577.c > CMakeFiles/ui.dir/images/ui_img_371234577.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_371234577.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_371234577.c -o CMakeFiles/ui.dir/images/ui_img_371234577.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_668299364.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.o -MF CMakeFiles/ui.dir/images/ui_img_668299364.c.o.d -o CMakeFiles/ui.dir/images/ui_img_668299364.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_668299364.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_668299364.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_668299364.c > CMakeFiles/ui.dir/images/ui_img_668299364.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_668299364.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_668299364.c -o CMakeFiles/ui.dir/images/ui_img_668299364.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_871514463.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.o -MF CMakeFiles/ui.dir/images/ui_img_871514463.c.o.d -o CMakeFiles/ui.dir/images/ui_img_871514463.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_871514463.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_871514463.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_871514463.c > CMakeFiles/ui.dir/images/ui_img_871514463.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_871514463.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_871514463.c -o CMakeFiles/ui.dir/images/ui_img_871514463.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_847674807.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.o -MF CMakeFiles/ui.dir/images/ui_img_847674807.c.o.d -o CMakeFiles/ui.dir/images/ui_img_847674807.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_847674807.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_847674807.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_847674807.c > CMakeFiles/ui.dir/images/ui_img_847674807.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_847674807.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_847674807.c -o CMakeFiles/ui.dir/images/ui_img_847674807.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_644459708.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.o -MF CMakeFiles/ui.dir/images/ui_img_644459708.c.o.d -o CMakeFiles/ui.dir/images/ui_img_644459708.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_644459708.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_644459708.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_644459708.c > CMakeFiles/ui.dir/images/ui_img_644459708.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_644459708.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_644459708.c -o CMakeFiles/ui.dir/images/ui_img_644459708.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1871393601.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.o -MF CMakeFiles/ui.dir/images/ui_img_1871393601.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1871393601.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1871393601.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1871393601.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1871393601.c > CMakeFiles/ui.dir/images/ui_img_1871393601.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1871393601.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1871393601.c -o CMakeFiles/ui.dir/images/ui_img_1871393601.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1141258426.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.o -MF CMakeFiles/ui.dir/images/ui_img_1141258426.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1141258426.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1141258426.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1141258426.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1141258426.c > CMakeFiles/ui.dir/images/ui_img_1141258426.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1141258426.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1141258426.c -o CMakeFiles/ui.dir/images/ui_img_1141258426.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1609674147.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.o -MF CMakeFiles/ui.dir/images/ui_img_1609674147.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1609674147.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1609674147.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1609674147.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1609674147.c > CMakeFiles/ui.dir/images/ui_img_1609674147.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1609674147.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1609674147.c -o CMakeFiles/ui.dir/images/ui_img_1609674147.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1406459048.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.o -MF CMakeFiles/ui.dir/images/ui_img_1406459048.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1406459048.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1406459048.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1406459048.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1406459048.c > CMakeFiles/ui.dir/images/ui_img_1406459048.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1406459048.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1406459048.c -o CMakeFiles/ui.dir/images/ui_img_1406459048.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1661574355.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.o -MF CMakeFiles/ui.dir/images/ui_img_1661574355.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1661574355.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1661574355.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1661574355.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1661574355.c > CMakeFiles/ui.dir/images/ui_img_1661574355.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1661574355.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1661574355.c -o CMakeFiles/ui.dir/images/ui_img_1661574355.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_379259086.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.o -MF CMakeFiles/ui.dir/images/ui_img_379259086.c.o.d -o CMakeFiles/ui.dir/images/ui_img_379259086.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_379259086.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_379259086.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_379259086.c > CMakeFiles/ui.dir/images/ui_img_379259086.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_379259086.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_379259086.c -o CMakeFiles/ui.dir/images/ui_img_379259086.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_676323873.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.o -MF CMakeFiles/ui.dir/images/ui_img_676323873.c.o.d -o CMakeFiles/ui.dir/images/ui_img_676323873.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_676323873.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_676323873.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_676323873.c > CMakeFiles/ui.dir/images/ui_img_676323873.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_676323873.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_676323873.c -o CMakeFiles/ui.dir/images/ui_img_676323873.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_879538972.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.o -MF CMakeFiles/ui.dir/images/ui_img_879538972.c.o.d -o CMakeFiles/ui.dir/images/ui_img_879538972.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_879538972.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_879538972.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_879538972.c > CMakeFiles/ui.dir/images/ui_img_879538972.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_879538972.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_879538972.c -o CMakeFiles/ui.dir/images/ui_img_879538972.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_848723318.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.o -MF CMakeFiles/ui.dir/images/ui_img_848723318.c.o.d -o CMakeFiles/ui.dir/images/ui_img_848723318.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_848723318.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_848723318.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_848723318.c > CMakeFiles/ui.dir/images/ui_img_848723318.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_848723318.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_848723318.c -o CMakeFiles/ui.dir/images/ui_img_848723318.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_645508219.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.o -MF CMakeFiles/ui.dir/images/ui_img_645508219.c.o.d -o CMakeFiles/ui.dir/images/ui_img_645508219.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_645508219.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_645508219.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_645508219.c > CMakeFiles/ui.dir/images/ui_img_645508219.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_645508219.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_645508219.c -o CMakeFiles/ui.dir/images/ui_img_645508219.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1872442112.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.o -MF CMakeFiles/ui.dir/images/ui_img_1872442112.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1872442112.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1872442112.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1872442112.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1872442112.c > CMakeFiles/ui.dir/images/ui_img_1872442112.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1872442112.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1872442112.c -o CMakeFiles/ui.dir/images/ui_img_1872442112.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1140209915.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.o -MF CMakeFiles/ui.dir/images/ui_img_1140209915.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1140209915.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1140209915.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1140209915.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1140209915.c > CMakeFiles/ui.dir/images/ui_img_1140209915.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1140209915.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1140209915.c -o CMakeFiles/ui.dir/images/ui_img_1140209915.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1610722658.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.o -MF CMakeFiles/ui.dir/images/ui_img_1610722658.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1610722658.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1610722658.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1610722658.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1610722658.c > CMakeFiles/ui.dir/images/ui_img_1610722658.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1610722658.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1610722658.c -o CMakeFiles/ui.dir/images/ui_img_1610722658.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1407507559.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.o -MF CMakeFiles/ui.dir/images/ui_img_1407507559.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1407507559.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1407507559.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1407507559.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1407507559.c > CMakeFiles/ui.dir/images/ui_img_1407507559.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1407507559.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1407507559.c -o CMakeFiles/ui.dir/images/ui_img_1407507559.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1660525844.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.o -MF CMakeFiles/ui.dir/images/ui_img_1660525844.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1660525844.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1660525844.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1660525844.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1660525844.c > CMakeFiles/ui.dir/images/ui_img_1660525844.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1660525844.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1660525844.c -o CMakeFiles/ui.dir/images/ui_img_1660525844.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_378210575.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.o -MF CMakeFiles/ui.dir/images/ui_img_378210575.c.o.d -o CMakeFiles/ui.dir/images/ui_img_378210575.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_378210575.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_378210575.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_378210575.c > CMakeFiles/ui.dir/images/ui_img_378210575.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_378210575.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_378210575.c -o CMakeFiles/ui.dir/images/ui_img_378210575.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_675275362.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.o -MF CMakeFiles/ui.dir/images/ui_img_675275362.c.o.d -o CMakeFiles/ui.dir/images/ui_img_675275362.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_675275362.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_675275362.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_675275362.c > CMakeFiles/ui.dir/images/ui_img_675275362.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_675275362.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_675275362.c -o CMakeFiles/ui.dir/images/ui_img_675275362.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_880984407.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.o -MF CMakeFiles/ui.dir/images/ui_img_880984407.c.o.d -o CMakeFiles/ui.dir/images/ui_img_880984407.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_880984407.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_880984407.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_880984407.c > CMakeFiles/ui.dir/images/ui_img_880984407.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_880984407.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_880984407.c -o CMakeFiles/ui.dir/images/ui_img_880984407.c.s
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_wifi_png.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o -MF CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o.d -o CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_wifi_png.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_wifi_png.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_wifi_png.c > CMakeFiles/ui.dir/images/ui_img_wifi_png.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_wifi_png.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_wifi_png.c -o CMakeFiles/ui.dir/images/ui_img_wifi_png.c.s
+
 AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_706617981.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.o -MF CMakeFiles/ui.dir/images/ui_img_706617981.c.o.d -o CMakeFiles/ui.dir/images/ui_img_706617981.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_706617981.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.i: cmake_force
@@ -579,7 +1125,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_536328497.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.o -MF CMakeFiles/ui.dir/images/ui_img_536328497.c.o.d -o CMakeFiles/ui.dir/images/ui_img_536328497.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_536328497.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.i: cmake_force
@@ -593,7 +1139,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1328066288.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o -MF CMakeFiles/ui.dir/images/ui_img_1328066288.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1328066288.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1328066288.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.i: cmake_force
@@ -607,7 +1153,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1445365126.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.o -MF CMakeFiles/ui.dir/images/ui_img_1445365126.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1445365126.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1445365126.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.i: cmake_force
@@ -621,7 +1167,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1445365126.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1761902563.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.o -MF CMakeFiles/ui.dir/images/ui_img_1761902563.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1761902563.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1761902563.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.i: cmake_force
@@ -635,7 +1181,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1761902563.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1637902983.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.o -MF CMakeFiles/ui.dir/images/ui_img_1637902983.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1637902983.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1637902983.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.i: cmake_force
@@ -649,7 +1195,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1637902983.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1758642971.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.o -MF CMakeFiles/ui.dir/images/ui_img_1758642971.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1758642971.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1758642971.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.i: cmake_force
@@ -663,7 +1209,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758642971.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_977105517.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.o -MF CMakeFiles/ui.dir/images/ui_img_977105517.c.o.d -o CMakeFiles/ui.dir/images/ui_img_977105517.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_977105517.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.i: cmake_force
@@ -677,7 +1223,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_977105517.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_846333120.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.o -MF CMakeFiles/ui.dir/images/ui_img_846333120.c.o.d -o CMakeFiles/ui.dir/images/ui_img_846333120.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_846333120.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.i: cmake_force
@@ -691,7 +1237,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_846333120.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_965791753.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_965791753.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_965791753.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_965791753.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_965791753.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_965791753.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_965791753.c.o -MF CMakeFiles/ui.dir/images/ui_img_965791753.c.o.d -o CMakeFiles/ui.dir/images/ui_img_965791753.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_965791753.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_965791753.c.i: cmake_force
@@ -705,7 +1251,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_965791753.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_520288613.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.o -MF CMakeFiles/ui.dir/images/ui_img_520288613.c.o.d -o CMakeFiles/ui.dir/images/ui_img_520288613.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_520288613.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.i: cmake_force
@@ -719,7 +1265,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_520288613.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2130913025.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.o -MF CMakeFiles/ui.dir/images/ui_img_2130913025.c.o.d -o CMakeFiles/ui.dir/images/ui_img_2130913025.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2130913025.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.i: cmake_force
@@ -733,7 +1279,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2130913025.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1810507611.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.o -MF CMakeFiles/ui.dir/images/ui_img_1810507611.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1810507611.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1810507611.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.i: cmake_force
@@ -747,7 +1293,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1810507611.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1042948001.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.o -MF CMakeFiles/ui.dir/images/ui_img_1042948001.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1042948001.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1042948001.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.i: cmake_force
@@ -761,7 +1307,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1042948001.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_457596404.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.o -MF CMakeFiles/ui.dir/images/ui_img_457596404.c.o.d -o CMakeFiles/ui.dir/images/ui_img_457596404.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_457596404.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.i: cmake_force
@@ -775,7 +1321,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_457596404.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_410336698.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.o -MF CMakeFiles/ui.dir/images/ui_img_410336698.c.o.d -o CMakeFiles/ui.dir/images/ui_img_410336698.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_410336698.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.i: cmake_force
@@ -789,7 +1335,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_410336698.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1887742475.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.o -MF CMakeFiles/ui.dir/images/ui_img_1887742475.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1887742475.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1887742475.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.i: cmake_force
@@ -803,7 +1349,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1887742475.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1646327931.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.o -MF CMakeFiles/ui.dir/images/ui_img_1646327931.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1646327931.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1646327931.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.i: cmake_force
@@ -817,7 +1363,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1646327931.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1179136265.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.o -MF CMakeFiles/ui.dir/images/ui_img_1179136265.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1179136265.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1179136265.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.i: cmake_force
@@ -831,7 +1377,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1179136265.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1274767758.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.o -MF CMakeFiles/ui.dir/images/ui_img_1274767758.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1274767758.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1274767758.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.i: cmake_force
@@ -845,7 +1391,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1274767758.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_270677314.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.o -MF CMakeFiles/ui.dir/images/ui_img_270677314.c.o.d -o CMakeFiles/ui.dir/images/ui_img_270677314.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_270677314.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.i: cmake_force
@@ -859,7 +1405,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_270677314.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_657341686.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.o -MF CMakeFiles/ui.dir/images/ui_img_657341686.c.o.d -o CMakeFiles/ui.dir/images/ui_img_657341686.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_657341686.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.i: cmake_force
@@ -873,7 +1419,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_657341686.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1152444760.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.o -MF CMakeFiles/ui.dir/images/ui_img_1152444760.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1152444760.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1152444760.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.i: cmake_force
@@ -887,7 +1433,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1152444760.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1804492491.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.o -MF CMakeFiles/ui.dir/images/ui_img_1804492491.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1804492491.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1804492491.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.i: cmake_force
@@ -901,7 +1447,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1804492491.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_774798805.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.o -MF CMakeFiles/ui.dir/images/ui_img_774798805.c.o.d -o CMakeFiles/ui.dir/images/ui_img_774798805.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_774798805.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.i: cmake_force
@@ -915,7 +1461,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_774798805.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1409127908.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.o -MF CMakeFiles/ui.dir/images/ui_img_1409127908.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1409127908.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1409127908.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.i: cmake_force
@@ -929,7 +1475,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1409127908.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_590844277.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.o -MF CMakeFiles/ui.dir/images/ui_img_590844277.c.o.d -o CMakeFiles/ui.dir/images/ui_img_590844277.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_590844277.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.i: cmake_force
@@ -943,7 +1489,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_590844277.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_16379619.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_16379619.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_16379619.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_16379619.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_16379619.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_16379619.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_16379619.c.o -MF CMakeFiles/ui.dir/images/ui_img_16379619.c.o.d -o CMakeFiles/ui.dir/images/ui_img_16379619.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_16379619.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_16379619.c.i: cmake_force
@@ -957,7 +1503,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_16379619.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1884734136.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1884734136.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1884734136.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1884734136.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1884734136.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1884734136.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1884734136.c.o -MF CMakeFiles/ui.dir/images/ui_img_1884734136.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1884734136.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1884734136.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1884734136.c.i: cmake_force
@@ -971,7 +1517,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1884734136.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1106867240.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.o -MF CMakeFiles/ui.dir/images/ui_img_1106867240.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1106867240.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1106867240.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.i: cmake_force
@@ -985,7 +1531,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1106867240.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_253109117.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.o -MF CMakeFiles/ui.dir/images/ui_img_253109117.c.o.d -o CMakeFiles/ui.dir/images/ui_img_253109117.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_253109117.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.i: cmake_force
@@ -999,7 +1545,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_253109117.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_758318489.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.o -MF CMakeFiles/ui.dir/images/ui_img_758318489.c.o.d -o CMakeFiles/ui.dir/images/ui_img_758318489.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_758318489.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.i: cmake_force
@@ -1013,7 +1559,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_758318489.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_154984886.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.o -MF CMakeFiles/ui.dir/images/ui_img_154984886.c.o.d -o CMakeFiles/ui.dir/images/ui_img_154984886.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_154984886.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.i: cmake_force
@@ -1027,7 +1573,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_154984886.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1951583080.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.o -MF CMakeFiles/ui.dir/images/ui_img_1951583080.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1951583080.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1951583080.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.i: cmake_force
@@ -1041,7 +1587,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1951583080.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1186072952.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.o -MF CMakeFiles/ui.dir/images/ui_img_1186072952.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1186072952.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1186072952.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.i: cmake_force
@@ -1055,7 +1601,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1186072952.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1433976870.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.o -MF CMakeFiles/ui.dir/images/ui_img_1433976870.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1433976870.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1433976870.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.i: cmake_force
@@ -1069,7 +1615,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1433976870.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_105594312.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.o -MF CMakeFiles/ui.dir/images/ui_img_105594312.c.o.d -o CMakeFiles/ui.dir/images/ui_img_105594312.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_105594312.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.i: cmake_force
@@ -1083,7 +1629,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_105594312.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1250489853.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.o -MF CMakeFiles/ui.dir/images/ui_img_1250489853.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1250489853.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1250489853.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.i: cmake_force
@@ -1097,7 +1643,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1250489853.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_193771503.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.o -MF CMakeFiles/ui.dir/images/ui_img_193771503.c.o.d -o CMakeFiles/ui.dir/images/ui_img_193771503.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_193771503.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.i: cmake_force
@@ -1111,7 +1657,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_193771503.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1251777188.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.o -MF CMakeFiles/ui.dir/images/ui_img_1251777188.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1251777188.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1251777188.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.i: cmake_force
@@ -1125,7 +1671,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1251777188.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_647165550.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.o -MF CMakeFiles/ui.dir/images/ui_img_647165550.c.o.d -o CMakeFiles/ui.dir/images/ui_img_647165550.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_647165550.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.i: cmake_force
@@ -1139,7 +1685,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_647165550.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_918736298.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.o -MF CMakeFiles/ui.dir/images/ui_img_918736298.c.o.d -o CMakeFiles/ui.dir/images/ui_img_918736298.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_918736298.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.i: cmake_force
@@ -1153,7 +1699,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_918736298.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1143713160.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.o -MF CMakeFiles/ui.dir/images/ui_img_1143713160.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1143713160.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1143713160.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.i: cmake_force
@@ -1167,7 +1713,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1143713160.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2024978968.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.o -MF CMakeFiles/ui.dir/images/ui_img_2024978968.c.o.d -o CMakeFiles/ui.dir/images/ui_img_2024978968.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2024978968.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.i: cmake_force
@@ -1181,7 +1727,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2024978968.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_754698310.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.o -MF CMakeFiles/ui.dir/images/ui_img_754698310.c.o.d -o CMakeFiles/ui.dir/images/ui_img_754698310.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_754698310.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.i: cmake_force
@@ -1195,7 +1741,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_754698310.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_691945150.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.o -MF CMakeFiles/ui.dir/images/ui_img_691945150.c.o.d -o CMakeFiles/ui.dir/images/ui_img_691945150.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_691945150.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.i: cmake_force
@@ -1209,7 +1755,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_691945150.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_921266886.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.o -MF CMakeFiles/ui.dir/images/ui_img_921266886.c.o.d -o CMakeFiles/ui.dir/images/ui_img_921266886.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_921266886.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.i: cmake_force
@@ -1223,7 +1769,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_921266886.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_838590808.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.o -MF CMakeFiles/ui.dir/images/ui_img_838590808.c.o.d -o CMakeFiles/ui.dir/images/ui_img_838590808.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_838590808.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.i: cmake_force
@@ -1237,7 +1783,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_838590808.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_6017182.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.o -MF CMakeFiles/ui.dir/images/ui_img_6017182.c.o.d -o CMakeFiles/ui.dir/images/ui_img_6017182.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_6017182.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.i: cmake_force
@@ -1251,7 +1797,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_6017182.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_189052461.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.o -MF CMakeFiles/ui.dir/images/ui_img_189052461.c.o.d -o CMakeFiles/ui.dir/images/ui_img_189052461.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_189052461.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.i: cmake_force
@@ -1265,7 +1811,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_189052461.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1800458682.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.o -MF CMakeFiles/ui.dir/images/ui_img_1800458682.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1800458682.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1800458682.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.i: cmake_force
@@ -1279,7 +1825,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1800458682.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1488135120.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.o -MF CMakeFiles/ui.dir/images/ui_img_1488135120.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1488135120.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1488135120.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.i: cmake_force
@@ -1293,7 +1839,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1488135120.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_64789106.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.o -MF CMakeFiles/ui.dir/images/ui_img_64789106.c.o.d -o CMakeFiles/ui.dir/images/ui_img_64789106.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_64789106.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.i: cmake_force
@@ -1307,7 +1853,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_64789106.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_15388586.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.o -MF CMakeFiles/ui.dir/images/ui_img_15388586.c.o.d -o CMakeFiles/ui.dir/images/ui_img_15388586.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_15388586.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.i: cmake_force
@@ -1321,7 +1867,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_15388586.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_413235124.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.o -MF CMakeFiles/ui.dir/images/ui_img_413235124.c.o.d -o CMakeFiles/ui.dir/images/ui_img_413235124.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_413235124.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.i: cmake_force
@@ -1335,7 +1881,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_413235124.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1447691688.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.o -MF CMakeFiles/ui.dir/images/ui_img_1447691688.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1447691688.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1447691688.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.i: cmake_force
@@ -1349,7 +1895,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1447691688.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_865156645.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.o -MF CMakeFiles/ui.dir/images/ui_img_865156645.c.o.d -o CMakeFiles/ui.dir/images/ui_img_865156645.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_865156645.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.i: cmake_force
@@ -1363,7 +1909,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_865156645.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_719381313.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.o -MF CMakeFiles/ui.dir/images/ui_img_719381313.c.o.d -o CMakeFiles/ui.dir/images/ui_img_719381313.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_719381313.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.i: cmake_force
@@ -1377,7 +1923,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_719381313.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_701452542.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.o -MF CMakeFiles/ui.dir/images/ui_img_701452542.c.o.d -o CMakeFiles/ui.dir/images/ui_img_701452542.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_701452542.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.i: cmake_force
@@ -1391,7 +1937,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_701452542.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1182216894.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.o -MF CMakeFiles/ui.dir/images/ui_img_1182216894.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1182216894.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1182216894.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.i: cmake_force
@@ -1405,7 +1951,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1182216894.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_743825838.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.o -MF CMakeFiles/ui.dir/images/ui_img_743825838.c.o.d -o CMakeFiles/ui.dir/images/ui_img_743825838.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_743825838.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.i: cmake_force
@@ -1419,7 +1965,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_743825838.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1040098182.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.o -MF CMakeFiles/ui.dir/images/ui_img_1040098182.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1040098182.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1040098182.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.i: cmake_force
@@ -1433,7 +1979,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1040098182.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_213109427.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.o -MF CMakeFiles/ui.dir/images/ui_img_213109427.c.o.d -o CMakeFiles/ui.dir/images/ui_img_213109427.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_213109427.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.i: cmake_force
@@ -1447,7 +1993,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_213109427.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1006453824.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o -MF CMakeFiles/ui.dir/images/ui_img_1006453824.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1006453824.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1006453824.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.i: cmake_force
@@ -1461,7 +2007,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2026381252.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o -MF CMakeFiles/ui.dir/images/ui_img_2026381252.c.o.d -o CMakeFiles/ui.dir/images/ui_img_2026381252.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2026381252.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.i: cmake_force
@@ -1475,7 +2021,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1628148309.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o -MF CMakeFiles/ui.dir/images/ui_img_1628148309.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1628148309.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1628148309.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.i: cmake_force
@@ -1489,7 +2035,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_190977669.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o -MF CMakeFiles/ui.dir/images/ui_img_190977669.c.o.d -o CMakeFiles/ui.dir/images/ui_img_190977669.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_190977669.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.i: cmake_force
@@ -1500,10 +2046,24 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_190977669.c.s"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_190977669.c -o CMakeFiles/ui.dir/images/ui_img_190977669.c.s
 
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o -MF CMakeFiles/ui.dir/images/ui_img_1720058713.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1720058713.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1720058713.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c > CMakeFiles/ui.dir/images/ui_img_1720058713.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1720058713.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1720058713.c -o CMakeFiles/ui.dir/images/ui_img_1720058713.c.s
+
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1220561086.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o -MF CMakeFiles/ui.dir/images/ui_img_1220561086.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1220561086.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1220561086.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.i: cmake_force
@@ -1514,10 +2074,24 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1220561086.c.s"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1220561086.c -o CMakeFiles/ui.dir/images/ui_img_1220561086.c.s
 
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o -MF CMakeFiles/ui.dir/images/ui_img_1932583977.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1932583977.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1932583977.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c > CMakeFiles/ui.dir/images/ui_img_1932583977.c.i
+
+AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1932583977.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1932583977.c -o CMakeFiles/ui.dir/images/ui_img_1932583977.c.s
+
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1317392200.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o -MF CMakeFiles/ui.dir/images/ui_img_1317392200.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1317392200.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1317392200.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.i: cmake_force
@@ -1531,7 +2105,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_328345682.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o -MF CMakeFiles/ui.dir/images/ui_img_328345682.c.o.d -o CMakeFiles/ui.dir/images/ui_img_328345682.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_328345682.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.i: cmake_force
@@ -1545,7 +2119,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_537163071.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o -MF CMakeFiles/ui.dir/images/ui_img_537163071.c.o.d -o CMakeFiles/ui.dir/images/ui_img_537163071.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_537163071.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.i: cmake_force
@@ -1559,7 +2133,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1345017118.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.o -MF CMakeFiles/ui.dir/images/ui_img_1345017118.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1345017118.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1345017118.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.i: cmake_force
@@ -1573,7 +2147,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1345017118.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_338008226.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.o -MF CMakeFiles/ui.dir/images/ui_img_338008226.c.o.d -o CMakeFiles/ui.dir/images/ui_img_338008226.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_338008226.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.i: cmake_force
@@ -1587,7 +2161,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_338008226.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1651021565.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.o -MF CMakeFiles/ui.dir/images/ui_img_1651021565.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1651021565.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1651021565.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.i: cmake_force
@@ -1601,7 +2175,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1651021565.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_188625264.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.o -MF CMakeFiles/ui.dir/images/ui_img_188625264.c.o.d -o CMakeFiles/ui.dir/images/ui_img_188625264.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_188625264.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.i: cmake_force
@@ -1615,7 +2189,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_188625264.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_768535410.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.o -MF CMakeFiles/ui.dir/images/ui_img_768535410.c.o.d -o CMakeFiles/ui.dir/images/ui_img_768535410.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_768535410.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.i: cmake_force
@@ -1629,7 +2203,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_768535410.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1874934912.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.o -MF CMakeFiles/ui.dir/images/ui_img_1874934912.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1874934912.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1874934912.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.i: cmake_force
@@ -1643,7 +2217,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1874934912.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_796891563.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.o -MF CMakeFiles/ui.dir/images/ui_img_796891563.c.o.d -o CMakeFiles/ui.dir/images/ui_img_796891563.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_796891563.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.i: cmake_force
@@ -1657,7 +2231,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_796891563.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_60263710.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.o -MF CMakeFiles/ui.dir/images/ui_img_60263710.c.o.d -o CMakeFiles/ui.dir/images/ui_img_60263710.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_60263710.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.i: cmake_force
@@ -1671,7 +2245,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_60263710.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2103162353.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.o -MF CMakeFiles/ui.dir/images/ui_img_2103162353.c.o.d -o CMakeFiles/ui.dir/images/ui_img_2103162353.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2103162353.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.i: cmake_force
@@ -1685,7 +2259,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2103162353.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1195015344.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.o -MF CMakeFiles/ui.dir/images/ui_img_1195015344.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1195015344.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1195015344.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.i: cmake_force
@@ -1699,7 +2273,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1195015344.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1970916912.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.o -MF CMakeFiles/ui.dir/images/ui_img_1970916912.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1970916912.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1970916912.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.i: cmake_force
@@ -1713,7 +2287,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1970916912.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_120716944.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.o -MF CMakeFiles/ui.dir/images/ui_img_120716944.c.o.d -o CMakeFiles/ui.dir/images/ui_img_120716944.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_120716944.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.i: cmake_force
@@ -1727,7 +2301,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_120716944.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_409892641.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.o -MF CMakeFiles/ui.dir/images/ui_img_409892641.c.o.d -o CMakeFiles/ui.dir/images/ui_img_409892641.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_409892641.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.i: cmake_force
@@ -1741,7 +2315,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_409892641.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_819928086.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.o -MF CMakeFiles/ui.dir/images/ui_img_819928086.c.o.d -o CMakeFiles/ui.dir/images/ui_img_819928086.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_819928086.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.i: cmake_force
@@ -1755,7 +2329,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_819928086.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_396379797.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.o -MF CMakeFiles/ui.dir/images/ui_img_396379797.c.o.d -o CMakeFiles/ui.dir/images/ui_img_396379797.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_396379797.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.i: cmake_force
@@ -1769,7 +2343,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_396379797.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1072915872.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.o -MF CMakeFiles/ui.dir/images/ui_img_1072915872.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1072915872.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1072915872.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.i: cmake_force
@@ -1783,7 +2357,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1072915872.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1997765350.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.o -MF CMakeFiles/ui.dir/images/ui_img_1997765350.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1997765350.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1997765350.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.i: cmake_force
@@ -1797,7 +2371,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1997765350.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_945703623.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.o -MF CMakeFiles/ui.dir/images/ui_img_945703623.c.o.d -o CMakeFiles/ui.dir/images/ui_img_945703623.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_945703623.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.i: cmake_force
@@ -1811,7 +2385,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_945703623.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1221264709.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.o -MF CMakeFiles/ui.dir/images/ui_img_1221264709.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1221264709.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1221264709.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.i: cmake_force
@@ -1825,7 +2399,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1221264709.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_177437335.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.o -MF CMakeFiles/ui.dir/images/ui_img_177437335.c.o.d -o CMakeFiles/ui.dir/images/ui_img_177437335.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_177437335.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.i: cmake_force
@@ -1839,7 +2413,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_177437335.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_106759925.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.o -MF CMakeFiles/ui.dir/images/ui_img_106759925.c.o.d -o CMakeFiles/ui.dir/images/ui_img_106759925.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_106759925.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.i: cmake_force
@@ -1853,7 +2427,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_106759925.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1613165469.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.o -MF CMakeFiles/ui.dir/images/ui_img_1613165469.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1613165469.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1613165469.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.i: cmake_force
@@ -1867,7 +2441,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1613165469.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1627204797.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.o -MF CMakeFiles/ui.dir/images/ui_img_1627204797.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1627204797.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1627204797.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.i: cmake_force
@@ -1881,7 +2455,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1627204797.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1651094022.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.o -MF CMakeFiles/ui.dir/images/ui_img_1651094022.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1651094022.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1651094022.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.i: cmake_force
@@ -1895,7 +2469,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1651094022.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1863416723.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.o -MF CMakeFiles/ui.dir/images/ui_img_1863416723.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1863416723.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1863416723.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.i: cmake_force
@@ -1909,7 +2483,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1863416723.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_261042028.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.o -MF CMakeFiles/ui.dir/images/ui_img_261042028.c.o.d -o CMakeFiles/ui.dir/images/ui_img_261042028.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_261042028.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.i: cmake_force
@@ -1923,7 +2497,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_261042028.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1558633752.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.o -MF CMakeFiles/ui.dir/images/ui_img_1558633752.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1558633752.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1558633752.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.i: cmake_force
@@ -1937,7 +2511,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1558633752.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1850222669.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.o -MF CMakeFiles/ui.dir/images/ui_img_1850222669.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1850222669.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1850222669.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.i: cmake_force
@@ -1951,7 +2525,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1850222669.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_878326522.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.o -MF CMakeFiles/ui.dir/images/ui_img_878326522.c.o.d -o CMakeFiles/ui.dir/images/ui_img_878326522.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_878326522.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.i: cmake_force
@@ -1965,7 +2539,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_878326522.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2100201431.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.o -MF CMakeFiles/ui.dir/images/ui_img_2100201431.c.o.d -o CMakeFiles/ui.dir/images/ui_img_2100201431.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2100201431.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.i: cmake_force
@@ -1979,7 +2553,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2100201431.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_489599133.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.o -MF CMakeFiles/ui.dir/images/ui_img_489599133.c.o.d -o CMakeFiles/ui.dir/images/ui_img_489599133.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_489599133.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.i: cmake_force
@@ -1993,7 +2567,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_489599133.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1114756079.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.o -MF CMakeFiles/ui.dir/images/ui_img_1114756079.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1114756079.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1114756079.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.i: cmake_force
@@ -2007,7 +2581,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1114756079.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_440466655.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.o -MF CMakeFiles/ui.dir/images/ui_img_440466655.c.o.d -o CMakeFiles/ui.dir/images/ui_img_440466655.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_440466655.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.i: cmake_force
@@ -2021,7 +2595,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_440466655.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1442695620.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.o -MF CMakeFiles/ui.dir/images/ui_img_1442695620.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1442695620.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1442695620.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.i: cmake_force
@@ -2035,7 +2609,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1442695620.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1521996747.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.o -MF CMakeFiles/ui.dir/images/ui_img_1521996747.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1521996747.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1521996747.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.i: cmake_force
@@ -2049,7 +2623,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1521996747.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2144570017.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.o -MF CMakeFiles/ui.dir/images/ui_img_2144570017.c.o.d -o CMakeFiles/ui.dir/images/ui_img_2144570017.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_2144570017.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.i: cmake_force
@@ -2063,7 +2637,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_2144570017.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_169773555.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.o -MF CMakeFiles/ui.dir/images/ui_img_169773555.c.o.d -o CMakeFiles/ui.dir/images/ui_img_169773555.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_169773555.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.i: cmake_force
@@ -2077,7 +2651,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_169773555.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_642449591.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.o -MF CMakeFiles/ui.dir/images/ui_img_642449591.c.o.d -o CMakeFiles/ui.dir/images/ui_img_642449591.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_642449591.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.i: cmake_force
@@ -2091,7 +2665,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_642449591.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_836835141.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.o -MF CMakeFiles/ui.dir/images/ui_img_836835141.c.o.d -o CMakeFiles/ui.dir/images/ui_img_836835141.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_836835141.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.i: cmake_force
@@ -2105,7 +2679,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_836835141.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1305061770.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.o -MF CMakeFiles/ui.dir/images/ui_img_1305061770.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1305061770.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1305061770.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.i: cmake_force
@@ -2119,7 +2693,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1305061770.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1078335801.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.o -MF CMakeFiles/ui.dir/images/ui_img_1078335801.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1078335801.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1078335801.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.i: cmake_force
@@ -2133,7 +2707,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1078335801.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_155258266.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.o -MF CMakeFiles/ui.dir/images/ui_img_155258266.c.o.d -o CMakeFiles/ui.dir/images/ui_img_155258266.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_155258266.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.i: cmake_force
@@ -2147,7 +2721,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_155258266.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_998280680.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.o -MF CMakeFiles/ui.dir/images/ui_img_998280680.c.o.d -o CMakeFiles/ui.dir/images/ui_img_998280680.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_998280680.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.i: cmake_force
@@ -2161,7 +2735,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_998280680.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_703197322.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.o -MF CMakeFiles/ui.dir/images/ui_img_703197322.c.o.d -o CMakeFiles/ui.dir/images/ui_img_703197322.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_703197322.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.i: cmake_force
@@ -2175,7 +2749,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_703197322.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1542151835.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.o -MF CMakeFiles/ui.dir/images/ui_img_1542151835.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1542151835.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1542151835.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.i: cmake_force
@@ -2189,7 +2763,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1542151835.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1758700865.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o -MF CMakeFiles/ui.dir/images/ui_img_1758700865.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1758700865.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1758700865.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.i: cmake_force
@@ -2203,7 +2777,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1328075000.c
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o -MF CMakeFiles/ui.dir/images/ui_img_1328075000.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1328075000.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_img_1328075000.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.i: cmake_force
@@ -2217,7 +2791,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_temporary_image.c
 AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.o -MF CMakeFiles/ui.dir/images/ui_temporary_image.c.o.d -o CMakeFiles/ui.dir/images/ui_temporary_image.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/images/ui_temporary_image.c
 
 AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.i: cmake_force
@@ -2231,7 +2805,7 @@ AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.s: cmake_force
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/fonts/ui_font_puhui18.c
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o -MF CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o.d -o CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/fonts/ui_font_puhui18.c
 
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.i: cmake_force
@@ -2241,6 +2815,20 @@ AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.i: cmake_force
 AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.s"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/fonts/ui_font_puhui18.c -o CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.s
+
+AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.o: AiSmart/CMakeFiles/ui.dir/flags.make
+AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.o: /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/fonts/ui_font_location.c
+AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.o: AiSmart/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.o"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.o -MF CMakeFiles/ui.dir/fonts/ui_font_location.c.o.d -o CMakeFiles/ui.dir/fonts/ui_font_location.c.o -c /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/fonts/ui_font_location.c
+
+AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/fonts/ui_font_location.c.i"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/fonts/ui_font_location.c > CMakeFiles/ui.dir/fonts/ui_font_location.c.i
+
+AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/fonts/ui_font_location.c.s"
+	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/fonts/ui_font_location.c -o CMakeFiles/ui.dir/fonts/ui_font_location.c.s
 
 # Object files for target ui
 ui_OBJECTS = \
@@ -2255,7 +2843,7 @@ ui_OBJECTS = \
 "CMakeFiles/ui.dir/ui_events.c.o" \
 "CMakeFiles/ui.dir/depskmainCopy.c.o" \
 "CMakeFiles/ui.dir/cJSON.c.o" \
-"CMakeFiles/ui.dir/MessageHistory.c.o" \
+"CMakeFiles/ui.dir/deepseek_tianqi.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_807690992.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1805148743.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_525561802.c.o" \
@@ -2276,9 +2864,48 @@ ui_OBJECTS = \
 "CMakeFiles/ui.dir/images/ui_img_408278187.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_570494189.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1758698815.c.o" \
-"CMakeFiles/ui.dir/images/ui_img_1720058713.c.o" \
-"CMakeFiles/ui.dir/images/ui_img_1932583977.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1630928100.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1282432712.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_730167363.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_869361361.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_869397362.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_869433235.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_869469236.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_869504853.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_869540854.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_869576727.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_869612728.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_855699316.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_652484217.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1879418110.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1133233917.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1617698656.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1414483557.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1653549846.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_371234577.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_668299364.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_871514463.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_847674807.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_644459708.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1871393601.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1141258426.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1609674147.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1406459048.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1661574355.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_379259086.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_676323873.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_879538972.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_848723318.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_645508219.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1872442112.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1140209915.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1610722658.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1407507559.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1660525844.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_378210575.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_675275362.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_880984407.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_706617981.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_536328497.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1328066288.c.o" \
@@ -2346,7 +2973,9 @@ ui_OBJECTS = \
 "CMakeFiles/ui.dir/images/ui_img_2026381252.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1628148309.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_190977669.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1720058713.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1220561086.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1932583977.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1317392200.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_328345682.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_537163071.c.o" \
@@ -2398,7 +3027,8 @@ ui_OBJECTS = \
 "CMakeFiles/ui.dir/images/ui_img_1758700865.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1328075000.c.o" \
 "CMakeFiles/ui.dir/images/ui_temporary_image.c.o" \
-"CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o"
+"CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o" \
+"CMakeFiles/ui.dir/fonts/ui_font_location.c.o"
 
 # External object files for target ui
 ui_EXTERNAL_OBJECTS =
@@ -2414,7 +3044,7 @@ AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/ui_helpers.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/ui_events.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/depskmainCopy.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/cJSON.c.o
-AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/MessageHistory.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/deepseek_tianqi.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_807690992.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1805148743.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_525561802.c.o
@@ -2435,9 +3065,48 @@ AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1673239870.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_408278187.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_570494189.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1758698815.c.o
-AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o
-AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1630928100.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1282432712.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_730167363.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_869361361.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_869397362.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_869433235.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_869469236.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_869504853.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_869540854.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_869576727.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_869612728.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_855699316.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_652484217.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1879418110.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1133233917.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1617698656.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1414483557.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1653549846.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_371234577.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_668299364.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_871514463.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_847674807.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_644459708.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1871393601.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1141258426.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1609674147.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1406459048.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1661574355.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_379259086.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_676323873.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_879538972.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_848723318.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_645508219.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1872442112.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1140209915.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1610722658.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1407507559.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1660525844.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_378210575.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_675275362.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_880984407.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_wifi_png.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_706617981.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_536328497.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1328066288.c.o
@@ -2505,7 +3174,9 @@ AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1006453824.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_2026381252.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1628148309.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_190977669.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1720058713.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1220561086.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1932583977.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1317392200.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_328345682.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_537163071.c.o
@@ -2558,9 +3229,10 @@ AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1758700865.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_img_1328075000.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/images/ui_temporary_image.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/fonts/ui_font_puhui18.c.o
+AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/fonts/ui_font_location.c.o
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/build.make
 AiSmart/libui.a: AiSmart/CMakeFiles/ui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Linking C static library libui.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Linking C static library libui.a"
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && $(CMAKE_COMMAND) -P CMakeFiles/ui.dir/cmake_clean_target.cmake
 	cd /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/build/AiSmart && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ui.dir/link.txt --verbose=$(VERBOSE)
 

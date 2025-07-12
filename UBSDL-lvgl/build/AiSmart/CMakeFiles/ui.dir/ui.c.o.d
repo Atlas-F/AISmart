@@ -264,4 +264,5 @@ AiSmart/CMakeFiles/ui.dir/ui.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/depskmainCopy.h \
- /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/cJSON.h
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/cJSON.h \
+ /mnt/hgfs/FgUb24sharedfolder/AISmart/UBSDL-lvgl/AiSmart/deepseek_tianqi.h
