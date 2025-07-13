@@ -1,5 +1,14 @@
+/*********************
+ * @file deepseek_tianqi.c
+ * @brief 获取天气情况，保留城市地址作为接口
+ * @author LFG (lfg@.com)
+ * @version 1.0
+ * @date 2025-07-13
+ * 
+ * @copyright Copyright (c) 2025  LFG
+ * 
+ *************************************************/
 #include "deepseek_tianqi.h"
-
 #include "ui.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,7 +21,14 @@
 
 
 
-// 回调函数用于存储HTTP响应数据
+/*********************
+ * @brief 回调函数用于存储HTTP响应数据，对数据进行处理。
+ * @param  contents 
+ * @param  size 
+ * @param  nmemb 
+ * @param  userp 
+ * @return int 
+ *************************************************/
 static int write_callback(void *contents, int size, int nmemb, void *userp) {
     int realsize = size * nmemb;
     struct WeatherMemoryStruct *mem = (struct WeatherMemoryStruct *)userp;
@@ -30,7 +46,12 @@ static int write_callback(void *contents, int size, int nmemb, void *userp) {
     return realsize;
 }
 
-// 获取天气函数
+/*********************
+ * @brief Get the weather object
+ * @param  location 城市
+ * @details 将https的直接响应数据再添加一层中间层传递出来，同时也保护原始数据
+ *          将天气代码code用于设置天气UI
+ *************************************************/
 void get_weather(const char *location) {
     CURL *curl;
     CURLcode res;
@@ -118,7 +139,7 @@ void get_weather(const char *location) {
 
                         // 设置到lvgl 的label 
                         lv_label_set_text_fmt(ui_locationtempurature, "%s-%s-%s度",weatherResult.cityName,weatherResult.weatherText,weatherResult.tempurature);
-                        // 设置到lvgl的天气logo，如何将
+                        // 设置到lvgl的天气logo，
                         lv_obj_t * weathercjild = lv_obj_get_child(ui_weather, atoi(weatherResult.weathercode));
                         lv_obj_clear_flag(weathercjild, LV_OBJ_FLAG_HIDDEN);
 
@@ -159,9 +180,7 @@ void get_weather(const char *location) {
 }
 
 // // 示例用法
-// int main(int argc, char *argv[]) {
 //     get_weather("广州"); // 获取北京的天气
-//     return 0;
-// }
+
 
 //int main(int argc, char* argv[])
