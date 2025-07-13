@@ -18,6 +18,8 @@ extern DeepSeekSession *session;
 extern cJSON *messages ;
 extern cJSON *root ;
 
+extern struct curl_slist *headers ;
+
 ///////////////////// VARIABLES ////////////////////
 void floatout_Animation(lv_obj_t * TargetObject, int delay);
 void floatoutlabel_Animation(lv_obj_t * TargetObject, int delay);
@@ -681,8 +683,11 @@ void ui_event_Screen2(lv_event_t * e)
     lv_obj_t * target = lv_event_get_target(e);
 
     // 初始化全局cJSON 对象root 和 messages
-    messages =  cJSON_CreateArray();
-    CompleteRequestBodyroot();
+    // messages =  cJSON_CreateArray();
+
+    CurlRequestStructInit();
+
+    // CompleteRequestBodyroot();
 
     if(event_code == LV_EVENT_GESTURE &&  lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
@@ -697,7 +702,7 @@ void ui_event_Screen2(lv_event_t * e)
 
     }
     if(event_code == LV_EVENT_SCREEN_UNLOADED) {
-
+        curl_slist_free_all(headers);
     }
 }
 void ui_event_to1(lv_event_t * e)
